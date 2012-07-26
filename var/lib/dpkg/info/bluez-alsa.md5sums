@@ -1,0 +1,9 @@
+e70878f558e3f5cba774d4ad007183fa  usr/share/alsa/bluetooth.conf
+c83a696b8826793f6dca8d20ee3c6457  usr/share/doc/bluez-alsa/NEWS.Debian.gz
+b8ce088ce2d486d21aa25d3fbbfd0689  usr/share/doc/bluez-alsa/changelog.gz
+80b413047f56dbd1cc3641ed1596093b  usr/share/doc/bluez-alsa/changelog.Debian.gz
+72f02d7a3ae9fba8774b0afb075cc9de  usr/share/doc/bluez-alsa/AUTHORS
+17da86ce31b918a742db24991e90315f  usr/share/doc/bluez-alsa/copyright
+3d8b2c9b1009f55ea68951be4ce0379f  usr/share/doc/bluez-alsa/README
+be3a5b54396b0a16f78483f216abe38f  usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so
+c106096bf85e01fdc7ad61602bf83405  usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so

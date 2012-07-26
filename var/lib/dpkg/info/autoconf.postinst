@@ -1,0 +1,24 @@
+#! /bin/sh -e
+
+
+# Old versions of Autoconf included standards.info and maintain.info.
+# New versions don't--they're in the "gnu-standards" package now.
+# So we need to remove them from the Info directory, but only if the
+# Info files don't exist (if they exist, then the "gnu-standards"
+# package is installed).
+if [ ! -e /usr/info/standards.info.gz \
+     -a ! -e /usr/share/info/standards.info.gz ]; then
+    install-info --quiet --remove /usr/info/standards.info
+    install-info --quiet --remove /usr/share/info/standards.info
+fi
+
+# Ditto for autoconf.info and a putative non-free installer.
+if [ ! -e /usr/share/info/autoconf.info.gz ]; then
+    install-info --quiet --remove /usr/share/info/autoconf.info
+fi
+
+# /etc/autoconf/acconfig.h is obsolete.
+rm -f /etc/autoconf/acconfig.h
+
+# /usr/lib/autoconf/acconfig.h is *very* obsolete.
+rm -f /usr/lib/autoconf/acconfig.h

@@ -1,0 +1,97 @@
+From root@sheevaplug-debian Sun Aug 09 06:25:02 2009
+Return-path: <root@sheevaplug-debian>
+Envelope-to: root@sheevaplug-debian
+Delivery-date: Sun, 09 Aug 2009 06:25:02 +0000
+Received: from root by sheevaplug-debian with local (Exim 4.69)
+	(envelope-from <root@sheevaplug-debian>)
+	id 1Ma1q2-0000iz-3S
+	for root@sheevaplug-debian; Sun, 09 Aug 2009 06:25:02 +0000
+Subject: exim paniclog on sheevaplug-debian has non-zero size
+To: root@sheevaplug-debian
+Message-Id: <E1Ma1q2-0000iz-3S@sheevaplug-debian>
+From: root <root@sheevaplug-debian>
+Date: Sun, 09 Aug 2009 06:25:02 +0000
+
+exim paniclog /var/log/exim4/paniclog on sheevaplug-debian has non-zero size, mail system might be broken. The last 10 lines are quoted below.
+
+2009-08-08 09:34:32 socket bind() to port 25 for address 127.0.0.1 failed: Address already in use: daemon abandoned
+
+From root@sheevaplug-debian Thu Apr 08 06:25:02 2010
+Return-path: <root@sheevaplug-debian>
+Envelope-to: root@sheevaplug-debian
+Delivery-date: Thu, 08 Apr 2010 06:25:02 +0000
+Received: from root by sheevaplug-debian with local (Exim 4.69)
+	(envelope-from <root@sheevaplug-debian>)
+	id 1NzlAk-0000ks-7v
+	for root@sheevaplug-debian; Thu, 08 Apr 2010 06:25:02 +0000
+Subject: exim paniclog on sheevaplug-debian has non-zero size
+To: root@sheevaplug-debian
+Message-Id: <E1NzlAk-0000ks-7v@sheevaplug-debian>
+From: root <root@sheevaplug-debian>
+Date: Thu, 08 Apr 2010 06:25:02 +0000
+
+exim paniclog /var/log/exim4/paniclog on sheevaplug-debian has non-zero size, mail system might be broken. The last 10 lines are quoted below.
+
+2009-08-08 09:34:32 socket bind() to port 25 for address 127.0.0.1 failed: Address already in use: daemon abandoned
+
+From root@sheevaplug-debian Sat Jan 01 06:25:01 2000
+Return-path: <root@sheevaplug-debian>
+Envelope-to: root@sheevaplug-debian
+Delivery-date: Sat, 01 Jan 2000 06:25:01 +0000
+Received: from root by sheevaplug-debian with local (Exim 4.69)
+	(envelope-from <root@sheevaplug-debian>)
+	id 124HyH-0000k2-C1
+	for root@sheevaplug-debian; Sat, 01 Jan 2000 06:25:01 +0000
+Subject: exim paniclog on sheevaplug-debian has non-zero size
+To: root@sheevaplug-debian
+Message-Id: <E124HyH-0000k2-C1@sheevaplug-debian>
+From: root <root@sheevaplug-debian>
+Date: Sat, 01 Jan 2000 06:25:01 +0000
+
+exim paniclog /var/log/exim4/paniclog on sheevaplug-debian has non-zero size, mail system might be broken. The last 10 lines are quoted below.
+
+2009-08-08 09:34:32 socket bind() to port 25 for address 127.0.0.1 failed: Address already in use: daemon abandoned
+
+From root@sheevaplug-debian Sat Jan 01 06:25:16 2000
+Return-path: <root@sheevaplug-debian>
+Envelope-to: root@sheevaplug-debian
+Delivery-date: Sat, 01 Jan 2000 06:25:16 +0000
+Received: from root by sheevaplug-debian with local (Exim 4.69)
+	(envelope-from <root@sheevaplug-debian>)
+	id 124HyI-0000kL-0n
+	for root@sheevaplug-debian; Sat, 01 Jan 2000 06:25:15 +0000
+From: root@sheevaplug-debian (Cron Daemon)
+To: root@sheevaplug-debian
+Subject: Cron <root@sheevaplug-debian> test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+Content-Type: text/plain; charset=UTF-8
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <E124HyI-0000kL-0n@sheevaplug-debian>
+Date: Sat, 01 Jan 2000 06:25:15 +0000
+
+/etc/cron.daily/logrotate:
+error: log /var/log/apt/term.log last rotated in the future -- rotation forced
+error: log /var/log/dpkg.log last rotated in the future -- rotation forced
+error: log /var/log/exim4/mainlog last rotated in the future -- rotation forced
+error: log /var/log/lighttpd/access.log last rotated in the future -- rotation forced
+error: log /var/log/lighttpd/error.log last rotated in the future -- rotation forced
+error: log /var/log/mysql.log last rotated in the future -- rotation forced
+error: log /var/log/syslog last rotated in the future -- rotation forced
+error: log /var/log/mail.info last rotated in the future -- rotation forced
+error: log /var/log/mail.warn last rotated in the future -- rotation forced
+error: log /var/log/mail.err last rotated in the future -- rotation forced
+error: log /var/log/mail.log last rotated in the future -- rotation forced
+error: log /var/log/daemon.log last rotated in the future -- rotation forced
+error: log /var/log/kern.log last rotated in the future -- rotation forced
+error: log /var/log/auth.log last rotated in the future -- rotation forced
+error: log /var/log/user.log last rotated in the future -- rotation forced
+error: log /var/log/lpr.log last rotated in the future -- rotation forced
+error: log /var/log/debug last rotated in the future -- rotation forced
+error: log /var/log/messages last rotated in the future -- rotation forced
+error: log /var/log/samba/log.smbd last rotated in the future -- rotation forced
+error: log /var/log/samba/log.nmbd last rotated in the future -- rotation forced
+error: log /var/log/wtmp last rotated in the future -- rotation forced
+error: log /var/log/btmp last rotated in the future -- rotation forced
+

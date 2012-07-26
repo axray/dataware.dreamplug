@@ -1,0 +1,75 @@
+This package was first debianized by Mikhail Gusarov <dottedmag@dottedmag.net>
+on Mon, 08 Apr 2008 01:52:52 +0600
+
+It was downloaded from http://sphinx.pocoo.org/
+
+Copyright Holders: Georg Brandl <georg@python.org>, Armin Ronacher
+<armin.ronacher@active-4.com>, Josip Dzolonga, Gerold Penz, Vivake Gupta
+<v@nano.com>
+
+License:
+
+Copyright (c) 2007-2008 by the respective authors (see AUTHORS file).
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+
+    * The names of the contributors may not be used to endorse or
+      promote products derived from this software without specific
+      prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+AUTHORS file:
+
+The doctools are written and maintained by Georg Brandl <georg@python.org>.
+Substantial parts of the templates and the web application were written by
+Armin Ronacher <armin.ronacher@active-4.com>.
+
+Other contributors are noted in the :copyright: fields within the docstrings
+of the respective files.
+
+Many thanks for all contributions!
+
+Copyright strings:
+
+spinx/search.py,
+sphinx/web/{feed.py,antispam.py,userdb.py,wsgiutil.py,markup.py,}
+
+:copyright: 2007-2008 by Armin Ronacher.
+
+sphinx/ext/coverage.py
+
+:copyright: 2007 by Josip Dzolonga, Georg Brandl.
+
+sphinx/web/mail.py
+
+:copyright: 2004-2007 by Gerold Penz.
+
+sphinx/util/stemmer.py
+
+:copyright: 2001 by Vivake Gupta <v@nano.com>
+
+All the other files:
+
+:copyright: 2007-2008 by Georg Brandl <georg@python.org>

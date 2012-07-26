@@ -1,0 +1,23 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+    configure)
+	for p in $(pyversions -i); do
+	    $p -c 'from twisted.plugin import IPlugin, getPlugins; list(getPlugins(IPlugin))' >/dev/null 2>&1 || true
+	done
+	;;
+esac
+
+# Automatically added by dh_pycentral
+if which pycentral >/dev/null 2>&1; then
+	pycentral pkginstall python-twisted-core
+	if grep -qs '^python-twisted-core$' /var/lib/pycentral/delayed-pkgs; then
+		sed -i '/^python-twisted-core$/d' /var/lib/pycentral/delayed-pkgs
+	fi
+fi
+# End automatically added section
+
+
+exit 0

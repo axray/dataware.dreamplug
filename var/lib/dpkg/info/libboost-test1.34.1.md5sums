@@ -1,0 +1,8 @@
+bafd4a9a04f064777f1b3ed4e996db5d  usr/share/doc/libboost-test1.34.1/README.Debian.gz
+f8ac4027d3b0da8c923e1f82f979f465  usr/share/doc/libboost-test1.34.1/changelog.Debian.gz
+fb03d3dac625d0395569ea36b478959f  usr/share/doc/libboost-test1.34.1/copyright
+0bd113d627f1247de0eaff5e473748b5  usr/share/lintian/overrides/libboost-test1.34.1
+0e55f5a0599080170d30b7bd96c6d850  usr/lib/libboost_prg_exec_monitor-gcc42-1_34_1.so.1.34.1
+e52a3c2f05f6056719b36671c301520f  usr/lib/libboost_unit_test_framework-gcc42-1_34_1.so.1.34.1
+066fdcd0196d4df950df161dea3633f0  usr/lib/libboost_unit_test_framework-gcc42-mt-1_34_1.so.1.34.1
+bc50f13e034806bcd46c2e55fdee5861  usr/lib/libboost_prg_exec_monitor-gcc42-mt-1_34_1.so.1.34.1

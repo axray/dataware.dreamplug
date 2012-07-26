@@ -1,0 +1,12 @@
+304e0ce5267c4033f099e3adcfad7029  usr/sbin/update-icon-caches
+6749722b0fb42587caab1843357f969e  usr/share/doc/libgtk2.0-bin/copyright
+2afe7e253ac5d398a47f752532ad90f1  usr/share/doc/libgtk2.0-bin/changelog.gz
+cc8658979d5c3e409daa3a0f5b8938db  usr/share/doc/libgtk2.0-bin/changelog.Debian.gz
+bf28f47081a7867438104571c41c0c3b  usr/share/man/fr/man8/update-gtk-immodules.8.gz
+256adf4c017b79d38acc1841da2aedcd  usr/share/man/man1/gtk-update-icon-cache.1.gz
+a78fba0e5e63b86812a3a2a6796b7e7d  usr/share/man/man1/gtk-query-immodules-2.0.1.gz
+949fb4298c4038fae94ab9c7df057ec2  usr/share/man/man1/gdk-pixbuf-query-loaders.1.gz
+b21da927243a058c5a7b8189e8c32b13  usr/share/man/man7/gtk-options.7.gz
+7a8d5cc34c66f4b3cc0fe1a08067946c  usr/share/man/man8/update-icon-caches.8.gz
+24fee4a74e1504a95308d0f769ccde48  usr/share/man/man8/update-gdkpixbuf-loaders.8.gz
+e0c78792f03671a516cd9baf04af1364  usr/share/man/man8/update-gtk-immodules.8.gz

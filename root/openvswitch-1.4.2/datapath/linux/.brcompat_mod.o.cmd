@@ -1,0 +1,1 @@
+cmd_/root/openvswitch-1.4.2/datapath/linux/brcompat_mod.o := ld -EL    -r -o /root/openvswitch-1.4.2/datapath/linux/brcompat_mod.o /root/openvswitch-1.4.2/datapath/linux/genetlink-brcompat.o /root/openvswitch-1.4.2/datapath/linux/brcompat.o 

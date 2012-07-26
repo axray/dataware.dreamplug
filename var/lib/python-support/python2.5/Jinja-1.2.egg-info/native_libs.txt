@@ -1,0 +1,1 @@
+/usr/share/python-support/python-jinja/Jinja-1.2.egg-info/native_libs.txt

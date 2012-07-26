@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/pyshared
+/usr/share/pyshared/textile.py
+/usr/share/pyshared/textile-2.0.10.egg-info
+/usr/share/doc
+/usr/share/doc/python-textile
+/usr/share/doc/python-textile/README.Debian
+/usr/share/doc/python-textile/changelog.Debian.gz
+/usr/share/doc/python-textile/copyright
+/usr/share/pyshared-data
+/usr/share/pyshared-data/python-textile

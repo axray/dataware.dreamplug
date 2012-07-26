@@ -1,0 +1,972 @@
+[2012/07/23 16:19:27,  3] auth/auth.c:check_ntlm_password(220)
+  check_ntlm_password:  Checking password for unmapped user []\[]@[VICARIOUS-PROC] with the new password interface
+[2012/07/23 16:19:28,  3] auth/auth.c:check_ntlm_password(223)
+  check_ntlm_password:  mapped user is: [MYWIFIPLUG]\[]@[VICARIOUS-PROC]
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] auth/auth.c:check_ntlm_password(269)
+  check_ntlm_password: guest authentication for user [] succeeded
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-21-3596556427-1365610831-1707129996-501]
+[2012/07/23 16:19:28,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-2]
+[2012/07/23 16:19:28,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-32-546]
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] libsmb/ntlmssp_sign.c:ntlmssp_sign_init(337)
+  NTLMSSP Sign/Seal - Initialising with flags:
+[2012/07/23 16:19:28,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0xe2088215
+[2012/07/23 16:19:28,  3] smbd/password.c:register_existing_vuid(314)
+  register_existing_vuid: User name: nobody	Real name: nobody
+[2012/07/23 16:19:28,  3] smbd/password.c:register_existing_vuid(326)
+  register_existing_vuid: UNIX uid 65534 is UNIX user nobody, and will be vuid 100
+[2012/07/23 16:19:28,  3] smbd/process.c:process_smb(1570)
+  Transaction 3 of length 90 (0 toread)
+[2012/07/23 16:19:28,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtconX (pid 3000) conn 0x0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/service.c:make_connection_snum(944)
+  Connect path is '/tmp' for service [IPC$]
+[2012/07/23 16:19:28,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/23 16:19:28,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/23 16:19:28,  3] smbd/vfs.c:vfs_init_default(96)
+  Initialising default vfs hooks
+[2012/07/23 16:19:28,  3] smbd/vfs.c:vfs_init_custom(130)
+  Initialising custom vfs hooks from [/[Default VFS]/]
+[2012/07/23 16:19:28,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/23 16:19:28,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/service.c:make_connection_snum(1198)
+  vicarious-proc (::ffff:128.243.22.246) connect to service IPC$ initially as user nobody (uid=65534, gid=65534) (pid 3000)
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/reply.c:reply_tcon_and_X(727)
+  tconX service=IPC$ 
+[2012/07/23 16:19:28,  3] smbd/process.c:process_smb(1570)
+  Transaction 4 of length 134 (0 toread)
+[2012/07/23 16:19:28,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtrans (pid 3000) conn 0x5c00d0
+[2012/07/23 16:19:28,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:28,  3] smbd/ipc.c:handle_trans(436)
+  trans <\PIPE\LANMAN> data=0 params=38 setup=0
+[2012/07/23 16:19:28,  3] smbd/ipc.c:named_pipe(387)
+  named pipe command on <LANMAN> name
+[2012/07/23 16:19:28,  3] smbd/lanman.c:api_reply(4549)
+  Got API command 104 of form <WrLehDz> <B16BBDz> (tdscnt=0,tpscnt=38,mdrcnt=4374,mprcnt=8)
+[2012/07/23 16:19:28,  3] smbd/lanman.c:api_reply(4553)
+  Doing NetServerEnum
+[2012/07/23 16:19:28,  3] smbd/lanman.c:api_RNetServerEnum(1513)
+  NetServerEnum domain = LOCALDOMAIN uLevel=1 counted=1 total=1
+[2012/07/23 16:19:39,  3] smbd/process.c:process_smb(1570)
+  Transaction 5 of length 39 (0 toread)
+[2012/07/23 16:19:39,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtdis (pid 3000) conn 0x5c00d0
+[2012/07/23 16:19:39,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:39,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:39,  3] smbd/service.c:close_cnum(1409)
+  vicarious-proc (::ffff:128.243.22.246) closed connection to service IPC$
+[2012/07/23 16:19:39,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to IPC$
+[2012/07/23 16:19:39,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:39,  3] smbd/process.c:process_smb(1570)
+  Transaction 6 of length 43 (0 toread)
+[2012/07/23 16:19:39,  3] smbd/process.c:switch_message(1374)
+  switch message SMBulogoffX (pid 3000) conn 0x0
+[2012/07/23 16:19:39,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:39,  3] smbd/reply.c:reply_ulogoffX(1910)
+  ulogoffX vuid=100
+[2012/07/23 16:19:39,  3] smbd/process.c:smbd_process(2056)
+  receive_message_or_smb failed: NT_STATUS_END_OF_FILE, exiting
+[2012/07/23 16:19:39,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:19:39,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/23 16:19:39,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)
+[2012/07/23 16:42:53,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 159 (0 toread)
+[2012/07/23 16:42:53,  3] smbd/process.c:switch_message(1374)
+  switch message SMBnegprot (pid 3018) conn 0x0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [PC NETWORK PROGRAM 1.0]
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN1.0]
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [Windows for Workgroups 3.1a]
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LM1.2X002]
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN2.1]
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [NT LM 0.12]
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [SMB 2.002]
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [SMB 2.???]
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_nt1(392)
+  using SPNEGO
+[2012/07/23 16:42:53,  3] smbd/negprot.c:reply_negprot(673)
+  Selected protocol NT LM 0.12
+[2012/07/23 16:42:53,  3] smbd/process.c:process_smb(1570)
+  Transaction 1 of length 142 (0 toread)
+[2012/07/23 16:42:53,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 3018) conn 0x0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc807
+[2012/07/23 16:42:53,  2] smbd/sesssetup.c:setup_new_vc_session(1363)
+  setup_new_vc_session: New VC == 0, if NT4.x compatible we would close all old resources.
+[2012/07/23 16:42:53,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/23 16:42:53,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[] NativeLanMan=[] PrimaryDomain=[]
+[2012/07/23 16:42:53,  3] smbd/sesssetup.c:reply_spnego_negotiate(800)
+  reply_spnego_negotiate: Got secblob of size 40
+[2012/07/23 16:42:53,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0xe2088297
+[2012/07/23 16:42:53,  3] smbd/process.c:process_smb(1570)
+  Transaction 2 of length 212 (0 toread)
+[2012/07/23 16:42:53,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 3018) conn 0x0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc807
+[2012/07/23 16:42:53,  2] smbd/sesssetup.c:setup_new_vc_session(1363)
+  setup_new_vc_session: New VC == 0, if NT4.x compatible we would close all old resources.
+[2012/07/23 16:42:53,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/23 16:42:53,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[] NativeLanMan=[] PrimaryDomain=[]
+[2012/07/23 16:42:53,  3] libsmb/ntlmssp.c:ntlmssp_server_auth(745)
+  Got user=[] domain=[] workstation=[VICARIOUS-PROC] len1=1 len2=0
+[2012/07/23 16:42:53,  3] auth/auth.c:check_ntlm_password(220)
+  check_ntlm_password:  Checking password for unmapped user []\[]@[VICARIOUS-PROC] with the new password interface
+[2012/07/23 16:42:53,  3] auth/auth.c:check_ntlm_password(223)
+  check_ntlm_password:  mapped user is: [MYWIFIPLUG]\[]@[VICARIOUS-PROC]
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] auth/auth.c:check_ntlm_password(269)
+  check_ntlm_password: guest authentication for user [] succeeded
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-21-3596556427-1365610831-1707129996-501]
+[2012/07/23 16:42:53,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-2]
+[2012/07/23 16:42:53,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-32-546]
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] libsmb/ntlmssp_sign.c:ntlmssp_sign_init(337)
+  NTLMSSP Sign/Seal - Initialising with flags:
+[2012/07/23 16:42:53,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0xe2088215
+[2012/07/23 16:42:53,  3] smbd/password.c:register_existing_vuid(314)
+  register_existing_vuid: User name: nobody	Real name: nobody
+[2012/07/23 16:42:53,  3] smbd/password.c:register_existing_vuid(326)
+  register_existing_vuid: UNIX uid 65534 is UNIX user nobody, and will be vuid 100
+[2012/07/23 16:42:53,  3] smbd/process.c:process_smb(1570)
+  Transaction 3 of length 90 (0 toread)
+[2012/07/23 16:42:53,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtconX (pid 3018) conn 0x0
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/service.c:make_connection_snum(944)
+  Connect path is '/tmp' for service [IPC$]
+[2012/07/23 16:42:53,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/23 16:42:53,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/23 16:42:53,  3] smbd/vfs.c:vfs_init_default(96)
+  Initialising default vfs hooks
+[2012/07/23 16:42:53,  3] smbd/vfs.c:vfs_init_custom(130)
+  Initialising custom vfs hooks from [/[Default VFS]/]
+[2012/07/23 16:42:53,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/23 16:42:53,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/service.c:make_connection_snum(1198)
+  vicarious-proc (::ffff:128.243.22.246) connect to service IPC$ initially as user nobody (uid=65534, gid=65534) (pid 3018)
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/reply.c:reply_tcon_and_X(727)
+  tconX service=IPC$ 
+[2012/07/23 16:42:53,  3] smbd/process.c:process_smb(1570)
+  Transaction 4 of length 134 (0 toread)
+[2012/07/23 16:42:53,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtrans (pid 3018) conn 0x5cc648
+[2012/07/23 16:42:53,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:42:53,  3] smbd/ipc.c:handle_trans(436)
+  trans <\PIPE\LANMAN> data=0 params=38 setup=0
+[2012/07/23 16:42:53,  3] smbd/ipc.c:named_pipe(387)
+  named pipe command on <LANMAN> name
+[2012/07/23 16:42:53,  3] smbd/lanman.c:api_reply(4549)
+  Got API command 104 of form <WrLehDz> <B16BBDz> (tdscnt=0,tpscnt=38,mdrcnt=4374,mprcnt=8)
+[2012/07/23 16:42:53,  3] smbd/lanman.c:api_reply(4553)
+  Doing NetServerEnum
+[2012/07/23 16:42:53,  3] smbd/lanman.c:api_RNetServerEnum(1513)
+  NetServerEnum domain = LOCALDOMAIN uLevel=1 counted=1 total=1
+[2012/07/23 16:43:09,  3] smbd/process.c:process_smb(1570)
+  Transaction 5 of length 39 (0 toread)
+[2012/07/23 16:43:09,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtdis (pid 3018) conn 0x5cc648
+[2012/07/23 16:43:09,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:43:09,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:43:09,  3] smbd/service.c:close_cnum(1409)
+  vicarious-proc (::ffff:128.243.22.246) closed connection to service IPC$
+[2012/07/23 16:43:09,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to IPC$
+[2012/07/23 16:43:09,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:43:09,  3] smbd/process.c:process_smb(1570)
+  Transaction 6 of length 43 (0 toread)
+[2012/07/23 16:43:09,  3] smbd/process.c:switch_message(1374)
+  switch message SMBulogoffX (pid 3018) conn 0x0
+[2012/07/23 16:43:09,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:43:09,  3] smbd/reply.c:reply_ulogoffX(1910)
+  ulogoffX vuid=100
+[2012/07/23 16:43:09,  3] smbd/process.c:smbd_process(2056)
+  receive_message_or_smb failed: NT_STATUS_END_OF_FILE, exiting
+[2012/07/23 16:43:09,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 16:43:09,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/23 16:43:09,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)
+[2012/07/23 17:21:43,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 159 (0 toread)
+[2012/07/23 17:21:43,  3] smbd/process.c:switch_message(1374)
+  switch message SMBnegprot (pid 3062) conn 0x0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [PC NETWORK PROGRAM 1.0]
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN1.0]
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [Windows for Workgroups 3.1a]
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LM1.2X002]
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN2.1]
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [NT LM 0.12]
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [SMB 2.002]
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [SMB 2.???]
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_nt1(392)
+  using SPNEGO
+[2012/07/23 17:21:43,  3] smbd/negprot.c:reply_negprot(673)
+  Selected protocol NT LM 0.12
+[2012/07/23 17:21:43,  3] smbd/process.c:process_smb(1570)
+  Transaction 1 of length 142 (0 toread)
+[2012/07/23 17:21:43,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 3062) conn 0x0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc807
+[2012/07/23 17:21:43,  2] smbd/sesssetup.c:setup_new_vc_session(1363)
+  setup_new_vc_session: New VC == 0, if NT4.x compatible we would close all old resources.
+[2012/07/23 17:21:43,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/23 17:21:43,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[] NativeLanMan=[] PrimaryDomain=[]
+[2012/07/23 17:21:43,  3] smbd/sesssetup.c:reply_spnego_negotiate(800)
+  reply_spnego_negotiate: Got secblob of size 40
+[2012/07/23 17:21:43,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0xe2088297
+[2012/07/23 17:21:43,  3] smbd/process.c:process_smb(1570)
+  Transaction 2 of length 212 (0 toread)
+[2012/07/23 17:21:43,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 3062) conn 0x0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc807
+[2012/07/23 17:21:43,  2] smbd/sesssetup.c:setup_new_vc_session(1363)
+  setup_new_vc_session: New VC == 0, if NT4.x compatible we would close all old resources.
+[2012/07/23 17:21:43,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/23 17:21:43,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[] NativeLanMan=[] PrimaryDomain=[]
+[2012/07/23 17:21:43,  3] libsmb/ntlmssp.c:ntlmssp_server_auth(745)
+  Got user=[] domain=[] workstation=[VICARIOUS-PROC] len1=1 len2=0
+[2012/07/23 17:21:43,  3] auth/auth.c:check_ntlm_password(220)
+  check_ntlm_password:  Checking password for unmapped user []\[]@[VICARIOUS-PROC] with the new password interface
+[2012/07/23 17:21:43,  3] auth/auth.c:check_ntlm_password(223)
+  check_ntlm_password:  mapped user is: [MYWIFIPLUG]\[]@[VICARIOUS-PROC]
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] auth/auth.c:check_ntlm_password(269)
+  check_ntlm_password: guest authentication for user [] succeeded
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-21-3596556427-1365610831-1707129996-501]
+[2012/07/23 17:21:43,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-2]
+[2012/07/23 17:21:43,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-32-546]
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] libsmb/ntlmssp_sign.c:ntlmssp_sign_init(337)
+  NTLMSSP Sign/Seal - Initialising with flags:
+[2012/07/23 17:21:43,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0xe2088215
+[2012/07/23 17:21:43,  3] smbd/password.c:register_existing_vuid(314)
+  register_existing_vuid: User name: nobody	Real name: nobody
+[2012/07/23 17:21:43,  3] smbd/password.c:register_existing_vuid(326)
+  register_existing_vuid: UNIX uid 65534 is UNIX user nobody, and will be vuid 100
+[2012/07/23 17:21:43,  3] smbd/process.c:process_smb(1570)
+  Transaction 3 of length 90 (0 toread)
+[2012/07/23 17:21:43,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtconX (pid 3062) conn 0x0
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/service.c:make_connection_snum(944)
+  Connect path is '/tmp' for service [IPC$]
+[2012/07/23 17:21:43,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/23 17:21:43,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/23 17:21:43,  3] smbd/vfs.c:vfs_init_default(96)
+  Initialising default vfs hooks
+[2012/07/23 17:21:43,  3] smbd/vfs.c:vfs_init_custom(130)
+  Initialising custom vfs hooks from [/[Default VFS]/]
+[2012/07/23 17:21:43,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/23 17:21:43,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/service.c:make_connection_snum(1198)
+  vicarious-proc (::ffff:128.243.22.246) connect to service IPC$ initially as user nobody (uid=65534, gid=65534) (pid 3062)
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/reply.c:reply_tcon_and_X(727)
+  tconX service=IPC$ 
+[2012/07/23 17:21:43,  3] smbd/process.c:process_smb(1570)
+  Transaction 4 of length 134 (0 toread)
+[2012/07/23 17:21:43,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtrans (pid 3062) conn 0x5cc648
+[2012/07/23 17:21:43,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:43,  3] smbd/ipc.c:handle_trans(436)
+  trans <\PIPE\LANMAN> data=0 params=38 setup=0
+[2012/07/23 17:21:43,  3] smbd/ipc.c:named_pipe(387)
+  named pipe command on <LANMAN> name
+[2012/07/23 17:21:43,  3] smbd/lanman.c:api_reply(4549)
+  Got API command 104 of form <WrLehDz> <B16BBDz> (tdscnt=0,tpscnt=38,mdrcnt=4374,mprcnt=8)
+[2012/07/23 17:21:43,  3] smbd/lanman.c:api_reply(4553)
+  Doing NetServerEnum
+[2012/07/23 17:21:43,  3] smbd/lanman.c:api_RNetServerEnum(1513)
+  NetServerEnum domain = LOCALDOMAIN uLevel=1 counted=1 total=1
+[2012/07/23 17:21:57,  3] smbd/process.c:process_smb(1570)
+  Transaction 5 of length 39 (0 toread)
+[2012/07/23 17:21:57,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtdis (pid 3062) conn 0x5cc648
+[2012/07/23 17:21:57,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:57,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:57,  3] smbd/service.c:close_cnum(1409)
+  vicarious-proc (::ffff:128.243.22.246) closed connection to service IPC$
+[2012/07/23 17:21:57,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to IPC$
+[2012/07/23 17:21:57,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:57,  3] smbd/process.c:process_smb(1570)
+  Transaction 6 of length 43 (0 toread)
+[2012/07/23 17:21:57,  3] smbd/process.c:switch_message(1374)
+  switch message SMBulogoffX (pid 3062) conn 0x0
+[2012/07/23 17:21:57,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:57,  3] smbd/reply.c:reply_ulogoffX(1910)
+  ulogoffX vuid=100
+[2012/07/23 17:21:57,  3] smbd/process.c:smbd_process(2056)
+  receive_message_or_smb failed: NT_STATUS_END_OF_FILE, exiting
+[2012/07/23 17:21:57,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:21:57,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/23 17:21:57,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)
+[2012/07/23 17:43:17,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 159 (0 toread)
+[2012/07/23 17:43:17,  3] smbd/process.c:switch_message(1374)
+  switch message SMBnegprot (pid 3079) conn 0x0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [PC NETWORK PROGRAM 1.0]
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN1.0]
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [Windows for Workgroups 3.1a]
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LM1.2X002]
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN2.1]
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [NT LM 0.12]
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [SMB 2.002]
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [SMB 2.???]
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_nt1(392)
+  using SPNEGO
+[2012/07/23 17:43:17,  3] smbd/negprot.c:reply_negprot(673)
+  Selected protocol NT LM 0.12
+[2012/07/23 17:43:17,  3] smbd/process.c:process_smb(1570)
+  Transaction 1 of length 142 (0 toread)
+[2012/07/23 17:43:17,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 3079) conn 0x0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc807
+[2012/07/23 17:43:17,  2] smbd/sesssetup.c:setup_new_vc_session(1363)
+  setup_new_vc_session: New VC == 0, if NT4.x compatible we would close all old resources.
+[2012/07/23 17:43:17,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/23 17:43:17,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[] NativeLanMan=[] PrimaryDomain=[]
+[2012/07/23 17:43:17,  3] smbd/sesssetup.c:reply_spnego_negotiate(800)
+  reply_spnego_negotiate: Got secblob of size 40
+[2012/07/23 17:43:17,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0xe2088297
+[2012/07/23 17:43:17,  3] smbd/process.c:process_smb(1570)
+  Transaction 2 of length 212 (0 toread)
+[2012/07/23 17:43:17,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 3079) conn 0x0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc807
+[2012/07/23 17:43:17,  2] smbd/sesssetup.c:setup_new_vc_session(1363)
+  setup_new_vc_session: New VC == 0, if NT4.x compatible we would close all old resources.
+[2012/07/23 17:43:17,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/23 17:43:17,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[] NativeLanMan=[] PrimaryDomain=[]
+[2012/07/23 17:43:17,  3] libsmb/ntlmssp.c:ntlmssp_server_auth(745)
+  Got user=[] domain=[] workstation=[VICARIOUS-PROC] len1=1 len2=0
+[2012/07/23 17:43:17,  3] auth/auth.c:check_ntlm_password(220)
+  check_ntlm_password:  Checking password for unmapped user []\[]@[VICARIOUS-PROC] with the new password interface
+[2012/07/23 17:43:17,  3] auth/auth.c:check_ntlm_password(223)
+  check_ntlm_password:  mapped user is: [MYWIFIPLUG]\[]@[VICARIOUS-PROC]
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] auth/auth.c:check_ntlm_password(269)
+  check_ntlm_password: guest authentication for user [] succeeded
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-21-3596556427-1365610831-1707129996-501]
+[2012/07/23 17:43:17,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-2]
+[2012/07/23 17:43:17,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-32-546]
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] libsmb/ntlmssp_sign.c:ntlmssp_sign_init(337)
+  NTLMSSP Sign/Seal - Initialising with flags:
+[2012/07/23 17:43:17,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0xe2088215
+[2012/07/23 17:43:17,  3] smbd/password.c:register_existing_vuid(314)
+  register_existing_vuid: User name: nobody	Real name: nobody
+[2012/07/23 17:43:17,  3] smbd/password.c:register_existing_vuid(326)
+  register_existing_vuid: UNIX uid 65534 is UNIX user nobody, and will be vuid 100
+[2012/07/23 17:43:17,  3] smbd/process.c:process_smb(1570)
+  Transaction 3 of length 90 (0 toread)
+[2012/07/23 17:43:17,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtconX (pid 3079) conn 0x0
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/service.c:make_connection_snum(944)
+  Connect path is '/tmp' for service [IPC$]
+[2012/07/23 17:43:17,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/23 17:43:17,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/23 17:43:17,  3] smbd/vfs.c:vfs_init_default(96)
+  Initialising default vfs hooks
+[2012/07/23 17:43:17,  3] smbd/vfs.c:vfs_init_custom(130)
+  Initialising custom vfs hooks from [/[Default VFS]/]
+[2012/07/23 17:43:17,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/23 17:43:17,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/service.c:make_connection_snum(1198)
+  vicarious-proc (::ffff:128.243.22.246) connect to service IPC$ initially as user nobody (uid=65534, gid=65534) (pid 3079)
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/reply.c:reply_tcon_and_X(727)
+  tconX service=IPC$ 
+[2012/07/23 17:43:17,  3] smbd/process.c:process_smb(1570)
+  Transaction 4 of length 134 (0 toread)
+[2012/07/23 17:43:17,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtrans (pid 3079) conn 0x5cc648
+[2012/07/23 17:43:17,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:17,  3] smbd/ipc.c:handle_trans(436)
+  trans <\PIPE\LANMAN> data=0 params=38 setup=0
+[2012/07/23 17:43:17,  3] smbd/ipc.c:named_pipe(387)
+  named pipe command on <LANMAN> name
+[2012/07/23 17:43:17,  3] smbd/lanman.c:api_reply(4549)
+  Got API command 104 of form <WrLehDz> <B16BBDz> (tdscnt=0,tpscnt=38,mdrcnt=4374,mprcnt=8)
+[2012/07/23 17:43:17,  3] smbd/lanman.c:api_reply(4553)
+  Doing NetServerEnum
+[2012/07/23 17:43:17,  3] smbd/lanman.c:api_RNetServerEnum(1513)
+  NetServerEnum domain = LOCALDOMAIN uLevel=1 counted=1 total=1
+[2012/07/23 17:43:33,  3] smbd/process.c:process_smb(1570)
+  Transaction 5 of length 39 (0 toread)
+[2012/07/23 17:43:33,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtdis (pid 3079) conn 0x5cc648
+[2012/07/23 17:43:33,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:33,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:33,  3] smbd/service.c:close_cnum(1409)
+  vicarious-proc (::ffff:128.243.22.246) closed connection to service IPC$
+[2012/07/23 17:43:33,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to IPC$
+[2012/07/23 17:43:33,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:33,  3] smbd/process.c:process_smb(1570)
+  Transaction 6 of length 43 (0 toread)
+[2012/07/23 17:43:33,  3] smbd/process.c:switch_message(1374)
+  switch message SMBulogoffX (pid 3079) conn 0x0
+[2012/07/23 17:43:33,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:33,  3] smbd/reply.c:reply_ulogoffX(1910)
+  ulogoffX vuid=100
+[2012/07/23 17:43:33,  3] smbd/process.c:smbd_process(2056)
+  receive_message_or_smb failed: NT_STATUS_END_OF_FILE, exiting
+[2012/07/23 17:43:33,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/23 17:43:33,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/23 17:43:33,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)
+[2012/07/24 11:52:15,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 159 (0 toread)
+[2012/07/24 11:52:15,  3] smbd/process.c:switch_message(1374)
+  switch message SMBnegprot (pid 10225) conn 0x0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [PC NETWORK PROGRAM 1.0]
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN1.0]
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [Windows for Workgroups 3.1a]
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LM1.2X002]
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN2.1]
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [NT LM 0.12]
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [SMB 2.002]
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [SMB 2.???]
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_nt1(392)
+  using SPNEGO
+[2012/07/24 11:52:15,  3] smbd/negprot.c:reply_negprot(673)
+  Selected protocol NT LM 0.12
+[2012/07/24 11:52:15,  3] smbd/process.c:process_smb(1570)
+  Transaction 1 of length 142 (0 toread)
+[2012/07/24 11:52:15,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 10225) conn 0x0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc807
+[2012/07/24 11:52:15,  2] smbd/sesssetup.c:setup_new_vc_session(1363)
+  setup_new_vc_session: New VC == 0, if NT4.x compatible we would close all old resources.
+[2012/07/24 11:52:15,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/24 11:52:15,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[] NativeLanMan=[] PrimaryDomain=[]
+[2012/07/24 11:52:15,  3] smbd/sesssetup.c:reply_spnego_negotiate(800)
+  reply_spnego_negotiate: Got secblob of size 40
+[2012/07/24 11:52:15,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0xe2088297
+[2012/07/24 11:52:15,  3] smbd/process.c:process_smb(1570)
+  Transaction 2 of length 212 (0 toread)
+[2012/07/24 11:52:15,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 10225) conn 0x0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc807
+[2012/07/24 11:52:15,  2] smbd/sesssetup.c:setup_new_vc_session(1363)
+  setup_new_vc_session: New VC == 0, if NT4.x compatible we would close all old resources.
+[2012/07/24 11:52:15,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/24 11:52:15,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[] NativeLanMan=[] PrimaryDomain=[]
+[2012/07/24 11:52:15,  3] libsmb/ntlmssp.c:ntlmssp_server_auth(745)
+  Got user=[] domain=[] workstation=[VICARIOUS-PROC] len1=1 len2=0
+[2012/07/24 11:52:15,  3] auth/auth.c:check_ntlm_password(220)
+  check_ntlm_password:  Checking password for unmapped user []\[]@[VICARIOUS-PROC] with the new password interface
+[2012/07/24 11:52:15,  3] auth/auth.c:check_ntlm_password(223)
+  check_ntlm_password:  mapped user is: [MYWIFIPLUG]\[]@[VICARIOUS-PROC]
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] auth/auth.c:check_ntlm_password(269)
+  check_ntlm_password: guest authentication for user [] succeeded
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-21-3596556427-1365610831-1707129996-501]
+[2012/07/24 11:52:15,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-2]
+[2012/07/24 11:52:15,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-32-546]
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:52:15,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:52:15,  3] libsmb/ntlmssp_sign.c:ntlmssp_sign_init(337)
+  NTLMSSP Sign/Seal - Initialising with flags:
+[2012/07/24 11:52:15,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0xe2088215
+[2012/07/24 11:52:15,  3] smbd/password.c:register_existing_vuid(314)
+  register_existing_vuid: User name: nobody	Real name: nobody
+[2012/07/24 11:52:15,  3] smbd/password.c:register_existing_vuid(326)
+  register_existing_vuid: UNIX uid 65534 is UNIX user nobody, and will be vuid 100

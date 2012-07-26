@@ -1,0 +1,6 @@
+bafd4a9a04f064777f1b3ed4e996db5d  usr/share/doc/libboost-date-time1.34.1/README.Debian.gz
+f8ac4027d3b0da8c923e1f82f979f465  usr/share/doc/libboost-date-time1.34.1/changelog.Debian.gz
+fb03d3dac625d0395569ea36b478959f  usr/share/doc/libboost-date-time1.34.1/copyright
+0131cb2f5dc6ea89253c951068b0e40f  usr/share/lintian/overrides/libboost-date-time1.34.1
+87445c0cbf912b172ab3efb3d61a4e17  usr/lib/libboost_date_time-gcc42-mt-1_34_1.so.1.34.1
+859724fbac140d161eba5a947db9de1d  usr/lib/libboost_date_time-gcc42-1_34_1.so.1.34.1

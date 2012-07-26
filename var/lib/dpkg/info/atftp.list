@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/bin
+/usr/bin/atftp
+/usr/share
+/usr/share/doc
+/usr/share/doc/atftp
+/usr/share/doc/atftp/changelog.Debian.gz
+/usr/share/doc/atftp/changelog.gz
+/usr/share/doc/atftp/README
+/usr/share/doc/atftp/README.CVS
+/usr/share/doc/atftp/README.MCAST
+/usr/share/doc/atftp/copyright
+/usr/share/doc/atftp/TODO
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/atftp.1.gz

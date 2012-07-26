@@ -1,0 +1,102 @@
+Jan  1 00:01:14 sheevaplug-debian exim[2435]: 1970-01-01 00:01:14 exim 4.69 daemon started: pid=2435, -q30m, listening for SMTP on [127.0.0.1]:25
+Jan  1 00:01:14 sheevaplug-debian exim[2435]: 1970-01-01 00:01:14 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  1 00:01:14 sheevaplug-debian exim[2435]: exim: could not open panic log - aborting: see message(s) above
+Jan  1 01:36:57 sheevaplug-debian exim[2431]: 2011-01-01 01:36:57 exim 4.69 daemon started: pid=2431, -q30m, listening for SMTP on [127.0.0.1]:25
+Jan  1 01:36:57 sheevaplug-debian exim[2431]: 2011-01-01 01:36:57 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  1 01:36:57 sheevaplug-debian exim[2431]: exim: could not open panic log - aborting: see message(s) above
+Jan  1 00:01:14 sheevaplug-debian exim[2435]: 1970-01-01 00:01:14 exim 4.69 daemon started: pid=2435, -q30m, listening for SMTP on [127.0.0.1]:25
+Jan  1 00:01:14 sheevaplug-debian exim[2435]: 1970-01-01 00:01:14 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  1 00:01:14 sheevaplug-debian exim[2435]: exim: could not open panic log - aborting: see message(s) above
+Jan  1 00:09:02 sheevaplug-debian exim[2764]: 1970-01-01 00:09:02 00008k-0000ia-1P Failed to create spool file /var/spool/exim4/input//00008k-0000ia-1P-D: Permission denied
+Jan  1 00:09:02 sheevaplug-debian exim[2764]: 1970-01-01 00:09:02 00008k-0000ia-1P Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  1 00:09:02 sheevaplug-debian exim[2764]: exim: could not open panic log - aborting: see message(s) above
+Jan  1 00:01:13 sheevaplug-debian exim[2436]: 1970-01-01 00:01:13 exim 4.69 daemon started: pid=2436, -q30m, listening for SMTP on [127.0.0.1]:25
+Jan  1 00:01:13 sheevaplug-debian exim[2436]: 1970-01-01 00:01:13 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  1 00:01:13 sheevaplug-debian exim[2436]: exim: could not open panic log - aborting: see message(s) above
+Jan  1 00:09:02 sheevaplug-debian exim[2758]: 1970-01-01 00:09:02 00008k-0000iU-2M Failed to create spool file /var/spool/exim4/input//00008k-0000iU-2M-D: Permission denied
+Jan  1 00:09:02 sheevaplug-debian exim[2758]: 1970-01-01 00:09:02 00008k-0000iU-2M Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  1 00:09:02 sheevaplug-debian exim[2758]: exim: could not open panic log - aborting: see message(s) above
+Jan  2 07:48:15 sheevaplug-debian exim[2502]: 2011-01-02 07:48:15 exim 4.69 daemon started: pid=2502, -q30m, listening for SMTP on [127.0.0.1]:25
+Jan  2 07:48:15 sheevaplug-debian exim[2502]: 2011-01-02 07:48:15 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  2 07:48:15 sheevaplug-debian exim[2502]: exim: could not open panic log - aborting: see message(s) above
+Jan  2 07:56:30 sheevaplug-debian exim[2478]: 2011-01-02 07:56:30 exim 4.69 daemon started: pid=2478, -q30m, listening for SMTP on [127.0.0.1]:25
+Jan  2 07:56:30 sheevaplug-debian exim[2478]: 2011-01-02 07:56:30 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  2 07:56:30 sheevaplug-debian exim[2478]: exim: could not open panic log - aborting: see message(s) above
+Jan  2 07:59:45 sheevaplug-debian exim[2492]: 2011-01-02 07:59:45 exim 4.69 daemon started: pid=2492, -q30m, listening for SMTP on [127.0.0.1]:25
+Jan  2 07:59:45 sheevaplug-debian exim[2492]: 2011-01-02 07:59:45 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  2 07:59:45 sheevaplug-debian exim[2492]: exim: could not open panic log - aborting: see message(s) above
+Jan  2 08:07:04 sheevaplug-debian exim[2222]: 2011-01-02 08:07:04 exim 4.69 daemon started: pid=2222, -q30m, listening for SMTP on [127.0.0.1]:25
+Jan  2 08:07:04 sheevaplug-debian exim[2222]: 2011-01-02 08:07:04 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jan  2 08:07:04 sheevaplug-debian exim[2222]: exim: could not open panic log - aborting: see message(s) above
+Jul 13 12:08:53 sheevaplug-debian exim[2424]: 2012-07-13 12:08:53 exim 4.69 daemon started: pid=2424, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 13 12:08:53 sheevaplug-debian exim[2424]: 2012-07-13 12:08:53 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 13 12:08:53 sheevaplug-debian exim[2424]: exim: could not open panic log - aborting: see message(s) above
+Jul 13 12:41:39 sheevaplug-debian exim[2299]: 2012-07-13 12:41:39 exim 4.69 daemon started: pid=2299, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 13 12:41:39 sheevaplug-debian exim[2299]: 2012-07-13 12:41:39 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 13 12:41:39 sheevaplug-debian exim[2299]: exim: could not open panic log - aborting: see message(s) above
+Jul 13 12:53:15 sheevaplug-debian exim[2429]: 2012-07-13 12:53:15 exim 4.69 daemon started: pid=2429, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 13 12:53:15 sheevaplug-debian exim[2429]: 2012-07-13 12:53:15 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 13 12:53:15 sheevaplug-debian exim[2429]: exim: could not open panic log - aborting: see message(s) above
+Jul 13 13:07:23 sheevaplug-debian exim[2426]: 2012-07-13 13:07:23 exim 4.69 daemon started: pid=2426, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 13 13:07:23 sheevaplug-debian exim[2426]: 2012-07-13 13:07:23 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 13 13:07:23 sheevaplug-debian exim[2426]: exim: could not open panic log - aborting: see message(s) above
+Jul 13 14:33:35 sheevaplug-debian exim[2561]: 2012-07-13 14:33:35 exim 4.69 daemon started: pid=2561, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 13 14:33:35 sheevaplug-debian exim[2561]: 2012-07-13 14:33:35 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 13 14:33:35 sheevaplug-debian exim[2561]: exim: could not open panic log - aborting: see message(s) above
+Jul 16 10:54:33 sheevaplug-debian exim[2342]: 2012-07-16 10:54:33 exim 4.69 daemon started: pid=2342, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 16 10:54:33 sheevaplug-debian exim[2342]: 2012-07-16 10:54:33 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 16 10:54:33 sheevaplug-debian exim[2342]: exim: could not open panic log - aborting: see message(s) above
+Jul 16 11:00:22 sheevaplug-debian exim[2618]: 2012-07-16 11:00:22 exim 4.69 daemon started: pid=2618, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 16 11:00:22 sheevaplug-debian exim[2618]: 2012-07-16 11:00:22 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 16 11:00:22 sheevaplug-debian exim[2618]: exim: could not open panic log - aborting: see message(s) above
+Jul 16 13:39:51 sheevaplug-debian exim[2476]: 2012-07-16 13:39:51 exim 4.69 daemon started: pid=2476, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 16 13:39:52 sheevaplug-debian exim[2476]: 2012-07-16 13:39:51 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 16 13:39:52 sheevaplug-debian exim[2476]: exim: could not open panic log - aborting: see message(s) above
+Jul 17 11:40:10 sheevaplug-debian exim[2619]: 2012-07-17 11:40:10 exim 4.69 daemon started: pid=2619, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 17 11:40:10 sheevaplug-debian exim[2619]: 2012-07-17 11:40:10 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 17 11:40:10 sheevaplug-debian exim[2619]: exim: could not open panic log - aborting: see message(s) above
+Jul 18 12:49:15 sheevaplug-debian exim[2680]: 2012-07-18 12:49:15 exim 4.69 daemon started: pid=2680, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 18 12:49:15 sheevaplug-debian exim[2680]: 2012-07-18 12:49:15 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 18 12:49:15 sheevaplug-debian exim[2680]: exim: could not open panic log - aborting: see message(s) above
+Jul 20 11:06:59 sheevaplug-debian exim[2684]: 2012-07-20 11:06:59 exim 4.69 daemon started: pid=2684, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 20 11:06:59 sheevaplug-debian exim[2684]: 2012-07-20 11:06:59 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 20 11:06:59 sheevaplug-debian exim[2684]: exim: could not open panic log - aborting: see message(s) above
+Jul 20 11:36:17 sheevaplug-debian exim[2451]: 2012-07-20 11:36:17 exim 4.69 daemon started: pid=2451, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 20 11:36:17 sheevaplug-debian exim[2451]: 2012-07-20 11:36:17 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 20 11:36:17 sheevaplug-debian exim[2451]: exim: could not open panic log - aborting: see message(s) above
+Jul 20 11:44:40 sheevaplug-debian exim[2679]: 2012-07-20 11:44:40 exim 4.69 daemon started: pid=2679, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 20 11:44:40 sheevaplug-debian exim[2679]: 2012-07-20 11:44:40 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 20 11:44:40 sheevaplug-debian exim[2679]: exim: could not open panic log - aborting: see message(s) above
+Jul 20 11:59:48 sheevaplug-debian exim[2689]: 2012-07-20 11:59:48 exim 4.69 daemon started: pid=2689, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 20 11:59:48 sheevaplug-debian exim[2689]: 2012-07-20 11:59:48 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 20 11:59:48 sheevaplug-debian exim[2689]: exim: could not open panic log - aborting: see message(s) above
+Jul 20 13:05:39 sheevaplug-debian exim[2678]: 2012-07-20 13:05:39 exim 4.69 daemon started: pid=2678, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 20 13:05:39 sheevaplug-debian exim[2678]: 2012-07-20 13:05:39 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 20 13:05:39 sheevaplug-debian exim[2678]: exim: could not open panic log - aborting: see message(s) above
+Jul 23 10:55:10 sheevaplug-debian exim[2449]: 2012-07-23 10:55:10 exim 4.69 daemon started: pid=2449, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 23 10:55:10 sheevaplug-debian exim[2449]: 2012-07-23 10:55:10 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 23 10:55:10 sheevaplug-debian exim[2449]: exim: could not open panic log - aborting: see message(s) above
+Jul 23 11:09:42 sheevaplug-debian exim[2447]: 2012-07-23 11:09:42 exim 4.69 daemon started: pid=2447, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 23 11:09:42 sheevaplug-debian exim[2447]: 2012-07-23 11:09:42 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 23 11:09:42 sheevaplug-debian exim[2447]: exim: could not open panic log - aborting: see message(s) above
+Jul 23 12:01:25 sheevaplug-debian exim[2679]: 2012-07-23 12:01:25 exim 4.69 daemon started: pid=2679, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 23 12:01:25 sheevaplug-debian exim[2679]: 2012-07-23 12:01:25 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 23 12:01:25 sheevaplug-debian exim[2679]: exim: could not open panic log - aborting: see message(s) above
+Jul 23 12:12:40 sheevaplug-debian exim[2687]: 2012-07-23 12:12:40 exim 4.69 daemon started: pid=2687, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 23 12:12:40 sheevaplug-debian exim[2687]: 2012-07-23 12:12:40 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 23 12:12:40 sheevaplug-debian exim[2687]: exim: could not open panic log - aborting: see message(s) above
+Jul 23 12:44:06 sheevaplug-debian exim[2459]: 2012-07-23 12:44:06 exim 4.69 daemon started: pid=2459, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 23 12:44:06 sheevaplug-debian exim[2459]: 2012-07-23 12:44:06 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 23 12:44:06 sheevaplug-debian exim[2459]: exim: could not open panic log - aborting: see message(s) above
+Jul 23 12:49:13 sheevaplug-debian exim[2339]: 2012-07-23 12:49:13 exim 4.69 daemon started: pid=2339, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 23 12:49:13 sheevaplug-debian exim[2339]: 2012-07-23 12:49:13 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 23 12:49:13 sheevaplug-debian exim[2339]: exim: could not open panic log - aborting: see message(s) above
+Jul 24 10:33:10 sheevaplug-debian exim[2469]: 2012-07-24 10:33:10 exim 4.69 daemon started: pid=2469, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 24 10:33:10 sheevaplug-debian exim[2469]: 2012-07-24 10:33:10 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 24 10:33:10 sheevaplug-debian exim[2469]: exim: could not open panic log - aborting: see message(s) above
+Jul 24 11:15:00 sheevaplug-debian exim[2351]: 2012-07-24 11:15:00 exim 4.69 daemon started: pid=2351, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 24 11:15:00 sheevaplug-debian exim[2351]: 2012-07-24 11:15:00 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 24 11:15:00 sheevaplug-debian exim[2351]: exim: could not open panic log - aborting: see message(s) above
+Jul 26 11:16:17 sheevaplug-debian exim[2813]: 2012-07-26 11:16:17 exim 4.69 daemon started: pid=2813, -q30m, listening for SMTP on [127.0.0.1]:25
+Jul 26 11:16:17 sheevaplug-debian exim[2813]: 2012-07-26 11:16:17 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=102 egid=104
+Jul 26 11:16:17 sheevaplug-debian exim[2813]: exim: could not open panic log - aborting: see message(s) above

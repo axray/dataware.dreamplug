@@ -1,0 +1,24 @@
+#!/bin/sh -e
+
+ver=1.10
+prio=28
+
+update-alternatives --install /usr/bin/automake automake \
+	/usr/bin/automake-$ver $prio \
+	--slave /usr/bin/aclocal aclocal /usr/bin/aclocal-$ver \
+	--slave /usr/share/man/man1/automake.1.gz automake.1.gz \
+	/usr/share/man/man1/automake-$ver.1.gz \
+	--slave /usr/share/man/man1/aclocal.1.gz aclocal.1.gz \
+	/usr/share/man/man1/aclocal-$ver.1.gz
+
+# Automatically added by dh_installdocs
+if [ "$1" = configure ] && which install-docs >/dev/null 2>&1; then
+	install-docs -i /usr/share/doc-base/automake-1.10
+fi
+# End automatically added section
+# Automatically added by dh_installinfo
+if [ "$1" = "configure" ]; then
+	install-info --quiet /usr/share/info/automake-1.10.info
+fi
+# End automatically added section
+

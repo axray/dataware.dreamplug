@@ -1,0 +1,3 @@
+/etc/pam.d/ftp
+/etc/ftpchroot
+/etc/ftpusers

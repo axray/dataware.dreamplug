@@ -1,0 +1,11 @@
+exim4-daemon-light: setuid-binary usr/sbin/exim4 4755 root/root
+exim4-daemon-light: changelog-not-compressed-with-max-compression changelog.gz
+exim4-daemon-light: binary-without-manpage usr/sbin/exim
+exim4-daemon-light: binary-without-manpage mailq
+exim4-daemon-light: binary-without-manpage newaliases
+exim4-daemon-light: binary-without-manpage rmail
+exim4-daemon-light: binary-without-manpage rsmtp
+exim4-daemon-light: binary-without-manpage runq
+exim4-daemon-light: binary-without-manpage sendmail
+exim4-daemon-light: possible-debconf-note-abuse config:15 exim4-daemon-light/drec
+exim4-daemon-light: description-contains-homepage

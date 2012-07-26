@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>Debian Menu System - Menu from the viewpoint of a user</title>
+
+</head>
+
+<body>
+
+<p><a name="ch2"></a></p>
+<hr>
+
+<p>
+[ <a href="ch1.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ <a href="ch1.html">1</a> ]
+[ 2 ]
+[ <a href="ch3.html">3</a> ]
+[ <a href="ch4.html">4</a> ]
+[ <a href="ch5.html">5</a> ]
+[ <a href="ch6.html">6</a> ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch3.html">next</a> ]
+</p>
+
+<hr>
+
+<h1>
+Debian Menu System
+<br>Chapter 2 - Menu from the viewpoint of a user
+</h1>
+
+<hr>
+
+<hr>
+
+<h2><a name="s2.1"></a>2.1 How/when do the window manager startup files get created?</h2>
+
+<p>
+Basically, users don't need to know any of how and when the startup files are
+created, but they might be interested to know anyway.
+</p>
+
+<p>
+When a package that wants to add something to the menu tree gets installed, it
+will run <code>update-menus</code> in its <code>postinst</code> script.
+Update-menus then reads in all menu files in <code>/etc/menu/</code>,
+<code>/usr/lib/menu</code>, <code>/usr/share/menu</code> and
+<code>/usr/share/menu/default</code>, and stores the menu entries of all
+installed packages in memory.  Once that has been done, it will run the
+menu-methods in <code>/etc/menu-methods/*</code>, and pipe the information
+about the menu entries to the menu-methods on stdout, so that the menu-methods
+can read this.  Each window-manager or other program that wants to have the
+Debian menu tree, will supply a menu-method script in
+<code>/etc/menu-methods/</code>.  This menu-method then knows how to generate
+the startup-file for that window manager.  To facilitate this task for the
+window-manager maintainers, menu provides a <code>install-menu</code> program.
+This program can generate the startupfiles for just about every window manager.
+</p>
+
+<hr>
+
+<h2><a name="s2.2"></a>2.2 Tuning of the generated window manager startup files</h2>
+
+<p>
+In principle this is a very window-manager specific business.  But for all
+window managers (and others) applies:
+</p>
+
+<p>
+The file to attack is the menu-method in <code>/etc/menu-methods/$wm</code>,
+with <samp>$wm</samp> the name of your window manager.  However, if this
+menu-method <samp>!include</samp>-s the <code>menu.h</code> file (as it
+should), you can also edit that file, to make your changes work for every
+installed window manager.
+</p>
+
+<p>
+If the menu-method file of your window manager does <samp>!include</samp> the
+<code>menu.h</code> file, and makes proper use of the definitions in there,
+then you can look at the comments in that <code>menu.h</code> file to see how
+you can make minor adjustments to the look of your menus in your window
+manager.
+</p>
+
+<p>
+To generally change the menu tree, see the next section.
+</p>
+
+<hr>
+
+<h2><a name="s2.3"></a>2.3 Optimization of menu tree: hints</h2>
+
+<p>
+If <samp>hint_optimize=true</samp> has been set in a menu-method script
+(actually, that definition should appear in the <samp>!include</samp>-ed
+<samp>menu.h</samp> file), then install-menu will try to alter the menu tree,
+to make every submenu have about the optimum number of menu entries (as
+specified by <samp>hints_nentry=...</samp>).  It will do that by removing
+under-full submenus (only if the `parent' of that submenu isn't itself already
+overfull), and by possibly creating new submenus, using hints.  Note, however,
+that the optimization of the tree takes in principle exponential time, so menu
+speeds up the process, at the expense of occasionally not finding the best
+tree.  So, the tree you are presented with may not be optimal.  For tuning
+variables, see the hint_* variables in the last chapter.
+</p>
+
+<hr>
+
+<p>
+[ <a href="ch1.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ <a href="ch1.html">1</a> ]
+[ 2 ]
+[ <a href="ch3.html">3</a> ]
+[ <a href="ch4.html">4</a> ]
+[ <a href="ch5.html">5</a> ]
+[ <a href="ch6.html">6</a> ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch3.html">next</a> ]
+</p>
+
+<hr>
+
+<p>
+Debian Menu System
+</p>
+
+<address>
+version 1.4, 12 May 2008<br>
+<br>
+Joost Witteveen <code><a href="mailto:joostje@debian.org">joostje@debian.org</a></code><br>
+Joey Hess <code><a href="mailto:joeyh@debian.org">joeyh@debian.org</a></code><br>
+Christian Schwarz <code><a href="mailto:schwarz@debian.org">schwarz@debian.org</a></code><br>
+Bill Allombert <code><a href="mailto:ballombe@debian.org">ballombe@debian.org</a></code><br>
+<br>
+</address>
+<hr>
+
+</body>
+
+</html>
+

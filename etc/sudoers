@@ -1,0 +1,37 @@
+# /etc/sudoers
+#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# See the man page for details on how to write a sudoers file.
+#
+
+Defaults	env_reset
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification
+root	ALL=(ALL) ALL
+
+# Uncomment to allow members of group sudo to not need a password
+# (Note that later entries override this, so you might need to move
+# it further down)
+# %sudo ALL=NOPASSWD: ALL
+www-data ALL = (root) NOPASSWD: /usr/bin/uap.sh
+www-data ALL = (root) NOPASSWD: /usr/bin/bt_headphones.py
+www-data ALL = (root) NOPASSWD: /usr/bin/wlan.sh
+www-data ALL = (root) NOPASSWD: /sbin/ifconfig
+www-data ALL = (root) NOPASSWD: /sbin/dhclient3
+www-data ALL = (root) NOPASSWD: /sbin/iwlist
+www-data ALL = (root) NOPASSWD: /sbin/iwconfig
+www-data ALL = (root) NOPASSWD: /usr/sbin/pppd
+www-data ALL = (root) NOPASSWD: /usr/bin/killall
+www-data ALL = (root) NOPASSWD: /sbin/route
+www-data ALL = (root) NOPASSWD: /bin/sleep
+www-data ALL = (root) NOPASSWD: /bin/kill
+www-data ALL = (root) NOPASSWD: /bin/rm
+www-data ALL = (root) NOPASSWD: /usr/sbin/udhcpd
+www-data ALL = (root) NOPASSWD: /usr/bin/uaputl

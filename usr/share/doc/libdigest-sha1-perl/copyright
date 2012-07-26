@@ -1,0 +1,36 @@
+This is Debian GNU/Linux's prepackaged version of Digest::SHA1
+(renamed to be libdigest-sha1-perl).
+
+The Digest::SHA1 module allows you to use the NIST SHA-1 message
+digest algorithm from within Perl programs.  The algorithm takes as
+input a message of arbitrary length and produces as output a 160-bit
+"fingerprint" or "message digest" of the input.
+
+SHA1 is described at <http://www.itl.nist.gov/fipspubs/fip180-1.htm>
+
+This package was put together by Michael Alan Dorman <mdorman@debian.org>.
+Matthias Urlichs <smurf@debian.org> took over maintenance upon the
+release of version 2.10-1 .  However, due to his heavy workload, he
+opted to put this package up for adoption.
+Zak B. Elep <zakame@spunge.org> now maintains this package.
+
+The original sources should always be available from the Comprehensive Perl
+Archive Network (CPAN). Visit <URL:http://www.perl.com/CPAN/> to find a CPAN
+site near you.
+
+The only change for the Debian package was the addition of the debian/
+files.
+
+The Digest::SHA1 copright is as follows:
+
+Copyright 1999-2001 Gisle Aas.
+Copyright 1997 Uwe Hollerbach.
+
+This library is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+Perl is distributed under your choice of the GNU General Public License or
+the Artistic License.  On Debian GNU/Linux systems, the complete text of the
+GNU General Public License can be found in `/usr/share/common-licenses/GPL'
+and the Artistic Licence in `/usr/share/common-licenses/Artistic'.
+

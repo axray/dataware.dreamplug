@@ -1,0 +1,30 @@
+With regards to the autonaming exception stuff:
+---
+There is a wishlist item #89826 ("-d autonaming exception") outstanding
+on Bison. This wishlist item requests that Bison be changed to conform
+to the documentation.
+
+This bug is still open, and no entry stating that this change has been
+performed is to be found anywhere in changelog.Debian.gz.
+
+Changing this behavior, even though it brings it somewhat closer to the
+docs, breaks existing code. A good amount of existing code, at that:
+Suddenly, all code that used to include "parser.c.h" breaks.
+
+While in the long run this change is probably a good idea --- naming it
+"parser.h" does indeed make more sense --- suddenly changing the
+behavior in woody so close to release is probably a bad idea.
+
+Please revert this change, possibly giving an option to enable the new
+behavior. Or, at the very least, document it promenently.
+
+FYI: Bison now names output as follows:
+	parser.c	=> parser.h
+	parser.cpp	=> parser.hpp
+	parser.*	=> parser.output
+
+[ BTW: I doubt this is your fault... I'm betting FSF decided to change
+  this on you and it slipped by. ]
+
+---
+

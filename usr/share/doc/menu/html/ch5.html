@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>Debian Menu System - What packages with menu managers should do</title>
+
+</head>
+
+<body>
+
+<p><a name="ch5"></a></p>
+<hr>
+
+<p>
+[ <a href="ch4.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ <a href="ch1.html">1</a> ]
+[ <a href="ch2.html">2</a> ]
+[ <a href="ch3.html">3</a> ]
+[ <a href="ch4.html">4</a> ]
+[ 5 ]
+[ <a href="ch6.html">6</a> ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch6.html">next</a> ]
+</p>
+
+<hr>
+
+<h1>
+Debian Menu System
+<br>Chapter 5 - What packages with menu managers should do
+</h1>
+
+<hr>
+
+<p>
+Each package containing a <em>menu manager</em> (i.e., a program that can
+display a menu) should provide a script or program in
+<code>/etc/menu-methods/</code> that can read the menu files.  This script will
+be executed by <code>update-menus</code>, which will feed the menu entries to
+be installed to your script via standard input (stdin).
+</p>
+
+<p>
+The scripts in <code>/etc/menu-methods/</code> should be configuration files,
+so the user can tune the behaviour of the script, and they must always include
+the <code>/etc/menu-methods/menu.h</code> configuration file at the beginning
+with the command <samp>!include menu.h</samp> For the same reason, scripts in
+<code>/etc/menu-methods/</code> are requested to use the following configurable
+functions: <samp>title()</samp> for the title (in place of
+<samp>$title</samp>), <samp>icon()</samp> for the icon (in place of
+<samp>$icon</samp>), <samp>term()</samp> for running <samp>text</samp> command
+under <samp>X11</samp>.  <samp>sections_translations()</samp> for the list of
+translations of sections name available.  This later one is only defined if you
+<samp>!include lang.h</samp>
+</p>
+
+<p>
+Good examples for these scripts for nearly all Debian window managers are
+included in the <samp>menu</samp> package in
+<code>/usr/share/doc/menu/examples</code>.  Note that while working on your
+script, you can use the tricks described in &quot;The internals of the menu
+package&quot;, section &quot;The update-menus program&quot;, to run just your
+script, instead of having update-menus run all scripts (can save quite a lot of
+time).
+</p>
+
+<p>
+This script should not be executable in the package.  Instead the
+<samp>postinst</samp> should add the execute bit and then run
+<code>update-menus</code> (if it is executable).
+</p>
+
+<p>
+Similarly, the <code>postrm</code> script when called with option ``remove''
+should remove the execute bit and run <code>update-menus</code> (if it is
+executable).
+</p>
+
+<p>
+Here is an example of such a <code>postrm</code> script using <code>sh</code>:
+</p>
+
+<pre>
+       #!/bin/sh
+       set -e
+       inst=/etc/menu-methods/#PACKAGE#
+       case &quot;$1&quot; in
+          remove)
+             if [ -f $inst ]; then
+                     chmod a-x $inst
+                     if [ -x /usr/bin/update-menus ]; then update-menus ; fi
+             fi
+          ;;
+          purge)
+              #remove the files that install-menu creates:
+              (cd /etc/X11/twm/; rm system.twmrc menus.dat menudefs.hook)
+          ;;
+          upgrade);;
+          *)
+              echo &quot;postrm called with unknown argument \`$1'&quot; &gt;&amp;2
+              exit 0
+          ;;
+       esac
+</pre>
+
+<p>
+And here is a good example for a <code>postinst</code> script:
+</p>
+
+<pre>
+       #!/bin/sh
+       set -e
+       inst=/etc/menu-methods/#PACKAGE#
+       if [ -f $inst ]; then
+           chmod a+x $inst
+           if [ -x /usr/bin/update-menus ]; then
+               update-menus
+           fi
+       fi
+</pre>
+
+<p>
+<var>Note:</var>
+</p>
+
+<p>
+<var>Previous version of menu were advertising the script
+<code>/usr/sbin/wm-menu-config</code>.  There was a flaw: this script was only
+available when menu is installed and so the menu-method script was not
+executable if menu was installed afterward.</var>
+</p>
+
+<p>
+<var>This script is considered deprecated, please don't use it anymore.</var>
+</p>
+
+<p>
+Please, do not make your package <em>depend</em> on the menu package!  The
+preferred way of telling dpkg that your wm can cooperate with menu is:
+</p>
+
+<pre>
+        Suggests: menu
+</pre>
+
+<p>
+Please only consider using &quot;depends&quot; if you feel providing reasonable
+defaults for systems without <code>menu</code> will make life very difficult
+for you.
+</p>
+
+<hr>
+
+<p>
+[ <a href="ch4.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ <a href="ch1.html">1</a> ]
+[ <a href="ch2.html">2</a> ]
+[ <a href="ch3.html">3</a> ]
+[ <a href="ch4.html">4</a> ]
+[ 5 ]
+[ <a href="ch6.html">6</a> ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch6.html">next</a> ]
+</p>
+
+<hr>
+
+<p>
+Debian Menu System
+</p>
+
+<address>
+version 1.4, 12 May 2008<br>
+<br>
+Joost Witteveen <code><a href="mailto:joostje@debian.org">joostje@debian.org</a></code><br>
+Joey Hess <code><a href="mailto:joeyh@debian.org">joeyh@debian.org</a></code><br>
+Christian Schwarz <code><a href="mailto:schwarz@debian.org">schwarz@debian.org</a></code><br>
+Bill Allombert <code><a href="mailto:ballombe@debian.org">ballombe@debian.org</a></code><br>
+<br>
+</address>
+<hr>
+
+</body>
+
+</html>
+

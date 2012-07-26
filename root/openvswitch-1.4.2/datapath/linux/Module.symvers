@@ -1,0 +1,2 @@
+0x00000000	ovs_dp_ioctl_hook	/root/openvswitch-1.4.2/datapath/linux/openvswitch_mod	EXPORT_SYMBOL
+0x00000000	br_should_route_hook	/root/openvswitch-1.4.2/datapath/linux/brcompat_mod	EXPORT_SYMBOL

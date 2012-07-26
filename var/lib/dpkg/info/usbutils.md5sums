@@ -1,0 +1,9 @@
+d762c2ab8f2bf347dded86055bf1047a  var/lib/usbutils/usb.ids
+2f7ae1135e2c860bcc580b493dbda993  usr/sbin/lsusb
+c73bf2ae30481e0ed8823cfbf499c54f  usr/sbin/update-usbids
+ed9de311ccbd7fe23c3aea8b99c55eec  usr/share/doc/usbutils/changelog.gz
+fff004063808a07d3729e1d2a1362e4f  usr/share/doc/usbutils/README.Debian
+9e913bdedd85111d966e79d3569f0f2b  usr/share/doc/usbutils/copyright
+ba5bcde74838b394a2af366041428267  usr/share/doc/usbutils/changelog.Debian.gz
+c30060add260e54b77ed3e15506b5c21  usr/share/man/man8/lsusb.8.gz
+5e5e34b47016c17e5a1cd4a004faa9f3  usr/share/man/man8/update-usbids.8.gz

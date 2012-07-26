@@ -1,0 +1,18 @@
+#!/bin/sh
+# vim:ts=2:et
+# $Id: bsd-mailx.prerm,v 1.2 2007-12-01 12:06:49 robert Exp $
+
+set -e
+
+if [ "$1" = "remove" ]; then
+  update-alternatives --remove "mailx" "/usr/bin/bsd-mailx"
+fi
+
+# Automatically added by dh_installdocs
+if [ "$1" = remove ] || [ "$1" = upgrade ] && \
+   which install-docs >/dev/null 2>&1; then
+	install-docs -r bsd-mailx
+fi
+# End automatically added section
+
+

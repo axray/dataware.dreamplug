@@ -1,0 +1,10 @@
+f2823fe2f8d7c8c4da9e859621edef37  usr/share/lintian/overrides/libicu38
+08077630fb17fa96d087e7417f9bb2c4  usr/share/doc/libicu38/changelog.Debian.gz
+47f21d248aeac736aa4e319ea6957155  usr/share/doc/libicu38/copyright
+248ff817ce6f8861d45f02d4e1490f03  usr/lib/libicuuc.so.38.1
+13d5857bef217a3706efc11bf73ed7d3  usr/lib/libicudata.so.38.1
+ea6d113fb7622bb396dc39dc652f8c5a  usr/lib/libicui18n.so.38.1
+d747c028592d27febdc19f429931272b  usr/lib/libicule.so.38.1
+523795b6f8e568a2c656128d24fe7d68  usr/lib/libicuio.so.38.1
+3f4905b09c2bafa7d1e244a9696cbff6  usr/lib/libicutu.so.38.1
+3fdc20574dc38cec4c58d31f817b50c9  usr/lib/libiculx.so.38.1

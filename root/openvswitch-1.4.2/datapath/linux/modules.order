@@ -1,0 +1,2 @@
+kernel//root/openvswitch-1.4.2/datapath/linux/openvswitch_mod.ko
+kernel//root/openvswitch-1.4.2/datapath/linux/brcompat_mod.ko

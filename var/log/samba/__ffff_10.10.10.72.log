@@ -1,0 +1,64 @@
+[2009/08/08 08:15:52,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2009/08/08 08:15:52,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2009/08/08 08:15:52,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 51 (0 toread)
+[2009/08/08 08:15:52,  3] smbd/process.c:switch_message(1374)
+  switch message SMBnegprot (pid 2583) conn 0x0
+[2009/08/08 08:15:52,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2009/08/08 08:15:52,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [NT LM 0.12]
+[2009/08/08 08:15:52,  3] smbd/negprot.c:reply_nt1(373)
+  not using SPNEGO
+[2009/08/08 08:15:52,  3] smbd/negprot.c:reply_negprot(673)
+  Selected protocol NT LM 0.12
+[2009/08/08 08:15:52,  3] smbd/process.c:process_smb(1570)
+  Transaction 1 of length 77 (0 toread)
+[2009/08/08 08:15:52,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 2583) conn 0x0
+[2009/08/08 08:15:52,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2009/08/08 08:15:52,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=13 flg2=0x0
+[2009/08/08 08:15:52,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1608)
+  Domain=[]  NativeOS=[MS] NativeLanMan=[CLIENT] PrimaryDomain=[null]
+[2009/08/08 08:15:52,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1624)
+  sesssetupX:name=[]\[]@[__ffff_10.10.10.72]
+[2009/08/08 08:15:52,  3] smbd/sesssetup.c:check_guest_password(159)
+  Got anonymous request
+[2009/08/08 08:15:52,  3] auth/auth.c:check_ntlm_password(220)
+  check_ntlm_password:  Checking password for unmapped user []\[]@[] with the new password interface
+[2009/08/08 08:15:52,  3] auth/auth.c:check_ntlm_password(223)
+  check_ntlm_password:  mapped user is: []\[]@[]
+[2009/08/08 08:15:52,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2009/08/08 08:15:52,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2009/08/08 08:15:52,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2009/08/08 08:15:52,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2009/08/08 08:15:52,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2009/08/08 08:15:52,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2009/08/08 08:15:52,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2009/08/08 08:15:52,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2009/08/08 08:15:52,  3] auth/auth.c:check_ntlm_password(269)
+  check_ntlm_password: guest authentication for user [] succeeded
+[2009/08/08 08:15:52,  3] smbd/password.c:register_existing_vuid(314)
+  register_existing_vuid: User name: nobody	Real name: nobody
+[2009/08/08 08:15:52,  3] smbd/password.c:register_existing_vuid(326)
+  register_existing_vuid: UNIX uid 65534 is UNIX user nobody, and will be vuid 100
+[2009/08/08 08:15:52,  3] smbd/process.c:smbd_process(2056)
+  receive_message_or_smb failed: NT_STATUS_END_OF_FILE, exiting
+[2009/08/08 08:15:52,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2009/08/08 08:15:52,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2009/08/08 08:15:52,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)

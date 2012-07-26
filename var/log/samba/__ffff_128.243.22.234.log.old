@@ -1,0 +1,920 @@
+[2012/07/23 13:19:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:19:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:19:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:19:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:19:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:19:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:19:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:19:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:19:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:19:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:22:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:22:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:22:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:22:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:22:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:25:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:25:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:25:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:25:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:25:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:25:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:25:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:25:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:25:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:25:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:28:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:28:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:28:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:28:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:28:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:31:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:31:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:31:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:31:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:31:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:31:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:31:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:31:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:31:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:31:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:34:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:34:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:34:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:34:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:34:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:37:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:37:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:37:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:37:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:37:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:37:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:37:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:37:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:37:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:37:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:40:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:40:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:40:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:40:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:40:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:43:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:43:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:43:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:43:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:43:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:43:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:43:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:43:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:43:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:43:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:46:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:46:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:46:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:46:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:46:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:49:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:49:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:49:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:49:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:49:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:49:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:49:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:49:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:49:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:49:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:52:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:52:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:52:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:52:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:52:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:55:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:55:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:55:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:55:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:55:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:55:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:55:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:55:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:55:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:55:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 13:58:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 13:58:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 13:58:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 13:58:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 13:58:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:01:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:01:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:01:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:01:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:01:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:01:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:01:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:01:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:01:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:01:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:04:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:04:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:04:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:04:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:04:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:07:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:07:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:07:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:07:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:07:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:07:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:07:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:07:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:07:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:07:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:10:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:10:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:10:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:10:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:10:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:13:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:13:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:13:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:13:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:13:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:13:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:13:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:13:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:13:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:13:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:16:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:16:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:16:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:16:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:16:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:19:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:19:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:19:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:19:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:19:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:19:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:19:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:19:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:19:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:19:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:22:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:22:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:22:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:22:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:22:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:25:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:25:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:25:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:25:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:25:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:25:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:25:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:25:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:25:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:25:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:28:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:28:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:28:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:28:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:28:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:31:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:31:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:31:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:31:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:31:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:31:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:31:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:31:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:31:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:31:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:34:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:34:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:34:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:34:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:34:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:37:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:37:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:37:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:37:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:37:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:37:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:37:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:37:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:37:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:37:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:40:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:40:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:40:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:40:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:40:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:43:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:43:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:43:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:43:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:43:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:43:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:43:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:43:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:43:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:43:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:46:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:46:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:46:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:46:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:46:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:49:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:49:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:49:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:49:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:49:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:49:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:49:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:49:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:49:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:49:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:52:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:52:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:52:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:52:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:52:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:55:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:55:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:55:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:55:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:55:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:55:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:55:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:55:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:55:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:55:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 14:58:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 14:58:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 14:58:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 14:58:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 14:58:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:01:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:01:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:01:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:01:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:01:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:01:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:01:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:01:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:01:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:01:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:04:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:04:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:04:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:04:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:04:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:07:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:07:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:07:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:07:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:07:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:07:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:07:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:07:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:07:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:07:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:10:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:10:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:10:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:10:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:10:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:13:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:13:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:13:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:13:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:13:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:13:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:13:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:13:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:13:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:13:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:16:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:16:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:16:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:16:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:16:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:19:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:19:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:19:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:19:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:19:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:19:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:19:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:19:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:19:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:19:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:22:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:22:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:22:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:22:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:22:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:25:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:25:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:25:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:25:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:25:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:25:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:25:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:25:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:25:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:25:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:28:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:28:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:28:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:28:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:28:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:31:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:31:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:31:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:31:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:31:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:31:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:31:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:31:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:31:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:31:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:34:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:34:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:34:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:34:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:34:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:37:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:37:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:37:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:37:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:37:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:37:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:37:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:37:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:37:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:37:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:40:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:40:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:40:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:40:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:40:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:43:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:43:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:43:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:43:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:43:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:43:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:43:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:43:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:43:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:43:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:46:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:46:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:46:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:46:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:46:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:49:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:49:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:49:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:49:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:49:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:49:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:49:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:49:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:49:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:49:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:52:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:52:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:52:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:52:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:52:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:55:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:55:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:55:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:55:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:55:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:55:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:55:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:55:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:55:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:55:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 15:58:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:58:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:58:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:58:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 15:58:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:01:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:01:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:01:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:01:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:01:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:01:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:01:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:01:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:01:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:01:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:04:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:04:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:04:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:04:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:04:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:07:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:07:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:07:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:07:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:07:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:07:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:07:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:07:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:07:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:07:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:10:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:10:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:10:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:10:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:10:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:13:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:13:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:13:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:13:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:13:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:13:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:13:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:13:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:13:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:13:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:16:26,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:16:26,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:16:26,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:16:26,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:16:26,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:19:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:19:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:19:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:19:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:19:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0
+[2012/07/23 16:19:25,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:19:25,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:19:25,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:19:25,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=128.243.22.242  name2=DHCP-22-234    
+[2012/07/23 16:19:25,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=128.243.22.242 remote=dhcp-22-234, name type = 0

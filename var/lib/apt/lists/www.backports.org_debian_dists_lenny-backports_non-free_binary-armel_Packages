@@ -1,0 +1,407 @@
+Package: emacs23-common-non-dfsg
+Priority: optional
+Section: non-free/editors
+Installed-Size: 4408
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Source: emacs23-non-dfsg
+Version: 23.1+1-1~bpo50+1
+Replaces: emacs22-common (<< 22.2)
+Conflicts: emacs22-common (<< 22.2)
+Filename: pool/non-free/e/emacs23-non-dfsg/emacs23-common-non-dfsg_23.1+1-1~bpo50+1_all.deb
+Size: 4007352
+MD5sum: b5e33a1a3dbdc55f61056d987128745e
+SHA1: 73a49ae03ae3d0a37a426610322edcadfe7c8e39
+SHA256: 81757c01ad1847efdf842f6363f05c42275931eaa43886066c528acb2988acfb
+Description: GNU Emacs shared, architecture independent, non-DFSG items
+ GNU Emacs is the extensible self-documenting text editor.  This
+ package contains the architecture independent infrastructure that is
+ not compliant with the Debian Free Software Guidelines.  In
+ particular, this includes some of the GNU Emacs info pages, as they
+ are covered under the GFDL, and they specify invariant sections.
+ See http://www.debian.org/vote/2006/vote_001 for more information.
+
+Package: firmware-bnx2
+Priority: optional
+Section: non-free/admin
+Installed-Size: 900
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Suggests: initramfs-tools, linux-image
+Filename: pool/non-free/f/firmware-nonfree/firmware-bnx2_0.24~bpo50+1_all.deb
+Size: 404592
+MD5sum: 29893118eb21b147e5eaee21d68c4293
+SHA1: b862049ef6cd261c4403fbb23e4bca8cc38b6606
+SHA256: fc387fef48ab5c793c6eaa6ecded75f538e450857029b47519be2ad3a1923ae0
+Description: Binary firmware for Broadcom NetXtremeII
+ This package contains the binary firmware for Broadcom NetXtremeII network
+ adapters supported by the bnx2 driver.
+ .
+ Contents:
+  * Broadcom NetXtremeII 5706/5708 firmware, version Linux 2.6.25 (bnx2-06-4.0.5.fw)
+  * Broadcom NetXtremeII 5709 firmware, version Linux 2.6.25 (bnx2-09-4.0.5.fw)
+  * Broadcom NetXtremeII 5706/5708 firmware, version Linux 2.6.29 (bnx2-06-4.6.16.fw)
+  * Broadcom NetXtremeII 5709/5716 firmware, version Linux 2.6.29 (bnx2-09-4.6.15.fw)
+  * Broadcom NetXtremeII 5706/5708 firmware (mips), version Linux 2.6.30 (bnx2/bnx2-mips-06-4.6.16.fw)
+  * Broadcom NetXtremeII 5706/5708 firmware (rv2p), version Linux 2.6.30 (bnx2/bnx2-rv2p-06-4.6.16.fw)
+  * Broadcom NetXtremeII 5709/5716 firmware (mips), version Linux 2.6.30 (bnx2/bnx2-mips-09-4.6.17.fw)
+  * Broadcom NetXtremeII 5709/5716 firmware (rv2p), version Linux 2.6.30 (bnx2/bnx2-rv2p-09-4.6.15.fw)
+  * Broadcom NetXtremeII 5706/5708 firmware (mips), version Linux 2.6.32 (bnx2/bnx2-mips-06-5.0.0.j3.fw)
+  * Broadcom NetXtremeII 5706/5708 firmware (rv2p), version Linux 2.6.32 (bnx2/bnx2-rv2p-06-5.0.0.j3.fw)
+  * Broadcom NetXtremeII 5709/5716 firmware (mips), version Linux 2.6.32 (bnx2/bnx2-mips-09-5.0.0.j3.fw)
+  * Broadcom NetXtremeII 5709/5716 firmware (rv2p), version Linux 2.6.32 (bnx2/bnx2-rv2p-09-5.0.0.j3.fw)
+  * Broadcom NetXtremeII 5709 A0/A1 firmware (rv2p), version Linux 2.6.32 (bnx2/bnx2-rv2p-09ax-5.0.0.j3.fw)
+Homepage: http://ftp.kernel.org/pub/linux/kernel/
+
+Package: firmware-bnx2x
+Priority: optional
+Section: non-free/kernel
+Installed-Size: 776
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Suggests: initramfs-tools, linux-image
+Filename: pool/non-free/f/firmware-nonfree/firmware-bnx2x_0.24~bpo50+1_all.deb
+Size: 683006
+MD5sum: 713ee92abc3e21bbf52c7575b61cf662
+SHA1: 702428c5aee47ce376751373ee08d9e7dadf2659
+SHA256: da595f2f5d73239eac7dfce3c561cb61512b75fc00fcee031d7d404b1c5e8124
+Description: Binary firmware for Broadcom NetXtreme II 10Gb
+ This package contains the binary firmware for Broadcom NetXtreme II 10Gb
+ network adapters supported by the bnx2x driver.
+ .
+ Contents:
+  * Broadcom NetXtreme II 10Gb 57710, version 4.8.53.0 (bnx2x-e1-4.8.53.0.fw)
+  * Broadcom NetXtreme II 10Gb 57711, version 4.8.53.0 (bnx2x-e1h-4.8.53.0.fw)
+  * Broadcom NetXtreme II 10Gb 57710, version 5.0.21.0 (bnx2x-e1-5.0.21.0.fw)
+  * Broadcom NetXtreme II 10Gb 57711, version 5.0.21.0 (bnx2x-e1h-5.0.21.0.fw)
+Homepage: http://ftp.kernel.org/pub/linux/kernel/
+
+Package: firmware-intelwimax
+Priority: optional
+Section: non-free/kernel
+Installed-Size: 1268
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Suggests: initramfs-tools, linux-image
+Filename: pool/non-free/f/firmware-nonfree/firmware-intelwimax_0.24~bpo50+1_all.deb
+Size: 741232
+MD5sum: 3b8ba7bacb258c30731d55f34b04408d
+SHA1: e7f488ac78fec1d85e8efef5c4c5f863e373fc31
+SHA256: a2737dd53217457d784bd9c0a81648955e251337a88c26ae063277c928fabb14
+Description: Binary firmware for Intel WiMAX Connection
+ This package contains the binary firmware for Intel WiMAX Connection
+ devices supported by the i2400m-usb driver.
+ .
+ Contents:
+  * Intel WiMAX Connection 2400 USB firmware, version 1.4 (i2400m-fw-usb-1.4.sbcf)
+Homepage: http://linuxwimax.org/Download
+
+Package: firmware-ipw2x00
+Priority: optional
+Section: non-free/admin
+Installed-Size: 1252
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Pre-Depends: debconf | debconf-2.0
+Suggests: initramfs-tools, linux-image
+Filename: pool/non-free/f/firmware-nonfree/firmware-ipw2x00_0.24~bpo50+1_all.deb
+Size: 521816
+MD5sum: 81b8b9c3dae99c576c765f599bc072de
+SHA1: 1f04f6a35b0c858bbbb1c540a945dd350e311013
+SHA256: 3c9332f88d051c0fc241e72be98a466f62e35874fc6fc741ba50b68f843f92a4
+Description: Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
+ This package contains the binary firmware for Intel Pro Wireless 2100,
+ 2200 and 2915 cards supported by the ipw2100 and ipw2200 drivers.
+ .
+ Contents:
+  * Intel Pro Wireless 2100 firmware (bootstrap), version 1.3 (ipw2100-1.3.fw)
+  * Intel Pro Wireless 2100 firmware (ibss mode), version 1.3 (ipw2100-1.3-i.fw)
+  * Intel Pro Wireless 2100 firmware (monitor mode), version 1.3 (ipw2100-1.3-p.fw)
+  * Intel Pro Wireless 2200/2915 firmware (bss), version 3.0 (ipw2200-bss.fw)
+  * Intel Pro Wireless 2200/2915 firmware (ibss), version 3.0 (ipw2200-ibss.fw)
+  * Intel Pro Wireless 2200/2915 firmware (snf), version 3.0 (ipw2200-sniffer.fw)
+ .
+ This firmware is covered by the Intel Pro Wireless 2100 and 2200/2915
+ License.  You must agree to the terms of this license before it is
+ installed.
+Homepage: http://ipw2100.sourceforge.net/firmware.php?fid=4, http://ipw2200.sourceforge.net/firmware.php?fid=7
+
+Package: firmware-ivtv
+Priority: optional
+Section: non-free/kernel
+Installed-Size: 888
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Pre-Depends: debconf | debconf-2.0
+Suggests: initramfs-tools, linux-image
+Filename: pool/non-free/f/firmware-nonfree/firmware-ivtv_0.24~bpo50+1_all.deb
+Size: 134268
+MD5sum: 3149d87c3bb960ad233587d49201bd59
+SHA1: 2d1397fda80683aad9b7f0dc952217dd021a0e56
+SHA256: 11fe1c3298ad701a590783bc4cff4b494a8d12b25e3c173b489b674c38b31943
+Description: Binary firmware for iTVC15-family MPEG codecs (ivtv and pvrusb2 drivers)
+ This package contains the binary firmware for TV cards with Conexant
+ iTVC15-family MPEG codecs, supported by the ivtv and pvrusb2 drivers.
+ .
+ Contents:
+  * Conexant CX23415/CX23416 MPEG codec (decoder) (v4l-cx2341x-dec.fw)
+  * Conexant CX23415/CX23416 MPEG codec (encoder) (v4l-cx2341x-enc.fw)
+  * Conexant CX23415/CX23416 MPEG codec (initialization) (v4l-cx2341x-init.mpg)
+  * Conexant CX25840 MPEG codec (v4l-cx25840.fw)
+  * Hauppauge PVR USB2 24xxx models (v4l-pvrusb2-24xxx-01.fw)
+  * Hauppauge PVR USB2 29xxx models (v4l-pvrusb2-29xxx-01.fw)
+ .
+ This firmware is covered by the Hauppauge End-User Firmware License
+ Agreement.  You must agree to the terms of this license before it is
+ installed.
+Homepage: http://dl.ivtvdriver.org/ivtv/firmware/
+
+Package: firmware-iwlwifi
+Priority: optional
+Section: non-free/admin
+Installed-Size: 2540
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Suggests: initramfs-tools, linux-image
+Filename: pool/non-free/f/firmware-nonfree/firmware-iwlwifi_0.24~bpo50+1_all.deb
+Size: 1214040
+MD5sum: c449f152a49d052085a58fbc090c7e7d
+SHA1: 67975a0ab6717fed40ba6557154b7c4aae27ea1a
+SHA256: fd2900ee876bd20ed0591db1102ae282b0969b3b159fc257748158b64756cc0f
+Description: Binary firmware for Intel Wireless 3945, 4965 and 5000-series cards
+ This package contains the binary firmware for Intel Wireless 1000, 3945,
+ 4965, 5100, 5300 and 6000 cards supported by the iwl3945 and iwlagn
+ drivers.
+ .
+ Contents:
+  * Intel Wireless 1000 firmware, version 128.50.3.1 (iwlwifi-1000-3.ucode)
+  * Intel Wireless 3945 firmware, version 15.28.1.6 (iwlwifi-3945-1.ucode)
+  * Intel Wireless 3945 firmware, version 15.32.2.9 (iwlwifi-3945-2.ucode)
+  * Intel Wireless 4965 firmware, version 228.57.1.21 (iwlwifi-4965-1.ucode)
+  * Intel Wireless 4965 firmware, version 228.61.2.24 (iwlwifi-4965-2.ucode)
+  * Intel Wireless 5100, 5300 and 5350 firmware, version 5.4.A.11 (iwlwifi-5000-1.ucode)
+  * Intel Wireless 5100, 5300 and 5350 firmware, version 8.24.2.12 (iwlwifi-5000-2.ucode)
+  * Intel Wireless 5150 firmware, version 8.24.2.2 (iwlwifi-5150-2.ucode)
+  * Intel Wireless 6000 firmware, version 9.193.4.1 (iwlwifi-6000-4.ucode)
+Homepage: http://intellinuxwireless.org/?p=iwlwifi&n=downloads
+
+Package: firmware-linux-nonfree
+Priority: optional
+Section: non-free/kernel
+Installed-Size: 820
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Replaces: firmware-linux (<< 0.19)
+Suggests: initramfs-tools, linux-image
+Conflicts: firmware-linux (<< 0.19)
+Filename: pool/non-free/f/firmware-nonfree/firmware-linux-nonfree_0.24~bpo50+1_all.deb
+Size: 252658
+MD5sum: a628f007cb134d88e932f8c494f0f53d
+SHA1: 74dbd667bd6c42b0737a35cfb4455925a69f23fa
+SHA256: 285a0a2c73e752a5a8eba1637f988ebb70745ee94f7c452de2f599a0233c9a2b
+Description: Binary firmware for various drivers in the Linux kernel
+ This package contains the binary firmware for  various drivers in the
+ Linux kernel.  This is a collection of firmware blobs which are not
+ individually large enough to warrant a standalone package.
+ .
+ Contents:
+  * 3Com Typhoon firmware, version 03.001.008 (3com/typhoon.bin)
+  * AdvanSys ASC-3550 firmware (advansys/3550.bin)
+  * AdvanSys ASC-38C0800 firmware (advansys/38C0800.bin)
+  * AdvanSys ASC-38C1600 firmware (advansys/38C1600.bin)
+  * AdvanSys SCSI controller microcode (advansys/mcode.bin)
+  * Agere/Prism/Symbol Orinoco firmware (AP mode), version 9.48 Hermes I (agere_ap_fw.bin)
+  * Agere/Prism/Symbol Orinoco firmware (STA mode), version 9.48 Hermes I (agere_sta_fw.bin)
+  * Chelsio T3 optical EDC firmware (AEL2005 PHY) (cxgb3/ael2005_opt_edc.bin)
+  * Chelsio T3 twinax EDC firmware (AEL2005 PHY) (cxgb3/ael2005_twx_edc.bin)
+  * Chelsio T3 twinax EDC firmware (AEL2020 PHY) (cxgb3/ael2020_twx_edc.bin)
+  * Chelsio T3B protocol engine firmware, version 1.1.0 (cxgb3/t3b_psram-1.1.0.bin)
+  * Chelsio T3C protocol engine firmware, version 1.1.0 (cxgb3/t3c_psram-1.1.0.bin)
+  * Chelsio T3 main firmware, version 7.4.0 (cxgb3/t3fw-7.4.0.bin)
+  * DAB-USB FPGA bitfile (dabusb/bitstream.bin)
+  * DAB-USB firmware (dabusb/firmware.fw)
+  * Xceive 5000 tuner firmware, version 1.6.114 (dvb-fe-xc5000-1.6.114.fw)
+  * DiBcom dib0700 USB DVB bridge firmware, version 1.20 (dvb-usb-dib0700-1.20.fw)
+  * Intel 82559 D101M microcode (e100/d101m_ucode.bin)
+  * Intel 82559 D101S microcode (e100/d101s_ucode.bin)
+  * Intel 82551-F and 82551-10 microcode (e100/d102e_ucode.bin)
+  * kaweth/new_code.bin
+  * kaweth/new_code_fix.bin
+  * kaweth/trigger_code.bin
+  * kaweth/trigger_code_fix.bin
+  * Matrox G200 WARP engine microcode (matrox/g200_warp.fw)
+  * Matrox G400/G550 WARP engine microcode (matrox/g400_warp.fw)
+  * Rage 128 CCE microcode (r128/r128_cce.bin)
+  * Radeon R100-family CP microcode (radeon/R100_cp.bin)
+  * Radeon R200-family CP microcode (radeon/R200_cp.bin)
+  * Radeon R300-family CP microcode (radeon/R300_cp.bin)
+  * Radeon R400-family CP microcode (radeon/R420_cp.bin)
+  * Radeon R500-family CP microcode (radeon/R520_cp.bin)
+  * Radeon R600 ME microcode (radeon/R600_me.bin)
+  * Radeon R600 PFP microcode (radeon/R600_pfp.bin)
+  * Radeon R600-family RLC microcode (radeon/R600_rlc.bin)
+  * Radeon R700-family RLC microcode (radeon/R700_rlc.bin)
+  * Radeon RS600 CP microcode (radeon/RS600_cp.bin)
+  * Radeon RS690 CP microcode (radeon/RS690_cp.bin)
+  * Radeon RS780 ME microcode (radeon/RS780_me.bin)
+  * Radeon RS780 PFP microcode (radeon/RS780_pfp.bin)
+  * Radeon RV610 ME microcode (radeon/RV610_me.bin)
+  * Radeon RV610 PFP microcode (radeon/RV610_pfp.bin)
+  * Radeon RV620 ME microcode (radeon/RV620_me.bin)
+  * Radeon RV620 PFP microcode (radeon/RV620_pfp.bin)
+  * Radeon RV630 ME microcode (radeon/RV630_me.bin)
+  * Radeon RV630 PFP microcode (radeon/RV630_pfp.bin)
+  * Radeon RV635 ME microcode (radeon/RV635_me.bin)
+  * Radeon RV635 PFP microcode (radeon/RV635_pfp.bin)
+  * Radeon RV670 ME microcode (radeon/RV670_me.bin)
+  * Radeon RV670 PFP microcode (radeon/RV670_pfp.bin)
+  * Radeon RV710 ME microcode (radeon/RV710_me.bin)
+  * Radeon RV710 PFP microcode (radeon/RV710_pfp.bin)
+  * Radeon RV730 ME microcode (radeon/RV730_me.bin)
+  * Radeon RV730 PFP microcode (radeon/RV730_pfp.bin)
+  * Radeon RV770 ME microcode (radeon/RV770_me.bin)
+  * Radeon RV770 PFP microcode (radeon/RV770_pfp.bin)
+  * Tehuti network card firmware (tehuti/bdx.bin)
+  * Broadcom BCM5703/BCM5704 TSO firmware (tigon/tg3_tso.bin)
+  * Broadcom BCM5701A0 firmware (tigon/tg3.bin)
+  * Broadcom BCM5705 TSO firmware (tigon/tg3_tso5.bin)
+Homepage: http://git.kernel.org/?p=linux/kernel/git/dwmw2/linux-firmware.git
+
+Package: firmware-linux
+Priority: optional
+Section: non-free/admin
+Installed-Size: 32
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Depends: firmware-linux-free, firmware-linux-nonfree (= 0.24~bpo50+1)
+Filename: pool/non-free/f/firmware-nonfree/firmware-linux_0.24~bpo50+1_all.deb
+Size: 5130
+MD5sum: 4018bd0c9f8911f09d0a2ac61bd4ed65
+SHA1: a9f3bbd1f48e0414ddf5393032328deee851995b
+SHA256: 74f87c5967eddb36daf9a2b3fd1fd11db5bc9e4e27f93ea3a6194766b5c77f26
+Description: Binary firmware for various drivers in the Linux kernel (meta-package)
+ This package depends on both free and non-free firmware which was
+ previously included in the Linux kernel.
+
+Package: firmware-qlogic
+Priority: optional
+Section: non-free/admin
+Installed-Size: 1020
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Suggests: initramfs-tools, linux-image
+Filename: pool/non-free/f/firmware-nonfree/firmware-qlogic_0.24~bpo50+1_all.deb
+Size: 482126
+MD5sum: cb7ce592ed2915d9bf375c9b1b07ca15
+SHA1: 98d54f62753f77acbc106f57729f2e17b072443e
+SHA256: 940435c1ddf9e8f5443cff44d73100b5cf0659391378eff52b53c9b14e7dec33
+Description: Binary firmware for QLogic IBA7220, QLA1xxx, ISP2xxx and SP2x2
+ This package contains the binary firmware for QLogic IBA7220 (Infiniband),
+ QLA1xxx (SCSI), ISP2xxx- and SP2x2-based (Fibre Channel/FCoE) host
+ adapters supported by the ip_iband, qla1280 and qla2xxx drivers.
+ .
+ Contents:
+  * QLogic QLA1040 firmware, version 7.65.06 (qlogic/1040.bin)
+  * QLogic QLA1080, 1240, 1280 firmware, version 8.15.11 (qlogic/1280.bin)
+  * QLogic QLA10160, 12160 firmware, version 10.04.42 (qlogic/12160.bin)
+  * QLogic IBA7220 serdes firmware (qlogic/sd7220.fw)
+  * QLogic QLA2100 firmware, version 1.19.38 (ql2100_fw.bin)
+  * QLogic QLA2200 firmware, version 2.02.08 (ql2200_fw.bin)
+  * QLogic QLA2300, ISP2312, SP202 firmware, version 3.03.27 (ql2300_fw.bin)
+  * QLogic ISP2322, SP212 firmware, version 3.03.27 (ql2322_fw.bin)
+  * QLogic ISP2422, ISP2432[M], SP222, SP232 firmware, version 4.04.05 (ql2400_fw.bin)
+  * QLogic ISP2532 firmware, version 4.04.05 (ql2500_fw.bin)
+Homepage: ftp://ftp.qlogic.com/outgoing/linux/firmware/
+
+Package: firmware-ralink
+Priority: optional
+Section: non-free/admin
+Installed-Size: 92
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Suggests: initramfs-tools, linux-image
+Filename: pool/non-free/f/firmware-nonfree/firmware-ralink_0.24~bpo50+1_all.deb
+Size: 18944
+MD5sum: 3a014de8a6df823be3cd450fe2c00a3d
+SHA1: b7eda2b1e527c61a323df7a8143fe2bc8f36c7b5
+SHA256: ccf791152a7d31baa1647080ad4f52c3395425bce980585426b997014c1e568c
+Description: Binary firmware for Ralink RT2561, RT2571, RT2661 and RT2671 wireless cards
+ This package contains the binary firmware for wireless network cards with
+ the Ralink RT2501 [Turbo], RT2600, RT5201 [Turbo], RT5600, RT5201USB,
+ RT2800P[D], RT2700P[D], RT2700E[D], RT2800E[D], RT2800U[D], RT3000U[D] or
+ RT3000E[D] chipsets supported by the rt61/rt61pci, rt73/rt73usb,
+ rt2860sta, rt2870sta/rt2870, rt3070sta or rt3090sta drivers.
+ .
+ Contents:
+  * Ralink RT2561 (RT2501/RT5201 chipset) firmware, version 1.2 (rt2561.bin)
+  * Ralink RT2561S (RT2501 Turbo/RT5201 Turbo chipset) firmware, version 1.2 (rt2561s.bin)
+  * Ralink RT2661 (RT2600/RT5600 chipset) firmware, version 1.2 (rt2661.bin)
+  * Ralink RT2760/RT2790/RT2860/RT2890 (RT2700P[D]/RT2700E[D]/RT2800P[D]/RT2800E[D] chipset) firmware, version 11 (rt2860.bin)
+  * Ralink RT2870 (RT2800U[D] chipset) firmware, version 12 (rt2870.bin)
+  * Ralink RT3071 (RT3000U[D] chipset) firmware, version 2 (rt3071.bin)
+  * Ralink RT3090 (RT3000E[D] chipset) firmware, version 19 (rt3090.bin)
+  * Ralink RT2571W/RT2671 (RT2501USB/RT5201USB chipset) firmware, version 1.8 (rt73.bin)
+Homepage: http://www.ralinktech.com/support.php?s=2
+
+Package: firmware-realtek
+Priority: optional
+Section: non-free/kernel
+Installed-Size: 184
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Source: firmware-nonfree
+Version: 0.24~bpo50+1
+Suggests: initramfs-tools, linux-image
+Filename: pool/non-free/f/firmware-nonfree/firmware-realtek_0.24~bpo50+1_all.deb
+Size: 66832
+MD5sum: d4da70f5406c372e8dbc9cedbbc9e3e2
+SHA1: f63662d879bb6e6d61396576f5b6b50c9b55b0ba
+SHA256: 2daa1963124be39ffd9eb3b8e503347eff8c3d0aeaf64fe67520ebb3db50d784
+Description: Binary firmware for Realtek RTL8192 wireless cards
+ This package contains the binary firmware for wireless network cards with
+ the RTL8192 chips supported by the rtl8192e and rtl8192su drivers.
+ .
+ Contents:
+  * Realtek RTL8192E boot code (RTL8192E/boot.img)
+  * Realtek RTL8192E init data (RTL8192E/data.img)
+  * Realtek RTL8192E main code (RTL8192E/main.img)
+  * Realtek RTL8192SU firmware, version 703E (RTL8192SU/rtl8192sfw.bin)
+Homepage: http://git.kernel.org/?p=linux/kernel/git/dwmw2/linux-firmware.git
+
+Package: libertas-firmware
+Priority: optional
+Section: non-free/net
+Installed-Size: 432
+Maintainer: Andres Salomon <dilinger@debian.org>
+Architecture: all
+Version: 9.70.7.p0-1~bpo50+1
+Filename: pool/non-free/libe/libertas-firmware/libertas-firmware_9.70.7.p0-1~bpo50+1_all.deb
+Size: 269384
+MD5sum: 9eb48574a0fdaeee0ec1524c8e5bc802
+SHA1: cd8c24eb3d088bd23e266997474331779e7e013c
+SHA256: 5e195aa7ab101389407085c3e0bef7aab1a41f2ad46f70707a3406d29304146f
+Description: Firmware for Marvell's 8388 (libertas) wireless chips
+ The Linux 2.6 libertas driver requires this firmware in order to properly
+ drive Marvell 8388 and 8686 wireless chips.  This includes firmware with
+ mesh support, as well as the thinfirm driver (libertas_tf).
+

@@ -1,0 +1,570 @@
+Template: mplayer/cfgnote
+Type: note
+Description: Detailed configuration needed for each user
+ The performance of MPlayer depends heavily on hardware; this means that
+ it may benefit from tweaking options for every single machine it's
+ installed on.
+ .
+ You should read the documentation provided by the
+ 'mplayer-doc' package.
+ .
+ Now, some configuration options will be set for the entire system in
+ /etc/mplayer/mplayer.conf which may be adapted later. Any user can also
+ refine options in ~/.mplayer/config.
+Description-be.UTF-8: Падрабязная наладка для кожнага карыстальніка
+ Прадуктыўнасць MPlayer залежыць пераважна ад апаратнага забеспячэння - значыць, ён патрабуе рэгулявання налад для кожнай машыны, куды ўсталяваны.
+ .
+ Вы маеце пажадаць прачытаць дакументацыю, што пастаўляецца ў пакеце'mplayer-doc'.
+ .
+ Зараз некалькі налады будуць вызначаны для сістэмы агулам ў файле /etc/mplayer/mplayer.conf, які можа быць зменены пазней. Любы карыстальнік можа пакінуць налады ў сваім файле ~/.mplayer/config.
+Description-cs.UTF-8: Jemnější nastavení pro každého uživatele
+ Výkonnost MPlayeru silně závisí na hardwaru, což znamená, že může těžit z vyladění pro každý konkrétní počítač, na kterém je nainstalovaný.
+ .
+ Měli byste si přečíst dokumentaci poskytovanou balíkem „mplayer-doc“.
+ .
+ Nyní se nastaví některé konfigurační možnosti do celosystémového souboru /etc/mplayer/mplayer.conf. Nastavení můžete později upravit a také jednotliví uživatelé si mohou konfiguraci doladit dle potřeb v soukromém konfiguračním souboru ~/.mplayer/config.
+Description-de.UTF-8: Für jeden Benutzer wird eine detaillierte Konfiguration benötigt
+ Die Leistung von MPlayer hängt stark von der Hardware ab; das bedeutet, das MPlayer von der Anpassung auf jeder einzelnen Maschine profitiert, auf der es installiert ist.
+ .
+ Sie sollten die im Paket »mplayer-doc« enthaltene Dokumentation lesen.
+ .
+ Jetzt werden einige Konfigurationsoptionen für das gesamte System in /etc/mplayer/mplayer.conf gesetzt, die später angepasst werden können. Jeder Benutzer kann die Optionen auch in ~/.mplayer/config anpassen.
+Description-es.UTF-8: Es necesaria una configuración detallada por cada usuario
+ El rendimiento de MPlayer dependen en gran medida del hardware, lo que significa que puede beneficiarse del ajuste de algunas opciones en cada equipo que se instale.
+ .
+ Debería consultar la documentación que se incluye en el paquete «mplayer-doc».
+ .
+ Se definirán algunas opciones de configuración para todo el sistema en «/etc/mplayer/mplayer.conf» que podrá adaptar más adelante. Los usuarios pueden refinar las opciones en «~/.mplayer/config».
+Description-fi.UTF-8: Jokaiselle käyttäjälle tarvitaan yksityiskohtaiset asetukset
+ MPlayerin suorituskyky riippuu vahvasti laitteistosta. Tämä tarkoittaa, että se saattaa hyötyä kunkin tietokoneen paranteluominaisuuksista.
+ .
+ Lue paketin ”mplayer-doc” tarjoama (englanninkielinen) dokumentaatio.
+ .
+ Joitain asetuksia asetetaan järjestelmän laajuisesti tiedostossa /etc/mplayer/mplayer.conf, jota voidaan mukauttaa myöhemmin. Kukin käyttäjä voi myös parannella asetuksia tiedostossa ~/.mplayer/config.
+Description-fr.UTF-8: Configuration détaillée par utilisateur
+ Les performances de MPlayer dépendent énormément du matériel. Jouer sur les options pour chaque machine peut donc les améliorer.
+ .
+ Vous devriez lire la documentation qui est fournie dans le paquet « mplayer-doc ».
+ .
+ Certaines options globales au système vont être réglées dans le fichier /etc/mplayer/mplayer.conf, et pourront être adaptées par la suite. Chaque utilisateur peut également établir des réglages personnels dans ~/.mplayer/config.
+Description-gl.UTF-8: Precísase dunha configuración detallada para cada usuario
+ O rendemento de MPlayer depende fortemente do hardware; isto quere dicir que pode mellorar axustando as opcións para cada máquina na que se instala.
+ .
+ Debería consultar a documentación fornecida polo paquete "mplayer-doc".
+ .
+ Agora ben, hanse establecer algunhas opcións de configuración para todo o sistema no ficheiro /etc/mplayer/mplayer.conf, que se poden adaptar máis adiante. Os usuarios tamén poden refinar as opcións no ficheiro ~/.mplayer/config.
+Description-it.UTF-8: Necessaria una configurazione specifica per ogni utilizzatore
+ Le prestazioni di MPlayer dipendono fortemente dall'hardware; si potrebbero ottenere miglioramenti modificando le sue impostazioni, adattandole dettagliatamente ad ogni macchina su cui è installato.
+ .
+ Leggere la documentazione fornita dal pacchetto 'mplayer-doc'.
+ .
+ Ora saranno salvate nel file /etc/mplayer/mplayer.conf alcune impostazioni valide per l'intero sistema; sarà possibile modificarle in seguito. Ogni utente ha la possibilità di adattarle alle proprie necessità in ~/.mplayer/config.
+Description-nl.UTF-8: Gedetailleerde configuratie nodig voor elke gebruiker
+ De performantie van MPlayer hangt sterk af van de hardware; het bijstellen van de opties voor de specifieke machine waarop geïnstalleerd wordt kan hierdoor flink voordeel opleveren.
+ .
+ U kunt best de documentatie voorzien in het pakket 'mplayer-doc' nalezen.
+ .
+ Nu worden sommige configuratie-opties systeemwijd ingesteld in /etc/mplayer/mplayer.conf, deze kunnen later aangepast worden. Gebruikers kunnen opties ook verfijnen via ~/.mplayer/config .
+Description-pt.UTF-8: Configuração detalhada necessária para cada utilizador
+ O desempenho do MPlayer depende muito do hardware; isto significa que poderá beneficiar de opções afinadas para cada máquina onde esteja instalado. 
+ .
+ Deverá ler a documentação disponibilizada pelo pacote 'mplayer-doc'.
+ .
+ Agora, algumas opções de configuração serão activadas para todo o sistema em /etc/mplayer/mplayer.conf que poderão ser adaptadas mais tarde. Qualquer utilizador pode refinar as opções em ~/.mplayer/config.
+Description-ro.UTF-8: Este necesară o configurare detaliată pentru fiecare utilizator
+ Performanța lui MPlayer depinde foarte mult de componentele calculatorului; acest lucru înseamnă că ar putea beneficia de pe urma ajustărilor opțiunilor pentru fiecare sistem pe care este instalat.
+ .
+ Ar trebui să citiți documentația furnizată în pachetul „mplayer-doc”.
+ .
+ Pentru moment câteva opțiuni de configurare vor fi definite pentru tot sistemul în /etc/mplayer/mplayer.conf, acestea putând fi adaptate mai târziu. Orice utilizator poate rafina opțiunile în ~/.mplayer/config.
+Description-ru.UTF-8: Более точная настройка
+ Производительность MPlayer'а сильно зависит от оборудования. Это означает, что можно получить бОльшую производительность, настроив параметры под конкретную систему, на котором он установлен.
+ .
+ Вам следует ознакомиться с документацией поставляемой пакетом 'mplayer-doc'.
+ .
+ Сейчас будут установлены общесистемные настройки в файл /etc/mplayer/mplayer.conf, которые позже можно изменить. Также любой пользователь может изменять эти параметры, редактируя свой файл ~/.mplayer/config.
+Description-sk.UTF-8: Podrobná konfigurácia nutná pre každého používateľa
+ Výkon aplikácie MPlayer veľmi závisí na hardvéri; to znamená, že dolaďovanie volieb môže zvýšiť výkon na každom stroji.
+ .
+ Mali by ste si prečítať dokumentáciu poskytovanú v balíku „mplayer-doc“.
+ .
+ Teraz sa nastavia nietoré konfiguračné voľby pre celý systém v súbore „/etc/mplayer/mplayer.conf“. Neskôr bude možné ich upraviť. Každý používateľ si ich môže prispôsobiť v súbore „~/.mplayer/config“.
+Description-sv.UTF-8: Detaljerad konfiguration krävs för alla användare
+ Hur MPlayer fungerar beror i hög grad på hårdvaran i maskinen och det betyder att man kan vinna mycket på att ändra i inställningar vid varje installation.
+ .
+ Du bör läsa dokumentationen i paketet 'mplayer-doc'.
+ .
+ En del standarduppsättning med inställningar placeras i /etc/mplayer/mplayer.conf, användare kan ha egna inställningar i ~/.mplayer/config.
+Description-vi.UTF-8: Cấu hình chi tiết cần thiết cho mỗi người dùng
+ Hiệu suất của MPlayer phụ thuộc nặng vào phần cứng: có nghĩa là nó có thể lợi dụng điều chỉnh các tùy chọn cho từng máy riêng rẽ trên đó nó đã cài đặt.
+ .
+ Khuyên bạn đọc tài liệu hướng dẫn có sẵn trong gói « mplayer-doc ».
+ .
+ Lúc này một số tùy chọn cấu hình sẽ được đặt cho toàn hệ thống trong tập tin « /etc/mplayer/mplayer.conf » mà cũng có thể sửa đổi sau. Bất cứ người dùng nào cũng có thể điều chỉnh các tùy chọn riêng trong « ~/.mplayer/config ».
+
+Template: mplayer/replace-existing-files
+Type: boolean
+Default: false
+Description: Replace existing configuration file?
+ An /etc/mplayer/mplayer.conf file already exists on the system and
+ does not contain an automatically-generated part. That file can be replaced
+ by a generated one (the old file will be moved to
+ /etc/mplayer/mplayer.conf.debconf-old).
+Description-be.UTF-8: Ці замяніць існы файл наладаў?
+ Файл /etc/mplayer/mplayer.conf ужо існуе, але ён не змяшчае аўтаматычна згенераванай часткі. Гэты файл можа быць заменены згенераваным новым (стары будзе перамешчаны ў /etc/mplayer/mplayer.conf.debconf-old).
+Description-cs.UTF-8: Nahradit stávající konfigurační soubor?
+ Soubor /etc/mplayer/mplayer.conf již v systému existuje, ovšem neobsahuje automaticky vygenerovanou část. Tento soubor může být nahrazen novějším (původní soubor bude zazálohován jako /etc/mplayer/mplayer.conf.debconf-old).
+Description-de.UTF-8: Vorhandene Konfigurationsdatei ersetzen?
+ Eine Datei /etc/mplayer/mplayer.conf existiert bereits auf diesem System, die keinen automatisch erstellten Teil enthält. Diese Datei kann durch eine generierte ersetzt werden (die alte Datei wird in /etc/mplayer/mplayer.conf.debconf-old umbenannt).
+Description-es.UTF-8: ¿Desea reemplazar el fichero de configuración actual?
+ Ya existe un fichero «/etc/mplayer/mplayer.conf», pero no contiene la zona que se genera de forma automática. Este fichero puede reemplazarse por uno nuevo generado automáticamente (el antiguo se moverá a «/etc/mplayer/mplayer.conf.debconf-old»).
+Description-fi.UTF-8: Korvataanko olemassa oleva asetustiedosto?
+ Järjestelmässä on jo tiedosto /etc/mplayer/mplayer.conf, joka ei sisällä automaattisesti luotua osaa. Kyseinen tiedosto voidaan korvata luodulla (vanha siirretään nimelle /etc/mplayer/mplayer.conf.debconf-old).
+Description-fr.UTF-8: Faut-il remplacer le fichier de configuration existant ?
+ Un fichier /etc/mplayer/mplayer.conf existe déjà, mais il ne contient pas de section créée automatiquement. Il est possible de créer automatiquement un nouveau fichier. L'ancien fichier sera alors renommé /etc/mplayer/mplayer.conf.debconf-old.
+Description-gl.UTF-8: ¿Substituír o ficheiro de configuración existente?
+ Xa existe un ficheiro /etc/mplayer/mplayer.conf no sistema, e non contén unha parte xerada automaticamente. Este ficheiro pódese substituír por un xerado (hase trasladar o ficheiro antigo a /etc/mplayer/mplayer.conf.debconf-old).
+Description-it.UTF-8: Sovrascrivere i file di configurazione esistenti?
+ Il file /etc/mplayer/mplayer.conf è già presente nel sistema e contiene parti che non sono state generate automaticamente. É possibile sostituire questo file con uno creato automaticamente (il vecchio file sarà rinominato in /etc/mplayer/mplayer.conf.debconf-old).
+Description-ml.UTF-8: ഇപ്പോഴുള്ള സജ്ജീകരണ ഫയല്‍ മാറ്റിയെഴുതട്ടെ?
+ /etc/mplayer/mplayer.conf എന്ന ഫയല്‍ ഇപ്പോള്‍തന്നെ ഉണ്ട്. പക്ഷെ, അതില്‍ ഓട്ടോമാറ്റിക്‌ ആയി ഉണ്ടായ ഭാഗങ്ങള്‍ ഇല്ല. ഈ സ്ക്രിപ്റ്റ് ഒരു പുതിയ ഫയല്‍ ഉണ്ടാക്കും(പഴയ ഫയല്‍  /etc/mplayer/mplayer.conf.debconf-old എന്ന പേരിലേക്ക് മാറ്റപ്പെടും).
+Description-nl.UTF-8: Wilt u het bestaand configuratiebestand vervangen?
+ Er bestaat reeds een bestand '/etc/mplayer/mplayer.conf' op dit systeem, helaas bevat dit geen automatisch gegenereerd deel. Het bestaande bestand kan vervangen worden door een automatisch gegenereerd bestand (het oude bestand wordt dan verplaatst naar '/etc/mplayer/mplayer.conf.debconf-old).
+Description-pt.UTF-8: Substituir o ficheiro de configuração existente?
+ Já existe o ficheiro /etc/mplayer/mplayer.conf no sistema e não contém uma secção gerada automaticamente. Esse ficheiro pode ser substituído por um gerado (o ficheiro antigo será movido para /etc/mplayer/mplayer.conf.debconf-old).
+Description-ro.UTF-8: Se înlocuiesc fișierele de configurare existente?
+ Există deja un fișier /etc/mplayer/mplayer.conf care nu conține o parte generată automat. Acel fișier poate fi înlocuit de un fișier generat (cel vechi va fi redenumit ca /etc/mplayer/mplayer.conf.debconf-old).
+Description-ru.UTF-8: Заменить существующий файл конфигурации?
+ Файл /etc/mplayer/mplayer.conf уже существует, но не содержит автоматически сгенерированной части. Этот файл может быть заменён сгенерированным (существующий файл будет переименован в /etc/mplayer/mplayer.conf.debconf-old).
+Description-sk.UTF-8: Nahradiť súčasný konfiguračný súbor?
+ Súbor /etc/mplayer/mplayer.conf už existuje, ale neobsahuje automaticky vytvorenú časť. Tento skript môže vytvoriť nový súbor (starý súbor sa presunie do /etc/mplayer/mplayer.conf.debconf-old).
+Description-sv.UTF-8: Ersätt existerande konfigurationsfil?
+ Det finns redan en fil /etc/mplayer/mplayer.conf, men den innehåller ingen automatiskt genererard del. Detta skript kan generera en ny fil (den gamla filen kommer då flyttas till /etc/mplayer/mplayer.conf.debconf-old).
+Description-vi.UTF-8: Thay thế tập tin cấu hình đã tồn tại không?
+ Một tập tin « /etc/mplayer/mplayer.conf » đã có trên hệ thống, và không chứa phần được tạo ra tự động. Có thể thay thế tập tin đó bằng tập tin đã tạo ra (tập tin cũ sẽ bị di chuyển sang « /etc/mplayer/mplayer.conf.debconf-old »).
+
+Template: mplayer/replace-existing-files-bail
+Type: note
+Description: Old configuration file kept
+ You chose not to replace the existing /etc/mplayer/mplayer.conf
+ file.
+ .
+ That file can be generated automatically later by running
+ 'dpkg-reconfigure mplayer'.
+Description-be.UTF-8: Стары файл наладаў пакінуты
+ Вы выбралі не змяняць файла /etc/mplayer/mplayer.conf.
+ .
+ Файл можа быць аўтаматычна створаны пазней запускам 'dpkg-reconfigure mplayer'.
+Description-cs.UTF-8: Stávající konfigurační soubor byl ponechán
+ Zvolili jste, že se stávající konfigurační soubor /etc/mplayer/mplayer.conf nemá nahradit.
+ .
+ Změníte-li později názor, můžete jej nahradit automaticky vygenerovanou verzí spuštěním příkazu „dpkg-reconfigure mplayer“.
+Description-de.UTF-8: Alte Konfigurationsdatei beibehalten
+ Sie haben sich entschieden, die existierende Datei /etc/mplayer/mplayer.conf zu behalten.
+ .
+ Diese Datei kann später automatisch generiert werden, indem »dpkg-reconfigure mplayer« ausgeführt wird.
+Description-es.UTF-8: Antiguo fichero de configuración mantenido
+ Escogió no reemplazar el fichero «/etc/mplayer/mplayer.conf» existente.
+ .
+ Se puede generar el fichero automáticamente más adelante ejecutando «dpkg-reconfigure mplayer».
+Description-fi.UTF-8: Vanha asetustiedosto säilytetty
+ Valitsit, että olemassa olevaa tiedostoa /etc/mplayer/mplayer.conf ei korvata.
+ .
+ Kyseinen tiedosto voidaan luoda automaattisesti myöhemmin käskyllä ”dpkg-reconfigure mplayer”.
+Description-fr.UTF-8: Conservation du fichier de configuration existant
+ Vous avez choisi de remplacer le fichier /etc/mplayer/mplayer.conf existant.
+ .
+ Ce fichier peut être créé automatiquement avec la commande « dpkg-reconfigure mplayer ».
+Description-gl.UTF-8: Consérvase o ficheiro de configuración antigo
+ Decidiu non substituír o ficheiro /etc/mplayer/mplayer.conf existente.
+ .
+ Ese ficheiro pódese xerar automaticamente máis adiante executando "dpkg-reconfigure mplayer".
+Description-it.UTF-8: Il file obsoleto è stato mantenuto
+ Si è scelto di non sostituire il file /etc/mplayer/mplayer.conf esistente.
+ .
+ Questo file potrà essere creato automaticamente in seguito eseguendo 'dpkg-reconfigure mplayer'.
+Description-ml.UTF-8: പഴയ സജ്ജീകരണ ഫയല്‍ അങ്ങനെത്തന്നെ വെച്ചു
+ നിലവിലുള്ള /etc/mplayer/mplayer.conf ഫയല്‍ മാറ്റിയെഴുതേണ്ടെന്ന് തീരുമാനിച്ചു.
+ .
+ ആ ഫയല്‍ പിന്നീട് 'dpkg-reconfigure mplayer' എന്ന ആജ്ഞ ഉപയോഗിച്ച് ഉണ്ടാക്കാവുന്നതാണ്.
+Description-nl.UTF-8: Het oude configuratiebestand wordt behouden
+ U heeft ervoor gekozen om het bestaande /etc/mplayer/mplayer.conf bestand niet te vervangen.
+ .
+ U kunt dit bestand later automatisch laten genereren via het commando 'dpkg-reconfigure mplayer'.
+Description-pt.UTF-8: Ficheiro de configuração antigo mantido
+ Escolheu não substituir o ficheiro existente /etc/mplayer/mplayer.conf.
+ .
+ O ficheiro pode ser gerado automaticamente mais tarde correndo 'dpkg-reconfigure mplayer'.
+Description-ro.UTF-8: Fișierul de configurare vechi este păstrat
+ Ați ales să nu înlocuiți fișierul existent /etc/mplayer/mplayer.conf.
+ .
+ Acel fișier poate fi generat automat la un moment ulterior prin rularea comenzii „dpkg-reconfigure mplayer”.
+Description-ru.UTF-8: Будет использоваться существующий файл конфигурации
+ Вы выбрали не заменять существующий файл /etc/mplayer/mplayer.conf.
+ .
+ Позже этот файл может быть сгенерирован автоматически выполнением 'dpkg-reconfigure mplayer'.
+Description-sk.UTF-8: Starý konfiguračný súbor bol zachovaný
+ Zvolili ste nenahrádzať existujúci súbor „/etc/mplayer/mplayer.conf“.
+ .
+ Tento súbor je možné neskôr automaticky vygenerovať spustením príkazu „dpkg-reconfigure mplayer“.
+Description-sv.UTF-8: Den äldre inställningsfilen sparades.
+ Du valde att inte ersätta /etc/mplayer/mplayer.conf.
+ .
+ Filen kan skapas vid ett senare tillfälle genom att köra 'dpkg-reconfigure mplayer'.
+Description-vi.UTF-8: Vẫn giữ tập tin cấu hình cũ
+ Bạn đã chọn không thay thế tập tin « /etc/mplayer/mplayer.conf » đã có.
+ .
+ Vẫn còn có thể tạo ra tự động tập tin đó về sau bằng cách chạy lệnh cấu hình lại gói « dpkg-reconfigure mplayer ».
+
+Template: mplayer/voutput
+Type: select
+Default: autodetect
+Choices: ${vochoices}
+Description: MPlayer video output:
+ MPlayer can use a very wide range of video output drivers.
+ The needed driver may be detected automatically or chosen manually.
+ .
+ If you prefer choosing the driver yourself, you first should choose
+ an entry matching this system's video card. If none match and the
+ card supports 'XV', choose that option (the 'xvinfo' command may help).
+ .
+ Please read the /usr/share/doc/mplayer-doc/HTML/en/video.html file from
+ the 'mplayer-doc' package for more details.
+Description-be.UTF-8: Вывад відэа MPlayer:
+ MPlayer можа выводзіць відэа праз шмат якія драйверы. Патрэбны драйвер можа быць вызначаны аўтаматычна або выбраны ўручную.
+ .
+ Калі хочаце выбраць драйвер самі, спярша выберыце пункт, што адпавядае відэакартцы ў вашай сістэме. Калі не знойдзеце адпаведнасцяў, а картка падтрымлівае 'XV', выберыце пункт 'XV' (каманда 'xvinfo' мусіць дапамагчы).
+ .
+ Калі ласка, для падрабязнасцей прачытайце файл /usr/share/doc/mplayer-doc/HTML/en/video.html з пакета 'mplayer-doc'.
+Description-cs.UTF-8: Video výstup MPlayeru:
+ MPlayer umí využít širokou škálu výstupních ovladačů. Vhodný ovladač může být rozpoznán automaticky, nebo jej můžete zvolit ručně.
+ .
+ Chcete-li si ovladač vybrat sami, měli byste si nejprve vybrat záznam odpovídající vaší video kartě. Pokud takový záznam nemůžete najít a vaše video karta podporuje rozšíření „XV“, zvolte to. (Podporu XV zjistíte příkazem xvinfo.)
+ .
+ Podrobnosti naleznete v souboru /usr/share/doc/mplayer-doc/HTML/en/video.html (součást balíku „mplayer-doc“).
+Description-de.UTF-8: Videoausgabe von MPlayer:
+ MPlayer kann eine sehr große Anzahl von Video-Ausgabegeräten verwenden. Die benötigten Treiber können automatisch erkannt oder manuell ausgewählt werden.
+ .
+ Falls Sie den Treiber lieber selbst auswählen möchten, sollten Sie zuerst einen Eintrag auswählen, der zu der Grafikkarte dieses Systems passt. Falls keiner passt und die Karte »XV« unterstützt, wählen Sie diese Option (hierbei kann der Befehl »xvinfo« helfen).
+ .
+ Bitte lesen Sie die Datei /usr/share/doc/mplayer-doc/HTML/en/video.html im Paket »mplayer-doc« für weitere Details.
+Description-es.UTF-8: Salida de vídeo de MPlayer:
+ MPlayer puede utilizar un amplio rango de dispositivos de vídeo para la salida. El dispositivo a utilizar se puede escoger manualmente o detectar automáticamente.
+ .
+ Debería escoger primero una entrada que se ajuste a la tarjeta de vídeo del sistema si decide elegirla vd. mismo. Si no encuentra ninguna que corresponda a su tarjeta y ésta soporta «XV» escoja esta opción (puede ayudarle la orden «xvinfo»).
+ .
+ Consulte el archivo «/usr/share/doc/mplayer-doc/HTML/en/video.html» en el paquete «mplayer-doc» para más información.
+Description-fi.UTF-8: Mplayerin videoulostulo:
+ MPlayer voi käyttää erittäin laajaa kirjoa videoulostuloajureita. Tarvittava ajuri voidaan etsiä automaattisesti tai valita käsin.
+ .
+ Jos suosit ajurin valitsemista käsin, sinun tulisi ensin valita kohta, joka vastaa järjestelmän näyttökorttia. Jos mikään ei sovi ja kortti tukee ”XV”:tä, valitse tuo vaihtoehto (komento ”xvinfo” saattaa auttaa).
+ .
+ Lisätietoja englanniksi löytyy paketin ”mplayer-doc” tiedostosta /usr/share/doc/mplayer-doc/HTML/en/video.html.
+Description-fr.UTF-8: Sortie vidéo de MPlayer :
+ MPlayer peut utiliser de nombreux pilotes de sortie vidéo. Les pilotes requis peuvent être détectés automatiquement ou choisis manuellement.
+ .
+ Si vous préférez choisir le pilote, vous devez le choisir parmi les pilotes correspondant à la carte vidéo du système. Si aucun ne correspond et que la carte gère « XV », choisissez cette option. La commande « xvinfo » peut être utile pour identifier cette fonctionnalité.
+ .
+ Veuillez lire le fichier /usr/share/doc/mplayer-doc/HTML/en/video.html du paquet « mplayer-doc » pour plus de détails.
+Description-gl.UTF-8: Saída de vídeo de MPlayer:
+ MPlayer pode empregar unha grande cantidade de controladores de saída de vídeo. Pódese detectar automaticamente ou escoller manualmente o controlador necesario.
+ .
+ Se prefire escoller o controlador vostede mesmo, debería escoller unha entrada que coincida coa tarxeta gráfica deste sistema. Se ningunha coincide e a tarxeta ten soporte para "XV", escolla esa opción (a orde "xvinfo" pode axudar).
+ .
+ Consulte o ficheiro /usr/share/doc/mplayer-doc/HTML/en/video.html do paquete "mplayer-doc" para ter máis detalles.
+Description-it.UTF-8: Uscita video di MPlayer:
+ MPlayer dispone di una raccolta estremamente ampia di driver per l'uscita video. Il driver di cui si necessita può essere determinato automaticamente od impostato manualmente.
+ .
+ Se si preferisce la scelta manuale, si dovrebbe selezionare una voce corrisponente alla scheda video di questo computer. Se nessuna corrisponde e la scheda supporta 'XV' si dovrebbe scegliere questa opzione (Il comando 'xvinfo' potrebbe fornire informazioni).
+ .
+ Leggere il file /usr/share/doc/mplayer-doc/HTML/it/video.html, contenuto nel pacchetto 'mplayer-doc', per maggiori dettagli.
+Description-ml.UTF-8: എംപ്ലയര്‍ ദൃശ്യ ഔട്ട്പുട്ട്:
+ എംപ്ലയറിന്‌ വീഡിയോ ഔട്ട്പുട്ട് പ്രവര്‍ത്തകങ്ങളുടെ ഒരു വലിയ നിരതന്നെ ഉപയോഗിക്കാന്‍ കഴിയും. ആവശ്യമുള്ള ഡ്രൈവര്‍ സ്വയം കണ്ടുപിടിക്കുകയോ നിങ്ങള്‍ക്ക് സജ്ജീകരിക്കുകയോ ചെയ്യാം
+ .
+ ഡ്രൈവര്‍ നിങ്ങള്‍ സ്വയം തിരഞ്ഞെടുക്കുകയാണെങ്കില്‍, നിങ്ങളുടെ വീഡിയോ കാര്‍ഡിനനുയോജ്യമായ ഒന്ന് തിരഞ്ഞെടുക്കണം. ഒന്നും യോജ്യമല്ലാതെ വരികയും നിങ്ങളുടെ കാര്‍ഡ് 'XV' പിന്തുണക്കുകയും ചെയ്യുന്നുണ്ടെങ്കില്‍ അത് തിരഞ്ഞെടുക്കുക(xvinfo എന്ന ആജ്ഞ സഹായിച്ചേക്കാം).
+ .
+ കൂടുതല്‍ വിവരങ്ങള്‍ക്ക് 'mplayer-doc' എന്ന പാക്കേജിലെ /usr/share/doc/mplayer-doc/HTML/en/video.html എന്ന ഫയല്‍ വായിക്കുക.
+Description-nl.UTF-8: MPlayer-video-uitvoer:
+ MPlayer kan een groot aantal video-uitvoer-stuurprogramma's gebruiken. Het benodigde stuurprogramma kan automatisch gedetecteerd of handmatig ingesteld worden.
+ .
+ Als u verkiest om het stuurprogramma zelf in te stellen dient u eerst een ingang die overeenkomt met de beeldkaart van dit systeem te kiezen. Als u geen overeenkomstige ingang vindt en de kaart 'XV' ondersteund, dient u die optie te kiezen (het commando 'xvinfo' kan uitsluitsel over geven).
+ .
+ Meer informatie vindt u in het bestand /usr/share/doc/mplayer-doc/HTML/en/video.html uit het pakket 'mplayer-doc'.
+Description-pt.UTF-8: Saída de vídeo do Mplayer:
+ O MPlayer pode usar uma variedade enorme de controladores de saída de vídeo. O controlador necessário pode ser detectado automaticamente ou escolhido manualmente.
+ .
+ Se preferir escolher o controlador, deverá primeiro escolher a entrada que coincida com a placa gráfica deste sistema. Se nenhum coincidir e a placa suportar 'XV', escolha esta opção (o comando 'xvinfo' pode ajudar).
+ .
+ Por favor leia o ficheiro /usr/share/doc/mplayer-doc/HTML/en/video.html do pacote 'mplayer-doc' para mais detalhes.
+Description-ro.UTF-8: Ieșire video a lui MPlayer:
+ MPlayer este capabil să folosească o gamă variată de driver-e video. Driver-ul necesar poate fi detectat automat sau poate fi ales manual.
+ .
+ Dacă preferați să alegeți personal driver-ul, va trebui ca mai întâi să alegeți o intrare care se potrivește cu placa video a acestui sistem. Dacă nu se potrivește nici una și placa video suportă „XV”, alegeți acea opțiune (comanda „xvinfo” ar putea fi de ajutor).
+ .
+ Pentru mai multe detalii, citiți fișierul /usr/share/doc/mplayer-doc/HTML/en/video.html din pachetul „mplayer-doc”.
+Description-ru.UTF-8: Видео вывод MPlayer:
+ MPlayer может использовать очень широкий диапазон драйверов видео вывода. Необходимый драйвер может быть определён автоматически или указан вручную.
+ .
+ Если вы предпочитаете сами выбирать драйвер, то для начала укажите видео карту, соответствующую этой системе. Если её в списке нет и видео карта поддерживает 'XV', выберите этот пункт (команда 'xvinfo' может оказаться полезной).
+ .
+ Подробности ищите в файле /usr/share/doc/mplayer-doc/HTML/en/video.html из пакета 'mplayer-doc'.
+Description-sk.UTF-8: MPlayer výstup videa:
+ MPlayer dokáže využiť široké spektrum výstupných grafických ovládačov. Potrebný ovládač je možné automaticky detekovať alebo zvoliť ručne.
+ .
+ Ak uprednostňujete zvoliť si ovládač sami, najprv by ste mali vybrať položku zodpovedajúcu grafickej karte tohto systému. Ak žiadne zo zoznamu nezodpovedajú a karta podporuje „XV“, zvoľte túto voľbu (príkaz „xvinfo“ môže pomôcť).
+ .
+ Prosím, prečítajte si podrobnosti v súbore „/usr/share/doc/mplayer-doc/HTML/en/video.html“ z balíka „mplayer-doc“.
+Description-sv.UTF-8: MPlayer video ut-system:
+ MPlayer kan använda en mängd olika drivrutiner för utdata. Drivrutinerna kan upptäckas automatiskt eller anges manuellt.
+ .
+ Om du föredrar att välja drivrutinen manuellt ska du först ange maskinens grafik-/videokort. Om du inte hittar något passande och ditt kort stöder 'XV' så anger du det (se även information från kommandot 'xvinfo').
+ .
+ Läs även /usr/share/doc/mplayer-doc/HTML/en/video.html från paketet 'mplayer-doc' för mer detaljerade alternativ.
+Description-vi.UTF-8: Ảnh động MPlayer xuất ra:
+ MPlayer có khả năng sử dụng rất nhiều trình điều khiển kết xuất ảnh động khác nhau. Nó có thể phát hiện tự động trình điều khiển cần thiết, hoặc bạn có thể tự chọn.
+ .
+ Muốn tự chọn thì bạn đầu tiên nên chọn mục nhập tương ứng với bo mạch ảnh động của hệ thống. Không có, và bo mạch hỗ trợ « XV » thì bật tùy chọn đó (câu lệnh thông tin « xvinfo » có thể giúp).
+ .
+ Vui lòng đọc tập tin « /usr/share/doc/mplayer-doc/HTML/en/video.html » có sẵn trong gói tài liệu « mplayer-doc » để tìm thêm chi tiết.
+
+Template: mplayer/install_codecs
+Type: note
+Description: Binary codecs download
+ MPlayer supports most video formats without additional software.
+ .
+ Additional video formats, such as Real 3.0/4.0, Windows Media 9, or Quicktime,
+ can be supported by using binary codecs.
+ .
+ As such codecs are not free software, they are not distributed with
+ this package but can be downloaded freely. The
+ '/usr/share/mplayer/scripts/binary_codecs.sh' script is provided in
+ this package to help downloading them from the MPlayer web site.
+Description-be.UTF-8: Спампоўванне двайковых кодэкаў
+ MPlayer падтрымлівае большасць відэафарматаў адразу без дадатковых праграмных сродкаў.
+ .
+ Дадатковыя фарматы відэа (Real 3.0/4.0, Windows Media 9, Quicktime і іншыя) могуць быць прайграны з дапамогай двайковых кодэкаў.
+ .
+ Такія кодэкі не ўключаны ў гэты пакет, таму што яны не падлягаюць вольнаму распаўсюджванню. Аднак яны могуць быць свабодна спампаваны. Скрыпт '/usr/share/mplayer/scripts/binary_codecs.sh' дапаможа спампаваць іх з web-сайта MPlayer.
+Description-cs.UTF-8: Stažení binárních kodeků
+ MPlayer podporuje přímo bez dodatečného softwaru většinu většinu formátů videa.
+ .
+ Podporu dodatečných formátů videa jako Real 3.0/4.0, Windows Media 9 nebo Quicktime mohou zajistit binární kodeky.
+ .
+ Tyto kodeky nejsou svobodným softwarem a Debian je proto nemůže distribuovat. Můžete si je však stáhnout z domovské stránky MPlayeru sami. Se stažením pomůže přibalený skript „/usr/share/mplayer/scripts/binary_codecs.sh“.
+Description-de.UTF-8: Download von binären Codecs
+ MPlayer unterstützt die meisten Videoformate ohne zusätzliche Software.
+ .
+ Zusätzliche Videoformate, wie Real 3.0/4.0, Windows Media 9 oder Quicktime können durch den Einsatz von binären Codecs unterstützt werden.
+ .
+ Da solche Codecs keine Freie Software sind, werden sie nicht mit diesem Paket vertrieben, können aber kostenfrei heruntergeladen werden. In diesem Paket wird das Skript »/usr/share/mplayer/scripts/binary_codecs.sh« bereitgestellt, um beim Herunterladen von der MPlayer-Website zu helfen.
+Description-es.UTF-8: Descarga de codificadores binarios
+ MPlayer soporta la mayoría de los formatos de vídeo sin necesidad de programas adicionales.
+ .
+ Puede obtener soporte de formatos de vídeo adicionales, como Real 3.0/4.0, Windows Media 9 o Quicktime, a través de codificadores binarios.
+ .
+ Estos codificadores no son software libre, no se incluyen en este paquete pero pueden descargarse. Este paquete incluye el programa «/usr/share/mplayer/scripts/binary_codecs.sh» para ayudar a la descarga de estos programas del sitio web de MPlayer.
+Description-fi.UTF-8: Binäärikoodekkien lataus
+ MPlayer tukee useimpia videomuotoja ilman lisäohjelmia.
+ .
+ Lisävideomuotoja, kuten Real 3.0/4.0, Windows Media 9 ja Quicktime voidaan tukea käyttämällä binäärikoodekkeja.
+ .
+ Koodekit eivät sinänsä ole vapaita ohjelmistoja, eikä niitä levitetä tämän paketin mukana, mutta ne voi ladata ilmaiseksi. Paketin mukana toimitettu komentotiedosto ”/usr/share/mplayer/scripts/binary_codecs.sh” auttaa niiden lataamisessa MPlayerin verkkosivulta.
+Description-fr.UTF-8: Téléchargement de codecs binaires
+ MPlayer gère la plupart des formats vidéos sans logiciel additionnel.
+ .
+ Certains formats vidéos, tels que Real 3.0 et 4.0, Windows Media 9 ou encore Quicktime, peuvent être gérés en utilisant des « codecs » binaires.
+ .
+ Comme ces « codecs » ne sont pas libres, ils ne sont pas distribués dans ce paquet, mais ils peuvent être téléchargés gratuitement. Le script « /usr/share/mplayer/scripts/binary_codecs.sh » est fourni pour aider au téléchargement sur le site de MPlayer.
+Description-gl.UTF-8: Descarga de códecs binarios
+ MPlayer soporta a maioría dos formatos de vídeo sen precisar de software adicional.
+ .
+ Pódense soportar formatos de vídeo adicionais, coma Real 3.0/4.0, Windows Media 9 ou Quicktime, empregando códecs binarios.
+ .
+ Como eses códecs non son software libre, non se distribúen con este paquete, pero pódense descargar libremente. Fornécese o script "/usr/share/mplayer/scripts/binary_codecs.sh" neste paquete para axudarlle a descargalos desde a páxina web de MPlayer.
+Description-it.UTF-8: Download di codec binari
+ MPlayer supporta molti formati video senza la necessità di software addizionale.
+ .
+ Formati video aggiuntivi, come Real 3.0/4.0, Windows Media 9, o Quicktime, possono essere visualizzati utilizzando codec binari.
+ .
+ Questi codec non sono software libero quindi questo pacchetto non li contiene, ma si possono scaricare liberamente. Questo pacchetto fornisce lo script '/usr/share/mplayer/scripts/binary_codecs.sh' che permette di scaricarli dal sito di MPlayer.
+Description-ml.UTF-8: ബൈനറി കൊഡെക്കുകളുടെ ഡൗണ്‍‌ലോഡ്
+ എംപ്ലയറിന്, പ്രത്യേകിച്ച് സോഫ്റ്റുവെയറുകള്‍ ഇല്ലെങ്കിലും മിക്ക വീഡിയോ ഫോര്‍മാറ്റുകളും പിന്തുണക്കാന്‍ കഴിയും.
+ .
+ റിയല്‍ 3.0/4.0, വിന്‍ഡോസ് മീഡിയ 9, ക്വിക്ക് ടൈം, എന്നിവ ബൈനറി കോഡെക്കുകള്‍ഉപയോഗിച്ച് പിന്തുണയ്ക്കാവുന്നതാണ്.
+ .
+ അവ സ്വതന്ത്ര സോഫ്റ്റ്‌വെയറുകളല്ലാത്തതിനാല്‍, ഈ പാക്കേജിനൊപ്പം വിതരണം ചെയ്തിട്ടില്ല.പക്ഷേ, സൗജന്യമായി അവ ഡൗണ്‍‌ലോഡ് ചെയ്യാവുന്നതാണ്. ഈ പാക്കേജിനോടൊപ്പം ഉള്ള'/usr/share/mplayer/scripts/binary_codecs.sh' എന്ന സ്ക്രിപ്റ്റ് എംപ്ലേയറിന്റെ വെബ്സൈറ്റില്‍ നിന്ന് അവഡൗണ്‍‌ലോഡ് ചെയ്യാന്‍ സഹായിക്കും
+Description-nl.UTF-8: Ophalen binaire codecs
+ MPlayer ondersteund de meeste videoformaten zonder aanvullende software.
+ .
+ Andere videoformaten zoals Real 3.0/4.0, Windows Media 9, en Quicktime kunnen enkel ondersteund worden via binaire codecs.
+ .
+ Aangezien deze codecs geen vrije software zijn worden ze niet met dit pakket meegeleverd. Ze kunnen wel vrij gedownload worden van de MPlayer website, hiertoe voorziet dit pakket het script '/usr/share/mplayer/scripts/binary_codecs.sh'.
+Description-pt.UTF-8: Download de codecs binários
+ MPlayer suporta grande parte de formatos vídeo sem software adicional. 
+ .
+ Formatos de vídeo adicionais, como o Real 3.0/4.0, Windows Media 9, ou Quicktime, pode ser suportados usando codecs binários.
+ .
+ Como tais codecs não são software livre, não são distribuidos com este pacote mas podem ser descarregados gratuitamente. O script '/usr/share/mplayer/scripts/binary_codecs.sh' é disponibilizado por este pacote para ajudar a descarregá-los do site do MPlayer.
+Description-ro.UTF-8: Descărcare de codec-uri binare
+ MPlayer suportă majoritatea formatelor video fără software adițional.
+ .
+ Formate video adițioanle precum Real 3.0/4.0, Windows Media 9, sau Quicktime pot fi suportate prin intermediul codec-urilor binare.
+ .
+ Deoarece asemenea codec-uri nu sunt software liber, nu sunt distribuite cu acest pachet însă pot fi descărcate. Script-ul „/usr/share/mplayer/scripts/binary_codecs.sh” este furnizat pentru a fi de ajutor la descărcarea lor de pe pagina de internet a lui MPlayer.
+Description-ru.UTF-8: Загрузка бинарных кодеков
+ MPlayer поддерживает большинство видео форматов без дополнительного программного обеспечения.
+ .
+ Поддержка дополнительных видео форматов, таких как Real 3.0/4.0, Windows Media 9 или Quicktime, может быть осуществлена посредством использования бинарных кодеков.
+ .
+ Так как бинарные кодеки не являются свободным программным обеспечением, они не входят в этот пакет, но могут быть свободно загружены. Для загрузки бинарных кодеков с веб-сайта MPlayer в пакет добавлен скрипт '/usr/share/mplayer/scripts/binary_codecs.sh'
+Description-sk.UTF-8: Stiahnutie binárnych kodekov
+ MPlayer podporuje väčšinu videoformátov bez toho aby vyžadoval dodatočný softvér.
+ .
+ Ďalšie videoformáty ako Real 3.0/4.0, Windows Media 9 a Quicktime sú podporované za použitia binárnych kodekov.
+ .
+ Kodeky ako také nie sú slobodný softvér. Nie sú distribuované spolu s týmto balíkom, ale je možné ich zadarmo stiahnuť. Skript „/usr/share/mplayer/scripts/binary_codecs.sh“ obsiahnutý v tomto balíku slúži na stiahnutie kodekov z webstránky MPlayer.
+Description-sv.UTF-8: Binära kodek/omvandlare har laddats hem.
+ MPlayer stödjer de flesta videoformaten utan särskilda tilläggsprogram.
+ .
+ Tilläggsprogram kan hämtas för att ge möjlighet att visa ytterligare videoformat som Real 3.0/4.0, Windows Media 9 eller Quicktime.
+ .
+ Dessa kodek är inte fri programvara och distribueras där med inte med detta paketet men kan laddas hem fritt. Scriptet '/usr/share/mplayer/scripts/binary_codecs.sh' finns tillgängligt för att hämta dessa från MPlayers webbplats.
+Description-vi.UTF-8: Tải xuống codec nhị phân
+ MPlayer hỗ trợ phần lớn định dạng ảnh động, không cần phần mềm bổ sung.
+ .
+ Các định dạng ảnh động thêm, như Real 3.0/4.0, Windows Media 9, hoặc Quicktime, cũng hỗ trợ được bằng cách sử dụng codec nhị phân.
+ .
+ Vì các codec như vậy không phải là phần mềm tự do, chúng không được phân phối cùng với gói này, nhưng vẫn có thể tải xuống miễn phí. Văn lệnh « usr/share/mplayer/scripts/binary_codecs.sh » được cung cấp trong gói này để giúp tải chúng xuống địa chỉ Web của MPlayer.
+
+Template: mplayer/dvd_device
+Type: string
+Default: /dev/cdrom
+Description: DVD device name:
+ Please enter the name of the device for your DVD player, if any.
+Description-be.UTF-8: Назва прылады DVD:
+ Увядзіце назву вашай прылады DVD, калі ёсць.
+Description-cs.UTF-8: Jméno DVD zařízení:
+ Zadejte prosím jméno zařízení vašeho DVD přehrávače (pokud existuje).
+Description-de.UTF-8: DVD-Gerätename:
+ Bitte geben Sie - falls vorhanden - den Namen des Gerätes Ihres DVD-Spielers an.
+Description-es.UTF-8: Nombre de dispositivo DVD:
+ Introduzca un nombre para el dispositivo de su reproductor de DVD, si lo tiene.
+Description-fi.UTF-8: DVD-laitteen nimi:
+ Anna DVD-soittimen laitenimi, jos järjestelmässä on sellainen.
+Description-fr.UTF-8: Nom du fichier de périphérique DVD :
+ Veuillez indiquer le nom de périphérique de votre lecteur DVD, s'il en existe un.
+Description-gl.UTF-8: Nome do dispositivo do DVD:
+ Introduza o nome do dispositivo do reproductor de DVD, se ten un.
+Description-it.UTF-8: Nome del device DVD:
+ Inserire il nome del device associato al lettore DVD (se presente).
+Description-ml.UTF-8: ഡി.വി.ഡി ഉപകരണനാമം:
+ നിങ്ങളുടെ ഡി.വി.ഡി ഉപകരണത്തിന്റെ പേരെന്താണ് (ഉണ്ടെങ്കില്‍ മാത്രം):
+Description-nl.UTF-8: DVD-apparaatnaam:
+ Wat is de naam van het DVD-afspeelapparaat? (als dit aanwezig is)
+Description-pt.UTF-8: Nome do dispositivo de DVD:
+ Introduza o nome do dispositivo do leitor DVD, se existir.
+Description-ro.UTF-8: Numele dispozitivului DVD
+ Introduceți numele dispozitivului pentru player-ul DVD al dumneavoastră, dacă aveți unul.
+Description-ru.UTF-8: Имя DVD-устройства:
+ Пожалуйста, введите имя устройства вашего DVD-плеера, если есть.
+Description-sk.UTF-8: Názov DVD zariadenia:
+ Prosím, zadajte názov zariadenia vášho prehrávača DVD, ak nejaký máte.
+Description-sv.UTF-8: DVD-enhetens namn:
+ Ange enhetsnamnet för din DVD-spelare, om du har någon.
+Description-vi.UTF-8: Tên thiết bị DVD:
+ Hãy gõ tên của thiết bị ổ đĩa DVD, nếu có.
+
+Template: mplayer/ttfont
+Type: select
+Choices: ${ttfontchoices}
+Default: ${ttfontdefault}
+Description: Font for On Screen Display:
+Description-be.UTF-8: Шрыфт для On Screen Display:
+Description-cs.UTF-8: Font pro On Screen Display:
+Description-de.UTF-8: Schriften für eingeblendeten Text:
+Description-es.UTF-8: Tipografía para «On Screen Display»:
+Description-fi.UTF-8: Ruudulle piirrossa käytettävä fontti:
+Description-fr.UTF-8: Police pour l'affichage OSD :
+Description-gl.UTF-8: Tipo de letra para a sobreimpresión de textos:
+Description-it.UTF-8: Font per il display sovraimpresso (On Screen Display):
+Description-ml.UTF-8: സ്ക്രീനിലെ പ്രദര്‍ശനത്തിനായുള്ള അക്ഷരരൂപം:
+Description-nl.UTF-8: Font voor 'Op het scherm weergave':
+Description-pt.UTF-8: Fonte para 'On Screen Display':
+Description-ro.UTF-8: Fontul pentru afișarea pe ecran:
+Description-ru.UTF-8: Шрифт для OSD (отображение текста на экране):
+Description-sk.UTF-8: Písmo pre funkciu „On Screen Display“:
+Description-sv.UTF-8: Teckensnitt för skärminformation:
+Description-vi.UTF-8: Phông để hiển thị trên màn hình:
+
+Template: mplayer/no-ttfont
+Type: error
+Description: No TrueType fonts found for On Screen Display
+ MPlayer needs at least one TrueType font for its 'On Screen Display' feature.
+ .
+ You should install a package providing such fonts (such as
+ 'ttf-freefont' or 'ttf-bitstream-vera' or 'msttcorefonts')
+ and reconfigure MPlayer (by running 'dpkg-reconfigure mplayer').
+Description-be.UTF-8: Няма шрыфтоў True Type для On Screen Display
+ MPlayer патрабуе прынамсі адзін шрыфт True Type для функцыі On Screen Display.
+ .
+ Вы маеце ўстанавіць пакет, што прадастаўляе шрыфты truetype (такія, як 'ttf-freefont', ці 'ttf-bitstream-vera', ці 'msttcorefonts' ) і пераналадзьце MPlayer (камандай "dpkg-reconfigure mplayer")
+Description-cs.UTF-8: Žádné True Type fonty pro On Screen Display nenalezeny
+ MPlayer vyžaduje pro On Screen Display alespoň jeden True Typový font.
+ .
+ Měli byste nainstalovat balík, který poskytuje True Typové fonty (např. „ttf-freefont“ nebo „ttf-dejavu“) a znovu spustit konfiguraci MPlayeru příkazem „dpkg-reconfigure mplayer“.
+Description-de.UTF-8: Für eingeblendeten Text konnte keine TrueType-Schrift gefunden werden
+ MPlayer benötigt mindestens eine TrueType-Schrift für seine Funktionalität »eingeblendeten Text« (»On Screen Display«).
+ .
+ Sie sollten ein Paket installieren, das solche Schriften enthält (wie »ttf-freefont« oder »ttf-bitstream-vera« oder »msttcorefonts«) und MPlayer rekonfigurieren (durch die Ausführung von »dpkg-reconfigure mplayer«).
+Description-es.UTF-8: No se han encontrado tipografías TrueType para «On Screen Display».
+ MPlayer necesita al menos una tipografía TrueType para su función «On Screen Display».
+ .
+ Debería instalar un paquete que contenga esas tipografías (como «ttf-freefont», «ttf-bitstream-vera» o «msttcorefonts») y reconfigurar MPlayer (con la orden «dpkg-reconfigure mplayer»).
+Description-fi.UTF-8: Ruudulle piirtoon käytettäväksi ei löytynyt yhtään TrueType-fonttia.
+ Mplayer tarvitsee vähintään yhden TrueType-fontin sen ”ruudulle piirto” (”On Screen Display”) -ominaisuutta varten.
+ .
+ Sinun tulisi asentaa tällaisia fontteja tarjoava paketti (kuten ”ttf-freefont”, ”ttf-bitstream-vera” tai ”msttcorefonts”) ja tehdä MPlayerin asetukset uudelleen (komennolla ”dpkg-reconfigure mplayer”).
+Description-fr.UTF-8: Pas de police TrueType pour l'affichage à l'écran
+ Au moins une police TrueType doit être installée pour que la fonction d'affichage à l'écran (OSD : « On Screen Display ») fonctionne.
+ .
+ Vous devriez installer un paquet contenant des polices TrueType, tel que « ttf-freefont », « ttf-bitstream-vera » ou « msttcorefonts », avant de reconfigurer MPlayer avec la commande « dpkg-reconfigure mplayer ».
+Description-gl.UTF-8: Non se atopou ningún tipo TrueType para a sobreimpresión de textos.
+ MPlayer precisa de alomenos un tipo TrueType para a súa función de sobreimpresión de textos.
+ .
+ Debería instalar un paquete que conteña un deses tipos (tal coma "ttf-freefont", "ttf-bitstream-vera" ou "msttcorefonts") e reconfigurar MPlayer (executando "dpkg-reconfigure mplayer").
+Description-it.UTF-8: Assenti font TrueType da utilizzare per l'On Screen Display
+ MPlayer necessita di almeno un font TrueType per attivare la funzionalità 'On Screen Display'.
+ .
+ Installare un pacchetto che provvede questi font (come 'ttf-freefont' o 'ttf-bitstream-vera' o 'msttcorefonts') e riconfigurate MPlayer (eseguendo 'dpkg-reconfigure mplayer').
+Description-ml.UTF-8: ട്രൂടൈപ്പ് അക്ഷരരൂപങ്ങള്‍ ഒന്നും കണ്ടുപിടിയ്ക്കാന്‍ കഴിഞ്ഞില്ല.
+ എംപ്ലയറിന്‌  സ്ക്രീനിലെ പ്രദര്‍ശനത്തിന്‌  ട്രൂടൈപ്പ് അക്ഷരരൂപങ്ങള്‍ ആവശ്യമാണ്‌. നിങ്ങളുടെ പ്രിയപ്പെട്ടവ തിരഞ്ഞെടുക്കുക.
+ .
+ ട്രൂടൈപ്പ് അക്ഷരരൂപങ്ങള്‍ ('ttf-dejavu' , 'ttf-bitstream-vera' ,  'msttcorefonts' എന്നിവ പോലത്തെ ) ഉള്ള ഒരു പാക്കേജ് നിങ്ങള്‍ ഇന്‍സ്റ്റാള്‍ ചെയ്തതിനു ശേഷം എംപ്ലയര്‍ പുനഃക്രമീകരിയ്ക്കുക ("dpkg-reconfigure mplayer"എന്ന ആജ്ഞ ഉപയോഗിച്ച്)
+Description-nl.UTF-8: Er zijn geen 'TrueType'-lettertypes voor 'Op het scherm weergave'.
+ MPlayer heeft minstens één 'TrueType'-lettertype nodig voor de 'Op het scherm weergave'.
+ .
+ U kunt best een pakket met 'TrueType'-lettertypes installeren (bv. 'ttf-freefont' of 'ttf-bitstream-vera' of 'msttcorefonts') en daarna MPlayer herconfigureren (via het commando 'dpkg-reconfigure mplayer').
+Description-pt.UTF-8: Nenhumas fontes TrueType encontradas para 'On Screen Display'
+ O Mplayer necessita de pelo menos uma Fonte TrueType para o 'On Screen Display'.
+ .
+ Deverá instalar o pacote que disponibiliza as fontes (tal como a 'ttf-freefont' ou 'ttf-bitstream-vera' ou  'msttcorefonts' ) e reconfigurar o Mplayer (com o comando 'dpkg-reconfigure mplayer').
+Description-ro.UTF-8: N-a fost găsit nici un font „True Type” pentru afișarea pe ecran
+ MPlayer are nevoie decel puțin un font „True Type” pentru afișarea pe ecran.
+ .
+ Ar trebui să instalați un pachet care furnizează fonturi truetype (cum ar fi „ttf-dejavu”, „ttf-freefont” sau „msttcorefonts”) și să reconfigurați MPlayer-ul (cu comanda „dpkg-reconfigure mplayer”).
+Description-ru.UTF-8: Не найдены TrueType-шрифты для OSD (отображения текста на экране)
+ Для отображения текста на экране MPlayer требуются шрифты TrueType.
+ .
+ Вам нужно установить пакет со шрифтами TrueType (например, 'ttf-freefont', 'ttf-bitstream-vera' или 'msttcorefonts') и переконфигурировать MPlayer (выполнив 'dpkg-reconfigure mplayer').
+Description-sk.UTF-8: Pre funkciu „On Screen Display“ neboli nájdené žiadne True Type písma
+ MPlayer potrebuje na funkciu „On Screen Display“ aspoň jedno True Type písmo.
+ .
+ Mali by ste nainštalovať balík poskytujúci takéto písma (ako „ttf-freefont“ alebo „ttf-bitstream-vera“ alebo „msttcorefonts“) a rekonfigurovať MPlayer (príkazom „dpkg-reconfigure mplayer“)
+Description-sv.UTF-8: Hittade inga TrueType teckensnitt för skärminformation.
+ MPlayer behöver åtminstone ett TrueType teckensnitt för funktionen skärminformation.
+ .
+ Du bör installera ett paket som tillhandahåller TrueType-teckensnitt (så som 'ttf-freefont', 'ttf-bitstream-vera' eller 'msttcorefonts') och omkonfigurera MPlayer (med kommandot "dpkg-reconfigure mplayer")
+Description-vi.UTF-8: Không tìm thấy phông TrueType để hiển thị trên màn hình
+ MPlayer yêu cầu ít nhất một phông TrueType (.ttf) cho tính năng « Hiển thị trên màn hình » của nó.
+ .
+ Bạn nên cài đặt một gói phông .ttf (v.d. URWVN [http://freshmeat.net/projects/urwvn/] hay DejaVu [http://dejavu.sourceforge.net/wiki/index.php/Main_Page], cả hai hiển thị đúng tiếng Việt UTF-8), rồi cấu hình lại MPlayer bằng cách chạy lệnh « dpkg-reconfigure mplayer ».

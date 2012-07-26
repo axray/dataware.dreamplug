@@ -1,0 +1,500 @@
+Jan  1 06:25:16 sheevaplug-debian CRON[2836]: pam_unix(cron:session): session closed for user root
+Jan  1 06:39:01 sheevaplug-debian CRON[3024]: pam_unix(cron:account): account root has password changed in future
+Jan  1 06:39:01 sheevaplug-debian CRON[3024]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 06:39:01 sheevaplug-debian CRON[3024]: pam_unix(cron:session): session closed for user root
+Jan  1 06:52:01 sheevaplug-debian CRON[3033]: pam_unix(cron:account): account root has password changed in future
+Jan  1 06:52:01 sheevaplug-debian CRON[3033]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 06:52:01 sheevaplug-debian CRON[3033]: pam_unix(cron:session): session closed for user root
+Jan  1 07:09:01 sheevaplug-debian CRON[3040]: pam_unix(cron:account): account root has password changed in future
+Jan  1 07:09:01 sheevaplug-debian CRON[3040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 07:09:01 sheevaplug-debian CRON[3040]: pam_unix(cron:session): session closed for user root
+Jan  1 07:17:01 sheevaplug-debian CRON[3049]: pam_unix(cron:account): account root has password changed in future
+Jan  1 07:17:01 sheevaplug-debian CRON[3049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 07:17:01 sheevaplug-debian CRON[3049]: pam_unix(cron:session): session closed for user root
+Jan  1 07:39:01 sheevaplug-debian CRON[3054]: pam_unix(cron:account): account root has password changed in future
+Jan  1 07:39:01 sheevaplug-debian CRON[3054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 07:39:01 sheevaplug-debian CRON[3054]: pam_unix(cron:session): session closed for user root
+Jan  1 08:09:01 sheevaplug-debian CRON[3064]: pam_unix(cron:account): account root has password changed in future
+Jan  1 08:09:01 sheevaplug-debian CRON[3064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 08:09:01 sheevaplug-debian CRON[3064]: pam_unix(cron:session): session closed for user root
+Jan  1 08:17:01 sheevaplug-debian CRON[3073]: pam_unix(cron:account): account root has password changed in future
+Jan  1 08:17:01 sheevaplug-debian CRON[3073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 08:17:01 sheevaplug-debian CRON[3073]: pam_unix(cron:session): session closed for user root
+Jan  1 08:39:01 sheevaplug-debian CRON[3078]: pam_unix(cron:account): account root has password changed in future
+Jan  1 08:39:01 sheevaplug-debian CRON[3078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 08:39:01 sheevaplug-debian CRON[3078]: pam_unix(cron:session): session closed for user root
+Jan  1 09:09:01 sheevaplug-debian CRON[3088]: pam_unix(cron:account): account root has password changed in future
+Jan  1 09:09:01 sheevaplug-debian CRON[3088]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 09:09:01 sheevaplug-debian CRON[3088]: pam_unix(cron:session): session closed for user root
+Jan  1 09:17:01 sheevaplug-debian CRON[3097]: pam_unix(cron:account): account root has password changed in future
+Jan  1 09:17:01 sheevaplug-debian CRON[3097]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 09:17:01 sheevaplug-debian CRON[3097]: pam_unix(cron:session): session closed for user root
+Jan  1 09:39:01 sheevaplug-debian CRON[3102]: pam_unix(cron:account): account root has password changed in future
+Jan  1 09:39:01 sheevaplug-debian CRON[3102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 09:39:01 sheevaplug-debian CRON[3102]: pam_unix(cron:session): session closed for user root
+Jan  1 10:09:01 sheevaplug-debian CRON[3112]: pam_unix(cron:account): account root has password changed in future
+Jan  1 10:09:01 sheevaplug-debian CRON[3112]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 10:09:01 sheevaplug-debian CRON[3112]: pam_unix(cron:session): session closed for user root
+Jan  1 10:17:01 sheevaplug-debian CRON[3121]: pam_unix(cron:account): account root has password changed in future
+Jan  1 10:17:01 sheevaplug-debian CRON[3121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 10:17:01 sheevaplug-debian CRON[3121]: pam_unix(cron:session): session closed for user root
+Jan  1 10:39:01 sheevaplug-debian CRON[3126]: pam_unix(cron:account): account root has password changed in future
+Jan  1 10:39:01 sheevaplug-debian CRON[3126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 10:39:01 sheevaplug-debian CRON[3126]: pam_unix(cron:session): session closed for user root
+Jan  1 11:09:01 sheevaplug-debian CRON[3136]: pam_unix(cron:account): account root has password changed in future
+Jan  1 11:09:01 sheevaplug-debian CRON[3136]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 11:09:01 sheevaplug-debian CRON[3136]: pam_unix(cron:session): session closed for user root
+Jan  1 11:17:01 sheevaplug-debian CRON[3145]: pam_unix(cron:account): account root has password changed in future
+Jan  1 11:17:01 sheevaplug-debian CRON[3145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 11:17:01 sheevaplug-debian CRON[3145]: pam_unix(cron:session): session closed for user root
+Jan  1 11:39:01 sheevaplug-debian CRON[3150]: pam_unix(cron:account): account root has password changed in future
+Jan  1 11:39:01 sheevaplug-debian CRON[3150]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 11:39:01 sheevaplug-debian CRON[3150]: pam_unix(cron:session): session closed for user root
+Jan  1 12:09:01 sheevaplug-debian CRON[3160]: pam_unix(cron:account): account root has password changed in future
+Jan  1 12:09:01 sheevaplug-debian CRON[3160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 12:09:01 sheevaplug-debian CRON[3160]: pam_unix(cron:session): session closed for user root
+Jan  1 12:17:01 sheevaplug-debian CRON[3169]: pam_unix(cron:account): account root has password changed in future
+Jan  1 12:17:01 sheevaplug-debian CRON[3169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 12:17:01 sheevaplug-debian CRON[3169]: pam_unix(cron:session): session closed for user root
+Jan  1 12:39:01 sheevaplug-debian CRON[3174]: pam_unix(cron:account): account root has password changed in future
+Jan  1 12:39:01 sheevaplug-debian CRON[3174]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 12:39:01 sheevaplug-debian CRON[3174]: pam_unix(cron:session): session closed for user root
+Jan  1 13:09:01 sheevaplug-debian CRON[3184]: pam_unix(cron:account): account root has password changed in future
+Jan  1 13:09:01 sheevaplug-debian CRON[3184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 13:09:02 sheevaplug-debian CRON[3184]: pam_unix(cron:session): session closed for user root
+Jan  1 13:17:01 sheevaplug-debian CRON[3193]: pam_unix(cron:account): account root has password changed in future
+Jan  1 13:17:01 sheevaplug-debian CRON[3193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 13:17:01 sheevaplug-debian CRON[3193]: pam_unix(cron:session): session closed for user root
+Jan  1 13:39:01 sheevaplug-debian CRON[3198]: pam_unix(cron:account): account root has password changed in future
+Jan  1 13:39:01 sheevaplug-debian CRON[3198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 13:39:01 sheevaplug-debian CRON[3198]: pam_unix(cron:session): session closed for user root
+Jan  1 14:09:01 sheevaplug-debian CRON[3208]: pam_unix(cron:account): account root has password changed in future
+Jan  1 14:09:01 sheevaplug-debian CRON[3208]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 14:09:01 sheevaplug-debian CRON[3208]: pam_unix(cron:session): session closed for user root
+Jan  1 14:17:01 sheevaplug-debian CRON[3217]: pam_unix(cron:account): account root has password changed in future
+Jan  1 14:17:01 sheevaplug-debian CRON[3217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 14:17:01 sheevaplug-debian CRON[3217]: pam_unix(cron:session): session closed for user root
+Jan  1 14:39:01 sheevaplug-debian CRON[3222]: pam_unix(cron:account): account root has password changed in future
+Jan  1 14:39:01 sheevaplug-debian CRON[3222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 14:39:01 sheevaplug-debian CRON[3222]: pam_unix(cron:session): session closed for user root
+Jan  1 15:09:01 sheevaplug-debian CRON[3232]: pam_unix(cron:account): account root has password changed in future
+Jan  1 15:09:01 sheevaplug-debian CRON[3232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 15:09:01 sheevaplug-debian CRON[3232]: pam_unix(cron:session): session closed for user root
+Jan  1 15:17:01 sheevaplug-debian CRON[3241]: pam_unix(cron:account): account root has password changed in future
+Jan  1 15:17:01 sheevaplug-debian CRON[3241]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 15:17:01 sheevaplug-debian CRON[3241]: pam_unix(cron:session): session closed for user root
+Jan  1 15:39:01 sheevaplug-debian CRON[3246]: pam_unix(cron:account): account root has password changed in future
+Jan  1 15:39:01 sheevaplug-debian CRON[3246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 15:39:01 sheevaplug-debian CRON[3246]: pam_unix(cron:session): session closed for user root
+Jan  1 16:09:01 sheevaplug-debian CRON[3256]: pam_unix(cron:account): account root has password changed in future
+Jan  1 16:09:01 sheevaplug-debian CRON[3256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 16:09:01 sheevaplug-debian CRON[3256]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:58 sheevaplug-debian sshd[1966]: Server listening on :: port 22.
+Jan  1 00:00:58 sheevaplug-debian sshd[1966]: Server listening on 0.0.0.0 port 22.
+Jan  1 01:27:57 sheevaplug-debian sshd[1964]: Server listening on :: port 22.
+Jan  1 01:27:57 sheevaplug-debian sshd[1964]: Server listening on 0.0.0.0 port 22.
+Jan  1 01:28:34 sheevaplug-debian login[2626]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=ttyS0 ruser= rhost=  user=root
+Jan  1 01:28:38 sheevaplug-debian login[2626]: FAILED LOGIN (1) on 'ttyS0' FOR `root', Authentication failure
+Jan  1 01:28:46 sheevaplug-debian login[2626]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 01:28:46 sheevaplug-debian login[2658]: ROOT LOGIN  on 'ttyS0'
+Jan  1 00:00:57 sheevaplug-debian sshd[1931]: Server listening on :: port 22.
+Jan  1 00:00:57 sheevaplug-debian sshd[1931]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:01:36 sheevaplug-debian login[2644]: pam_unix(login:auth): check pass; user unknown
+Jan  1 00:01:36 sheevaplug-debian login[2644]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=ttyS0 ruser= rhost= 
+Jan  1 00:01:39 sheevaplug-debian login[2644]: FAILED LOGIN (1) on 'ttyS0' FOR `UNKNOWN', User not known to the underlying authentication module
+Jan  1 00:01:43 sheevaplug-debian login[2644]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:01:43 sheevaplug-debian login[2644]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:01:43 sheevaplug-debian login[2676]: ROOT LOGIN  on 'ttyS0'
+Jan  1 01:36:40 sheevaplug-debian sshd[1927]: Server listening on :: port 22.
+Jan  1 01:36:40 sheevaplug-debian sshd[1927]: Server listening on 0.0.0.0 port 22.
+Jan  1 01:37:15 sheevaplug-debian login[2641]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 01:37:15 sheevaplug-debian login[2672]: ROOT LOGIN  on 'ttyS0'
+Jan  1 01:39:01 sheevaplug-debian CRON[2745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:39:01 sheevaplug-debian CRON[2745]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:56 sheevaplug-debian sshd[1931]: Server listening on :: port 22.
+Jan  1 00:00:56 sheevaplug-debian sshd[1931]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:01:52 sheevaplug-debian login[2644]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:01:52 sheevaplug-debian login[2644]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:01:52 sheevaplug-debian login[2676]: ROOT LOGIN  on 'ttyS0'
+Jan  1 00:09:01 sheevaplug-debian CRON[2755]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:09:01 sheevaplug-debian CRON[2755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 sheevaplug-debian CRON[2755]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:56 sheevaplug-debian sshd[1932]: Server listening on :: port 22.
+Jan  1 00:00:56 sheevaplug-debian sshd[1932]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:03:01 sheevaplug-debian login[2656]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:03:01 sheevaplug-debian login[2656]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:03:01 sheevaplug-debian login[2680]: ROOT LOGIN  on 'ttyS0'
+Jan  1 00:09:01 sheevaplug-debian CRON[2749]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:09:01 sheevaplug-debian CRON[2749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 sheevaplug-debian CRON[2749]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 sheevaplug-debian CRON[2759]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:17:01 sheevaplug-debian CRON[2759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 sheevaplug-debian CRON[2759]: pam_unix(cron:session): session closed for user root
+Jan  2 07:47:57 sheevaplug-debian sshd[1998]: Server listening on :: port 22.
+Jan  2 07:47:57 sheevaplug-debian sshd[1998]: Server listening on 0.0.0.0 port 22.
+Jan  2 07:48:37 sheevaplug-debian login[2713]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  2 07:48:37 sheevaplug-debian login[2724]: ROOT LOGIN  on 'ttyS0'
+Jan  2 07:51:10 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get remove mysqld
+Jan  2 07:53:55 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get remove mysql-server
+Jan  2 07:56:12 sheevaplug-debian sshd[1974]: Server listening on :: port 22.
+Jan  2 07:56:12 sheevaplug-debian sshd[1974]: Server listening on 0.0.0.0 port 22.
+Jan  2 07:56:46 sheevaplug-debian login[2689]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  2 07:56:46 sheevaplug-debian login[2700]: ROOT LOGIN  on 'ttyS0'
+Jan  2 07:59:28 sheevaplug-debian sshd[1988]: Server listening on :: port 22.
+Jan  2 07:59:28 sheevaplug-debian sshd[1988]: Server listening on 0.0.0.0 port 22.
+Jan  2 08:00:13 sheevaplug-debian login[2703]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  2 08:00:13 sheevaplug-debian login[2715]: ROOT LOGIN  on 'ttyS0'
+Jan  2 08:03:50 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get remove mysql-common
+Jan  2 08:05:00 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get remove mysql-common
+Jan  2 08:07:02 sheevaplug-debian sshd[1944]: Server listening on :: port 22.
+Jan  2 08:07:02 sheevaplug-debian sshd[1944]: Server listening on 0.0.0.0 port 22.
+Jan  2 08:07:19 sheevaplug-debian login[2433]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  2 08:07:19 sheevaplug-debian login[2444]: ROOT LOGIN  on 'ttyS0'
+Jan  2 08:09:01 sheevaplug-debian CRON[2531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  2 08:09:01 sheevaplug-debian CRON[2531]: pam_unix(cron:session): session closed for user root
+Jul 13 12:08:51 sheevaplug-debian sshd[2146]: Server listening on :: port 22.
+Jul 13 12:08:51 sheevaplug-debian sshd[2146]: Server listening on 0.0.0.0 port 22.
+Jul 13 12:09:01 sheevaplug-debian CRON[2646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:09:01 sheevaplug-debian CRON[2646]: pam_unix(cron:session): session closed for user root
+Jul 13 12:09:04 sheevaplug-debian login[2635]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 13 12:09:04 sheevaplug-debian login[2654]: ROOT LOGIN  on 'ttyS0'
+Jul 13 12:17:01 sheevaplug-debian CRON[2665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:17:02 sheevaplug-debian CRON[2665]: pam_unix(cron:session): session closed for user root
+Jul 13 12:41:37 sheevaplug-debian sshd[2021]: Server listening on :: port 22.
+Jul 13 12:41:37 sheevaplug-debian sshd[2021]: Server listening on 0.0.0.0 port 22.
+Jul 13 12:42:02 sheevaplug-debian login[2521]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 13 12:42:02 sheevaplug-debian login[2543]: ROOT LOGIN  on 'ttyS0'
+Jul 13 12:53:14 sheevaplug-debian sshd[2151]: Server listening on :: port 22.
+Jul 13 12:53:14 sheevaplug-debian sshd[2151]: Server listening on 0.0.0.0 port 22.
+Jul 13 12:53:25 sheevaplug-debian login[2649]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 13 12:53:25 sheevaplug-debian login[2672]: ROOT LOGIN  on 'ttyS0'
+Jul 13 12:54:35 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jul 13 12:56:52 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install make
+Jul 13 13:07:21 sheevaplug-debian sshd[2148]: Server listening on :: port 22.
+Jul 13 13:07:21 sheevaplug-debian sshd[2148]: Server listening on 0.0.0.0 port 22.
+Jul 13 13:09:01 sheevaplug-debian CRON[2648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:09:01 sheevaplug-debian CRON[2648]: pam_unix(cron:session): session closed for user root
+Jul 13 13:09:03 sheevaplug-debian login[2637]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 13 13:09:03 sheevaplug-debian login[2657]: ROOT LOGIN  on 'ttyS0'
+Jul 13 13:17:01 sheevaplug-debian CRON[4158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:17:01 sheevaplug-debian CRON[4158]: pam_unix(cron:session): session closed for user root
+Jul 13 13:39:01 sheevaplug-debian CRON[6731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:39:01 sheevaplug-debian CRON[6731]: pam_unix(cron:session): session closed for user root
+Jul 13 14:09:01 sheevaplug-debian CRON[10971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:09:01 sheevaplug-debian CRON[10971]: pam_unix(cron:session): session closed for user root
+Jul 13 14:17:02 sheevaplug-debian CRON[12390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:17:02 sheevaplug-debian CRON[12390]: pam_unix(cron:session): session closed for user root
+Jul 13 14:27:59 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/linux-3.1 ; USER=root ; COMMAND=/usr/bin/apt-get install mkimage
+Jul 13 14:28:39 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/linux-3.1 ; USER=root ; COMMAND=/usr/bin/apt-get install uboot-mkimage
+Jul 13 14:33:33 sheevaplug-debian sshd[2283]: Server listening on :: port 22.
+Jul 13 14:33:33 sheevaplug-debian sshd[2283]: Server listening on 0.0.0.0 port 22.
+Jul 13 14:35:33 sheevaplug-debian login[2772]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 13 14:35:33 sheevaplug-debian login[2794]: ROOT LOGIN  on 'ttyS0'
+Jul 13 14:35:46 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/sbin/dhclient eth0
+Jul 13 14:36:03 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/sbin/ifconfig eth0 up
+Jul 13 14:36:06 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/sbin/dhclient eth0
+Jul 13 14:37:03 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/sbin/ifconfig eth0 down
+Jul 13 14:37:09 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/sbin/ifconfig
+Jul 13 14:37:15 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/sbin/ifconfig eth0 up
+Jul 13 14:37:39 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/sbin/dhclient eth0
+Jul 13 14:37:54 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install uboot-mkimage
+Jul 13 14:39:01 sheevaplug-debian CRON[3457]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:39:01 sheevaplug-debian CRON[3457]: pam_unix(cron:session): session closed for user root
+Jul 13 15:09:01 sheevaplug-debian CRON[3797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:09:01 sheevaplug-debian CRON[3797]: pam_unix(cron:session): session closed for user root
+Jul 13 15:17:01 sheevaplug-debian CRON[4660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:17:01 sheevaplug-debian CRON[4660]: pam_unix(cron:session): session closed for user root
+Jul 13 15:39:01 sheevaplug-debian CRON[7338]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:39:01 sheevaplug-debian CRON[7338]: pam_unix(cron:session): session closed for user root
+Jul 13 16:09:01 sheevaplug-debian CRON[12285]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:09:01 sheevaplug-debian CRON[12285]: pam_unix(cron:session): session closed for user root
+Jul 13 16:17:01 sheevaplug-debian CRON[13396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:17:01 sheevaplug-debian CRON[13396]: pam_unix(cron:session): session closed for user root
+Jul 13 16:39:01 sheevaplug-debian CRON[19184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:39:01 sheevaplug-debian CRON[19184]: pam_unix(cron:session): session closed for user root
+Jul 13 17:09:01 sheevaplug-debian CRON[21208]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:09:01 sheevaplug-debian CRON[21208]: pam_unix(cron:session): session closed for user root
+Jul 13 17:17:01 sheevaplug-debian CRON[21217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:17:01 sheevaplug-debian CRON[21217]: pam_unix(cron:session): session closed for user root
+Jul 13 17:39:01 sheevaplug-debian CRON[21221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:39:01 sheevaplug-debian CRON[21221]: pam_unix(cron:session): session closed for user root
+Jul 13 18:09:01 sheevaplug-debian CRON[21233]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:09:01 sheevaplug-debian CRON[21233]: pam_unix(cron:session): session closed for user root
+Jul 16 10:54:31 sheevaplug-debian sshd[2064]: Server listening on :: port 22.
+Jul 16 10:54:31 sheevaplug-debian sshd[2064]: Server listening on 0.0.0.0 port 22.
+Jul 16 10:54:45 sheevaplug-debian login[2553]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 16 10:54:45 sheevaplug-debian login[2564]: ROOT LOGIN  on 'ttyS0'
+Jul 16 11:00:20 sheevaplug-debian sshd[2340]: Server listening on :: port 22.
+Jul 16 11:00:20 sheevaplug-debian sshd[2340]: Server listening on 0.0.0.0 port 22.
+Jul 16 11:00:39 sheevaplug-debian login[2815]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 16 11:00:39 sheevaplug-debian login[2826]: ROOT LOGIN  on 'ttyS0'
+Jul 16 11:09:01 sheevaplug-debian CRON[2832]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 11:09:01 sheevaplug-debian CRON[2832]: pam_unix(cron:session): session closed for user root
+Jul 16 13:39:50 sheevaplug-debian sshd[2198]: Server listening on :: port 22.
+Jul 16 13:39:50 sheevaplug-debian sshd[2198]: Server listening on 0.0.0.0 port 22.
+Jul 16 13:40:06 sheevaplug-debian login[2683]: pam_unix(login:auth): check pass; user unknown
+Jul 16 13:40:06 sheevaplug-debian login[2683]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=ttyS0 ruser= rhost= 
+Jul 16 13:40:09 sheevaplug-debian login[2683]: FAILED LOGIN (1) on 'ttyS0' FOR `UNKNOWN', User not known to the underlying authentication module
+Jul 16 13:40:13 sheevaplug-debian login[2683]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 16 13:40:13 sheevaplug-debian login[2706]: ROOT LOGIN  on 'ttyS0'
+Jul 16 14:09:01 sheevaplug-debian CRON[2747]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 14:09:01 sheevaplug-debian CRON[2747]: pam_unix(cron:session): session closed for user root
+Jul 16 14:17:01 sheevaplug-debian CRON[2758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 14:17:01 sheevaplug-debian CRON[2758]: pam_unix(cron:session): session closed for user root
+Jul 16 14:39:01 sheevaplug-debian CRON[2780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 14:39:01 sheevaplug-debian CRON[2780]: pam_unix(cron:session): session closed for user root
+Jul 16 15:09:01 sheevaplug-debian CRON[2797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 16 15:09:01 sheevaplug-debian CRON[2797]: pam_unix(cron:session): session closed for user root
+Jul 17 11:40:08 sheevaplug-debian sshd[2341]: Server listening on :: port 22.
+Jul 17 11:40:08 sheevaplug-debian sshd[2341]: Server listening on 0.0.0.0 port 22.
+Jul 17 11:41:17 sheevaplug-debian login[2816]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 17 11:41:17 sheevaplug-debian login[2848]: ROOT LOGIN  on 'ttyS0'
+Jul 17 12:02:24 sheevaplug-debian groupadd[3335]: new group: name=haldaemon, GID=109
+Jul 17 12:02:24 sheevaplug-debian useradd[3339]: new user: name=haldaemon, UID=106, GID=109, home=/var/run/hal, shell=/bin/false
+Jul 17 12:02:25 sheevaplug-debian usermod[3344]: change user `haldaemon' password
+Jul 17 12:02:25 sheevaplug-debian chage[3349]: changed password expiry for haldaemon
+Jul 17 12:02:26 sheevaplug-debian chfn[3352]: changed user `haldaemon' information
+Jul 17 12:02:26 sheevaplug-debian groupadd[3357]: new group: name=powerdev, GID=110
+Jul 17 12:07:29 sheevaplug-debian sshd[3487]: Accepted password for root from 192.168.1.101 port 56481 ssh2
+Jul 17 12:07:29 sheevaplug-debian sshd[3487]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul 17 12:09:01 sheevaplug-debian CRON[3507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 12:09:01 sheevaplug-debian CRON[3507]: pam_unix(cron:session): session closed for user root
+Jul 17 12:10:49 sheevaplug-debian sshd[3487]: Received disconnect from 192.168.1.101: 11: disconnected by user
+Jul 17 12:10:49 sheevaplug-debian sshd[3487]: pam_unix(sshd:session): session closed for user root
+Jul 17 12:10:56 sheevaplug-debian sshd[3518]: Accepted password for root from 192.168.1.101 port 56496 ssh2
+Jul 17 12:10:56 sheevaplug-debian sshd[3518]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul 17 12:11:12 sheevaplug-debian sshd[3518]: Received disconnect from 192.168.1.101: 11: disconnected by user
+Jul 17 12:11:12 sheevaplug-debian sshd[3518]: pam_unix(sshd:session): session closed for user root
+Jul 17 12:11:16 sheevaplug-debian sshd[3531]: Accepted password for root from 192.168.1.101 port 56497 ssh2
+Jul 17 12:11:16 sheevaplug-debian sshd[3531]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul 17 12:17:01 sheevaplug-debian CRON[3593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 17 12:17:01 sheevaplug-debian CRON[3593]: pam_unix(cron:session): session closed for user root
+Jul 17 12:22:36 sheevaplug-debian sshd[3531]: Received disconnect from 192.168.1.101: 11: disconnected by user
+Jul 17 12:22:36 sheevaplug-debian sshd[3531]: pam_unix(sshd:session): session closed for user root
+Jul 17 12:22:40 sheevaplug-debian sshd[3655]: Accepted password for root from 192.168.1.101 port 56504 ssh2
+Jul 17 12:22:40 sheevaplug-debian sshd[3655]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul 17 12:27:21 sheevaplug-debian sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/sbin/reboot
+Jul 18 12:49:13 sheevaplug-debian sshd[2402]: Server listening on :: port 22.
+Jul 18 12:49:13 sheevaplug-debian sshd[2402]: Server listening on 0.0.0.0 port 22.
+Jul 18 12:49:26 sheevaplug-debian login[2922]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 18 12:49:26 sheevaplug-debian login[2957]: ROOT LOGIN  on 'ttyS0'
+Jul 18 13:09:01 sheevaplug-debian CRON[4020]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 13:09:01 sheevaplug-debian CRON[4020]: pam_unix(cron:session): session closed for user root
+Jul 18 13:17:01 sheevaplug-debian CRON[12517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 13:17:01 sheevaplug-debian CRON[12517]: pam_unix(cron:session): session closed for user root
+Jul 18 13:39:01 sheevaplug-debian CRON[24590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 13:39:01 sheevaplug-debian CRON[24590]: pam_unix(cron:session): session closed for user root
+Jul 18 14:09:02 sheevaplug-debian CRON[25112]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 14:09:02 sheevaplug-debian CRON[25112]: pam_unix(cron:session): session closed for user root
+Jul 18 14:17:01 sheevaplug-debian CRON[25118]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 14:17:01 sheevaplug-debian CRON[25118]: pam_unix(cron:session): session closed for user root
+Jul 18 14:39:01 sheevaplug-debian CRON[25144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 14:39:01 sheevaplug-debian CRON[25144]: pam_unix(cron:session): session closed for user root
+Jul 18 15:09:01 sheevaplug-debian CRON[25880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 15:09:01 sheevaplug-debian CRON[25880]: pam_unix(cron:session): session closed for user root
+Jul 18 15:17:01 sheevaplug-debian CRON[25886]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 15:17:01 sheevaplug-debian CRON[25886]: pam_unix(cron:session): session closed for user root
+Jul 18 15:39:01 sheevaplug-debian CRON[8044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 15:39:01 sheevaplug-debian CRON[8044]: pam_unix(cron:session): session closed for user root
+Jul 18 16:09:01 sheevaplug-debian CRON[21670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 16:09:01 sheevaplug-debian CRON[21670]: pam_unix(cron:session): session closed for user root
+Jul 18 16:17:01 sheevaplug-debian CRON[27304]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 16:17:01 sheevaplug-debian CRON[27304]: pam_unix(cron:session): session closed for user root
+Jul 18 16:39:01 sheevaplug-debian CRON[27638]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 16:39:01 sheevaplug-debian CRON[27638]: pam_unix(cron:session): session closed for user root
+Jul 18 17:09:01 sheevaplug-debian CRON[29294]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 17:09:01 sheevaplug-debian CRON[29294]: pam_unix(cron:session): session closed for user root
+Jul 18 17:17:01 sheevaplug-debian CRON[29298]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 17:17:01 sheevaplug-debian CRON[29298]: pam_unix(cron:session): session closed for user root
+Jul 18 17:39:01 sheevaplug-debian CRON[29316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 17:39:01 sheevaplug-debian CRON[29316]: pam_unix(cron:session): session closed for user root
+Jul 18 18:09:01 sheevaplug-debian CRON[29328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 18:09:01 sheevaplug-debian CRON[29328]: pam_unix(cron:session): session closed for user root
+Jul 20 11:06:57 sheevaplug-debian sshd[2406]: Server listening on :: port 22.
+Jul 20 11:06:57 sheevaplug-debian sshd[2406]: Server listening on 0.0.0.0 port 22.
+Jul 20 11:09:01 sheevaplug-debian CRON[2954]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:09:01 sheevaplug-debian CRON[2954]: pam_unix(cron:session): session closed for user root
+Jul 20 11:17:01 sheevaplug-debian CRON[2965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:17:01 sheevaplug-debian CRON[2965]: pam_unix(cron:session): session closed for user root
+Jul 20 11:21:03 sheevaplug-debian login[2928]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 20 11:21:03 sheevaplug-debian login[2969]: ROOT LOGIN  on 'ttyS0'
+Jul 20 11:36:15 sheevaplug-debian sshd[2173]: Server listening on :: port 22.
+Jul 20 11:36:15 sheevaplug-debian sshd[2173]: Server listening on 0.0.0.0 port 22.
+Jul 20 11:39:01 sheevaplug-debian CRON[2728]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:39:01 sheevaplug-debian CRON[2728]: pam_unix(cron:session): session closed for user root
+Jul 20 11:39:04 sheevaplug-debian login[2701]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 20 11:39:04 sheevaplug-debian login[2731]: ROOT LOGIN  on 'ttyS0'
+Jul 20 11:42:38 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/sbin/reboot
+Jul 20 11:44:38 sheevaplug-debian sshd[2401]: Server listening on :: port 22.
+Jul 20 11:44:38 sheevaplug-debian sshd[2401]: Server listening on 0.0.0.0 port 22.
+Jul 20 11:45:03 sheevaplug-debian login[2931]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 20 11:45:03 sheevaplug-debian login[2955]: ROOT LOGIN  on 'ttyS0'
+Jul 20 11:59:46 sheevaplug-debian sshd[2411]: Server listening on :: port 22.
+Jul 20 11:59:46 sheevaplug-debian sshd[2411]: Server listening on 0.0.0.0 port 22.
+Jul 20 11:59:59 sheevaplug-debian login[2943]: pam_unix(login:auth): check pass; user unknown
+Jul 20 11:59:59 sheevaplug-debian login[2943]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=ttyS0 ruser= rhost= 
+Jul 20 12:00:02 sheevaplug-debian login[2943]: FAILED LOGIN (1) on 'ttyS0' FOR `UNKNOWN', User not known to the underlying authentication module
+Jul 20 12:00:18 sheevaplug-debian login[2943]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 20 12:00:18 sheevaplug-debian login[2966]: ROOT LOGIN  on 'ttyS0'
+Jul 20 12:09:01 sheevaplug-debian CRON[2976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:09:01 sheevaplug-debian CRON[2976]: pam_unix(cron:session): session closed for user root
+Jul 20 12:17:01 sheevaplug-debian CRON[2986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:17:01 sheevaplug-debian CRON[2986]: pam_unix(cron:session): session closed for user root
+Jul 20 12:39:01 sheevaplug-debian CRON[3057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:39:01 sheevaplug-debian CRON[3057]: pam_unix(cron:session): session closed for user root
+Jul 20 12:50:02 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/etc/init.d/udhcpd restart
+Jul 20 13:05:37 sheevaplug-debian sshd[2400]: Server listening on :: port 22.
+Jul 20 13:05:37 sheevaplug-debian sshd[2400]: Server listening on 0.0.0.0 port 22.
+Jul 20 13:06:09 sheevaplug-debian login[3012]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 20 13:06:09 sheevaplug-debian login[3023]: ROOT LOGIN  on 'ttyS0'
+Jul 20 13:09:01 sheevaplug-debian CRON[5154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:09:01 sheevaplug-debian CRON[5154]: pam_unix(cron:session): session closed for user root
+Jul 20 13:17:01 sheevaplug-debian CRON[10181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:17:02 sheevaplug-debian CRON[10181]: pam_unix(cron:session): session closed for user root
+Jul 20 13:39:01 sheevaplug-debian CRON[15196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:39:01 sheevaplug-debian CRON[15196]: pam_unix(cron:session): session closed for user root
+Jul 20 14:09:01 sheevaplug-debian CRON[15237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:09:01 sheevaplug-debian CRON[15237]: pam_unix(cron:session): session closed for user root
+Jul 20 14:17:01 sheevaplug-debian CRON[15247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:17:01 sheevaplug-debian CRON[15247]: pam_unix(cron:session): session closed for user root
+Jul 20 14:39:01 sheevaplug-debian CRON[15274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:39:01 sheevaplug-debian CRON[15274]: pam_unix(cron:session): session closed for user root
+Jul 20 15:09:01 sheevaplug-debian CRON[26860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:09:01 sheevaplug-debian CRON[26860]: pam_unix(cron:session): session closed for user root
+Jul 20 15:17:01 sheevaplug-debian CRON[30356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:17:01 sheevaplug-debian CRON[30356]: pam_unix(cron:session): session closed for user root
+Jul 20 15:39:01 sheevaplug-debian CRON[7561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:39:01 sheevaplug-debian CRON[7561]: pam_unix(cron:session): session closed for user root
+Jul 20 16:09:01 sheevaplug-debian CRON[20233]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:09:01 sheevaplug-debian CRON[20233]: pam_unix(cron:session): session closed for user root
+Jul 20 16:17:01 sheevaplug-debian CRON[25476]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:17:01 sheevaplug-debian CRON[25476]: pam_unix(cron:session): session closed for user root
+Jul 20 16:39:01 sheevaplug-debian CRON[29928]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:39:01 sheevaplug-debian CRON[29928]: pam_unix(cron:session): session closed for user root
+Jul 20 17:09:01 sheevaplug-debian CRON[29970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:09:01 sheevaplug-debian CRON[29970]: pam_unix(cron:session): session closed for user root
+Jul 20 17:17:01 sheevaplug-debian CRON[29989]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:17:01 sheevaplug-debian CRON[29989]: pam_unix(cron:session): session closed for user root
+Jul 20 17:39:01 sheevaplug-debian CRON[30014]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:39:01 sheevaplug-debian CRON[30014]: pam_unix(cron:session): session closed for user root
+Jul 20 18:09:01 sheevaplug-debian CRON[30058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:09:01 sheevaplug-debian CRON[30058]: pam_unix(cron:session): session closed for user root
+Jul 20 18:17:01 sheevaplug-debian CRON[30069]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:17:01 sheevaplug-debian CRON[30069]: pam_unix(cron:session): session closed for user root
+Jul 20 18:39:01 sheevaplug-debian CRON[30092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:39:01 sheevaplug-debian CRON[30092]: pam_unix(cron:session): session closed for user root
+Jul 23 10:55:08 sheevaplug-debian sshd[2171]: Server listening on :: port 22.
+Jul 23 10:55:08 sheevaplug-debian sshd[2171]: Server listening on 0.0.0.0 port 22.
+Jul 23 11:09:40 sheevaplug-debian sshd[2169]: Server listening on :: port 22.
+Jul 23 11:09:40 sheevaplug-debian sshd[2169]: Server listening on 0.0.0.0 port 22.
+Jul 23 11:09:57 sheevaplug-debian login[2684]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 23 11:09:57 sheevaplug-debian login[2720]: ROOT LOGIN  on 'ttyS0'
+Jul 23 11:17:01 sheevaplug-debian CRON[2881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 11:17:01 sheevaplug-debian CRON[2881]: pam_unix(cron:session): session closed for user root
+Jul 23 11:22:55 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/etc/init.d/udhcpd stop
+Jul 23 11:22:58 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/etc/init.d/udhcpd start
+Jul 23 11:36:01 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/openvswitch-1.4.2 ; USER=root ; COMMAND=/etc/init.d/udhcpd stop
+Jul 23 11:36:05 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/openvswitch-1.4.2 ; USER=root ; COMMAND=/etc/init.d/udhcpd start
+Jul 23 11:36:11 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/openvswitch-1.4.2 ; USER=root ; COMMAND=/etc/init.d/udhcpd start
+Jul 23 11:37:02 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/openvswitch-1.4.2 ; USER=root ; COMMAND=/etc/init.d/udhcpd start
+Jul 23 11:39:01 sheevaplug-debian CRON[3089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 11:39:01 sheevaplug-debian CRON[3089]: pam_unix(cron:session): session closed for user root
+Jul 23 12:01:23 sheevaplug-debian sshd[2401]: Server listening on :: port 22.
+Jul 23 12:01:23 sheevaplug-debian sshd[2401]: Server listening on 0.0.0.0 port 22.
+Jul 23 12:07:18 sheevaplug-debian login[2933]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 23 12:07:18 sheevaplug-debian login[2957]: ROOT LOGIN  on 'ttyS0'
+Jul 23 12:09:01 sheevaplug-debian CRON[3040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 12:09:01 sheevaplug-debian CRON[3040]: pam_unix(cron:session): session closed for user root
+Jul 23 12:10:39 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/sbin/reboot
+Jul 23 12:12:38 sheevaplug-debian sshd[2409]: Server listening on :: port 22.
+Jul 23 12:12:38 sheevaplug-debian sshd[2409]: Server listening on 0.0.0.0 port 22.
+Jul 23 12:13:55 sheevaplug-debian login[2941]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 23 12:13:55 sheevaplug-debian login[2965]: ROOT LOGIN  on 'ttyS0'
+Jul 23 12:17:01 sheevaplug-debian CRON[3036]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 12:17:01 sheevaplug-debian CRON[3036]: pam_unix(cron:session): session closed for user root
+Jul 23 12:17:25 sheevaplug-debian sshd[3039]: Accepted password for root from 192.168.1.101 port 60325 ssh2
+Jul 23 12:17:25 sheevaplug-debian sshd[3039]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul 23 12:44:04 sheevaplug-debian sshd[2181]: Server listening on :: port 22.
+Jul 23 12:44:04 sheevaplug-debian sshd[2181]: Server listening on 0.0.0.0 port 22.
+Jul 23 12:44:33 sheevaplug-debian login[2712]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 23 12:44:33 sheevaplug-debian login[2736]: ROOT LOGIN  on 'ttyS0'
+Jul 23 12:49:11 sheevaplug-debian sshd[2061]: Server listening on :: port 22.
+Jul 23 12:49:11 sheevaplug-debian sshd[2061]: Server listening on 0.0.0.0 port 22.
+Jul 23 12:49:27 sheevaplug-debian login[2587]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 23 12:49:27 sheevaplug-debian login[2615]: ROOT LOGIN  on 'ttyS0'
+Jul 23 13:01:58 sheevaplug-debian passwd[2673]: pam_unix(passwd:chauthtok): password changed for root
+Jul 23 13:02:28 sheevaplug-debian sshd[2675]: Accepted password for root from 192.168.1.101 port 60574 ssh2
+Jul 23 13:02:28 sheevaplug-debian sshd[2675]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul 23 13:03:20 sheevaplug-debian sshd[2750]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.101  user=root
+Jul 23 13:03:22 sheevaplug-debian sshd[2750]: Failed password for root from 192.168.1.101 port 60585 ssh2
+Jul 23 13:03:24 sheevaplug-debian sshd[2750]: Accepted password for root from 192.168.1.101 port 60585 ssh2
+Jul 23 13:03:24 sheevaplug-debian sshd[2750]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul 23 13:09:01 sheevaplug-debian CRON[2764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 13:09:01 sheevaplug-debian CRON[2764]: pam_unix(cron:session): session closed for user root
+Jul 23 13:17:01 sheevaplug-debian CRON[2773]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 13:17:01 sheevaplug-debian CRON[2773]: pam_unix(cron:session): session closed for user root
+Jul 23 13:39:01 sheevaplug-debian CRON[2800]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 13:39:01 sheevaplug-debian CRON[2800]: pam_unix(cron:session): session closed for user root
+Jul 23 14:09:01 sheevaplug-debian CRON[2843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 14:09:01 sheevaplug-debian CRON[2843]: pam_unix(cron:session): session closed for user root
+Jul 23 14:17:01 sheevaplug-debian CRON[2854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 14:17:01 sheevaplug-debian CRON[2854]: pam_unix(cron:session): session closed for user root
+Jul 23 14:39:01 sheevaplug-debian CRON[2890]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 14:39:01 sheevaplug-debian CRON[2890]: pam_unix(cron:session): session closed for user root
+Jul 23 15:09:01 sheevaplug-debian CRON[2913]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:09:01 sheevaplug-debian CRON[2913]: pam_unix(cron:session): session closed for user root
+Jul 23 15:13:57 sheevaplug-debian sshd[2675]: pam_unix(sshd:session): session closed for user root
+Jul 23 15:17:01 sheevaplug-debian CRON[2923]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:17:01 sheevaplug-debian CRON[2923]: pam_unix(cron:session): session closed for user root
+Jul 23 15:39:01 sheevaplug-debian CRON[2950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:39:01 sheevaplug-debian CRON[2950]: pam_unix(cron:session): session closed for user root
+Jul 23 16:09:02 sheevaplug-debian CRON[2986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:09:02 sheevaplug-debian CRON[2986]: pam_unix(cron:session): session closed for user root
+Jul 23 16:17:01 sheevaplug-debian CRON[2994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:17:01 sheevaplug-debian CRON[2994]: pam_unix(cron:session): session closed for user root
+Jul 23 16:39:01 sheevaplug-debian CRON[3013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:39:01 sheevaplug-debian CRON[3013]: pam_unix(cron:session): session closed for user root
+Jul 23 16:49:11 sheevaplug-debian sshd[2750]: pam_unix(sshd:session): session closed for user root
+Jul 23 17:09:01 sheevaplug-debian CRON[3047]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:09:01 sheevaplug-debian CRON[3047]: pam_unix(cron:session): session closed for user root
+Jul 23 17:17:01 sheevaplug-debian CRON[3055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:17:01 sheevaplug-debian CRON[3055]: pam_unix(cron:session): session closed for user root
+Jul 23 17:39:01 sheevaplug-debian CRON[3075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:39:01 sheevaplug-debian CRON[3075]: pam_unix(cron:session): session closed for user root
+Jul 24 10:33:08 sheevaplug-debian sshd[2191]: Server listening on :: port 22.
+Jul 24 10:33:08 sheevaplug-debian sshd[2191]: Server listening on 0.0.0.0 port 22.
+Jul 24 10:33:49 sheevaplug-debian login[2713]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=ttyS0 ruser= rhost=  user=root
+Jul 24 10:33:52 sheevaplug-debian login[2713]: FAILED LOGIN (1) on 'ttyS0' FOR `root', Authentication failure
+Jul 24 10:33:58 sheevaplug-debian login[2713]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 24 10:33:58 sheevaplug-debian login[2725]: ROOT LOGIN  on 'ttyS0'
+Jul 24 10:39:01 sheevaplug-debian CRON[2731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 10:39:01 sheevaplug-debian CRON[2731]: pam_unix(cron:session): session closed for user root
+Jul 24 11:14:58 sheevaplug-debian sshd[2073]: Server listening on :: port 22.
+Jul 24 11:14:58 sheevaplug-debian sshd[2073]: Server listening on 0.0.0.0 port 22.
+Jul 24 11:15:40 sheevaplug-debian login[2606]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=ttyS0 ruser= rhost=  user=root
+Jul 24 11:15:43 sheevaplug-debian login[2606]: FAILED LOGIN (1) on 'ttyS0' FOR `root', Authentication failure
+Jul 24 11:15:47 sheevaplug-debian login[2606]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 24 11:15:47 sheevaplug-debian login[2628]: ROOT LOGIN  on 'ttyS0'
+Jul 24 11:17:04 sheevaplug-debian CRON[2690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 11:17:04 sheevaplug-debian CRON[2690]: pam_unix(cron:session): session closed for user root
+Jul 24 11:36:03 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/dataware/dataware.catalog/src/catalog ; USER=root ; COMMAND=/usr/bin/python CatalogServer.py
+Jul 24 11:38:14 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/dataware/dataware.catalog/src/catalog ; USER=root ; COMMAND=/usr/bin/python CatalogServer.py
+Jul 24 11:38:33 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/dataware/dataware.catalog/src/catalog ; USER=root ; COMMAND=/usr/bin/python CatalogServer.py
+Jul 24 11:39:01 sheevaplug-debian CRON[4082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 11:39:01 sheevaplug-debian CRON[4082]: pam_unix(cron:session): session closed for user root
+Jul 24 12:09:01 sheevaplug-debian CRON[14790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 12:09:01 sheevaplug-debian CRON[14790]: pam_unix(cron:session): session closed for user root
+Jul 24 12:17:01 sheevaplug-debian CRON[15581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 12:17:01 sheevaplug-debian CRON[15581]: pam_unix(cron:session): session closed for user root
+Jul 24 12:37:57 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/root/dataware/dataware.hwresource/src/prefstore ; USER=root ; COMMAND=/sbin/halt
+Jul 26 11:16:12 sheevaplug-debian sshd[2409]: Server listening on :: port 22.
+Jul 26 11:16:12 sheevaplug-debian sshd[2409]: Server listening on 0.0.0.0 port 22.
+Jul 26 11:16:29 sheevaplug-debian login[3079]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=ttyS0 ruser= rhost=  user=root
+Jul 26 11:16:33 sheevaplug-debian login[3079]: FAILED LOGIN (1) on 'ttyS0' FOR `root', Authentication failure
+Jul 26 11:16:50 sheevaplug-debian login[3079]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jul 26 11:16:50 sheevaplug-debian login[3102]: ROOT LOGIN  on 'ttyS0'
+Jul 26 11:17:01 sheevaplug-debian CRON[3107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 26 11:17:01 sheevaplug-debian CRON[3107]: pam_unix(cron:session): session closed for user root
+Jul 26 11:18:44 sheevaplug-debian sudo:     root : TTY=ttyS0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/vi .gitignore
+Jul 26 11:39:01 sheevaplug-debian CRON[3169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 26 11:39:01 sheevaplug-debian CRON[3169]: pam_unix(cron:session): session closed for user root

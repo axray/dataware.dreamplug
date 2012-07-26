@@ -1,0 +1,22 @@
+Package: openttd
+Version: 0.6.2-1+lenny4
+Installed-Size: 6888
+Maintainer: Matthijs Kooijman <matthijs@stdin.nl>
+Architecture: armel
+Depends: libc6 (>= 2.7-1), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.3), libpng12-0 (>= 1.2.13-4), libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.3), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
+Suggests: timidity, freepats
+Description: reimplementation of Transport Tycoon Deluxe with enhancements
+ OpenTTD is a reimplementation of the Microprose game "Transport
+ Tycoon Deluxe" with lots of new features and enhancements. The data
+ files of the original Transport Tycoon Deluxe for Windows are
+ mandatory to play the game. They must be manually copied to the game
+ data directory (see README.Debian for details).
+Homepage: http://www.openttd.org/
+Section: contrib/games
+Priority: optional
+Filename: pool/updates/contrib/o/openttd/openttd_0.6.2-1+lenny4_armel.deb
+Size: 2660200
+MD5sum: 97062b76b96b37646cc404da90df0dfe
+SHA1: 3ac31b7a48ad5ebe78e9836b883a14f21350002a
+SHA256: 0519778a549808da539330fa6dfb60d617bf14e3b2e85273b6d1754b2a192a98
+

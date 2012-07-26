@@ -1,0 +1,43 @@
+[python-package]
+format = 1
+python-version = all
+[pycentral]
+version = 0.6.7
+[files]
+/usr/share/pyshared/chardet-1.0.1.egg-info=f
+/usr/share/pyshared/chardet=d
+/usr/share/pyshared/chardet/big5prober.py=f
+/usr/share/pyshared/chardet/langbulgarianmodel.py=f
+/usr/share/pyshared/chardet/escsm.py=f
+/usr/share/pyshared/chardet/langgreekmodel.py=f
+/usr/share/pyshared/chardet/langcyrillicmodel.py=f
+/usr/share/pyshared/chardet/euctwprober.py=f
+/usr/share/pyshared/chardet/constants.py=f
+/usr/share/pyshared/chardet/hebrewprober.py=f
+/usr/share/pyshared/chardet/jpcntx.py=f
+/usr/share/pyshared/chardet/euckrfreq.py=f
+/usr/share/pyshared/chardet/mbcssm.py=f
+/usr/share/pyshared/chardet/__init__.py=f
+/usr/share/pyshared/chardet/sbcsgroupprober.py=f
+/usr/share/pyshared/chardet/escprober.py=f
+/usr/share/pyshared/chardet/latin1prober.py=f
+/usr/share/pyshared/chardet/codingstatemachine.py=f
+/usr/share/pyshared/chardet/sjisprober.py=f
+/usr/share/pyshared/chardet/langhebrewmodel.py=f
+/usr/share/pyshared/chardet/universaldetector.py=f
+/usr/share/pyshared/chardet/big5freq.py=f
+/usr/share/pyshared/chardet/chardistribution.py=f
+/usr/share/pyshared/chardet/mbcharsetprober.py=f
+/usr/share/pyshared/chardet/charsetprober.py=f
+/usr/share/pyshared/chardet/langthaimodel.py=f
+/usr/share/pyshared/chardet/eucjpprober.py=f
+/usr/share/pyshared/chardet/euctwfreq.py=f
+/usr/share/pyshared/chardet/mbcsgroupprober.py=f
+/usr/share/pyshared/chardet/utf8prober.py=f
+/usr/share/pyshared/chardet/charsetgroupprober.py=f
+/usr/share/pyshared/chardet/gb2312freq.py=f
+/usr/share/pyshared/chardet/langhungarianmodel.py=f
+/usr/share/pyshared/chardet/sbcharsetprober.py=f
+/usr/share/pyshared/chardet/euckrprober.py=f
+/usr/share/pyshared/chardet/gb2312prober.py=f
+/usr/share/pyshared/chardet/jisfreq.py=f

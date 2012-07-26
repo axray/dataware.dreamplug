@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.5: http://docutils.sourceforge.net/" />
+<title>Docutils Release Notes</title>
+<meta name="author" content="Lea Wiemann" />
+<meta name="date" content="2008-06-25" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="docutils/writers/html4css1/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="docutils-release-notes">
+<h1 class="title">Docutils Release Notes</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>Lea Wiemann</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:LeWiemann&#64;gmail.com">LeWiemann&#64;gmail.com</a></td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2008-06-25</td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>5578</td></tr>
+<tr class="field"><th class="docinfo-name">Web site:</th><td class="field-body"><a class="reference external" href="http://docutils.sourceforge.net/">http://docutils.sourceforge.net/</a></td>
+</tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<p>This document summarizes the major changes in recent releases.  For a
+more detailed list of changes, please see the <a class="reference external" href="HISTORY.html">Docutils History</a>.</p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#release-0-5-2008-06-25" id="id33">Release 0.5 (2008-06-25)</a></li>
+<li><a class="reference internal" href="#release-0-4-2006-01-09" id="id34">Release 0.4 (2006-01-09)</a></li>
+<li><a class="reference internal" href="#release-0-3-9-2005-05-26" id="id35">Release 0.3.9 (2005-05-26)</a></li>
+<li><a class="reference internal" href="#release-0-3-7-2004-12-24" id="id36">Release 0.3.7 (2004-12-24)</a></li>
+<li><a class="reference internal" href="#release-0-3-5-2004-07-29" id="id37">Release 0.3.5 (2004-07-29)</a></li>
+</ul>
+</div>
+<div class="section" id="release-0-5-2008-06-25">
+<h1><a class="toc-backref" href="#id33">Release 0.5 (2008-06-25)</a></h1>
+<p>Components:</p>
+<ul class="simple">
+<li>HTML writer.<ul>
+<li>Dropped all <tt class="docutils literal"><span class="pre">name</span></tt> attributes of <tt class="docutils literal"><span class="pre">a</span></tt> elements (<tt class="docutils literal"><span class="pre">id</span></tt> is
+universally supported now).</li>
+</ul>
+</li>
+<li>LaTeX2e writer:<ul>
+<li>Better bibTeX citation support.</li>
+<li>Add <tt class="docutils literal"><span class="pre">--literal-block-env</span></tt></li>
+</ul>
+</li>
+<li>PEP writer:<ul>
+<li>Changed to support new python.org website structure and
+pep2pyramid.py.</li>
+</ul>
+</li>
+</ul>
+<p>reStructuredText:</p>
+<ul class="simple">
+<li>Changed the directive API to a new object-oriented system.
+(Compatibility for the old, functional-style directive interface is
+retained.)  See the updated <a class="reference external" href="docs/howto/rst-directives.html">Creating reStructuredText Directives</a>
+how-to.</li>
+<li>Allow <tt class="docutils literal"><span class="pre">+</span></tt> and <tt class="docutils literal"><span class="pre">:</span></tt> in reference names requested for citations.</li>
+</ul>
+<p>Documentation:</p>
+<ul class="simple">
+<li>Added <a class="reference external" href="docs/howto/security.txt">Deploying Docutils Securely</a></li>
+</ul>
+<p>Internationalization:</p>
+<ul class="simple">
+<li>Added hebrew mappings.</li>
+</ul>
+<p>General:</p>
+<ul class="simple">
+<li>Configuration files are now assumed and required to be
+UTF-8-encoded.</li>
+<li>Added docutils/writers/html4css1/template.txt.</li>
+<li>Enhance emacs support.</li>
+</ul>
+</div>
+<div class="section" id="release-0-4-2006-01-09">
+<h1><a class="toc-backref" href="#id34">Release 0.4 (2006-01-09)</a></h1>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p>Docutils 0.4.x is the last version that will support Python 2.1.
+Docutils 0.5 will <em>not</em> be compatible with Python 2.1; Python 2.2
+or later will be required.</p>
+<p class="last">Docutils 0.4.x is the last version that will make compromises in
+its HTML output for Netscape Navigator 4.  Docutils 0.5 will
+require more up-to-date browsers (the exact definition is to be
+determined).</p>
+</div>
+<p>Components:</p>
+<ul class="simple">
+<li>Added an <a class="reference external" href="docs/user/slide-shows.html">S5/HTML writer</a> and the <a class="reference external" href="docs/user/tools.html#rst2s5-py">rst2s5.py</a> front end:
+multi-platform, multi-browser HTML slide shows.</li>
+<li>The newlatex2e writer is nearing completion.</li>
+<li>Added a DocTree reader, <tt class="docutils literal"><span class="pre">publish_doctree</span></tt> and
+<tt class="docutils literal"><span class="pre">publish_from_doctree</span></tt> convenience functions, for document tree
+extraction and reprocessing.</li>
+</ul>
+<p>reStructuredText:</p>
+<ul class="simple">
+<li>Added directives: &quot;<a class="reference external" href="docs/ref/rst/directives.html#container">container</a>&quot; (generic block-level container),
+&quot;<a class="reference external" href="docs/ref/rst/directives.html#default-role">default-role</a>&quot; (role used for `backtick` syntax), &quot;<a class="reference external" href="docs/ref/rst/directives.html#title">title</a>&quot;
+(document title metadata), and &quot;<a class="reference external" href="docs/ref/rst/directives.html#date">date</a>&quot; (generate the current local
+date, for substitution definitions).</li>
+<li>Length units are now supported for <a class="reference external" href="docs/ref/rst/directives.html#image">image</a> sizes.</li>
+<li>Added <a class="reference external" href="docs/ref/rst/definitions.html">standard definition files</a> for special characters etc.</li>
+</ul>
+<p>Internationalization:</p>
+<ul class="simple">
+<li>Added Japanese and Simplified Chinese language mappings, and support
+for double-width CJK-characters in tables and section titles.</li>
+</ul>
+<p>Documentation:</p>
+<ul class="simple">
+<li>Added a <a class="reference external" href="docs/dev/distributing.html">guide for distributors</a> (package maintainers) and a
+<a class="reference external" href="docs/dev/hacking.html">guide for developers</a>.</li>
+</ul>
+<p>General:</p>
+<ul class="simple">
+<li>Added significant <a class="reference external" href="docs/user/emacs.html">Emacs support for reST</a>.</li>
+<li>Added a <a class="reference external" href="docs/user/config.html#strip-comments">--strip-comments</a> option.</li>
+<li><a class="reference external" href="docs/user/config.html#embed-stylesheet">--embed-stylesheet</a> is now the default for the HTML writer
+(rather than --link-stylesheet).</li>
+</ul>
+</div>
+<div class="section" id="release-0-3-9-2005-05-26">
+<h1><a class="toc-backref" href="#id35">Release 0.3.9 (2005-05-26)</a></h1>
+<ul class="simple">
+<li>Added &quot;<a class="reference external" href="docs/user/config.html#file-insertion-enabled">file_insertion_enabled</a>&quot; and &quot;<a class="reference external" href="docs/user/config.html#raw-enabled">raw_enabled</a>&quot; settings.</li>
+<li>Added <a class="reference external" href="docs/ref/rst/restructuredtext.html#enumerated-lists">auto-enumerated lists</a>.</li>
+<li>Added <a class="reference external" href="docs/ref/rst/directives.html#document-header-footer">&quot;header&quot; and &quot;footer&quot;</a> directives.</li>
+<li>Added &quot;<a class="reference external" href="docs/ref/rst/directives.html#list-table">list-table</a>&quot; directive.</li>
+<li>Added support for <a class="reference external" href="docs/user/config.html#sectsubtitle-xform">section subtitles</a>.</li>
+<li>Added &quot;<a class="reference external" href="docs/user/config.html#field-name-limit">field_name_limit</a>&quot; and &quot;<a class="reference external" href="docs/user/config.html#option-limit">option_limit</a>&quot; settings to HTML writer.</li>
+<li>Added &quot;<a class="reference external" href="docs/user/config.html#cloak-email-addresses">cloak_email_addresses</a>&quot; setting to HTML writer.</li>
+<li>UTF-8 BOMs are now removed from the input stream.</li>
+</ul>
+</div>
+<div class="section" id="release-0-3-7-2004-12-24">
+<h1><a class="toc-backref" href="#id36">Release 0.3.7 (2004-12-24)</a></h1>
+<ul class="simple">
+<li>A special &quot;<a class="reference external" href="docs/ref/rst/restructuredtext.html#line-blocks">line block</a>&quot; syntax has been added.  (Also see the
+<a class="reference external" href="docs/user/rst/quickref.html#line-blocks">quick reference</a>.)</li>
+<li>Empty sections are now allowed.</li>
+<li>A &quot;<a class="reference external" href="docs/ref/rst/roles.html#raw">raw</a>&quot; role has been added.</li>
+<li>The LaTeX writer now escapes consecutive dashes (like &quot;--&quot; or &quot;---&quot;)
+so that they are no longer transformed by LaTeX to en or em dashes.
+(Please see the <a class="reference external" href="FAQ.html#how-can-i-represent-esoteric-characters-e-g-character-entities-in-a-document">FAQ</a> for how to represent such dashes.)</li>
+<li>A <a class="reference external" href="docs/user/config.html#record-dependencies">dependency recorder</a> has been added.</li>
+<li>A directive has been added for <a class="reference external" href="docs/ref/rst/directives.html#compound-paragraph">compound paragraphs</a>.</li>
+</ul>
+</div>
+<div class="section" id="release-0-3-5-2004-07-29">
+<h1><a class="toc-backref" href="#id37">Release 0.3.5 (2004-07-29)</a></h1>
+<ul class="simple">
+<li>Improved, extended and reorganized the <a class="reference external" href="docs/index.html">documentation</a>.</li>
+<li>Added &quot;<a class="reference external" href="docs/ref/rst/directives.html#csv-table">csv-table</a>&quot; directive.</li>
+</ul>
+</div>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="RELEASE-NOTES.txt">View document source</a>.
+Generated on: 2009-12-29 18:29 UTC.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/python-support
+/usr/share/python-support/python-markdown
+/usr/share/python-support/python-markdown/mdx_footnotes.py
+/usr/share/python-support/python-markdown/mdx_rss.py
+/usr/share/python-support/python-markdown/markdown-1.7.egg-info
+/usr/share/python-support/python-markdown/.version
+/usr/share/python-support/python-markdown/markdown.py
+/usr/share/doc
+/usr/share/doc/python-markdown
+/usr/share/doc/python-markdown/changelog.Debian.gz
+/usr/share/doc/python-markdown/README.Debian
+/usr/share/doc/python-markdown/changelog.gz
+/usr/share/doc/python-markdown/copyright

@@ -1,0 +1,13 @@
+
+* Update vim-policy.txt about debian.vim and contact maintainers of files
+  shipped in the wrong place.
+  http://lists.alioth.debian.org/pipermail/pkg-vim-maintainers/2006-May/002541.html
+
+-- Mon, 01 May 2006 11:07:17 -0400 zack
+
+* Clean up the build process.
+  - Make separate build-arch/build-indep targets.  The po files will need to
+    stay part of build-arch since vim does some processing of them.
+  - Separate out when we build xxd so it's not built for every variant.
+  - Separate out when the po files are generated so they aren't generated for
+    every variant.

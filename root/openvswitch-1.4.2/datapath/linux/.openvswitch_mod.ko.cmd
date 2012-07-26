@@ -1,0 +1,1 @@
+cmd_/root/openvswitch-1.4.2/datapath/linux/openvswitch_mod.ko := ld -EL -r  -T /root/linux-3.1/scripts/module-common.lds --build-id  -o /root/openvswitch-1.4.2/datapath/linux/openvswitch_mod.ko /root/openvswitch-1.4.2/datapath/linux/openvswitch_mod.o /root/openvswitch-1.4.2/datapath/linux/openvswitch_mod.mod.o

@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/pyshared-data
+/usr/share/pyshared-data/python-roman
+/usr/share/doc
+/usr/share/doc/python-roman
+/usr/share/doc/python-roman/changelog.Debian.gz
+/usr/share/doc/python-roman/copyright
+/usr/share/doc/python-roman/NEWS.Debian.gz
+/usr/share/pyshared
+/usr/share/pyshared/roman-1.4.egg-info
+/usr/share/pyshared/roman.py

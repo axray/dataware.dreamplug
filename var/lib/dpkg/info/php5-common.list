@@ -1,0 +1,6 @@
+/etc
+/etc/cron.d
+/etc/cron.d/php5
+/etc/php5
+/etc/php5/conf.d
+/etc/php5/conf.d/pdo.ini

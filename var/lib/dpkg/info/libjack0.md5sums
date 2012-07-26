@@ -1,0 +1,11 @@
+2c7e2d0b484bdeaaa713ed836f0d3276  usr/share/doc/libjack0/buildinfo.gz
+45fd75e39d8d687d136ee4cc0a2ae757  usr/share/doc/libjack0/TODO
+f883ee289a5e448569ef0dd688948acb  usr/share/doc/libjack0/copyright
+ac2510b17b1410d9dbf31cc65adcad76  usr/share/doc/libjack0/README
+fe525874b65bfcea8838cdd83b81ebc2  usr/share/doc/libjack0/AUTHORS
+f7302b813f842bc658dc8b00e416f004  usr/share/doc/libjack0/changelog.Debian.gz
+96ce55d2bdfe6a05e4f20eaaf56f2a09  usr/lib/libjack.so.0.0.28
+d46088acdadcc60d37658a8e165e58d0  usr/lib/jack/jack_dummy.so
+63d31f4cb894d8b37fdbb9fe8d846b19  usr/lib/jack/intime.so
+c801fd1e208b3a9ca7c10d9d549f0b8b  usr/lib/jack/inprocess.so
+040b611e2d541443b8ead5e19d5b1f61  usr/lib/jack/jack_oss.so

@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>Debian Menu System - Introduction</title>
+
+</head>
+
+<body>
+
+<p><a name="ch1"></a></p>
+<hr>
+
+<p>
+[ <a href="index.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ 1 ]
+[ <a href="ch2.html">2</a> ]
+[ <a href="ch3.html">3</a> ]
+[ <a href="ch4.html">4</a> ]
+[ <a href="ch5.html">5</a> ]
+[ <a href="ch6.html">6</a> ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch2.html">next</a> ]
+</p>
+
+<hr>
+
+<h1>
+Debian Menu System
+<br>Chapter 1 - Introduction
+</h1>
+
+<hr>
+
+<p>
+Before the advent of <code>update-menus</code>, when the sysadmin installed a
+package onto a Debian system, they would need to edit various window manager
+config files to make the new program show up on, for example,
+<code>fvwm</code>'s menus.  The menus could easily become out of sync with what
+programs were actually available, with some menu items that didn't work, and
+other programs that lacked a menu entry.  update-menus and Debian's menu
+package aim to solve this problem.
+</p>
+
+<p>
+<code>update-menus</code> automatically generates menus of installed programs
+for window managers and other menu programs.  It should be run whenever a menu
+file or menu-method file is changed.  <code>update-menus</code> will be ran
+automatically when Debian packages that contain menu files are installed or
+removed from the system.  Users themselves can add/delete menu items, and
+should then run <code>update-menus</code> as that user, thus creating
+window-manager startup files that are used in preference to the systemwide
+files.
+</p>
+
+<p>
+One problem we ran into with menu-1.x (and before) was that the number of
+entries in any submenu vary wildly: on my system there are only two entries in
+<samp>/Applications/Editors</samp>, while I'm sure that other people have more
+like 20 entries there.  Many people complained about the fullness of certain
+submenus, citing scientific studies or personal experience to explain why
+overfull or underfull submenus are a bad thing.  To overcome this, menu-2.0 now
+can optimize the tree itself, possibly subdividing for example the
+<samp>/Applications/Editors</samp> tree in, say <samp>Editors/Beginner</samp>,
+<samp>Editors/Experienced</samp>, or whatever, if there are many entries in
+that submenu, or maybe even totally removing <samp>/Applications/Editors</samp>
+on systems where there are few editors installed.  To be able to do this, menu
+follows the information supplied to it in the `hints' variables (see paragraph
+below, or the hints chapter).
+</p>
+
+<p>
+Each package that needs to add an entry to the menu tree, includes a menu file
+<code>/usr/share/menu/package-name</code>.  In this file, it will have one line
+per menu entry, like this (copied from <code>/usr/share/menu/xbase</code>):
+</p>
+
+<pre>
+        ?package(xbase):command=&quot;/usr/bin/xedit&quot; needs=&quot;X11&quot; \
+                     section=&quot;Applications/Editors&quot; title=&quot;Xedit&quot; \
+                     hints=&quot;Beginner,Small&quot;
+</pre>
+
+<p>
+This describes the type of interface Xedit needs (X11), the menu section the
+menu entry should be in, the menu text, and the command that should be
+executed.  Also, it tells menu that, if <samp>/Applications/Editors</samp> is
+overfull, it could put Xedit in a <samp>Applications/Editors/Beginner</samp> or
+<samp>Applications/Editors/Small</samp> subsection.
+</p>
+
+<p>
+Whenever <samp>root</samp> runs <code>update-menus</code>, it will check all
+menu files in <code>/etc/menu</code>, <code>/usr/lib/menu</code>,
+<code>/usr/share/menu</code>, and run the installation scripts that display
+managers like <code>fvwm2</code> should provide in
+<code>/etc/menu-methods</code>.
+</p>
+
+<p>
+The menu package itself provides a set of default menu files, for people to get
+the idea, and to speed up things a bit.  (These files should be incorporated
+into the package.)
+</p>
+
+<p>
+Note, that substantial and incompatible changes took place with the menu-1.0
+release, while substantial features were added by the release of menu-2.0.
+This document describes menu-2.0.  Menu-2.0 now doesn't accept the menu-methods
+written for menu-0.x, but for most window managers that still have those old
+menu-methods, I have put new style menu-methods in
+/usr/share/doc/menu/examples.  Everything written for menu-1.0 will work with
+menu-2.0.
+</p>
+
+<p>
+Most notable changes between menu-0.x and menu-1.x are listed in the file
+README.changes in the menu package, the features added by menu-2.0 can be
+summarised here: hints, and the menu-2 compat mode.  (where lines are finished
+by a ';' instead of a newline).
+</p>
+
+<hr>
+
+<p>
+[ <a href="index.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ 1 ]
+[ <a href="ch2.html">2</a> ]
+[ <a href="ch3.html">3</a> ]
+[ <a href="ch4.html">4</a> ]
+[ <a href="ch5.html">5</a> ]
+[ <a href="ch6.html">6</a> ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch2.html">next</a> ]
+</p>
+
+<hr>
+
+<p>
+Debian Menu System
+</p>
+
+<address>
+version 1.4, 12 May 2008<br>
+<br>
+Joost Witteveen <code><a href="mailto:joostje@debian.org">joostje@debian.org</a></code><br>
+Joey Hess <code><a href="mailto:joeyh@debian.org">joeyh@debian.org</a></code><br>
+Christian Schwarz <code><a href="mailto:schwarz@debian.org">schwarz@debian.org</a></code><br>
+Bill Allombert <code><a href="mailto:ballombe@debian.org">ballombe@debian.org</a></code><br>
+<br>
+</address>
+<hr>
+
+</body>
+
+</html>
+

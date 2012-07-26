@@ -1,0 +1,9 @@
+auto
+/usr/bin/spawn-fcgi
+spawn-fcgi.1.gz
+/usr/share/man/man1/spawn-fcgi.1.gz
+
+/usr/bin/spawn-fcgi.lighttpd
+20
+/usr/share/man/man1/spawn-fcgi.lighttpd.1.gz
+

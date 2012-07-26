@@ -1,0 +1,16 @@
+26eb9c68f3e484f473242996a178ce6c  usr/lib/python-support/python-openssl/python2.4/OpenSSL/SSL.so
+285e63c25567bc578e18b7915b378c57  usr/lib/python-support/python-openssl/python2.4/OpenSSL/rand.so
+4cda01842e620f023d38e1310203ed62  usr/lib/python-support/python-openssl/python2.4/OpenSSL/crypto.so
+492a81f1111494f7593e4c71c01f925d  usr/lib/python-support/python-openssl/python2.5/OpenSSL/SSL.so
+c1ba9595b96148152a8138d7190d3959  usr/lib/python-support/python-openssl/python2.5/OpenSSL/rand.so
+93c588f0a13253aad21b7b0a0c370723  usr/lib/python-support/python-openssl/python2.5/OpenSSL/crypto.so
+d062044731ab708e27859fe73cb17d32  usr/share/python-support/python-openssl/OpenSSL/test/test_ssl.py
+96680aa6e5b9d6d69c1428d1ea88d54f  usr/share/python-support/python-openssl/OpenSSL/test/__init__.py
+33cfd444e7baede01e96832fd0da3f64  usr/share/python-support/python-openssl/OpenSSL/test/test_crypto.py
+ab8ed67d5403d8d335556abc429f8e76  usr/share/python-support/python-openssl/OpenSSL/version.py
+4727ae1fa09ba114a4b6c92c19822426  usr/share/python-support/python-openssl/OpenSSL/tsafe.py
+403f4f7b9d80568f876513f446fb0291  usr/share/python-support/python-openssl/OpenSSL/__init__.py
+ed7fcb7e50198e448d6f77a24c4544f8  usr/share/python-support/python-openssl/pyOpenSSL-0.7.egg-info
+f6f9444aa59736afd6e952a4614f3654  usr/share/doc/python-openssl/copyright
+ee994b276974eadce096bb798fb7596b  usr/share/doc/python-openssl/changelog.gz
+c1672ee2fa876d75c2e84420fd909b6e  usr/share/doc/python-openssl/changelog.Debian.gz

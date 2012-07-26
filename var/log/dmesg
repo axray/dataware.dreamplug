@@ -1,0 +1,196 @@
+Linux version 3.1.0 (root@sheevaplug-debian) (gcc version 4.3.2 (Debian 4.3.2-1.1) ) #5 PREEMPT Fri Jul 13 14:17:54 UTC 2012
+CPU: Feroceon 88FR131 [56251311] revision 1 (ARMv5TE), cr=00053977
+CPU: VIVT data cache, VIVT instruction cache
+Machine: Marvell GuruPlug Reference Board
+Memory policy: ECC disabled, Data cache writeback
+On node 0 totalpages: 131072
+free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+  Normal zone: 1024 pages used for memmap
+  Normal zone: 0 pages reserved
+  Normal zone: 130048 pages, LIFO batch:31
+pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+pcpu-alloc: [0] 0 
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 130048
+Kernel command line: console=ttyS0,115200 root=/dev/sdc2 rootdelay=10
+PID hash table entries: 2048 (order: 1, 8192 bytes)
+Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Memory: 512MB = 512MB total
+Memory: 512900k/512900k available, 11388k reserved, 0K highmem
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+    vmalloc : 0xe0800000 - 0xfe800000   ( 480 MB)
+    lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+      .text : 0xc0008000 - 0xc058957c   (5638 kB)
+      .init : 0xc058a000 - 0xc05b4000   ( 168 kB)
+      .data : 0xc05b4000 - 0xc05e8250   ( 209 kB)
+       .bss : 0xc05e8274 - 0xc06b1450   ( 805 kB)
+SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Preemptible hierarchical RCU implementation.
+NR_IRQS:114
+sched_clock: 32 bits at 200MHz, resolution 5ns, wraps every 21474ms
+Console: colour dummy device 80x30
+Calibrating delay loop... 1191.11 BogoMIPS (lpj=5955584)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+CPU: Testing write buffer coherency: ok
+NET: Registered protocol family 16
+Kirkwood: MV88F6281-A1, TCLK=200000000.
+Feroceon L2: Cache support initialised.
+initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+bio: create slab <bio-0> at 0
+vgaarb: loaded
+SCSI subsystem initialized
+libata version 3.00 loaded.
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+cfg80211: Calling CRDA to update world regulatory domain
+Switching to clocksource orion_clocksource
+Switched to NOHz mode on CPU #0
+NET: Registered protocol family 2
+IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+TCP bind hash table entries: 16384 (order: 4, 65536 bytes)
+TCP: Hash tables configured (established 16384 bind 16384)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+PCI: CLS 0 bytes, default 32
+JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+JFS: nTxBlock = 4007, nTxLock = 32056
+msgmni has been set to 1001
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+mv_xor_shared mv_xor_shared.0: Marvell shared XOR driver
+mv_xor_shared mv_xor_shared.1: Marvell shared XOR driver
+mv_xor mv_xor.0: Marvell XOR: ( xor cpy )
+mv_xor mv_xor.1: Marvell XOR: ( xor fill cpy )
+mv_xor mv_xor.2: Marvell XOR: ( xor cpy )
+mv_xor mv_xor.3: Marvell XOR: ( xor fill cpy )
+Serial: 8250/16550 driver, 2 ports, IRQ sharing disabled
+serial8250.0: ttyS0 at MMIO 0xf1012000 (irq = 33) is a 16550A
+console [ttyS0] enabled
+brd: module loaded
+loop: module loaded
+mv643xx_eth: MV-643xx 10/100/1000 ethernet driver version 1.4
+mv643xx_eth smi: probed
+mv643xx_eth_port mv643xx_eth_port.0: eth0: port 0 with MAC address f0:ad:4e:00:7b:73
+mv643xx_eth_port mv643xx_eth_port.1: eth1: port 0 with MAC address f0:ad:4e:00:7b:74
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+orion-ehci orion-ehci.0: Marvell Orion EHCI
+orion-ehci orion-ehci.0: new USB bus registered, assigned bus number 1
+orion-ehci orion-ehci.0: irq 19, io mem 0xf1050000
+orion-ehci orion-ehci.0: USB 2.0 started, EHCI 1.00
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver ums-datafab
+usbcore: registered new interface driver ums-freecom
+usbcore: registered new interface driver ums-jumpshot
+usbcore: registered new interface driver ums-sddr09
+usbcore: registered new interface driver ums-sddr55
+mousedev: PS/2 mouse device common for all mice
+rtc-mv rtc-mv: rtc core: registered rtc-mv as rtc0
+i2c /dev entries driver
+cpuidle: using governor ladder
+cpuidle: using governor menu
+sdhci: Secure Digital Host Controller Interface driver
+sdhci: Copyright(c) Pierre Ossman
+mmc0: mvsdio driver initialized, lacking card detect (fall back to polling)
+sdhci-pltfm: SDHCI platform and OF driver helper
+Registered led device: guruplug:red:health
+Registered led device: guruplug:green:health
+Registered led device: guruplug:red:wmode
+Registered led device: guruplug:green:wmode
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+oprofile: hardware counters not available
+oprofile: using timer interrupt.
+TCP cubic registered
+NET: Registered protocol family 17
+lib80211: common routines for IEEE802.11 drivers
+lib80211_crypt: registered algorithm 'NULL'
+Registering the dns_resolver key type
+Gating clock of unused units
+before: 0x00dfc3fd
+ after: 0x00cf41d9
+rtc-mv rtc-mv: setting system clock to 2012-07-26 11:14:49 UTC (1343301289)
+Waiting 10sec before mounting root device...
+mmc0: new high speed SDIO card at address 0001
+usb 1-1: new high speed USB device number 2 using orion-ehci
+hub 1-1:1.0: USB hub found
+hub 1-1:1.0: 4 ports detected
+usb 1-1.1: new high speed USB device number 3 using orion-ehci
+scsi0 : usb-storage 1-1.1:1.0
+usb 1-1.3: new high speed USB device number 4 using orion-ehci
+scsi1 : usb-storage 1-1.3:1.0
+usb 1-1.4: new full speed USB device number 5 using orion-ehci
+input: C-Media USB Headphone Set   as /devices/platform/orion-ehci.0/usb1/1-1/1-1.4/1-1.4:1.3/input/input0
+generic-usb 0003:0D8C:000C.0001: input: USB HID v1.00 Device [C-Media USB Headphone Set  ] on usb-orion-ehci.0-1.4/input3
+scsi 0:0:0:0: Direct-Access     Generic  STORAGE DEVICE   9910 PQ: 0 ANSI: 0
+sd 0:0:0:0: Attached scsi generic sg0 type 0
+scsi 0:0:0:1: Direct-Access     Generic  STORAGE DEVICE   9910 PQ: 0 ANSI: 0
+sd 0:0:0:0: [sda] 3842048 512-byte logical blocks: (1.96 GB/1.83 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:1: Attached scsi generic sg1 type 0
+sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+sd 0:0:0:0: [sda] No Caching mode page present
+sd 0:0:0:0: [sda] Assuming drive cache: write through
+sd 0:0:0:1: [sdb] Attached SCSI removable disk
+sd 0:0:0:0: [sda] No Caching mode page present
+sd 0:0:0:0: [sda] Assuming drive cache: write through
+ sda: sda1 sda2
+sd 0:0:0:0: [sda] No Caching mode page present
+sd 0:0:0:0: [sda] Assuming drive cache: write through
+sd 0:0:0:0: [sda] Attached SCSI removable disk
+scsi 1:0:0:0: Direct-Access     Generic  Flash Disk       8.07 PQ: 0 ANSI: 2
+sd 1:0:0:0: Attached scsi generic sg2 type 0
+sd 1:0:0:0: [sdc] 7577600 512-byte logical blocks: (3.87 GB/3.61 GiB)
+sd 1:0:0:0: [sdc] Write Protect is off
+sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+sd 1:0:0:0: [sdc] No Caching mode page present
+sd 1:0:0:0: [sdc] Assuming drive cache: write through
+sd 1:0:0:0: [sdc] No Caching mode page present
+sd 1:0:0:0: [sdc] Assuming drive cache: write through
+ sdc: sdc1 sdc2
+sd 1:0:0:0: [sdc] No Caching mode page present
+sd 1:0:0:0: [sdc] Assuming drive cache: write through
+sd 1:0:0:0: [sdc] Attached SCSI removable disk
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs (sdc2): using internal journal
+EXT3-fs (sdc2): mounted filesystem with writeback data mode
+VFS: Mounted root (ext3 filesystem) on device 8:34.
+Freeing init memory: 168K
+udevd (703): /proc/703/oom_adj is deprecated, please use /proc/703/oom_score_adj instead.
+sata_mv sata_mv.0: version 1.28
+sata_mv sata_mv.0: slots 32 ports 1
+scsi2 : sata_mv
+ata1: SATA max UDMA/133 irq 21
+ata1: SATA link down (SStatus 0 SControl F300)
+uap_probe: vendor=0x02DF device=0x9104 class=0 function=1
+Bluetooth: Core ver 2.16
+NET: Registered protocol family 31
+Bluetooth: HCI device and connection manager initialized
+Bluetooth: HCI socket layer initialized
+usbcore: registered new interface driver snd-usb-audio
+UAP FW is active
+Bluetooth: vendor=0x2df, device=0x9105, class=255, fn=2
+libertas_sdio: Libertas SDIO driver
+libertas_sdio: Copyright Pierre Ossman
+EXT3-fs (sda2): warning: maximal mount count reached, running e2fsck is recommended
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs (sda2): using internal journal
+EXT3-fs (sda2): mounted filesystem with writeback data mode

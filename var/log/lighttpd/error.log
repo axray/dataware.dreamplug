@@ -1,0 +1,5 @@
+2000-01-01 06:25:02: (server.c.1361) [note] graceful shutdown started 
+2000-01-01 06:25:02: (server.c.1475) server stopped by UID = 0 PID = 2897 
+2000-01-01 06:25:03: (log.c.75) server started 
+2000-01-01 00:01:04: (log.c.75) server started 
+2011-01-01 01:28:04: (log.c.75) server started 

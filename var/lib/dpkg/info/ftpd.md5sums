@@ -1,0 +1,9 @@
+728c27f77f2c2713aed794319ce8d4b7  usr/share/man/man5/ftpusers.5.gz
+f92cf3f4c30be617ab02e7bb9e6cdb45  usr/share/man/man5/ftpchroot.5.gz
+7d1daebb43404ae94e1e483f08d5a646  usr/share/man/man8/in.ftpd.8.gz
+1be161936cb618164d6b9c7b94f5a06a  usr/share/doc/ftpd/README.Debian
+0d9525157ea88fd1152632b3622eea8f  usr/share/doc/ftpd/copyright
+d44d759ee12dfa02c4e30b29d914cff9  usr/share/doc/ftpd/changelog.gz
+34eb6fb865386bc033e659dadd8a9973  usr/share/doc/ftpd/README.gz
+65786274669f85eaa5b280e7c6c66d95  usr/share/doc/ftpd/changelog.Debian.gz
+cb8404e049bf748dd98900336e520436  usr/sbin/in.ftpd

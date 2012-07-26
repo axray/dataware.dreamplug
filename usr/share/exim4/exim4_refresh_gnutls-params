@@ -1,0 +1,58 @@
+#!/bin/sh
+set -e
+
+if [ -n "$EX4DEBUG" ]; then
+  echo "now debugging $0 $@"
+  set -x
+fi
+
+
+# regenerate $EXIM4_SPOOLDIR/gnutls-params
+# As this can take _very_ long on machines with little entropy, we limit
+# the maximum runtime to 2*$CERTTOOLTIMEOUT seconds and keep using the
+# old file otherwise.
+
+# Only do anything if exim4 is actually installed
+if [ ! -x /usr/lib/exim4/exim4 ]; then
+  exit 0
+fi
+
+# Only do anyting if TLS is enabled in exim
+if [ -z "$(/usr/lib/exim4/exim4 -bP tls_advertise_hosts | sed 's/.*=[[:space:]]\(.*\)/\1/')" ]; then 
+  # TLS disabled
+  exit 0
+fi
+
+TIMEOUT=${1:-1800}
+
+EXIM4_SPOOLDIR="${EXIM4_SPOOLDIR:-$(/usr/lib/exim4/exim4 -bP spool_directory | sed 's/.*=[[:space:]]\(.*\)/\1/')}"
+cd $EXIM4_SPOOLDIR
+
+PARAMFILE="$EXIM4_SPOOLDIR/gnutls-params"
+
+tempgnutls=$(tempfile --directory $EXIM4_SPOOLDIR --mode 644 --prefix  "gnutp" )
+
+if [ -x /usr/bin/certtool ] ; then
+  # GnuTLS
+  if /usr/share/exim4/timeout.pl \
+      "$TIMEOUT" /usr/bin/certtool --generate-dh-params --bits 2048 \
+      > "$tempgnutls" 2> /dev/null ; then
+    mv -f "$tempgnutls" "$PARAMFILE"
+  else
+    rm -f "$tempgnutls"
+  fi
+elif [ -x /usr/bin/openssl ] ;then
+  # OpenSSL
+  if HOME=$EXIM4_SPOOLDIR /usr/share/exim4/timeout.pl \
+      "$TIMEOUT" /usr/bin/openssl dhparam 2048 \
+      > "$tempgnutls" 2> /dev/null ; then
+    mv -f "$tempgnutls" "$PARAMFILE"
+  else
+    rm -f "$tempgnutls"
+  fi
+else
+  # neither GnuTLS nor OpenSSL installed, have exim generate the DH params
+  rm -f "$PARAMFILE" "$tempgnutls"
+fi
+
+# vim:tabstop=2:expandtab:shiftwidth=2

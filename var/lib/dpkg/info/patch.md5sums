@@ -1,0 +1,9 @@
+8648fe5ec60b1400124bf877f1ac91de  usr/share/man/man1/patch.1.gz
+96cb5321726476358190d32dc6e3ef60  usr/share/lintian/overrides/patch
+565cd94016c330f6c77683f9d0012089  usr/share/doc/patch/changelog.gz
+bc276b2ad3bd86a2d53447066ce99877  usr/share/doc/patch/copyright
+c823ec22e286e14b8afecb91ae04b4c6  usr/share/doc/patch/README
+11276b00155ab770d26509703b8f70be  usr/share/doc/patch/AUTHORS
+c17e5ef5c4037b018ba93abc02790479  usr/share/doc/patch/NEWS.gz
+c9c6fd20c16172d41a2e6d625774b669  usr/share/doc/patch/changelog.Debian.gz
+13195e1253bc0f76e1bc20b6471c0882  usr/bin/patch

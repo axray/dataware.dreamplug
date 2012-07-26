@@ -1,0 +1,11 @@
+a27c1a46af50edb43cf3c39780e39f8a  usr/share/doc/fam/changelog.Debian.gz
+75f44652677e5918d9c3d1f49f5f21bd  usr/share/doc/fam/NEWS.Debian.gz
+4fa2e5623c1d96ed5d9e7513bea3050b  usr/share/doc/fam/changelog.gz
+a1e124998c662d32ad0145b03f36d666  usr/share/doc/fam/README
+8eb8af43201105fe2be123b9686ec7de  usr/share/doc/fam/AUTHORS
+499f4e73ad8992985ef45758df6fad82  usr/share/doc/fam/copyright
+43fb3b5cf5c039eb38afe2319ea152f9  usr/share/doc/fam/TODO
+d6e1608a4288671f3d39a439e34e6a36  usr/share/doc/fam/NEWS.gz
+515f8ff049bd99273b82f4b84b4cd97e  usr/share/man/man5/fam.conf.5.gz
+258f49ef8d3c74e60123907f253a280e  usr/share/man/man8/famd.8.gz
+22d6d8b01c37384aa7f895882240ec84  usr/sbin/famd

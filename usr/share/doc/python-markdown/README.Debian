@@ -1,0 +1,16 @@
+python-markdown for Debian
+--------------------------
+
+Basic usage as a module:
+
+import markdown
+html = markdown.markdown(your_text_string)
+
+You can read more about the modules and how to write extensions
+here: http://www.freewisdom.org/projects/python-markdown/index.php
+
+You can read about the markdown syntax here:
+http://daringfireball.net/projects/markdown/basics
+
+ -- Fredrik Steen <stone@debian.org>, Fri, 21 Apr 2006 13:18:31 +0200,
+    Bernd Zeimetz <bernd@bzed.de>,  Sat, 18 Aug 2007 09:37:31 +0200

@@ -1,0 +1,4 @@
+/etc
+/etc/php5
+/etc/php5/conf.d
+/etc/php5/conf.d/gd.ini

@@ -1,0 +1,33 @@
+------------------------------------------------------------
+/usr/bin/pip run on Tue Jul 24 11:38:10 2012
+Downloading/unpacking json-py
+
+  Getting page http://pypi.python.org/simple/json-py
+  Could not fetch URL http://pypi.python.org/simple/json-py: HTTP Error 404: Not Found (json-py does not have any releases)
+  Will skip URL http://pypi.python.org/simple/json-py when looking for download links for json-py
+  Getting page http://pypi.python.org/simple/
+Operation cancelled by user
+
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/pip/basecommand.py", line 104, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.5/site-packages/pip/commands/install.py", line 245, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python2.5/site-packages/pip/req.py", line 978, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.5/site-packages/pip/index.py", line 104, in find_requirement
+    url_name = self._find_url_name(Link(self.index_urls[0]), url_name, req) or req.url_name
+  File "/usr/lib/python2.5/site-packages/pip/index.py", line 204, in _find_url_name
+    page = self._get_page(index_url, req)
+  File "/usr/lib/python2.5/site-packages/pip/index.py", line 335, in _get_page
+    return HTMLPage.get_page(link, req, cache=self.cache)
+  File "/usr/lib/python2.5/site-packages/pip/index.py", line 456, in get_page
+    contents = resp.read()
+  File "/usr/lib/python2.5/socket.py", line 304, in read
+    data = self._sock.recv(rbufsize)
+  File "/usr/lib/python2.5/httplib.py", line 529, in read
+    s = self.fp.read(amt)
+  File "/usr/lib/python2.5/socket.py", line 328, in read
+    data = self._sock.recv(left)
+KeyboardInterrupt

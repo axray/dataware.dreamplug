@@ -1,0 +1,13 @@
+027b6219dfb0104148c48df462637d30  usr/include/boost/filesystem.hpp
+8b1a151e59fdcdaf511de5e84f2ce289  usr/include/boost/filesystem/cerrno.hpp
+29c2f241eb6cb954d2ce006d0cf8a71d  usr/include/boost/filesystem/config.hpp
+8beb926920ea4812352c7fc44ccbcd3a  usr/include/boost/filesystem/operations.hpp
+f054e37369460c71032382984343f672  usr/include/boost/filesystem/convenience.hpp
+04c47839a301232259297dfa3919db3d  usr/include/boost/filesystem/fstream.hpp
+55403c32766e54e39a6ee9d65f26c9f4  usr/include/boost/filesystem/path.hpp
+231593138282a7cbc98ad18e5378d4c3  usr/include/boost/filesystem/exception.hpp
+bafd4a9a04f064777f1b3ed4e996db5d  usr/share/doc/libboost-filesystem-dev/README.Debian.gz
+f8ac4027d3b0da8c923e1f82f979f465  usr/share/doc/libboost-filesystem-dev/changelog.Debian.gz
+fb03d3dac625d0395569ea36b478959f  usr/share/doc/libboost-filesystem-dev/copyright
+a45e84ef66e3e1e3527b1faf6e9485e6  usr/lib/libboost_filesystem-gcc42-1_34_1.a
+748cabdb006a3fc77965c8d1acb66d0a  usr/lib/libboost_filesystem-gcc42-mt-1_34_1.a

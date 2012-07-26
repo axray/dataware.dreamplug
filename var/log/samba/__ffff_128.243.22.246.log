@@ -1,0 +1,770 @@
+[2012/07/20 12:12:07,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:12:07,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:12:07,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:12:07,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:12:07,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:14:20,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:14:20,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:14:20,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:14:20,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:14:20,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:17:05,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:17:05,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:17:05,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:17:05,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:17:05,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:17:48,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:17:48,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:17:48,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:17:48,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:17:48,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:18:44,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:18:44,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:18:44,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:18:44,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:18:44,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:19:32,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:19:32,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:19:32,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:19:32,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:19:32,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:26:30,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:26:30,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:26:30,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:26:30,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:26:30,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:38:56,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:38:56,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:38:56,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:38:56,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:38:56,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:41:36,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:41:36,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:41:36,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:41:36,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:41:36,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:44:32,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:44:32,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:44:32,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:44:32,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:44:32,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:46:31,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:46:31,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:46:31,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:46:31,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:46:31,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:47:12,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:47:12,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:47:12,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:47:12,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:47:12,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:48:10,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:48:10,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:48:10,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:48:10,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:48:10,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:49:16,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:49:16,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:49:16,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:49:16,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:49:16,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:51:23,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:51:23,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:51:23,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:51:23,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:51:23,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:53:40,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:53:40,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:53:40,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:53:40,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:53:40,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 12:54:45,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 12:54:45,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 12:54:45,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 12:54:45,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 12:54:45,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 13:10:21,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 13:10:21,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 13:10:21,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 13:10:21,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 13:10:21,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 13:17:49,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 13:17:49,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 13:17:49,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 13:17:49,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 13:17:49,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 13:20:10,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 13:20:10,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 13:20:10,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 13:20:10,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 13:20:10,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 13:24:08,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 13:24:08,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 13:24:08,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 13:24:08,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 13:24:08,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 13:24:30,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 13:24:30,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 13:24:30,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 13:24:30,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 13:24:30,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 13:32:43,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 13:32:43,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 13:32:43,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 13:32:43,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 13:32:43,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 13:35:48,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 13:35:48,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 13:35:48,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 13:35:48,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 13:35:48,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 13:45:59,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 13:45:59,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 13:45:59,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 13:45:59,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 13:45:59,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 13:47:54,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 13:47:54,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 13:47:54,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 13:47:54,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 13:47:54,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 14:42:06,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 14:42:06,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 14:42:06,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 14:42:06,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 14:42:06,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 14:46:14,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 14:46:14,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 14:46:14,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 14:46:14,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 14:46:14,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 15:04:34,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 15:04:34,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 15:04:34,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 15:04:34,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 15:04:34,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 15:07:27,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 15:07:27,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 15:07:27,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 15:07:27,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 15:07:27,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 15:10:02,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 15:10:02,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 15:10:02,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 15:10:02,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 15:10:02,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 15:25:28,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 15:25:28,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 15:25:28,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 15:25:28,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 15:25:28,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 15:29:38,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 15:29:38,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 15:29:38,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 15:29:38,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 15:29:38,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 15:39:19,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 15:39:19,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 15:39:19,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 15:39:19,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 15:39:19,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 15:40:34,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 15:40:34,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 15:40:34,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 15:40:34,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 15:40:34,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 15:44:08,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 15:44:08,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 15:44:08,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 15:44:08,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 15:44:08,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 15:47:30,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 15:47:30,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 15:47:30,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 15:47:30,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 15:47:30,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:00:19,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:00:19,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:00:19,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:00:19,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:00:19,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:02:08,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:02:08,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:02:08,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:02:08,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:02:08,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:06:42,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:06:42,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:06:42,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:06:42,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:06:42,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:09:17,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:09:17,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:09:17,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:09:17,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:09:17,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:09:36,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:09:36,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:09:36,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:09:36,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:09:36,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:10:13,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:10:13,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:10:13,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:10:13,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:10:13,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:13:18,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:13:18,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:13:18,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:13:18,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:13:18,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:14:29,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:14:29,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:14:29,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:14:29,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:14:29,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:16:35,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:16:35,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:16:35,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:16:35,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:16:35,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:26:17,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:26:17,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:26:17,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:26:17,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:26:17,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:32:54,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:32:54,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:32:54,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:32:54,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:32:54,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:47:02,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:47:02,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:47:02,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:47:02,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:47:02,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:51:09,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:51:09,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:51:09,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:51:09,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:51:09,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 16:54:30,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 16:54:30,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 16:54:30,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 16:54:30,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 16:54:30,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 17:37:18,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 17:37:18,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 17:37:18,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 17:37:18,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 17:37:18,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 17:39:27,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 17:39:27,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 17:39:27,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 17:39:27,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 17:39:27,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 17:43:21,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 17:43:21,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 17:43:21,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 17:43:21,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 17:43:21,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 17:46:05,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 17:46:05,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 17:46:05,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 17:46:05,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 17:46:05,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 17:46:48,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 17:46:48,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 17:46:48,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 17:46:48,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 17:46:48,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 17:48:36,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 17:48:36,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 17:48:36,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 17:48:36,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 17:48:36,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 17:52:49,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 17:52:49,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 17:52:49,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 17:52:49,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 17:52:49,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 17:54:34,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 17:54:34,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 17:54:34,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 17:54:34,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 17:54:34,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 17:57:53,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 17:57:53,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 17:57:53,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 17:57:53,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 17:57:53,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 18:03:50,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 18:03:50,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 18:03:50,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 18:03:50,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 18:03:50,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 18:15:41,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 18:15:41,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 18:15:41,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 18:15:41,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 18:15:41,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 18:16:57,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 18:16:57,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 18:16:57,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 18:16:57,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 18:16:57,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 18:21:03,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 18:21:03,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 18:21:03,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 18:21:03,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 18:21:03,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 18:23:00,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 18:23:00,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 18:23:00,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 18:23:00,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 18:23:00,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/20 18:27:53,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/20 18:27:53,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/20 18:27:53,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/20 18:27:53,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/20 18:27:53,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/23 15:51:15,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:51:15,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:51:15,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:51:15,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/23 15:51:15,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/23 15:53:00,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:53:00,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:53:00,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:53:00,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/23 15:53:00,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/23 15:58:08,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 15:58:08,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 15:58:08,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 15:58:08,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/23 15:58:08,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/23 16:19:27,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:19:27,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:19:27,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:19:27,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/23 16:19:27,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/23 16:42:53,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 16:42:53,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 16:42:53,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 16:42:53,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/23 16:42:53,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/23 17:21:43,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 17:21:43,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 17:21:43,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 17:21:43,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/23 17:21:43,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/23 17:43:17,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/23 17:43:17,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/23 17:43:17,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/23 17:43:17,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/23 17:43:17,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/24 11:52:15,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/24 11:52:15,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/24 11:52:15,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/24 11:52:15,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/24 11:52:15,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/24 12:10:42,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/24 12:10:42,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/24 12:10:42,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/24 12:10:42,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/24 12:10:42,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/24 12:12:20,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/24 12:12:20,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/24 12:12:20,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/24 12:12:20,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/24 12:12:20,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0
+[2012/07/24 12:20:58,  3] smbd/oplock.c:init_oplocks(875)
+  init_oplocks: initializing messages.
+[2012/07/24 12:20:58,  3] smbd/oplock_linux.c:linux_init_kernel_oplocks(241)
+  Linux kernel oplocks enabled
+[2012/07/24 12:20:58,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 72 (0 toread)
+[2012/07/24 12:20:58,  2] smbd/reply.c:reply_special(425)
+  netbios connect: name1=MYWIFIPLUG      name2=VICARIOUS-PROC 
+[2012/07/24 12:20:58,  2] smbd/reply.c:reply_special(432)
+  netbios connect: local=mywifiplug remote=vicarious-proc, name type = 0

@@ -1,0 +1,176 @@
+This is Debian GNU/Linux's prepackaged version of Tim Bunce's
+Perl DBI module.
+
+Christian Schwarz <schwarz@debian.org> originally put together this package
+from original DBI sources.  It was then taken over by Ben Gertzfield, then
+Martin Schulze and then Christian Hammers. Current maintainer is Debian Perl
+Group.
+
+Upstream sources are downloadable from http://search.cpan.org/dist/DBI/
+
+
+Files: DBI.pm
+Copyright: (c) 1994-2008 Tim Bunce. Ireland. All rights reserved.
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: DBI.xs
+Copyright: (c) 1994-2003  Tim Bunce  Ireland.
+License: GPL-1+ | Artistic
+ See COPYRIGHT section in DBI.pm for usage and distribution rights.
+
+Files: DBIXS.h
+Copyright: (c) 1994-2002  Tim Bunce  Ireland
+License: GPL-1+ | Artistic
+ See COPYRIGHT section in DBI.pm for usage and distribution rights.
+
+Files: Driver.xst
+Copyright: 
+ (c) 1997-2002  Tim Bunce  Ireland
+ (c) 2002       Jonathan Leffler
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: Makefile.PL
+Copyright: (c) 1994-2006  Tim Bunce  Ireland
+License: GPL-1+ | Artistic
+ See COPYRIGHT section in DBI.pm for usage and distribution rights.
+
+Files: dbd_xsh.h
+Copyright:
+ 2000-2002 Tim Bunce
+ 2002      Jonathan Leffler
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: dbi_sql.h
+Copyright: (c) 1997,1998,1999  Tim Bunce  England
+License: GPL-1+ | Artistic
+ See COPYRIGHT section in DBI.pm for usage and distribution rights.
+
+Files: dbipport.h
+Copyright:
+ Version 3.x, Copyright (c) 2004-2005, Marcus Holland-Moritz.
+ Version 2.x, Copyright (C) 2001, Paul Marquess.
+ Version 1.x, Copyright (C) 1999, Kenneth Albanowski.
+License: GPL-1+ | Artistic
+ This program is free software; you can redistribute it and/or
+ modify it under the same terms as Perl itself.
+
+Files: dbiprof.PL
+Copyright: (C) 2002 Sam Tregar
+License: GPL-1+ | Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the same terms as Perl 5 itself.
+
+Files: dbiproxy.PL, lib/DBI/ProxyServer.pm
+Copyright: (c) 1997    Jochen Wiedmann
+License: GPL-1+ | Artistic
+ The DBI::ProxyServer module is free software; you can redistribute it
+ and/or modify it under the same terms as Perl itself. In particular
+ permission is granted to Tim Bunce for distributing this as a part of
+ the DBI.
+
+Files: lib/DBI/Gofer/*, lib/DBI/Util/CacheMemory.pm, lib/DBI/Util/CacheMemory.pm
+Copyright: (c) 2007, Tim Bunce, Ireland
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: lib/DBI/Const/*
+Copyright: (c) 2002  Tim Bunce  Ireland
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: lib/DBI/DBD.pm
+Copyright: (c) 1997-2006 Jonathan Leffler, Jochen Wiedmann, Steffen Goeldner and Tim Bunce
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: lib/DBI/W32ODBC.pm
+Copyright: (c) 1997,1999 Tim Bunce
+ With many thanks to Patrick Hollins for polishing.
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: lib/DBI/FAQ.pm
+Copyright: This document is Copyright (c)1994-2000 Alligator Descartes, with portions
+ Copyright (c)1994-2000 their original authors.
+License: Artistic
+ This module is released under the 'Artistic' license which you can find in
+ the perl distribution.
+
+Files: lib/DBI/SQL/Nano.pm, lib/DBD/DBM.pm
+Copyright: (c) 2004 by Jeff Zucker < jzucker AT cpan.org > All rights reserved.
+License: GPL-1+ | Artistic
+ You may freely distribute and/or modify this  module under the terms
+ of either the GNU  General Public License (GPL) or the Artistic License,
+ as specified in the Perl README file.
+
+Files: lib/DBI/ProfileData.pm, lib/DBI/ProfileDumper/Apache.pm, lib/DBI/ProfileDumper.pm
+Copyright: (C) 2002 Sam Tregar
+License: GPL-1+ | Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the same terms as Perl 5 itself.
+
+Files: lib/DBI/PurePerl.pm
+Copyright: (c) 2002,2003  Tim Bunce  Ireland.
+License: GPL-1+ | Artistic
+ See COPYRIGHT section in DBI.pm for usage and distribution rights.
+
+Files: lib/DBI/DBD/Metadata.pm
+Copyright: (c) 1997-2003 Jonathan Leffler, Jochen Wiedmann, Steffen Goeldner and Tim Bunce
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: lib/DBD/ExampleP.pm
+Copyright: (c) 1994,1997,1998 Tim Bunce
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: lib/DBD/File.pm
+Copyright:
+ (C) 2004 by Jeff Zucker
+ (C) 1998 by Jochen Wiedmann
+ All rights reserved.
+License: GPL-1+ | Artistic
+ You may distribute this module under the terms of either the GNU
+ General Public License or the Artistic License, as specified in
+ the Perl README file.
+
+Files: lib/DBD/NullP.pm
+Copyright: (c) 1994-2007 Tim Bunce
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: lib/DBD/Proxy.pm
+Copyright: (c) 1997,1998  Jochen Wiedmann
+License: GPL-1+ | Artistic
+ The DBD::Proxy module is free software; you can redistribute it and/or
+ modify it under the same terms as Perl itself. In particular permission
+ is granted to Tim Bunce for distributing this as a part of the DBI.
+
+Files: lib/DBD/Sponge.pm
+Copyright: (c) 1994-2003 Tim Bunce Ireland
+License: GPL-1+ | Artistic
+ You may distribute under the terms of either the GNU General Public
+ License or the Artistic License, as specified in the Perl README file.
+
+Files: test.pl
+Copyright: (c) 1994-1998 Tim Bunce
+License: GPL-1+ | Artistic
+ See COPYRIGHT section in DBI.pm for usage and distribution rights.
+
+
+On Debian GNU/Linux systems, the complete text of the GNU General Public
+License can be found in `/usr/share/common-licenses/GPL' and the Artistic
+Licence in `/usr/share/common-licenses/Artistic'.

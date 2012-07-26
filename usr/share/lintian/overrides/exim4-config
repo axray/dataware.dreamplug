@@ -1,0 +1,20 @@
+exim4-config: non-standard-file-perm etc/exim4/passwd.client 0640 != 0644
+exim4-config: settitle-requires-versioned-depends config
+exim4-config: maintainer-script-needs-depends-on-update-inetd postinst
+exim4-config: possible-bashism-in-maintainer-script config:33 ' local '
+exim4-config: possible-bashism-in-maintainer-script config:55 ' local '
+exim4-config: possible-bashism-in-maintainer-script postinst:101 ' local '
+exim4-config: possible-bashism-in-maintainer-script postinst:123 ' local '
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype cy.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype eo.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype et.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype he.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype mk.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype nn.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype pa.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype pl.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype sl.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype tl.utf-8
+exim4-config: partially-translated-question exim4/dc_eximconfig_configtype uk.utf-8
+exim4-config: partially-translated-question exim4/dc_localdelivery pa.utf-8
+exim4-config: description-contains-homepage

@@ -1,0 +1,220 @@
+[2012/07/26 11:54:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:54:46,  3] smbd/service.c:close_cnum(1409)
+  dhcp-22-234 (::ffff:128.243.22.234) closed connection to service IPC$
+[2012/07/26 11:54:46,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to IPC$
+[2012/07/26 11:54:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:54:46,  3] smbd/process.c:smbd_process(2056)
+  receive_message_or_smb failed: NT_STATUS_END_OF_FILE, exiting
+[2012/07/26 11:54:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:54:46,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/26 11:54:46,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 0 of length 194 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBnegprot (pid 3473) conn 0x0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [PC NETWORK PROGRAM 1.0]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [MICROSOFT NETWORKS 1.03]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [MICROSOFT NETWORKS 3.0]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN1.0]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LM1.2X002]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [DOS LANMAN2.1]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [LANMAN2.1]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [Samba]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [NT LANMAN 1.0]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(568)
+  Requested protocol [NT LM 0.12]
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_nt1(392)
+  using SPNEGO
+[2012/07/26 11:57:46,  3] smbd/negprot.c:reply_negprot(673)
+  Selected protocol NT LANMAN 1.0
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 1 of length 92 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 3473) conn 0x0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=13 flg2=0xc801
+[2012/07/26 11:57:46,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1608)
+  Domain=[]  NativeOS=[Unix] NativeLanMan=[Samba] PrimaryDomain=[]
+[2012/07/26 11:57:46,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1624)
+  sesssetupX:name=[]\[]@[dhcp-22-234]
+[2012/07/26 11:57:46,  3] smbd/sesssetup.c:check_guest_password(159)
+  Got anonymous request
+[2012/07/26 11:57:46,  3] auth/auth.c:check_ntlm_password(220)
+  check_ntlm_password:  Checking password for unmapped user []\[]@[] with the new password interface
+[2012/07/26 11:57:46,  3] auth/auth.c:check_ntlm_password(223)
+  check_ntlm_password:  mapped user is: []\[]@[]
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/26 11:57:46,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/26 11:57:46,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] auth/auth.c:check_ntlm_password(269)
+  check_ntlm_password: guest authentication for user [] succeeded
+[2012/07/26 11:57:46,  3] smbd/password.c:register_existing_vuid(314)
+  register_existing_vuid: User name: nobody	Real name: nobody
+[2012/07/26 11:57:46,  3] smbd/password.c:register_existing_vuid(326)
+  register_existing_vuid: UNIX uid 65534 is UNIX user nobody, and will be vuid 100
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 2 of length 98 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtconX (pid 3473) conn 0x0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/service.c:make_connection_snum(944)
+  Connect path is '/tmp' for service [IPC$]
+[2012/07/26 11:57:46,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:57:46,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-22-2-65534
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/26 11:57:46,  3] smbd/vfs.c:vfs_init_default(96)
+  Initialising default vfs hooks
+[2012/07/26 11:57:46,  3] smbd/vfs.c:vfs_init_custom(130)
+  Initialising custom vfs hooks from [/[Default VFS]/]
+[2012/07/26 11:57:46,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:57:46,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-501
+  se_access_check: also S-1-22-2-65534
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-32-546
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/service.c:make_connection_snum(1198)
+  dhcp-22-234 (::ffff:128.243.22.234) connect to service IPC$ initially as user nobody (uid=65534, gid=65534) (pid 3473)
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/reply.c:reply_tcon_and_X(727)
+  tconX service=IPC$ 
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 3 of length 104 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBntcreateX (pid 3473) conn 0x5c00d0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/nttrans.c:nt_open_pipe(320)
+  nt_open_pipe: Known pipe srvsvc opening.
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 4 of length 158 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtrans (pid 3473) conn 0x5c00d0
+[2012/07/26 11:57:46,  3] smbd/ipc.c:handle_trans(436)
+  trans <\PIPE\> data=72 params=0 setup=2
+[2012/07/26 11:57:46,  3] smbd/ipc.c:named_pipe(387)
+  named pipe command on <> name
+[2012/07/26 11:57:46,  3] smbd/ipc.c:api_fd_reply(345)
+  Got API command 0x26 on pipe "srvsvc" (pnum 752b)
+[2012/07/26 11:57:46,  3] rpc_server/srv_pipe.c:api_pipe_bind_req(1564)
+  api_pipe_bind_req: \PIPE\srvsvc -> \PIPE\srvsvc
+[2012/07/26 11:57:46,  3] rpc_server/srv_pipe.c:check_bind_req(991)
+  check_bind_req for \PIPE\srvsvc
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 5 of length 190 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtrans (pid 3473) conn 0x5c00d0
+[2012/07/26 11:57:46,  3] smbd/ipc.c:handle_trans(436)
+  trans <\PIPE\> data=104 params=0 setup=2
+[2012/07/26 11:57:46,  3] smbd/ipc.c:named_pipe(387)
+  named pipe command on <> name
+[2012/07/26 11:57:46,  3] smbd/ipc.c:api_fd_reply(345)
+  Got API command 0x26 on pipe "srvsvc" (pnum 752b)
+[2012/07/26 11:57:46,  3] rpc_server/srv_pipe_hnd.c:free_pipe_context(519)
+  free_pipe_context: destroying talloc pool of size 69
+[2012/07/26 11:57:46,  3] rpc_server/srv_pipe.c:api_rpcTNP(2304)
+  api_rpcTNP: rpc command: SRVSVC_NETSHAREENUMALL
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(65534, 65534) : sec_ctx_stack_ndx = 1
+[2012/07/26 11:57:46,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(100) : conn_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (65534, 65534) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] rpc_server/srv_pipe_hnd.c:free_pipe_context(519)
+  free_pipe_context: destroying talloc pool of size 158
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 6 of length 45 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBclose (pid 3473) conn 0x5c00d0
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 7 of length 132 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtrans (pid 3473) conn 0x5c00d0
+[2012/07/26 11:57:46,  3] smbd/ipc.c:handle_trans(436)
+  trans <\PIPE\LANMAN> data=0 params=38 setup=0
+[2012/07/26 11:57:46,  3] smbd/ipc.c:named_pipe(387)
+  named pipe command on <LANMAN> name
+[2012/07/26 11:57:46,  3] smbd/lanman.c:api_reply(4549)
+  Got API command 104 of form <WrLehDz> <B16BBDz> (tdscnt=0,tpscnt=38,mdrcnt=65535,mprcnt=8)
+[2012/07/26 11:57:46,  3] smbd/lanman.c:api_reply(4553)
+  Doing NetServerEnum
+[2012/07/26 11:57:46,  3] smbd/lanman.c:api_RNetServerEnum(1513)
+  NetServerEnum domain = LOCALDOMAIN uLevel=1 counted=1 total=1
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 8 of length 132 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtrans (pid 3473) conn 0x5c00d0
+[2012/07/26 11:57:46,  3] smbd/ipc.c:handle_trans(436)
+  trans <\PIPE\LANMAN> data=0 params=38 setup=0
+[2012/07/26 11:57:46,  3] smbd/ipc.c:named_pipe(387)
+  named pipe command on <LANMAN> name
+[2012/07/26 11:57:46,  3] smbd/lanman.c:api_reply(4549)
+  Got API command 104 of form <WrLehDz> <B16BBDz> (tdscnt=0,tpscnt=38,mdrcnt=65535,mprcnt=8)
+[2012/07/26 11:57:46,  3] smbd/lanman.c:api_reply(4553)
+  Doing NetServerEnum
+[2012/07/26 11:57:46,  3] smbd/lanman.c:api_RNetServerEnum(1513)
+  NetServerEnum domain = LOCALDOMAIN uLevel=1 counted=3 total=3
+[2012/07/26 11:57:46,  3] smbd/process.c:process_smb(1570)
+  Transaction 9 of length 39 (0 toread)
+[2012/07/26 11:57:46,  3] smbd/process.c:switch_message(1374)
+  switch message SMBtdis (pid 3473) conn 0x5c00d0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/service.c:close_cnum(1409)
+  dhcp-22-234 (::ffff:128.243.22.234) closed connection to service IPC$
+[2012/07/26 11:57:46,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to IPC$
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/process.c:smbd_process(2056)
+  receive_message_or_smb failed: NT_STATUS_END_OF_FILE, exiting
+[2012/07/26 11:57:46,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:57:46,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/26 11:57:46,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)

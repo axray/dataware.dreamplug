@@ -1,0 +1,8 @@
+This package is auto-sufficient, but you can install other packages
+alongside to get some nifty effects.
+
+For example, the "htmlizer" from python-twisted allows PyTextile to
+automatically colorize documents sporting Python syntax.
+
+It can use mxTidy or uTidyLib to validate the generated XHTML output,
+but at the time of writing this, none of them are packaged.

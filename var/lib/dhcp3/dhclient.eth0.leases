@@ -1,0 +1,32 @@
+lease {
+  interface "eth0";
+  fixed-address 128.243.22.242;
+  option subnet-mask 255.255.255.224;
+  option dhcp-lease-time 7200;
+  option routers 128.243.22.254;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 128.243.22.7;
+  option domain-name-servers 128.243.21.19,128.243.21.16,128.243.21.17,128.243.21.18;
+  option broadcast-address 128.243.22.255;
+  option host-name "dhcp-22-242";
+  option domain-name "cs.nott.ac.uk";
+  renew 2 2012/07/24 12:59:23;
+  rebind 2 2012/07/24 13:54:51;
+  expire 2 2012/07/24 14:09:51;
+}
+lease {
+  interface "eth0";
+  fixed-address 128.243.22.242;
+  option subnet-mask 255.255.255.224;
+  option routers 128.243.22.254;
+  option dhcp-lease-time 7200;
+  option dhcp-message-type 5;
+  option domain-name-servers 128.243.21.19,128.243.21.16,128.243.21.17,128.243.21.18;
+  option dhcp-server-identifier 128.243.22.7;
+  option broadcast-address 128.243.22.255;
+  option host-name "dhcp-22-242";
+  option domain-name "cs.nott.ac.uk";
+  renew 4 2012/07/26 12:09:33;
+  rebind 4 2012/07/26 13:01:24;
+  expire 4 2012/07/26 13:16:24;
+}

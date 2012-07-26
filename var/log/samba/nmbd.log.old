@@ -1,0 +1,600 @@
+[2012/07/26 11:26:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.10 on subnet REMOTE_BROADCAST_SUBNET for name MRLAB<1d>
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:26:28,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:26:58,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:26:59,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:26:59,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:26:59,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:26:59,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:27:00,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:27:00,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:27:00,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:27:00,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:27:01,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:27:03,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.13 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:27:04,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.13 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:27:05,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.13 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:27:25,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name HERBERT<20>
+[2012/07/26 11:27:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.74 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:27:36,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.74 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.74 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:27:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:28:16,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-228<00>
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:28:22,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:28:52,  3] nmbd/nmbd_sendannounce.c:send_local_master_announcement(165)
+  send_local_master_announcement: type 8c9a03 for name MYWIFIPLUG on subnet 128.243.22.242 for workgroup LOCALDOMAIN
+[2012/07/26 11:28:53,  3] nmbd/nmbd_sendannounce.c:send_workgroup_announcement(184)
+  send_workgroup_announcement: on subnet 128.243.22.242 for workgroup LOCALDOMAIN
+[2012/07/26 11:28:55,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name MRLAB<1d>
+[2012/07/26 11:28:55,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name CS<1d>
+[2012/07/26 11:28:56,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:28:56,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name LOCALDOMAIN<1d>
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-244<00> IP 128.243.22.244 to LOCALDOMAIN<1d>.
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-244<00> IP 128.243.22.244
+[2012/07/26 11:28:57,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.244 on subnet UNICAST_SUBNET.
+[2012/07/26 11:28:58,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:29:37,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:29:37,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:29:37,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:29:38,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:29:38,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:29:38,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:29:38,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:29:39,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:19,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:30:19,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:30:19,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:20,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:20,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:30:20,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:30:20,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:30:21,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:24,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name __MSBROWSE__<01>
+[2012/07/26 11:30:24,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:30:28,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:28,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:29,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:33,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name __MSBROWSE__<01>
+[2012/07/26 11:30:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:30:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name HERBERT<00>
+[2012/07/26 11:30:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MARIAN<00>
+[2012/07/26 11:30:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:30:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:30:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:30:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:30:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:30:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:30:39,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MARIAN<00>
+[2012/07/26 11:30:40,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:41,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:41,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:30:45,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name __MSBROWSE__<01>
+[2012/07/26 11:30:45,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:30:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:30:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:30:47,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:31:06,  3] nmbd/nmbd_sendannounce.c:send_local_master_announcement(165)
+  send_local_master_announcement: type 8c9a03 for name MYWIFIPLUG on subnet 192.168.1.1 for workgroup LOCALDOMAIN
+[2012/07/26 11:31:06,  3] nmbd/nmbd_sendannounce.c:send_workgroup_announcement(184)
+  send_workgroup_announcement: on subnet 192.168.1.1 for workgroup LOCALDOMAIN
+[2012/07/26 11:31:36,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.10 on subnet REMOTE_BROADCAST_SUBNET for name MRLAB<1d>
+[2012/07/26 11:31:41,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:31:53,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:32:17,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:32:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:32:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:33:21,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.6 on subnet REMOTE_BROADCAST_SUBNET for name AD.NOTTINGHAM.A<1c>
+[2012/07/26 11:33:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.6 on subnet REMOTE_BROADCAST_SUBNET for name AD.NOTTINGHAM.A<1c>
+[2012/07/26 11:33:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.6 on subnet REMOTE_BROADCAST_SUBNET for name AD.NOTTINGHAM.A<1c>
+[2012/07/26 11:33:28,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.6 on subnet REMOTE_BROADCAST_SUBNET for name AD<1c>
+[2012/07/26 11:33:28,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.6 on subnet REMOTE_BROADCAST_SUBNET for name AD<1c>
+[2012/07/26 11:33:28,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.6 on subnet REMOTE_BROADCAST_SUBNET for name AD<1c>
+[2012/07/26 11:33:34,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.6 on subnet REMOTE_BROADCAST_SUBNET for name AD.NOTTINGHAM.A<1c>
+[2012/07/26 11:33:34,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.6 on subnet REMOTE_BROADCAST_SUBNET for name AD.NOTTINGHAM.A<1c>
+[2012/07/26 11:33:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.6 on subnet REMOTE_BROADCAST_SUBNET for name AD.NOTTINGHAM.A<1c>
+[2012/07/26 11:33:40,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:33:40,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:33:40,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MARIAN<00>
+[2012/07/26 11:33:48,  3] nmbd/nmbd_incomingdgrams.c:process_workgroup_announce(215)
+  process_workgroup_announce: from HERBERT<00> IP 128.243.22.141 to __MSBROWSE__<01> for workgroup MRLAB.
+[2012/07/26 11:33:58,  3] nmbd/nmbd_sendannounce.c:send_local_master_announcement(165)
+  send_local_master_announcement: type 8c9a03 for name MYWIFIPLUG on subnet 128.243.22.242 for workgroup LOCALDOMAIN
+[2012/07/26 11:33:58,  3] nmbd/nmbd_sendannounce.c:send_workgroup_announcement(184)
+  send_workgroup_announcement: on subnet 128.243.22.242 for workgroup LOCALDOMAIN
+[2012/07/26 11:33:58,  3] nmbd/nmbd_serverlistdb.c:write_browse_list(430)
+  write_browse_list: Wrote browse list into file /var/cache/samba/browse.dat
+[2012/07/26 11:34:17,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name MRLAB<1d>
+[2012/07/26 11:34:17,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name CS<1d>
+[2012/07/26 11:34:19,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name LOCALDOMAIN<1d>
+[2012/07/26 11:34:19,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:34:19,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:34:19,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-244<00> IP 128.243.22.244 to LOCALDOMAIN<1d>.
+[2012/07/26 11:34:19,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-244<00> IP 128.243.22.244
+[2012/07/26 11:34:19,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.244 on subnet UNICAST_SUBNET.
+[2012/07/26 11:34:20,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:34:21,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:34:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MRLAB<1d>
+[2012/07/26 11:34:22,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name CS<1d>
+[2012/07/26 11:34:24,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:34:24,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:34:24,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.78 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:34:25,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.78 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:34:26,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.78 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:34:28,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:34:28,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:34:28,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:34:28,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:34:29,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:34:30,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:34:53,  3] nmbd/nmbd_incomingdgrams.c:process_workgroup_announce(215)
+  process_workgroup_announce: from MARIAN<00> IP 128.243.22.6 to __MSBROWSE__<01> for workgroup CS.
+[2012/07/26 11:35:03,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.140 on subnet REMOTE_BROADCAST_SUBNET for name HERBERT<20>
+[2012/07/26 11:35:13,  3] nmbd/nmbd_serverlistdb.c:write_browse_list(430)
+  write_browse_list: Wrote browse list into file /var/cache/samba/browse.dat
+[2012/07/26 11:35:53,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.140 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:35:54,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.140 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:35:54,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.140 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:36:40,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MARIAN<00>
+[2012/07/26 11:36:40,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:36:40,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:36:40,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.10 on subnet REMOTE_BROADCAST_SUBNET for name MRLAB<1d>
+[2012/07/26 11:36:40,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:36:41,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:36:41,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:36:45,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name __MSBROWSE__<01>
+[2012/07/26 11:36:45,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:36:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:36:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:36:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name HERBERT<00>
+[2012/07/26 11:36:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MARIAN<00>
+[2012/07/26 11:37:03,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.13 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:37:05,  3] nmbd/nmbd_sendannounce.c:send_local_master_announcement(165)
+  send_local_master_announcement: type 8c9a03 for name MYWIFIPLUG on subnet 192.168.1.1 for workgroup LOCALDOMAIN
+[2012/07/26 11:37:05,  3] nmbd/nmbd_sendannounce.c:send_workgroup_announcement(184)
+  send_workgroup_announcement: on subnet 192.168.1.1 for workgroup LOCALDOMAIN
+[2012/07/26 11:37:05,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.13 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:37:05,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.13 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:37:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.74 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:37:35,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.74 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:37:36,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.74 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:39:25,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name HERBERT<20>
+[2012/07/26 11:39:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name HERBERT<00>
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:39:49,  3] nmbd/nmbd_sendannounce.c:send_local_master_announcement(165)
+  send_local_master_announcement: type 8c9a03 for name MYWIFIPLUG on subnet 128.243.22.242 for workgroup LOCALDOMAIN
+[2012/07/26 11:39:49,  3] nmbd/nmbd_sendannounce.c:send_workgroup_announcement(184)
+  send_workgroup_announcement: on subnet 128.243.22.242 for workgroup LOCALDOMAIN
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MARIAN<00>
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MRLAB<1d>
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name CS<1d>
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name MYWIFIPLUG<20>
+[2012/07/26 11:39:49,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name LOCALDOMAIN<1d>
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name LOCALDOMAIN<1d>
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-228<00>
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-228<00> IP 128.243.22.228 to LOCALDOMAIN<1d>.
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-228<00> IP 128.243.22.228
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:39:50,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.228 on subnet UNICAST_SUBNET.
+[2012/07/26 11:39:51,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:39:52,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.228 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:40:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:40:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:40:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:40:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:40:47,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:40:47,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:41:14,  2] lib/interface.c:add_interface(337)
+  added interface br0 ip=fe80::224:23ff:fe39:cd6%br0 bcast=fe80::ffff:ffff:ffff:ffff%br0 netmask=ffff:ffff:ffff:ffff::
+[2012/07/26 11:41:14,  2] lib/interface.c:add_interface(337)
+  added interface eth0 ip=fe80::f2ad:4eff:fe00:7b73%eth0 bcast=fe80::ffff:ffff:ffff:ffff%eth0 netmask=ffff:ffff:ffff:ffff::
+[2012/07/26 11:41:14,  2] lib/interface.c:add_interface(337)
+  added interface eth0 ip=128.243.22.242 bcast=128.243.22.255 netmask=255.255.255.224
+[2012/07/26 11:41:14,  2] lib/interface.c:add_interface(337)
+  added interface br0 ip=192.168.1.1 bcast=192.168.1.255 netmask=255.255.255.0
+[2012/07/26 11:41:14,  2] nmbd/nmbd.c:reload_interfaces(206)
+  reload_interfaces: ignoring non IPv4 interface.
+[2012/07/26 11:41:14,  2] nmbd/nmbd.c:reload_interfaces(206)
+  reload_interfaces: ignoring non IPv4 interface.
+[2012/07/26 11:41:14,  2] nmbd/nmbd.c:reload_interfaces(255)
+  reload_interfaces: ignoring non IPv4 interface.
+[2012/07/26 11:41:14,  2] nmbd/nmbd.c:reload_interfaces(255)
+  reload_interfaces: ignoring non IPv4 interface.
+[2012/07/26 11:41:14,  2] nmbd/nmbd.c:reload_interfaces(255)
+  reload_interfaces: ignoring non IPv4 interface.
+[2012/07/26 11:41:14,  2] nmbd/nmbd.c:reload_interfaces(255)
+  reload_interfaces: ignoring non IPv4 interface.
+[2012/07/26 11:41:44,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.10 on subnet REMOTE_BROADCAST_SUBNET for name MRLAB<1d>
+[2012/07/26 11:42:10,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name MRLAB<1d>
+[2012/07/26 11:42:16,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:42:16,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:42:17,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:42:17,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:42:18,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:42:18,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.9 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:42:41,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:42:41,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:42:41,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name WORKGROUP<1d>
+[2012/07/26 11:42:45,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name __MSBROWSE__<01>
+[2012/07/26 11:42:45,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:42:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:42:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:42:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MARIAN<00>
+[2012/07/26 11:42:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name HERBERT<00>
+[2012/07/26 11:43:58,  3] nmbd/nmbd_sendannounce.c:send_local_master_announcement(165)
+  send_local_master_announcement: type 8c9a03 for name MYWIFIPLUG on subnet 192.168.1.1 for workgroup LOCALDOMAIN
+[2012/07/26 11:43:58,  3] nmbd/nmbd_sendannounce.c:send_workgroup_announcement(184)
+  send_workgroup_announcement: on subnet 192.168.1.1 for workgroup LOCALDOMAIN
+[2012/07/26 11:44:19,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.78 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:44:20,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.78 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:44:20,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.78 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:44:23,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.78 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:44:24,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.78 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:44:25,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.78 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>
+[2012/07/26 11:45:00,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name MRLAB<1d>
+[2012/07/26 11:45:00,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name CS<1d>
+[2012/07/26 11:45:01,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.74 on subnet REMOTE_BROADCAST_SUBNET for name CS<1c>
+[2012/07/26 11:45:02,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.74 on subnet REMOTE_BROADCAST_SUBNET for name CS<1c>
+[2012/07/26 11:45:02,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.244 on subnet 128.243.22.242 for name LOCALDOMAIN<1d>
+[2012/07/26 11:45:02,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:45:02,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:02,  3] nmbd/nmbd_incomingdgrams.c:process_get_backup_list_request(656)
+  process_get_backup_list_request: request from DHCP-22-244<00> IP 128.243.22.244 to LOCALDOMAIN<1d>.
+[2012/07/26 11:45:02,  3] nmbd/nmbd_incomingdgrams.c:send_backup_list_response(556)
+  send_backup_list_response: sending backup list for workgroup LOCALDOMAIN to DHCP-22-244<00> IP 128.243.22.244
+[2012/07/26 11:45:02,  3] nmbd/nmbd_incomingrequests.c:process_node_status_request(322)
+  process_node_status_request: status request for name MYWIFIPLUG<20> from IP 128.243.22.244 on subnet UNICAST_SUBNET.
+[2012/07/26 11:45:03,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.74 on subnet REMOTE_BROADCAST_SUBNET for name CS<1c>
+[2012/07/26 11:45:03,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:03,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:09,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:10,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:11,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:16,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:17,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:18,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:24,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:24,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:25,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.141 on subnet REMOTE_BROADCAST_SUBNET for name DHCP-22-244<00>
+[2012/07/26 11:45:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name HERBERT<00>
+[2012/07/26 11:45:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MARIAN<00>
+[2012/07/26 11:45:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.234 on subnet 128.243.22.242 for name MYWIFIPLUG<00>
+[2012/07/26 11:45:46,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(568)
+  OK
+[2012/07/26 11:45:54,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.140 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<20>
+[2012/07/26 11:45:54,  3] nmbd/nmbd_incomingrequests.c:process_name_query_request(453)
+  process_name_query_request: Name query from 128.243.22.140 on subnet REMOTE_BROADCAST_SUBNET for name RANKIN<1c>

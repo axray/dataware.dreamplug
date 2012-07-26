@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libsqlite3.a
+/usr/lib/libsqlite3.la
+/usr/lib/pkgconfig
+/usr/lib/pkgconfig/sqlite3.pc
+/usr/include
+/usr/include/sqlite3ext.h
+/usr/include/sqlite3.h
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsqlite3-dev
+/usr/share/doc/libsqlite3-dev/copyright
+/usr/share/doc/libsqlite3-dev/README
+/usr/share/doc/libsqlite3-dev/changelog.Debian.gz
+/usr/lib/libsqlite3.so

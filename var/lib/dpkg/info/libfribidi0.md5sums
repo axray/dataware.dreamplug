@@ -1,0 +1,9 @@
+1fb2ad007b595983358886f63ec945d2  usr/lib/libfribidi.so.0.0.0
+750bbbdf3d956b4780c66c867f207bdb  usr/share/man/man1/fribidi.1.gz
+743e6dbad6fddcb0797273aeda7a6170  usr/share/doc/libfribidi0/README.gz
+8d7212b7a60041a1bd9e11fe9384099e  usr/share/doc/libfribidi0/NEWS.gz
+151a79cbb2513ef52d4b5fd768464128  usr/share/doc/libfribidi0/copyright
+53717bc541907d831f07517d93ad9463  usr/share/doc/libfribidi0/TODO
+8e55fa7960080c128147eda66d554867  usr/share/doc/libfribidi0/changelog.gz
+05fc868a391cc33d0ca4794343bb2587  usr/share/doc/libfribidi0/changelog.Debian.gz
+1adb591280a2c65762eabfd37db718ee  usr/bin/fribidi

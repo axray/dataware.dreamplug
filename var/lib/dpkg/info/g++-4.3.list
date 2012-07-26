@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/gcc
+/usr/lib/gcc/arm-linux-gnueabi
+/usr/lib/gcc/arm-linux-gnueabi/4.3
+/usr/lib/gcc/arm-linux-gnueabi/4.3/cc1plus
+/usr/share
+/usr/share/doc
+/usr/share/doc/gcc-4.3-base
+/usr/share/doc/gcc-4.3-base/C++
+/usr/share/doc/gcc-4.3-base/C++/changelog.gz
+/usr/share/doc/gcc-4.3-base/C++/README.C++
+/usr/bin
+/usr/bin/g++-4.3
+/usr/share/doc/g++-4.3
+/usr/bin/arm-linux-gnueabi-g++-4.3

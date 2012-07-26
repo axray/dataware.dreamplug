@@ -1,0 +1,748 @@
+Template: samba-common/dhcp
+Type: boolean
+Default: false
+Description: Modify smb.conf to use WINS settings from DHCP?
+ If your computer gets IP address information from a DHCP server on the
+ network, the DHCP server may also provide information about WINS servers
+ ("NetBIOS name servers") present on the network.  This requires a
+ change to your smb.conf file so that DHCP-provided WINS settings will
+ automatically be read from /etc/samba/dhcp.conf.
+ .
+ The dhcp3-client package must be installed to take advantage of this
+ feature.
+Description-ar.UTF-8: تغيير smb.conf لاستعمال إعدادات WINS عبر DHCP
+ إذا كان حاسوبك يحصل على معلومات عنوانه (IP adresse)  من خادم DHCP  المتواجد على الشبكة, فأنه باﻹمكان أيضا الحصول غلى معلومات حول خُدَّم  WINS ("خدم أسماء NetBIOS") المتواجد على الشبكة, هذا يتطلب تغييرا في ملفsmb.conf بحيث ان إعدادات  WINS المُقدمة من طرف DHCP ستقرأ آليا من ملف /etc/samba/dhcp.conf.
+ .
+ يجب تثبيت رزمة dhcp3-client للاستفادة من هذه الميزة.
+Description-bg.UTF-8: Да се промени ли smb.conf да взима настройките за WINS от DHCP?
+ Ако компютърът получава информация за мрежовите настройки от DHCP-сървър, този метод може да се използва и за получаване на информация за наличните WINS-сървъри (сървъри за имена NetBIOS). За целта е необходимо да се промени файлът с настройки smb.conf, така че WINS-настройките да се взимат от /etc/samba.dhcp.conf.
+ .
+ Тази настройки изисква инсталирането на пакета dhcp3-client.
+Description-bs.UTF-8: Izmijeniti smb.conf za korištenje WINS postavki od DHCP-a?
+ Ako vaš računar dobiva informacije o IP adresama od DHCP servera na mreži, DHCP server može također pružiti informacije o WINS serverima ("NetBIOS name servers") prisutnim na mreži.  Ovo zahtijeva izmjenu u vašoj smb.conf datoteci tako da WINS postavke dobivene od DHCP-a budu automatski pročitane iz /etc/samba/dhcp.conf.
+ .
+ dhcp3-client paket mora biti instaliran kako bi se iskoristila ova mogućnost.
+Description-ca.UTF-8: Voleu modificar el smb.conf perquè utilitzi els paràmetres de configuració del WINS del DHCP?
+ Si el vostre ordinador obté la informació referent a la IP a través d'un servidor de DHCP, aquest també li donarà informació sobre els servidors de WINS ("servidors de nom de NetBIOS") presents a la xarxa. Aquesta opció precisa d'una modificació del fitxer smb.conf per tal que els paràmetres de WINS obtinguts a través del DHCP s'obtinguin a través de la lectura de /etc/samba/dhcp.conf.
+ .
+ Per beneficiar-vos d'aquesta característica cal que sigui instal·lat el paquet dhcp3-client.
+Description-cs.UTF-8: Upravit smb.conf, aby používal WINS nastavení z DHCP?
+ Pokud váš počítač získává IP adresu z DHCP serveru, může vám tento server nabízet také informace o WINS serverech (jmenných serverech NetBIOSu), které jsou dostupné ve vaší síti. To vyžaduje zásah do souboru smb.conf, kde se nastaví, aby se informace o WINS serverech načítaly ze souboru /etc/samba/dhcp.conf.
+ .
+ Pro využití této vlastnosti musíte mít nainstalovaný balík dhcp3-client.
+Description-da.UTF-8: Ret smb.conf, så den benytter WINS-indstillinger fra DHCP?
+ Hvis din computer får IP-adresseoplysninger fra en DHCP-server på netværket, kan DHCP-serveren også give oplysninger om WINS-servere ("NetBIOS navneservere") på netværket. Dette kræver en ændring i din smb.conf-fil, så WINS-indstillingerne fra DHCP-serveren automatisk indlæses fra /etc/samba/dhcp.conf.
+ .
+ Pakken dhcp3-client skal være installeret, for at kunne udnytte denne funktion.
+Description-de.UTF-8: Soll smb.conf so abgeändert werden, dass per DHCP angebotene WINS-Einstellungen verwendet werden?
+ Wenn Ihr Computer IP-Adress-Informationen von einem DHCP-Server im Netzwerk bezieht, kann es sein, dass auch Informationen über WINS-Server (»NetBIOS-Name-Server«) zur Verfügung gestellt werden, sollten solche Server im Netzwerk vorhanden sein. Eine Änderung der Datei smb.conf ist erforderlich, damit die über DHCP angebotenen WINS-Einstellungen automatisch aus der Datei /etc/samba/dhcp.conf übernommen werden.
+ .
+ Sie müssen das Paket dhcp3-client installiert haben, um diese Funktionalität nutzen zu können.
+Description-dz.UTF-8: ཌི་ཨེཅ་སི་པི་ནང་ལས་ ཌབ་ལུ་ཨའི་ཨེན་ཨེསི་སྒྲིག་སྟངས་ཚུ་ལག་ལེན་འདབ་ནི་ལུ་ smb.conf ལེགས་བཅོས་འབད་ནི་ཨིན་ན་?
+ ག་དེམ་ཅིག་འབད་ ཁྱོད་ཀྱི་གློག་རིག་གིས་ཡོངས་འབྲེལ་གུའི་ཌི་ཨེཅ་སི་པི་སར་བར་ནང་ལས་ ཨའི་པི་ཁ་བྱང་བརྡ་དོན་འཐོབ་པ་ཅིན་ ཌི་ཨེཅ་སི་པི་སར་བར་གིས་ཡང་ ཡོངས་འབྲེལ་གུ་ཡོད་པའི་ ཌབ་ལུ་ཨའི་ཨེན་ཨེསི་སར་བརསི་ ("NetBIOS name servers")གི་སྐོར་ལས་བརྡ་དོན་བྱིན་འོང་། འདི་གི་དོན་ལུ་ ཁྱོད་རའི་ smb.conf ཡིག་སྣོད་བསྒྱུར་བཅོས་འབད་དགོཔ་ཨིན་ དེ་འབད་བ་ཅིན་ བྱིན་ཡོད་པའི་ཌི་ཨེཅ་སི་པི་ ཌབ་ལུ་ཨའི་ཨེན་ཨེསི་སྒྲིག་སྟངས་འདི་ རང་བཞིན་གྱིས་ /etc/samba/dhcp.conf ནང་ལས་ལྷག་འོང་།
+ .
+ ཌི་ཨེཅ་སི་པི་༣-ཞབས་ཏོག་སྤྱོད་མི་ཐུམ་སྒྲིལ་འདི་ ཁྱད་རྣམ་འདི་གི་ཕན་ཐོགས་ལུ་གཞི་བཙུགས་འབད་དགོཔ་ཨིན།
+Description-el.UTF-8: Τροποποίηση του smb.conf ώστε να χρησιμοποιεί τις ρυθμίσεις WINS από τον server DHCP;
+ Αν ο υπολογιστής σας παίρνει πληροφορίες για την διεύθυνση IP από έναν server DHCP στο δίκτυο, ο server DHCP μπορεί επίσης να δώσει πληροφορίες σχετικά με server WINS ("NetBIOS name servers") που υπάρχουν στο δίκτυο. Αυτό απαιτεί μια αλλαγή στο αρχείο σας smb.conf ώστε ρυθμίσεις για τον server WINS που παρέχονται από τον εξυπηρετητή DHCP να διαβάζονται αυτόματα από από το αρχείο /etc/samba/dhcp.conf.
+ .
+ Για να εκμεταλλευτείτε αυτό το γνώρισμα θα πρέπει να εγκαταστήσετε το πακέτο dhcp3-client.
+Description-eo.UTF-8: Ŝanĝu la 'smb.conf'-dosieron por uzi la 'WINS'-argordojn el 'DHCP'?
+ Se via komputilo akiras sian 'IP'-adreson de reta 'DHCP'-servilo, tiu 'DHCP'-servilo povos provizi informojn pri 'WINS'-serviloj ("NetBIOS nomservilo") rete ĉeestantaj. Tio postulas ŝanĝojn en via 'smb.conf'-dosiero por ke la 'WINS'-agordoj provizitaj de 'DHCP'-servilo estu ligitaj en la '/etc/samba/dhcp.conf'-dosiero.
+ .
+ La 'dhcp3'-klienta pako dovos esti instalita por profiti ĉi tiujn trajtojn.
+Description-es.UTF-8: ¿Modificar smb.conf para usar la configuración WINS que proviene de DHCP?
+ Si su sistema recibe la dirección IP desde un servidor DHCP en la red, el servidor DHCP también puede proveerle informaciones sobre los servidores de WINS que haya en la red.  Esto requiere un cambio en el fichero smb.conf para que la configuración de WINS proveniente de DHCP se lea automaticamente de /etc/samba/dhcp.conf.
+ .
+ Hay que instalar el paquete dhcp3-client para aprovechar esta funcionalidad.
+Description-et.UTF-8: Muuta smb.conf, et kasutataks DHCP WINS seadeid?
+ Kui su arvuti saab IP aadressi informatsiooni võrgus asuvalt DHCP serverilt, võib toosama DHCP server levitada infot ka võrgus asuvate WINS serverite ("NetBIOS nimeserverid") kohta. Kui soovid, et seda informatsiooni kasutataks, on vaja smb.conf faili sisse viia muudatus, et DHCP poolt jagatud WINS seaded automaatselt /etc/samba/dhcp.conf failist loetaks.
+ .
+ Et seda võimalust kasutada, peab olema paigaldatud dhcp3-client pakk.
+Description-eu.UTF-8: smb.conf WINS ezarpenak DHCP-tik jasotzeko eraldatu?
+ Zure sistemak IP helbidea sareko DHCP zerbitzari batetatik jaso ezkero, zerbitzari horrek sareko WINS ("NetBIOS name servers") zerbitzarien datuak eman ditzake.  Honek smb.conf fitxategian aldaketa bat behar du DHCP bidezko WINS ezarpenak /etc/samba/dhcp.conf-etik irakurtzeko.
+ .
+ Ezaugarri honetaz baliatzeko dhcp3-client bezeroa instalaturik izan behar duzu.
+Description-fi.UTF-8: Muokataanko smb.conf käyttämään DHCP:ltä saatua WINS-asetusta?
+ Jos tietokone saa verkkoasetukset verkon DHCP-palvelimelta, saattaa DHCP-palvelin tarjota tietoa myös verkon WINS-palvelimista ("NetBIOS-nimipalvelimista"). Tällöin on tiedostoa smb.conf muutettava, jotta DHCP:n tarjoamat WINS-asetukset luetaan automaattisesti tiedostosta /etc/samba/dhcp.conf.
+ .
+ Tätä ominaisuutta voi käyttää vain jos paketti dhcp3-client on asennettu.
+Description-fr.UTF-8: Modifier smb.conf pour utiliser les paramètres WINS fournis par DHCP ?
+ Si votre ordinateur obtient ses paramètres IP à partir d'un serveur DHCP du réseau, ce serveur peut aussi fournir des informations sur les serveurs WINS (serveurs de noms NetBIOS) présents sur le réseau. Une modification du fichier smb.conf est nécessaire afin que les réglages WINS fournis par le serveur DHCP soient lus dans /etc/samba/dhcp.conf.
+ .
+ Le paquet dhcp3-client doit être installé pour utiliser cette fonctionnalité.
+Description-gl.UTF-8: ¿Modificar smb.conf para empregar a configuración WINS de DHCP?
+ Se o seu ordenador obtén o enderezo IP dun servidor DHCP da rede, o servidor DHCP tamén pode fornecer información sobre os servidores WINS (servidores de nomes NetBIOS) que estean presentes na rede. Para facelo hai que modificar o ficheiro smb.conf para que a configuración WINS fornecida por DHCP se lea automaticamente de /etc/samba/dhcp.conf.
+ .
+ O paquete dhcp3-client debe estar instalado para aproveitar esta característica.
+Description-gu.UTF-8: DHCP માંથી WINS ગોઠવણીઓ ઉપયોગ કરવા માટે smb.conf બદલશો?
+ જો તમારું કમ્પ્યુટર નેટવર્કમાં આઇપી સરનામાંની માહિતી DHCP સર્વરમાંથી લે છે તો,  DHCP સર્વર નેટવર્કમાં હાજર રહેલ WINS સર્વરો ("NetBIOS નામ સર્વરો") વિશેની માહિતી પણ પૂરી પાડી શકે છે.  આને માટે તમારે smb.conf ફાઇલમાં ફેરફાર કરવો પડશે જેથી DHCP એ પુરી પાડેલ WINS ગોઠવણીઓ આપમેળે /etc/samba/dhcp.conf માંથી વાંચી શકાય.
+ .
+ આ લાક્ષણિકતાનો લાભ લેવા માટે dhcp3-ક્લાયન્ટ પેકેજ સ્થાપિત કરેલ હોવું જ જોઇએ.
+Description-he.UTF-8: האם לשנות את הקובץ smb.conf כדי שישתמש באופציית WINS מתוך DHCP?
+ במידה ומחשב זה מקבל כתובת IP משרת DHCP ברשת, ייתכן כי שרת ה-DHCP גם מספק מידע על שרתי WINS  (שרתי מיפוי כתובות NetBIOS) הזמינים ברשת. שימוש במידע זה מצריך שינוי בקובץ smb.conf כדי שכתובת שרת ה-WINS שמספק שרת ה-DHCP, תיקרא בצורה אוטומטית מהקובץ /etc/samba/dhcp.conf.
+ .
+ על החבילה dhcp3-client להיות מותקנת כדי לאפשר מאפיין זה.
+Description-hu.UTF-8: Módosítod az smb.conf-ot, hogy a WINS beállításokat a DHCP-n keresztül érje el?
+ Ha e gép az IP címeket egy DHCP kiszolgálótól kérdezi le a hálózaton, lehet, hogy a WINS kiszolgálók ("NetBIOS névkiszolgálók") listáját is le tudja kérdezni. Ehhez az smb.conf módosítása szükséges, hogy a DHCP-n keresztüli WINS beállításokat automatikusan kiolvassa a /etc/samba/dhcp.conf-ból.
+ .
+ A dhcp3-client csomagnak telepítve kell lennie e képesség kihasználásához.
+Description-id.UTF-8: Ubah smb.conf agar menggunakan setelan WINS dari DHCP?
+ Jika komputer Anda mendapatkan alamat IP dari sebuah server DHCP di jaringan, server DHCP tersebut mungkin juga memberikan info tentang server WINS ("server NetBIOS") yang tersedia dalam jaringan. Berkas smb.conf perlu diubah agar setelan WINS dari server DHCP dapat dibaca otomatis dari /etc/samba/dhcp.conf.
+ .
+ Paket dhcp3-client harus dipasang agar fitur ini dapat digunakan.
+Description-it.UTF-8: Modificare smb.conf per usare le impostazioni WINS da DHCP?
+ Se il computer prende le informazioni sull'indirizzo IP da un server DHCP allora il server DHCP può fornire anche informazioni sui server WINS (i name server per NetBIOS) presenti nella rete. Ciò richiede una modifica al file smb.conf in modo che le impostazioni WINS, fornite da DHCP, siano lette automaticamente da /etc/samba/dhcp.conf.
+ .
+ Per usare questa funzionalità deve essere installato il pacchetto dhcp3-client.
+Description-ja.UTF-8: DHCP から WINS 設定を使うよう smb.conf を変更しますか?
+ あなたのコンピュータがネットワーク上の DHCP サーバから IP アドレス情報を取得しているのであれば、DHCP サーバはネットワーク上にある WINS サーバ (NetBIOS ネームサーバ) についての情報を提供することもできます。DHCP で提供される WINS 設定は /etc/samba/dhcp.conf から自動的に読み込まれるため、smb.conf ファイルを変更する必要があります。
+ .
+ この機能を使うためには、dhcp3-client パッケージがインストールされている必要があります。
+Description-ka.UTF-8: გსურთ smb.conf-ის შეცვლა WINS პარამეტრების DHCP-დან გამოსაყენებლად?
+ თუ თქვენი კომპიუტერი IP მისამართს ქსელის DHCP სერვერიდან იღებს, მაშინ DHCP სერვერს შეიძლება ასევე გააჩნდეს ინფორმაცია ქსელში არსებულ WINS სერვერების („NetBIOS name servers“) შესახებ.  ამისათვის საჭიროა ცვლილება smb.conf ფაილში, რათა DHCP-ს მოწოდებული WINS პარამეტრები ავტომატურად ამოიკითხოს /etc/samba/dhcp.conf-დან.
+ .
+ ამ ფუნქციის გამოსაყენებლად აუცილებელია დაყენებული იყოს dhcp3-client პაკეტი.
+Description-km.UTF-8: កែប្រែ smb.conf ដើម្បី​ប្រើ​ការកំណត់​របស់ WINS ពី DHCP ?
+ ប្រសិន​បើ​កុំព្យូទ័រ​របស់​អ្នក​ទទួល​​ព័ត៌មាន​អាសយដ្ឋាន IP ពី​ម៉ាស៊ីន​បម្រើ DHCP នៅ​លើ​បណ្ដាញ ម៉ាស៊ីន​បម្រើ​ DHCP អាច​ផ្ដល់​ផង​ដែរ​នូវ​ព័ត៌មាន​អំពី​ម៉ាស៊ីន​បម្រើ WINS ("ឈ្មោះ​ម៉ាស៊ីន​បម្រើ NetBIOS") ដែល​បង្ហាញ​នៅ​លើ​បណ្ដាញ ។ វា​ត្រូវ​ការ​ការ​ផ្លាស់ប្ដូរ​ទៅ​នឹង​ឯកសារ smb.conf របស់​អ្នក ដូច្នេះការ​កំណត់របស់ WINS ដែល​បានផ្ដល់​ដោយ DHCP នឹង​ត្រូវ​បាន​អាន​ដោយ​ស្វ័យ​ប្រវត្តិ​ពី /etc/samba/dhcp.conf.
+ .
+ កញ្ចប់​ម៉ាស៊ីន​ភ្ញៀវ dhcp3 ត្រូវ​តែ​បាន​ដំឡើង​ដើម្បី​ទទួល​បាន​ផលប្រយោជន៍របស់​លក្ខណៈ​ពិសេស​នេះ ។
+Description-ko.UTF-8: smb.conf을 수정하여 DHCP의 WINS 설정을 사용하도록 할까요?
+ 컴퓨터가 네트워크 상에 있는 DHCP 서버에서 IP 주소 정보를 받아올 경우, DHCP 서버에서 네트워크 상에 있는 WINS 서버("NetBIOS 네임 서버")에 관한 정보를 받아올 수 있는 경우도 있습니다. 이를 위해서는 smb.conf 파일을 수정하여 DHCP에서 제공된 WINS 설정을 /etc/samba/dhcp.conf에서 자동으로 읽어들일 수 있도록 해야 합니다.
+ .
+ 이 기능을 사용하기 위해서는 dhcp3-client 꾸러미를 설치해야 합니다.
+Description-lt.UTF-8: Pakeisti smb.conf, kad būtų naudojami WINS nustatymai iš DHCP?
+ Jei šis kompiuteris gauna IP adresus iš tinklo DHCP serverio, DHCP serveris taip pat gali teikti informaciją apie tinklo WINS serverius (NetBIOS vardų serverius).  Kad WINS nustatymai, gauti per DHCP (saugomi rinkmenoje /etc/samba/dhcp.conf), būtų naudojami, reikia pakeisti rinkmeną smb.conf.
+ .
+ Kad būtų galima pasinaudoti šia galimybe, turi būti įdiegtas paketas dhcp3-client.
+Description-ml.UTF-8: DHCP യില്‍ നിന്നുള്ള WINS സെറ്റിങ്ങുകള്‍ ഉപയോഗിക്കാന്‍ smb.conf മാറ്റണോ?
+ നിങ്ങളുടെ കമ്പ്യൂട്ടറിന് ഐപി വിലാസ വിവരം നെറ്റുവര്‍ക്കിലെ ഒരു DHCP സേവകനില്‍ നിന്നുമാണ് ലഭിക്കുന്നതെങ്കില്‍, DHCP സേവകന്‍ നെറ്റുവര്‍ക്കിലുള്ള WINS ("NetBIOS നാമ സേവകര്‍") സേവകന്മാരെക്കുറിച്ചുള്ള വിവരങ്ങള്‍ കൂടി നല്കിയേക്കാം. DHCP-നല്കിയ WINS സജ്ജീകരണങ്ങള്‍  /etc/samba/dhcp.conf ല്‍ നിന്നും സ്വയമേ വായിക്കുന്നതിന് നിങ്ങളുടെ smb.conf ഫയലില്‍ ഒരു മാറ്റം ആവശ്യമാണ്.
+ .
+ ഈ കഴിവുപയോഗിക്കാന്‍ dhcp3-client പാക്കേജ് ഇന്‍സ്റ്റാള്‍‍ ചെയ്തിരിക്കേണ്ടതുണ്ട്.
+Description-mr.UTF-8: डीएचसीपी(डायनमिक होस्ट कानफिगुरेशन प्रोटोकॉल) मधील डब्ल्युआयएनएस(विन्स) निर्धारणांचा उपयोग करण्यासाठी smb.conf मध्ये बदल करायचा का?
+ संगणकाच्या जाळ्यावर,तुमच्या संगणकाला,डीएचसीपी परिसेवकामधून आयपी पत्ता मिळाला असेल,तर तो डीएचसीपी परिसेवक,संगणकाच्या जाळ्यावर असलेल्या डब्ल्यूआयएनएस परिसेवकांबद्दलही ("नेटबॉयस( एनईटी बीआयओएस) नांवाचा परिसेवक") माहिती देऊ शकेल. यासाठीच तुमच्या smb.conf संचिकेत बदल करणे आवश्यक आहे, तसे केल्याने डीएचसीपीने पुरविलेली डब्ल्यूआयएनएस निर्धारणे /ईटीसी/सांबा/डीएचसीपी सीओएनएफ (/etc/samba/dhcp.conf./) मधून आपोआप वाचली जाऊ शकतात.
+ .
+ या विशेष लक्षणाचा फायदा घेण्यासाठी,डीएचसीपी ३ ग्राहक पॅकेज अधिष्ठापित केले गेलेच पाहिजे.
+Description-nb.UTF-8: Skal smb.conf endres til å bruke WINS-innstillinger fra DHCP?
+ Hvis din datamaskin får informasjon om IP-adressen fra en DHCP-tjener på nettet, så kan DHCP-tjeneren også skaffe informasjon om WINS-tjenere («NetBIOS navnetjenere») på nettet. For å bruke dette må smb.conf-fila endres slik at WINS-innstillinger fra DHCP automatisk leses fra /etc/samba/dhcp.conf.
+ .
+ For å utnytte denne muligheten må pakka dhcp3-client være installert.
+Description-ne.UTF-8: DHCP बाट WINS सेटिङ प्रयोग गर्न smb.conf परिमार्जन गर्नुहोस्?
+ यदि तपाईँको कम्प्युटरले सञ्जालमा DHCP सर्भरबाट IP ठेगाना जानकारी प्राप्त गर्छ भने, DHCP सर्भरले पनि सञ्जालमा वर्तमान WINS सर्भर ("NetBIOS name servers") का बारेमा जानकारी उपलब्ध गराउन सक्छ । यसका लागि तपाईँको smb.conf फाइलमा परिवर्तन आवश्यक हुन्छ ताकी DHCP ले उपलब्ध गराएका WINS सेटिङ /etc/samba/dhcp.conf. बाट स्वचालित रुपमा पढ्न सकियोस् ।
+ .
+ यो विशेषताको फाइदा लिन dhcp3-क्लाइन्ट प्याकेज स्थापना गरिएको हुन पर्छ ।
+Description-nl.UTF-8: smb.conf aanpassen om de WINS instellingen van DHCP te gebruiken?
+ Indien uw computer zijn ip-adresinformatie van een DHCP-server op het netwerk haalt, voorziet deze mogelijk ook informatie betreffende de op het netwerk aanwezige WINS-servers ("NetBIOS naamservers")." Dit vereist een verandering aan uw smb.conf bestand, opdat de door DHCP doorgegeven WINS instellingen automatisch gelezen worden van /etc/samba/dhcp.conf.
+ .
+ Het pakket dhcp3-client dient geïnstalleerd te zijn om van deze optie gebruik te kunnen maken.
+Description-nn.UTF-8: Vil du endre smd.conf til å bruke WINS-innstillingar frå DHCP?
+ Viss maskina di får IP-adresseinformasjon frå ein DHCP-tenar på nettverket, kan DHCP-tenaren også gje informasjon om WINS-tenarar («NetBIOS namnetenarar») som er tilstade på nettverket. Dette krev ei endring i smb.conf-fila slik at WINS-innstillingar som DHCP-tenaren oppgjev automatisk vert lest frå /etc/samba/dhcp.conf.
+ .
+ Pakka dhcp3-client må vere installert for å ta i bruk dette.
+Description-no.UTF-8: Skal smb.conf endres til å bruke WINS-innstillinger fra DHCP?
+ Hvis din datamaskin får informasjon om IP-adressen fra en DHCP-tjener på nettet, så kan DHCP-tjeneren også skaffe informasjon om WINS-tjenere («NetBIOS navnetjenere») på nettet. For å bruke dette må smb.conf-fila endres slik at WINS-innstillinger fra DHCP automatisk leses fra /etc/samba/dhcp.conf.
+ .
+ For å utnytte denne muligheten må pakka dhcp3-client være installert.
+Description-pl.UTF-8: Czy zmienić smb.conf tak, by używał ustawień WINS z DHCP?
+ Jeżeli Twój komputer pobiera informacje o adresie IP z serwera DHCP przez sieć, serwer DHCP może również dostarczać informacji na temat serwerów WINS ("serwerów nazw NetBIOS") obecnych w sieci. Wymaga to zmiany w Twoim pliku smb.conf, aby dostarczone przez DHCP ustawienia WINS były automatycznie odczytywane z /etc/samba/dhcp.conf.
+ .
+ Aby móc skorzystać z tej funkcjonalności, musi być zainstalowany pakiet dhcp3-client.
+Description-pt.UTF-8: Modificar o smb.conf para utilizar definições de WINS a partir de DHCP?
+ Se o seu computador obtém a informação do endereço IP a partir de um servidor de DHCP na rede, o servidor de DHCP pode também fornecer informação acerca de servidores de WINS ("servidor de nomes NetBIOS") presentes na rede.  Isto requer uma alteração no seu ficheiro smb.conf de modo que as definições de WINS fornecidas por DHCP sejam automaticamente lidas a partir de /etc/samba/dhcp.conf.
+ .
+ Para tirar partido desta funcionalidade tem de ter instalado o pacote dhcp3-client.
+Description-pt_BR.UTF-8: Modificar smb.conf para usar configurações WINS fornecidas via DHCP ?
+ Caso seu computador obtenha as informações de endereçamento IP de um servidor DHCP na rede, o servidor DHCP poderá também fornecer informações sobre servidor WINS ("Servidor de Nomes NetBIOS") presentes na rede. Para que o Samba leia as configurações WINS fornecidas pelo servidor DHCP automaticamente do arquivo /etc/samba/dhcp.conf, é preciso modificar seu arquivo smb.conf.
+ .
+ O pacote dhcp3-client deve estar instalado para que esse recurso possa ser utilizado.
+Description-ro.UTF-8: Se modifică smb.conf pentru a folosi configurațiile WINS din DHCP?
+ Dacă acest calculator primește informațiile IP (de configurare a rețelei) de la un server DHCP din rețea, acel server ar putea să ofere informații și despre serverele WINS („Serverele NetBIOS de nume”) prezente în rețea. Acest lucru necesită o schimbare a fișierului smb.conf astfel încât configurațiile WINS oferite prin DHCP vor fi citite automat din /etc/samba/dhcp.conf.
+ .
+ Pachetul dhcp3-client trebuie să fie instalat pentru a beneficia de această facilitate.
+Description-ru.UTF-8: Изменить smb.conf для использования настроек WINS из DHCP?
+ Если компьютер получает информацию о своём IP-адресе от службы DHCP по сети, тогда DHCP-сервер также может предоставлять информацию о серверах WINS ("серверы имён NetBIOS"), доступных в сети. Чтобы настройки WINS, предоставленные сервером DHCP, автоматически считывались из /etc/samba/dhcp.conf, нужно изменить файл smb.conf.
+ .
+ Чтобы использовать эту возможность, нужно установить пакет dhcp3-client.
+Description-sk.UTF-8: Upraviť smb.conf, aby používal WINS nastavenie z DHCP?
+ Ak váš počítač získava IP adresu z DHCP servera, môže vám tento server ponúkať aj údaje o WINS serveroch (menných serveroch NetBIOS-u), ktoré sa nachádzajú na vašej sieti. To vyžaduje zásah do súboru smb.conf, kde sa nastaví načítavanie údajov o WINS serveroch zo súboru /etc/samba/dhcp.conf.
+ .
+ Na využitie tejto vlastnosti musíte mať nainštalovaný balík dhcp3-client.
+Description-sl.UTF-8: Spremeni smb.conf za uporabo WINS nastavitev pridobljenih s strani DHCP?
+ Če vaš računalnik pridobiva informacije o IP naslovu prek DHCP strežnika, lahko ta strežnik ponuja tudi informacije o WINS strežnikih ("NetBIOS imenski strežniki"), ki so prisotni v omrežju. To zahteva spremembo v datoteki smb.conf ki bo omogočila samodejno branje nastavitev WINS iz /etc/samba/dhcp.conf.
+ .
+ Za uporabo teh možnosti mora biti nameščen paket dhcp3-client.
+Description-sq.UTF-8: Ta ndryshoj smb.conf për të përdorur rregullimet WINS nga DHCP?
+ Nëse kompjuteri yt pajiset me adrese IP nga një shërbyes DHCP në rrjet, shërbyesi DHCP mundet gjithashtu të japë të dhëna rreth shërbyesve WINS ("shërbyesa emri NetBIOS") që ndodhen në rrjet.  Kjo ka nevojë për një ndryshim në skedën tënde smb.conf në mënyrë të tillë që rregullimet WINS që vijnë me DHCP të lexohen automatikisht nga /etc/samba/dhcp.conf.
+ .
+ Duhet instaluar paketa dhcp3-client për të patur përparësi mbi këtë veti.
+Description-sv.UTF-8: Ändra smb.conf till att använda WINS-inställningar från DHCP?
+ Om din dator får en IP-address och information från en DHCP-server på nätverket kan även DHCP-server också skicka information om WINS-servrar ("NetBIOS namnservrar") i ditt nätverk.  Detta kräver en ändring i din fil smb.conf så att WINS-inställningar från DHCP-servern automatiskt kan läsas från /etc/samba/dhcp.conf.
+ .
+ Paketet dhcp3-client måste installeras för att kunna använda denna funktion.
+Description-ta.UTF-8: smb.conf ஐ டிஹெச்சிபி யிலிருந்து WINS அமைப்பை பயன்படுத்த மாற்றியமைக்கவா ?
+ உங்கள் கணினி IP முகவரியை வலைப் பின்னலிலிருந்து டிஹெச்சிபி சேவையகத்தின் மூலம் பெறுமானால் அந்த டிஹெச்சிபி சேவையகம் வலைப் பின்னலில் உள்ள WINS servers (விண்ஸ் சேவையகங்கள்) ("NetBIOS name servers") நெட்பயாஸ் பெயர் சேவையகங்கள் குறித்த தகவல்களை தர இயலும். இதற்கு smb.conf கோப்பை டிஹெச்சிபி  தரும் WINS வடிவமைப்பை /etc/samba/dhcp.conf கோப்பிலிருந்து தானியங்கியாக படிக்கும் படி அமைக்க வேண்டும்.
+ .
+ இந்த வசதியை பயன்படுத்திக் கொள்ள டிஹெச்சிபி3 சார்ந்தோன் பொதியை நிறுவ வேண்டும்.
+Description-th.UTF-8: จะแก้ไข smb.conf ให้ใช้ค่าตั้ง WINS จาก DHCP หรือไม่?
+ ถ้าคอมพิวเตอร์ของคุณใช้ข้อมูลหมายเลข IP จากเซิร์ฟเวอร์ DHCP ในเครือข่าย เซิร์ฟเวอร์ DHCP ดังกล่าวอาจให้ข้อมูลเกี่ยวกับเซิร์ฟเวอร์ WINS ("name server ของ NetBIOS") ที่มีในเครือข่ายมาด้วย การจะใช้ข้อมูลดังกล่าวได้ จำเป็นต้องแก้ไขแฟ้ม smb.conf ของคุณ เพื่อให้มีการอ่านค่าตั้ง WINS ที่ได้จาก DHCP ในแฟ้ม /etc/samba/dhcp.conf โดยอัตโนมัติ
+ .
+ คุณต้องติดตั้งแพกเกจ dhcp3-client ด้วย เพื่อจะใช้ความสามารถนี้
+Description-tl.UTF-8: Baguhin ang smb.conf upang gumamit ng WINS setting mula sa DHCP?
+ Kung ang computer ninyo ay kumukuha ng IP address mula sa DHCP server sa network, ang DHCP server ay maaaring magbigay ng impormasyon tungkol sa mga WINS server ("NetBIOS name server") na nasa network. Kinakailangan nito ng pagbabago sa inyong talaksang smb.conf upang ang bigay-ng-DHCP na WINS setting ay awtomatikong babasahin mula sa /etc/samba/dhcp.conf.
+ .
+ Ang paketeng dhcp3-client ay dapat nakaluklok upang mapakinabangan ang feature na ito.
+Description-tr.UTF-8: WINS ayarlarını DHCP'den kullanmak için smb.conf dosyasında değişiklik yapılsın mı?
+ Eğer bilgisayarınız IP adresini ağınızdaki bir DHCP sunucusundan alıyorsa, DHCP sunucusu ayrıca ağınızda bulunan WINS sunucuları ("NetBIOS alanadı sunucuları") hakkında da bilgi verebilir.  Bu, smb.conf dosyanızda DHCP tarafından sunulan WINS ayarlarının otomatik olarak /etc/samba/dhcp.conf dosyasından okunmasını sağlayan bir değişikliği gerektirir.
+ .
+ Bu özellikten yararlanabilmek için dhcp3-client paketinin kurulmuş olması gerekir.
+Description-vi.UTF-8: Sửa đổi <smb.conf> để dùng thiết lập WINS từ DHCP không?
+ Nếu máy tính của bạn lấy thông tin địa chỉ IP từ một trình phục vụ DHCP nằm trên mạng, trình phục vụ DHCP có lẽ cũng có khả năng cung cấp thông tin về trình phục vụ WINS (« NetBIOS name servers ») cũng nằm trên mạng. Dịch vụ này cần thiết bạn sửa đổi tập tin « smb.conf » của mình để cho phép thiết lập WINS do DHCP cung cấp sẽ được đọc tự động từ tập tin </etc/samba/dhcp.conf>.
+ .
+ Để nhớ dịp tính năng này, bạn cần phải cài đặt gói « dhcp3-client ».
+Description-wo.UTF-8: Ndax nu soppi smb.con ba muy jëfandikoo komfiguraasioŋ bu DHCP?
+ Bu fekkee sa kompiyutar mi ngi ame adrees IP ci ab serwóor DHCP bu ne ci resóo bi, kon serwóor DHCP bi man na yitam di joxe ay xamle yu aju ci serwóor WINS yi ("NetBIOS name servers") yi nekk ci resóo bi. Loolu nak dana laaj ak coppat ci sa fiise smb.conf, ngir ba komfiguraasioŋ yi DHCP bi di joxe ñukoy jaŋgale sune boppu ci fiise /etc/samba/dhcp.conf
+ .
+ Paket bu dhcp3-client nak wareesna koo istale ngir jariñoo defiin wii.
+Description-zh_CN.UTF-8: 要修改 smb.conf 以使用从 DHCP 获得的 WINS 设定吗？
+ 如果您的计算机是从网络上的 DHCP 服务器获取 IP 地址信息，该 DHCP 服务也可能会提供网络上的 WINS 服务器 (“NetBIOS 域名服务”) 信息。这需要对您的 smb.conf 进行修改，以自动从 /etc/samba/dhcp.conf 读取 DHCP 所提供的 WINS 设置。
+ .
+ 必须安装 dhcp3-client 软件包，才能使用此项特性。
+Description-zh_TW.UTF-8: 要修改 smb.conf 以使用 DHCP 取得 WINS 設定嗎？
+ 如果您的電腦是從網絡上的 DHCP 伺服器取得 IP 地址資訊，該 DHCP 服務也可能會提供網路上的 WINS 伺服器 (“NetBIOS 名稱服務”) 資訊。這需要對您的 smb.conf 進行修改，以自動從 /etc/samba/dhcp.conf 讀取 DHCP 所提供的 WINS 設定。
+ .
+ 必須安裝 dhcp3-client 套件，才能使用此項特性。
+
+Template: samba-common/do_debconf
+Type: boolean
+Default: true
+Description: Configure smb.conf automatically?
+ The rest of the configuration of Samba deals with questions that
+ affect parameters in /etc/samba/smb.conf, which is the file used to
+ configure the Samba programs (nmbd and smbd). Your current smb.conf
+ contains an 'include' line or an option that spans multiple lines,
+ which could confuse the automated configuration process and require
+ you to edit your smb.conf by hand to get it working again.
+ .
+ If you do not choose this option, you will have to handle
+ any configuration changes yourself, and will not be able to take
+ advantage of periodic configuration enhancements.
+Description-ar.UTF-8: إعداد آلي لملف smb.conf ؟
+ بقية إعدادات Samba  تعالج أسئلة تؤثر في المقاييس المتواجدة في الملف /etc/samba/smb.conf و الذي يستعمل لإعداد برامج Samba التالية ( nmbd و smbd). ملفك الحالي smb.conf يحتوي على سطر  'include' او على خيار يمتد لعدة أسطر, الشي الذي يمكن أن يشوش على عملية الإعداد الآلية, ويستلزم منك تحرير ملفك smb.conf يدويا لكي تتمكن من تشغبل ذلك مرة أخرى.
+ .
+ في حالة عدم اختيارك لهذا الخيار, عليك معالجة أي تغيير في الإعدادات بنفسك, و لن تستفيد من تحسينات الإعداد الدورية.
+Description-bg.UTF-8: Автоматична настройка на smb.conf?
+ Останалата част от настройката на Samba изисква промени на параметри в smb.conf (файлът с настройки за smbd и nmbd). В момента smb.conf съдържа директива „include“, която може да обърка процеса на автоматична настройка. Ако това се случи ще се наложи ръчно да поправите smb.conf.
+ .
+ Ако не изберете тази настройка, няма да можете да се възползвате от автоматичните промени на файла с настройки при обновяване на пакета.
+Description-bs.UTF-8: Podesiti smb.conf automatski?
+ Ostatak konfiguracije Samba-e se bavi pitanjima koja utiču na parametre u /etc/samba/smb.conf, a to je datoteka koja se koristi za podešavanje Samba programa (nmbd-a i smbd-a). Vaša trenutna smb.conf sadrži 'include' liniju ili opciju koja obuhvata nekoliko linija, što bi moglo zbuniti automatizovani konfiguracioni proces i zahtijevati od vas da ručno uredite smb.conf kako bi proradili.
+ .
+ Ako ne odaberete ovu opciju, moraćete sve izmjene konfiguracije sami napraviti i nećete moći iskoristiti periodična poboljšanja konfiguracije.
+Description-ca.UTF-8: Voleu configurar el smb.conf automàticament?
+ La resta de la configuració del Samba tracta amb qüestions que afecten els paràmetres del fitxer de configuració /etc/samba/smb.conf, que utilitzen els programes de Samba. La versió actual del smb.conf conté una línia 'include' o una opció que abarca múltiples línies que podria confondre a la configuració automàtica i precisar de la seva edició manual per poder-lo fer funcionar de nou.
+ .
+ Si no escolliu aquesta opció, haureu de gestionar manualment qualsevol canvi de la configuració, i no us podreu beneficiar de les millores periòdiques.
+Description-cs.UTF-8: Konfigurovat smb.conf automaticky?
+ Zbytek konfigurace Samby se zabývá otázkami, které mění parametry v /etc/samba/smb.conf, což je soubor používaný pro nastavení programů nmbd a smbd (dohromady tvoří Sambu). Váš stávající smb.conf obsahuje řádek 'include' nebo volbu, která se táhne přes více řádků, což může zmást proces automatického nastavení a může způsobit, že pro znovuzprovoznění Samby budete muset upravit smb.conf ručně.
+ .
+ Pokud tuto možnost nepovolíte, budete muset zvládnout všechna nastavení sami a nebudete moci využívat výhod pravidelných vylepšení tohoto souboru.
+Description-da.UTF-8: Sæt smb.conf op automatisk?
+ Resten af Samba-opsætningen drejer sig om spørgsmål, der vedrører indstillingerne i filen /etc/samba/smb.conf, som benyttes til at sætte Samba-programmerne (nmbd og smbd) op. Din nuværende smb.conf indeholder en 'include'-linje eller en indstilling, der fylder flere linjer, hvilket kan forvirre den automatiske opsætning, og kræver at du redigerer din smb.conf selv for at få den til at fungere igen.
+ .
+ Hvis du ikke vælger denne indstilling, må du selv håndtere ændringer i opsætningen, og vil ikke kunne drage nytte af de løbende forbedringer i opsætningen.
+Description-de.UTF-8: Soll smb.conf automatisch konfiguriert werden?
+ Der Rest der Konfiguration von Samba betrifft Fragen über Parameter in /etc/samba/smb.conf (das ist die Datei, die genutzt wird, um die Samba-Programme (nmbd und smbd) zu konfigurieren). Ihre aktuelle smb.conf enthält eine »include«-Zeile oder eine mehrzeilige Option. Dies kann den automatischen Konfigurationsprozess stören, so dass Sie eventuell Ihre smb.conf-Datei manuell korrigieren müssen, um Samba wieder zum Laufen zu bekommen.
+ .
+ Wenn Sie diese Option nicht wählen, werden Sie jede Änderung an der Konfiguration manuell vornehmen müssen und können nicht den Vorteil von regelmäßigen Verbesserungen an der Konfiguration nutzen.
+Description-dz.UTF-8: smb.conf འདི་རང་བཞིན་གྱིས་རིམ་སྒྲིག་འབད་ནི་ཨིན་ན?
+ སམ་བ་གི་རིམ་སྒྲིག་གཞན་མི་ཚུ་ འདྲི་བ་དང་འབྲེལཝ་ལས་ /etc/samba/smb.conf ནང་ཚད་བཟུང་ལུ་ཕན་གནོད་འབྱུངམ་ཨིན་ འདི་ཡང་སམ་བ་ལས་རིམ་ (nmbd and smbd)ཚུ་རིམ་སྒྲིག་འབད་ནི་ལུ་དགོ་པའི་ཡིག་སྣོད་ཨིན། ཁྱོད་ཀྱི་ད་ལྟོའི་ smb.conf ནང་ལུ་ 'include'གྲལ་ཐིག་ ཡངན་ འཕར་ཚད་འགྱོ་མི་གྲལ་ཐིག་སྣ་མང་གི་གདམ་ཁ་ཚུ་ཡོདཔ་ཨིན་ དེ་གིས་ རང་བཞིན་ཅན་གྱི་རིམ་སྒྲིག་ལས་སྦྱོར་འདི་ མགུ་འཐོམ་བཅུགཔ་ཨིནམ་དང་ ལོག་སྟེ་ལཱ་འབད་ནིའི་དོན་ལུ་ ལག་པའི་ཐོག་ལས་ ཁྱོད་རའི་smb.conf ཞུན་དག་འབད་དགོཔ་ཨིན། 
+ .
+ ཁྱོད་ཀྱིས་ གདམ་ཁ་འདི་མ་གདམ་པ་ཅིན་ རིམ་སྒྲིག་གི་འགྱུར་བ་གང་རུང་ཅིག་ ཁྱོད་རང་གིས་ལེགས་སྐྱོང་འཐབ་དགོཔ་དང་ དུས་མཚམས་རིམ་སྒྲིག་གོང་སྤེལ་གྱི་ཁེ་ཕན་འཐོབ་མི་ཚུགས།
+Description-el.UTF-8: Αυτόματη ρύθμιση του αρχείου smb.conf;
+ Το υπόλοιπο της ρύθμισης της υπηρεσίας Samba έχει να κάνει με ερωτήσεις που επηρεάζουν παραμέτρους στο αρχείο etc/samba/smb.conf, που είναι το αρχείο που χρησιμοποιείται για την ρύθμιση των προγραμμάτων της Samba (nmbd και smbd). To παρόν αρχείο σας smb.conf περιέχει μια γραμμή 'include' ή μια επιλογή που εκτείνεται σε πολλαπλές γραμμές, που θα μπορούσαν να μπερδέψουν την διαδικασία της αυτόματης ρύθμισης και απαιτούν την διόρθωση του αρχείου smb.conf από σας με το χέρι ώστε να ξαναγίνει λειτουργικό.
+ .
+ Αν δεν διαλέξετε αυτή την επιλογή , θα πρέπει να χειριστείτε τις όποιες αλλαγές στις ρυθμίσεις μόνοι σας και δεν θα είστε σε θέση να εκμεταλλευτείτε τις βελτιώσεις που κατά καιρούς γίνονται σε αυτές.
+Description-eo.UTF-8: Akomodu mem la 'smb.conf'-dosieron?
+ La sekva 'Samba'-agordado petas demandojn koncernantajn la parametrojn de /etc/samba/smb.conf'-dosiero uzita por agordi la 'Samba'-programojn (nmbd kaj smbd). Via kutima 'smb.conf'-dosiero enhavas 'include'-linion aŭ komandon kiu multlinie sterniĝas. Tio povas igi konfuza la memakomodan procezon kaj postuli de vi mane agordi vian 'smb.conf'-dosieron. Do oni konsilas mane administri la enhavon de la dosiero.
+ .
+ Se vi ne elektas tiun eblon, vi devos mem administri agordajn ŝanĝojn, kaj vi ne povos periode profiti agordajn plibonigojn.
+Description-es.UTF-8: ¿Configurar smb.conf automaticamente?
+ El resto de la configuración de Samba trata sobre cuestiones que afectan al contenido de /etc/samba/smb.conf, que es el fichero utilizado para configurar los programas de Samba (nmbd y smbd). Su smb.conf actual contiene una línea «include» o una opción que atraviesa más de una línea, así que el proceso de configuración automática puede dejarlo con un smb.conf descompuesto, requiriendo que lo arregle a mano.
+ .
+ Si no escoge esta opción, tendrá que gestionar a mano cualquier cambio a la configuración de Samba y no disfrutará de las mejoras periódicos que se realicen a la configuración.
+Description-et.UTF-8: Seadistada smb.conf automaatselt?
+ Ülejäänud Samba seadistus tegeleb /etc/samba/smb.conf parameetreid mõjutavate küsimustega - see on fail mille abil seadistatakse Samba programmid (nmbd ja smbd). Sinu praegune smb.conf sisaldab 'include' rida või mitmerealist valikut, mis võib automaatse seadistamise nurjata ning tekitada olukorra, kus pead smb.conf faili käsitsi töökorda seadma.
+ .
+ Kui sa seda seadet ei vali, pead iga seadistuse muudatuse ise läbi viima ega saa tunda rõõmu autmaatsest perioodilisest seadistuse täiustustamisest.
+Description-eu.UTF-8: Smb.conf automatikoki konfiguratu?
+ Konfigurazioaren hurrengo atalak /etc/samba/smb.conf fitxategiari dagozkion ezarpenenak dira, honek Samba programak (smbd eta nmbd) konfiguratzen ditu. Zure smb.conf fitxategiak 'include' lerro bat edo lerro bat baino luzeago den aukera bat badu, horregatik konfigurazio automatiko fitxategia honda daiteke, zuk eskuz konpondu beharko duzularik.
+ .
+ Aukera hau ez erabili ezkero, konfigurazioko edozein aldaketa eskuz egin beharko duzu eta ezingo duzu konfigurazio aldaketa automatikoez baliatu.
+Description-fi.UTF-8: Tehdäänkö asetukset tiedostoon smb.conf automaattisesti?
+ Loput Samban asetuksista ovat kysymyksiä jotka vaikuttavat parametreihin Samban ohjelmien (nmbd ja smbd) asetustiedostossa /etc/samba/smb.conf. Nyt tiedostossa smb.conf on "include"-rivi tai useita rivejä pitkä valitsin, mikä sotkee automatisoidun asetukset tekevän ohjelman ja pakottaa muokkaamaan tiedostoa smb.conf käsin, jotta se taas toimisi.
+ .
+ Jos et valitse tätä toimintoa, on kaikki asetusten muutokset tehtävä itse, etkä pääse hyötymään julkaistavista asetusten parannuksista.
+Description-fr.UTF-8: Voulez-vous configurer smb.conf automatiquement ?
+ La suite de la configuration de Samba pose des questions relatives aux paramètres de /etc/samba/smb.conf, le fichier utilisé pour configurer les programmes de Samba (nmbd et smbd). Le fichier actuel contient une ligne « include » ou une option qui s'étale sur plusieurs lignes : cela peut perturber la configuration automatique. Il est donc conseillé de gérer le contenu de ce fichier vous-même.
+ .
+ Si vous ne choisissez pas cette option, vous devrez gérer vous-même les modifications de configuration et vous ne pourrez pas bénéficier des améliorations faites dans la configuration.
+Description-gl.UTF-8: ¿Configurar o ficheiro smb.conf automaticamente?
+ O resto da configuración de Samba trata con cuestións que afectan aos parámetros de /etc/samba/smb.conf, que é o ficheiro que se emprega para configurar os programas de Samba (nmbd e smbd). O seu ficheiro smb.conf actual contén unha liña "include" ou unha opción que cubre varias liñas, o que pode confundir ao proceso de configuración automático e facer que teña que editar o ficheiro smb.conf a man para poñelo a funcionar outra vez.
+ .
+ Se non escolle esta opción ha ter que facer os cambios na configuración vostede mesmo, e non ha poder aproveitar as melloras periódicas na configuración.
+Description-gu.UTF-8: smb.conf આપમેળે રુપરેખાંકિત કરશો?
+ સામ્બા રુપરેખાંકનનાં બાકીનાં પ્રશ્નો /etc/samba/smb.conf નાં વિકલ્પો સાથે કામ પાર પાડે છે, જે સામ્બા કાર્યક્રમોને (nmbd અને smbd) રુપરેખાંકન કરવા માટે વપરાય છે. તમારી હાલની smb.conf ફાઇલ 'include' લીટી ધરાવે છે અથવા એક થી વધુ લીટીમાં વિસ્તારવાનો વિકલ્પ ધરાવે છે, જે આપમેળે રુપરેખાંકન ક્રિયાને મુંઝવણમાં મૂકી શકે છે અને તમારે smb.conf ફરી કામ કરતી કરવા માટે જાતે સુધારવી પડશે.
+ .
+ જો તમે આ વિકલ્પ પસંદ નહી કરો તો, તમારે બધા રુપરેખાંકનો તમારી જાતે કરવા પડશે, અને તમે આવૃતિક રુપરેખાંકન સુધારાઓનો લાભ લઇ શકશો નહી.
+Description-he.UTF-8: האם להגדיר את smb.conf בצורה אוטומטית?
+ שאר תהליך ההגדרה של Samba עוסק בשאלות אשר משפיעות על פרמטרים בקובץ /etc/samba/smb.conf. קובץ זה הוא קובץ ההגדרות הראשי אשר מכיל את הפרמטרים של שרתי הרקע של Samba (שהם smbd ו-nmbd). הקובץ smb.conf הנוכחי שלך כולל שורת 'include' או פרמטר אשר מתפרש על כמה שורות. פרמטרים אלו עשויים לבלבל את תהליך ההגדרה האוטומטי, ויצריכו עריכה ידנית של הקובץ smb.conf על מנת לתקן את הבעיות ולאפשר ל-Samba לעובד.
+ .
+ אם לא תבחר באפשרות זו, יהיה עליך לבצע שינויים בעצמך ובצורה ידנית. כמו כן, לא תוכל להשתמש בשיפורי תצורה אשר מתבצעים תקופתית.
+Description-hu.UTF-8: Az smb.conf-ot automatikusan állítod be?
+ A Samba további beállításaihoz a /etc/samba/smb.conf paramétereit befolyásoló további kérdéseket kell megválaszolni, ami a Samba programok (nmbd és smbd) beállítófájlja. A jelenlegi smb.conf tartalmaz egy 'include' sort, vagy egy több sorra tört opciót, ami megzavarhatja az automata beállító folyamot, és szükségessé teszi az smb.conf saját kezű szerkesztését, hogy az ismét működjön.
+ .
+ Ha nem élsz e lehetőséggel, minden beállítás változását neked kell felügyelned, és nem élvezheted az időszakos beállításhangolás előnyeit.
+Description-id.UTF-8: Konfigurasikan smb.conf secara otomatis?
+ Konfigurasi Samba selanjutnya berhubungan dengan pertanyaan seputar parameter dalam /etc/samba/smb.conf yang digunakan untuk mengonfigurasi program Samba (nmbd dan smbd). Konfigurasi smb.conf Anda saat ini berisi setelah yang lebih dari satu baris, yang dapat membingungkan proses konfigurasi otomatis. Anda harus mengubah smb.conf secara manual agar dapat digunakan lagi.
+ .
+ Jika Anda tidak mengambil pilihan ini, Anda harus menangani sendiri semua konfigurasi dan tidak dapat memanfaatkan keuntungan dari pembaharuan konfigurasi secara periodik.
+Description-it.UTF-8: Configurare automaticamente smb.conf?
+ Il resto della configurazione di Samba riguarda i parametri in /etc/samba/smb.conf, il file usato per configurare i programmi di Samba (nmbd e smbd). L'attuale file smb.conf contiene una riga «include» o un'opzione che si estende su più righe; ciò potrebbe confondere il processo di configurazione automatica e richiede una modifica manuale a smb.conf per renderlo nuovamente funzionante.
+ .
+ Se si rifiuta, si dovrà gestire qualsiasi cambiamento nella configurazione da soli e non sarà possibile beneficiare dei periodici miglioramenti della configurazione.
+Description-ja.UTF-8: 自動的に smb.conf を設定しますか?
+ Samba の設定の残りの部分は、Samba プログラム (nmbd および smbd) を設定するのに使うファイル /etc/samba/smb.conf にあるパラメータに影響する質問です。現在の smb.conf は、'include' 行または複数行にまたがるオプションを含んでいます。これは自動設定処理を混乱させる可能性があり、再びそれが作動するようにすべく smb.conf の手動での修正を必要とします。
+ .
+ この選択肢で「いいえ」と答えると、すべての設定の変更をあなた自身が面倒を見る必要があります。これは定期的な設定改善には向いていません。
+Description-ka.UTF-8: გსურთ smb.conf-ის ავტომატური კონფიგურაცი?
+ დარჩენილი Samba-ს კონფიგურაცია ეხება საკითხებს, რომლებსაც ზეგავლენა აქვს /etc/samba/smb.conf-ზე. ეს ფაილი Samba-ს პროგრამების (nmbd და smbd) კონფიგურაციისათვის გამოიყენება. თქვენი ამჟამინდელი smb.conf ფაილი შეიცავს 'include' სტრიქონს, ან პარამეტრს, რომელის მრავალ სტრიქონს მიმოიხილავს, რამაც შესაძლოა ავტომატური კონფიგურაციის პროცესი დააბნიოს და თქვენ smb.conf-ის ხელით დამუშავება მოგიწიოთ მის კვლავ ასამუშAვებლად.
+ .
+ თუ ამ პარამეტრს არ ამოირჩებთ, ნებისმიერი კონფიგურაციის ცვლილებების გატარება ხელით მოგიწევთ. ასევე ვერ გამოიყენებთ კნფიგურაციის პერიოდულ გაუმჯობესებებს.
+Description-km.UTF-8: កំណត់​រចនាសម្ព័ន្ធ smb.conf ដោយ​ស្វ័យ​ប្រវត្តិ ?
+ ការ​កំណត់​រចនា​សម្ព័ន្ធ​របស់ Samba ទាក់ទង​ជា​មួយ​នឹង​សំណួរ​ដែល​ប៉ះពាល់​ប៉ារ៉ាម៉ែត្រ​នៅ​ក្នុង in /etc/samba/smb.conf ដែល​ជា​ឯកសារ​បាន​ប្រើ​ដើម្បី​កំណត់​រចនាសម្ព័ន្ធ​កម្មវិធី Samba (nmbd និង smbd) ។ smb.conf បច្ចុប្បន្ន​របស់​អ្នក​មាន​បន្ទាត់ 'include' ឬ​ជម្រើស​ដែល​បញ្ចូល​បន្ទាត់​ជា​ច្រើន​ចូល​គ្នា ដែល​អាច​បន្លំ​ដំណើរ​ការ​កំណត់​រចនាសម្ព័ន្ធ ដោយ​ស្វ័យប្រវត្តិ ហើយ​តម្រូវ​ឲ្យ​អ្នក​កែសម្រួល smb.conf របស់​អ្នក​ដោយ​ដៃ​ដើម្បី​ឲ្យ​វា​ធ្វើការ​ម្ដង​ទៀត ។
+ .
+ ប្រសិន​បើ​អ្នក​មិន​ជ្រើស​ជម្រើស​នេះ​ទេ អ្នក​នឹង​ត្រូវ​តែ​គ្រប់គ្រង​ការ​ផ្លាស់ប្ដូរ​ការ​​កំណត់​រចនាសម្ព័ន្ធ​ណាមួយ​ដោយ​ខ្លួន​អ្នក​ផ្ទាល់ និង​មិន​អាច​បាន​ផល​ប្រយោជន៍​ពី​ការ​បង្កើន​ការ​កំណត់​រចនាសម្ព័ន្ធ​យ៉ាង​ទៀត​ទាត់​បាន​ទេ ។
+Description-ko.UTF-8: smb.conf을 자동으로 설정할까요?
+ 앞으로 남은 Samba 설정은 Samba 프로그램들(nmbd와 smbd)을 설정할 때 사용하는 /etc/samba/smb.conf에 있는 각종 매개 변수들을 변경하는 질문들로 구성되어 있습니다. 현재의 smb.conf은 'include'를 사용하거나 여러 줄에 걸친 옵션을 사용하고 있습니다. 이는 자동 설정 과정에 혼돈을 줄 수 있으며 나중에 손으로 smb.conf을 수정하셔야 제대로 동작합니다.
+ .
+ 이 옵션을 선택하지 않을 경우 설정 변경사항을 직접 다루셔야 하며 주기적 설정 변경 업그레이드 기능을 사용하지 못할 것입니다.
+Description-lt.UTF-8: Automatiškai konfigūruoti smb.conf?
+ Likusi Samba konfigūravimo dalis susijusi su parametrais, nustatomais Samba konfigūracijos rinkmenoje -- /etc/samba/smb.conf. Ši rinkmena konfigūruoja Samba programas (nmbd ir smbd). Esamame smb.conf yra „include“ komanda arba nustatymas, užrašytas per kelias eilutes. Tai gali sutrikdyti automatinį konfigūravimo procesą, todėl gali prireikti rankiniu būdu paredaguoti smb.conf, kad Samba vėl pradėtų veikti.
+ .
+ Jei nepasirinksite šios galimybės, turėsite konfigūruoti Samba rankiniu būdu ir negalėsite pasinaudoti reguliariais automatiniais konfigūracijos patobulinimais.
+Description-ml.UTF-8: smb.conf സ്വയമേ ക്രമീകരിക്കണോ?
+ ബാക്കിയുള്ള സാംബ ക്രമീകരണം സാംബ പ്രോഗ്രാമുകളെ (nmbd യും smbd) ക്രമീകരിക്കാനുപയോഗിക്കുന്ന ഫയലായ /etc/samba/smb.conf ലെ പരാമീറ്ററുകളെ ബാധിക്കുന്ന ചോദ്യങ്ങളുമായി ബന്ധപ്പെട്ടതാണ്. നിങ്ങളുടെ ഇപ്പോഴത്തെ smb.conf ഒരു 'include' വരി അല്ലെങ്കില്‍ ഒന്നിലധികം വരിയില്‍ വ്യാപിച്ചുള്ള ഒരു തിരഞ്ഞെടുക്കാവുന്ന വില ഉള്‍‌ക്കൊള്ളുന്നതാണ്, അത് സ്വയമേയുള്ള ക്രമീകരണ പ്രക്രിയയെ ആശയക്കുഴപ്പത്തിലാക്കുകയും വീണ്ടും പ്രവര്‍ത്തിക്കുന്ന വിധത്തിലാക്കാന്‍ smb.conf കൈകൊണ്ട് മാറ്റുന്നത് ആവശ്യമാക്കുകയും ചെയ്യും.
+ .
+ ഈ തിരഞ്ഞെടുക്കാവുന്ന വില നിങ്ങള്‍‍ തിരഞ്ഞടുത്തില്ലെങ്കില്‍ എന്തെങ്കിലും ക്രമീകരണ മാറ്റങ്ങള്‍ നിങ്ങള്‍ക്ക് സ്വയം കൈകാര്യം ചെയ്യേണ്ടി വരുകയും സമയാസമയങ്ങളിലുള്ള ക്രമീകരണ പുരോഗതികളുടെ മുന്‍തൂക്കം നേടാന്‍ നിങ്ങള്‍ക്ക് സാധിക്കാതെ വരുകയും ചെയ്യും.
+Description-mr.UTF-8: एसएमबी।सीओएनएफ smb.conf आपोआप संरचित करायचे का? 
+ सांबाची बाकीची संरचना,सांबा आज्ञावलीची (एनएमबीडी व एसएमबीडी) संरचना करण्यासाठी वापरल्या जाणाऱ्या etc/samba/smb.conf /ईटीसी/सांबा/एसएमबी.सीओएनएफ या संचिकेमधील चलितमूल्यांवर परिणाम करणाऱ्या प्रश्नांबाबत आहे. तुमच्या सध्याच्या एसएमबी. सीओएनएफ smb.conf मध्ये,'अंतर्भाव' ओळ किंवा अनेक ओळी असलेला एक पर्याय आहे. व तो स्वयंचलित संरचना प्रक्रियेत गोंधळ करू शकतो आणि त्यामुळे तुम्हाला तुमची एसएमबी.सीओएनएफ,smb.conf,पुन्हा कार्यकारी होण्यासाठी स्वतःच संपादित करावी लागेल.
+ .
+ तुम्ही हा पर्याय निवडला नाहीत तर संरचनेतले बदल तुम्हालाच हाताळावे लागतील व तुम्हाला आवर्ती संरचना गुणसंवर्धनाचा चा लाभ घेता येणार नाही.
+Description-nb.UTF-8: Sette opp smb.conf automatisk?
+ Resten av Samba-oppsettet dreier seg om spørsmål som påvirker parametre i /etc/samba/smb.conf, som er oppsettsfila for Samba-programmene (nmbd og smbd). smb.conf-fila inneholder nå en  «include»-linje eller en parameter som går over flere linjer, som kanskje kan forvirre den automatiske oppsettsprosessen slik at du må endre smb.conf for hånd for å få den til å virke igjen.
+ .
+ Hvis du ikke velger automatisk oppsett, må du håndtere oppsettsendringer selv, og kan ikke dra nytte av periodiske forbedringer i oppsettet.
+Description-ne.UTF-8: स्वचालित रुपमा smb.conf कन्फिगर गर्नुहुन्छ?
+ साम्बाको बाँकी कन्फिगरेसन /etc/samba/smb.conf परामितिमा प्रभाव पार्ने प्रश्नसँग डिल गर्छ, जुन साम्बा कार्यक्रम कन्फिगर गर्न प्रयोग हुने फाइल हो (nmbd र smbd) । तपाईँको हालको smb.conf ले एउटा 'सम्मिलित' लाइन वा बहुभागिय लाइन ढाक्ने विकल्प समावेश गर्छ, जसले स्वचालित कन्फिगरेसन प्रक्रिया अस्तव्यस्त पार्न सक्छ र तपाईँले यसबाट फेरि कार्य गराउन हातैले smb.conf सम्पादन गर्नु पर्छ ।
+ .
+ यदि तपाईँले यो विकल्प छनौट नगरेमा, कुनै पनि कन्फिगरेसन परिवर्तन तपाईँ आफैले ह्यान्डल गर्नु पर्छ, र आवधिक कन्फिगरेसन वृद्धीको फाइदा लिन सक्नु हुने छैन ।
+Description-nl.UTF-8: smb.conf automatisch instellen?
+ De resterende Samba-configuratievragen hebben betrekking op parameters in /etc/samba/smb.conf, het configuratiebestand dat gebruikt wordt voor de Samba programma's (nmbd en smbd). Uw huidige smb.conf bevat een 'include'-regel of een optie die meerdere regels beslaat, het kan zijn dat dit het automatische configuratieproces in verwarring brengt. In dat geval dient u uw smb.conf handmatig aan te passen om samba terug werkend te krijgen.
+ .
+ Indien u geen gebruik maakt van deze optie, dient u alle configuratie instellingen zelf te doen, en zult u geen voordeel halen uit de periodieke configuratie-verbeteringen.
+Description-nn.UTF-8: Setje opp smb.conf automatisk?
+ Resten av oppsettet av Samba er spørsmål som handlar om parametrar i /etc/samba/smb.conf, som er fila som blir brukt til å setje opp Sambaprogram (nmbd og smbd). Den noverande smb.conf-fila inneheld ei «include»-linje eller ein opsjon som går over fleire linjer, noko som kan forvirre den automatiske oppsettsprosessen og gjer at du må redigere smb.conf-fila manuelt for å få det til å fungere igjen.
+ .
+ Viss du ikkje vel dette, så vil du måtte handtere endringar i oppsettet sjølv, og du vil ikkje vere i stand til å ta imot periodiske forbetringar i oppsettet.
+Description-no.UTF-8: Sette opp smb.conf automatisk?
+ Resten av Samba-oppsettet dreier seg om spørsmål som påvirker parametre i /etc/samba/smb.conf, som er oppsettsfila for Samba-programmene (nmbd og smbd). smb.conf-fila inneholder nå en  «include»-linje eller en parameter som går over flere linjer, som kanskje kan forvirre den automatiske oppsettsprosessen slik at du må endre smb.conf for hånd for å få den til å virke igjen.
+ .
+ Hvis du ikke velger automatisk oppsett, må du håndtere oppsettsendringer selv, og kan ikke dra nytte av periodiske forbedringer i oppsettet.
+Description-pl.UTF-8: Czy automatycznie skonfigurować smb.conf?
+ Pozostała część konfiguracji Samby związana jest z pytaniami wpływającymi na parametry w /etc/samba/smb.conf, który jest plikiem używanym do konfiguracji programów Samby (nmbd i smbd). Twój obecny smb.conf zawiera wiersz 'include', bądź opcję obejmującą wiele wierszy, co przeszkodziło procesowi zautomatyzowanej konfiguracji i wymaga od Ciebie ręcznej edycji pliku smb.conf, by mógł znowu być używany.
+ .
+ Jeżeli nie wybierzesz tej opcji, będziesz musiał samodzielnie zajmować się wszelkimi zmianami konfiguracji i nie będziesz mógł skorzystać z okresowych jej ulepszeń.
+Description-pt.UTF-8: Configurar automaticamente o smb.conf?
+ O resto da configuração do Samba trata de questões que afectam parâmetros em /etc/samba/smb.conf, que é o ficheiro utilizado para configurar os programas do Samba (nmbd e smbd). O seu actual smb.conf contém uma linha 'include' ou uma opção que se espalha por várias linhas, a qual pode confundir o processo de configuração automática e necessitar que você edite à mão o smb.conf par o ter novamente operacional.
+ .
+ Se não escolher esta opção, terá de lidar você mesmo com quaisquer alterações de configuração, e não poderá tirar partido de melhorias periódicas da configuração.
+Description-pt_BR.UTF-8: Configurar smb.conf automaticamente ?
+ O restante da configuração do Samba lida com questões que afetam parâmetros no arquivo /etc/samba/smb.conf, que é o arquivo usado para configurar os programas Samba (nmbd e smbd). Seu arquivo smb.conf atual contém uma linha 'include' ou uma opção que ocupa diversas linhas, o que pode confundir o processo de configuração automatizado e requerer que você edite seu arquivo smb.conf manualmente para torná-lo funcional novamente.
+ .
+ Caso você opte por essa opção, você precisará lidar com quaisquer mudanças de configuração manualmente e você não poderá aproveitar os melhoramentos periódicos de configuração.
+Description-ro.UTF-8: Se configurează smb.conf automat?
+ Restul configurației Samba tratează întrebările care afectează parametrii din /etc/samba/smb.conf, fișierul utilizat pentru a configura programele Samba (nmbd și smbd). Actualul fișier smb.conf conține o linie „include” sau o opțiune care se desfășoară de-a lungul a mai multor linii, lucru care ar putea să creeze confuzie în procesul de configurare automată și ar putea duce la necesitatea editării manuale a fișierului smb.conf pentru a-l face din nou funcțional.
+ .
+ Dacă nu selectați aceasta opțiune, va trebui să gestionați personal orice schimbare a configurației și nu veți putea beneficia de îmbunătățirile periodice ale configurației.
+Description-ru.UTF-8: Настроить smb.conf автоматически?
+ Оставшаяся часть настройки Samba представляет собой вопросы, влияющие на параметры в /etc/samba/smb.conf. Этот файл используется для настройки программ Samba (nmbd и smbd). В текущем файле smb.conf есть строка 'include' или параметр, состоящий из нескольких строк. При этом автоматическая настройка может быть нарушена, и для восстановления работоспособности потребуется отредактировать smb.conf вручную.
+ .
+ При отказе от этой возможности позаботиться обо всех изменениях конфигурации придётся самостоятельно, а приведёт к невозможности периодического обновления настроек.
+Description-sk.UTF-8: Automaticky nastaviť smb.conf?
+ Zvyšok nastavenia Samby sa zaoberá otázkami, ktoré ovplyvňujú parametre uvedené v /etc/samba/smb.conf, čo je konfiguračný súbor pre Samba programy (nmbd a smbd). Váš súčasný súbor smb.conf obsahuje riadok 'include' alebo voľbu, ktorá presahuje viac riadkov. Toto môže zapríčiniť zlé automatické nastavenie, takže pre správnu funkčnosť možno budete musieť upraviť smb.conf manuálne.
+ .
+ Ak si nezvolíte túto možnosť, budete musieť sami zvládnuť všetky nastavenia a nebudete môcť využívať výhody pravidelných vylepšení tohto súboru.
+Description-sl.UTF-8: Samodejna nastavitev smb.conf?
+ Ostanek nastavitev Sambe se nanaša na vprašanja, ki vplivajo na parametre v /etc/samba/smb.conf. Ta datoteka se uporablja za konfiguracijo Samba programov (nmbd in smbd). Vaš trenutni smb.conf vključuje vrstico 'include'  ali možnost, ki se razteza čez več vrstic konfiguracijske datoteke in lahko povzroči zmedo v procesu avtomatskih nastavitev. Za ponovno vzpostavitev delovanja bo potrebno ročno urejanje konfiguracijske datoteke z nastavitvami smb.conf.
+ .
+ Če ne izberete te možnosti, boste morali vse spremembe nastavitev opraviti sami in ne boste mogli uporabljati periodičnih samodejnih izboljšav nastavitev.
+Description-sq.UTF-8: Ta konfiguroj smb.conf automatikisht?
+ Pjesa e mbetur e konfigurimit Samba ka të bëjë me pyetje që prekin parametra në /etc/samba/smb.conf, e cili është skeda që përdoret për të konfiguruar programet Samba (nmbd dhe smbd). smb.conf yt i tanishëm përmban një rresht 'include' ose një mundësi që tendos rreshta të shumëfishtë, të cilët mund të hutojnë proçesin automatik të konfigurimit dhe të të kërkojë ta ndryshosh skedarin tënd smb.conf dorazi dhe ta vesh në punë sërish.
+ .
+ Nëse nuk zgjedh këtë mundësi, do të duhet të kryesh çdo ndryshim konfigurimi vetë, dhe nuk do kesh rastin të përfitosh nga përmirësime periodike konfigurimi.
+Description-sv.UTF-8: Konfigurera smb.conf automatiskt?
+ Resten av Samba-konfigurationen hanterar frågor som rör parametrar i /etc/samba/smb.conf, vilken är den fil som används för att konfigurera Samba-programmen (nmbd och smbd). Din aktuella smb.conf innehåller en "include"-rad eller ett alternativ som spänner över flera rader som kan göra Debconf förvirrad och kan innebära att du måste redigera din smb.conf på egen hand för att få det att fungera igen.
+ .
+ Om du inte väljer detta alternativ måste du hantera alla konfigurationsändringar på egen hand och kan därför inte utnyttja fördelarna med periodiska konfigurationsförbättringar.
+Description-ta.UTF-8: smb.conf ஐ தானியங்கியாக வடிவமைக்கலாமா?
+ மற்ற சாம்பா வடிவமைப்பு /etc/samba/smb.conf கோப்பில் உள்ள எல்லை செயல் அலகுகளை (parameters) பாதிக்கும் கேள்விகளைப் பற்றியது. இந்த கோப்பு சாம்பா நிரல்களை(nmbd and smbd) (என்எம்பிடி மற்றும் எஸ்எம்பிடி) வடிவமைக்க பயன்படுவது. உங்களது தற்போதைய smb.conf கோப்பு 'இன்க்லூட்' ('include') வரி அல்லது பல வரிகளை ஆக்கிரமிக்கும் தேர்வை உள்ளடக்கியது. இது தானியங்கி வடிவமைப்பு செயலை குழப்பலாம். அதனால் அது மீண்டும் வேலை செய்வதற்கு உங்களை கைமுறையாக உங்கள் smb.conf கோப்பை திருத்தக் கோரலாம்.
+ .
+ நீங்கள் இதை தேர்ந்தெடுக்காவிட்டால் எந்த வடிவமைப்பையும் நீங்களேதான் செய்ய வேண்டும். மேலும் அவ்வப்போது நிகழும் வடிவமைப்பு மேம்பாட்டு வசதியை இழக்க நேரும்.
+Description-th.UTF-8: จะตั้งค่า smb.conf แบบอัตโนมัติหรือไม่?
+ การตั้งค่า Samba ในส่วนที่เหลือ จะเป็นคำถามที่จะมีผลต่อค่าต่างๆ ใน /etc/samba/smb.conf ซึ่งเป็นแฟ้มที่ใช้กำหนดค่าโปรแกรมของ Samba (nmbd และ smbd)  แฟ้ม smb.conf ปัจจุบันของคุณ มีบรรทัด 'include' หรือมีตัวเลือกที่ยาวหลายบรรทัด ซึ่งจะเป็นปัญหาต่อกระบวนการตั้งค่าแบบอัตโนมัติ และคุณต้องแก้ไขแฟ้ม smb.conf ของคุณเองก่อน เพื่อให้สามารถใช้งานได้
+ .
+ ถ้าคุณไม่เลือกตัวเลือกนี้ คุณจะต้องจัดการการตั้งค่าต่างๆ เอง และจะไม่สามารถใช้ประโยชน์จากการต่อเติมค่าตั้งที่มีอยู่เป็นระยะได้
+Description-tl.UTF-8: Awtomatikong isaayos ang smb.conf?
+ Ang natitirang pagsasaayos ng Samba ay may mga katanungan tungkol sa mga parameter sa /etc/samba/smb.conf, na siyang talaksan na ginagamit sa pagsaayos ng mga programang Samba (nmbd at smbd). Ang kasalukuyang smb.conf ninyo ay naglalaman ng 'include' na linya o opsiyon na labis sa isang linya, na maaaring makalito  sa prosesong pagsaayos na awtomatiko at kakailanganin ninyong i-edit ang inyong smb.conf ng de kamay upang ito'y umandar muli. 
+ .
+ Kung hindi ninyo pinili ang opsiyon na ito, kakailanganin ninyong ayusin ang anumang pagbabagong pagsasaayos, at hindi ninyo mapapakinabangan ang mga paminsanang pagpapahusay ng pagsasaayos.
+Description-tr.UTF-8: smb.conf dosyası otomatik olarak yapılandırılsın mı?
+ Geri kalan Samba yapılandırması, Samba uygulamalarını (nmbd ve smbd) yapılandırmak için kullanılan /etc/samba/smb.conf dosyasındaki parametreleri etkileyen sorularla devam edecektir. Mevcut smb.conf dosyası, debconf'u şaşırtabilecek ve smb.conf dosyanızı elle değiştirilmesi zorunda kılacak bir 'include' satırı veya birden fazla satır boyunca devam eden bir seçenek içeriyor ve tekrar çalışabilmesi için smb.conf dosyanızın sizin tarafınızdan değiştirilmesi gerekiyor.
+ .
+ Eğer bu seçeneği seçmezseniz, bütün yapılandırma değişikliklerini kendiniz yapmak zorunda kalacaksınız ve periyodik yapılandırma iyileştirmelerinin avantajlarını kullanamayacaksınız.
+Description-vi.UTF-8: Cấu hình tự động tập tin « smb.conf » không?
+ Phần còn lại của cấu hình Samba đề cập các câu hỏi về tham số trong tập tin </etc/samba/smb.conf>, tập tin được dùng để cấu hình các chương trình Samba (nmbd và smbd). Tập tin « smb.conf » hiện thời chứa một dòng « include » (gồm) hay một tùy chọn chiếm nhiều dòng, mà có thể gây ra lỗi trong tiến trình cấu hình tự động thì cần thiết bạn tự sửa đổi tập tin « smb.conf » mình để kích hoạt lại nó.
+ .
+ Nếu bạn không bật tùy chọn này, bạn sẽ phải tự quản lý thay đổi cấu hình nào, và sẽ không thể nhớ dịp sự tăng cường cấu hình định kỳ.
+Description-wo.UTF-8: Ndax ñu komfigureel smb.conf sunu boppu?
+ Li des ci komfiguraasioŋ bu samba ay laaj la yu aju ci parameetar yu /etc/samba/smb.conf, nga xam ne mooy fiise biñuy jëfandikoo ngir komfigure prograam yu samba (nmbd ak smbd). Sa fiise smb.conf bii nga yore fii mune, amna aw bind wu 'include' walla ab tann bu tallalu ci ay bind yu bare, ta loolu man naa jaxase komfiguraasioŋ otomatik bi, ba taxna danga koy wara soppi ak sa loxo, ngir léppu awaat yoon.
+ .
+ Bu fekkee tannoo lii, kon bépp coppat booy def ci komfiguraasioŋ bi danga koy defal sa boppu, ta kon doo mana jariñu ci rafetal ak jekkal yiñuy farala def ci komfiguraasioŋ bi.
+Description-zh_CN.UTF-8: 自动配置 smb.conf 吗？
+ 余下的 Samba 配置涉及那些影响 /etc/samba/smb.conf 中参数的问题。此文件是用来配置 Samba 程序 (nmbd 和 smbd)。您目前的 smb.conf 包括一个“include”行或者一个跨越多行的选项，这将搅乱自动配置程序并需要您手动修改 smb.conf 以使其正常工作。
+ .
+ 如果您不选中此项，您就必须自己处理所有的配置改变，也无法享受到定期的配置改进特性。
+Description-zh_TW.UTF-8: 自動設定 smb.conf 嗎？
+ 剩下的 Samba 設定涉及那些影響 /etc/samba/smb.conf 中參數的問題。此文件是用來設定 Samba 程序 (nmbd 和 smbd)。您目前的 smb.conf 包括一個“include”行或者一個跨越多行的選項，這將攪亂自動設定程序並需要您手動修改 smb.conf 以使其正常工作。
+ .
+ 如果您不選此項，您就必須自己處理所有的設定改變，也無法享受到定期的設定改進特性。
+
+Template: samba-common/workgroup
+Type: string
+Default: WORKGROUP
+Description: Workgroup/Domain Name:
+ Please specify the workgroup you want this server to appear to be in
+ when queried by clients. Note that this parameter also controls the
+ domain name used with the security=domain setting.
+Description-ar.UTF-8:  اسم مجموعة العمل/الحقل:
+ من فضلك حدِّد مجموعة العمل التي تريد أن يظهر داخلها هذا الخادم عند استفساره من طرف الزبائن. لاحظ أن هذا المقياس يتحكم في إسم الحقل المستعمل مع الخيار security=domain setting.
+Description-bg.UTF-8: Работна група/домейн:
+ Въведете името на работната група, от която ще бъде част компютъра. Този параметър контролира и името на домейна, което ще се използва при настройката „security=domain“.
+Description-bs.UTF-8: Workgroup/Domain Name:
+ Molim navedite workgroup u kojoj želite da se ovaj server nalazi prilikom upita od strane klijenata. Primijetite da ovaj parametar takođe kontroliše domain name korišten u security=domain postavci.
+Description-ca.UTF-8: Grup de treball/nom del domini:
+ Indiqueu en quin grup de treball voleu que aparegui el vostre servidor quan ho consultin els clients. Recordeu que aquest paràmetre també controla el nom de domini utilitzat pel paràmetre de configuració security=domain.
+Description-cs.UTF-8: Skupina/název domény:
+ Zadejte prosím jméno skupiny, do které má server patřit (resp. se to tak bude jevit klientům. Tento parametr také určuje název domény v případech, kdy používáte nastavení security=domain).
+Description-da.UTF-8: Arbejdsgruppe/domæne-navn:
+ Angiv den arbejdsgruppe, din server skal optræde i, når den bliver spurgt af klienter. Bemærk at dette også styrer det domænenavn, der bruges ved indstillingen "security=domain".
+Description-de.UTF-8: Arbeitsgruppen-/Domain-Name:
+ Bitte geben Sie die Arbeitsgruppe an, in der der Server bei Anfragen von Clients erscheinen soll. Beachten Sie, dass dieser Parameter auch den Domain-Namen festlegt, der für die Einstellung security=domain verwendet wird.
+Description-dz.UTF-8: ལཱ་གི་སྡེ་ཚན་/ཌོ་མེན་མིང་:
+ ཞབས་ཏོག་སྤྱོད་མི་གིས་འདྲི་དཔྱད་འབདཝ་ད་ དེ་ནང་ལུ་སར་བར་འབྱུང་ནི་ཨིན་པའི་ལཱ་གི་སྡེ་ཚན་འདི་གསལ་བཀོད་འབད་གནང་། ཚད་བཟུང་འདི་གིས་ སྲུང་སྐྱོབ་=ཌཱ་མཱེན་སྒྲིག་སྟངས་དང་གཅིག་ཁར་ལག་ལེན་འཐབ་ཡོད་པའི་ཌཱ་མཱེན་མིང་ཡང་ ཚད་འཛིན་འབདཝ་ཨིནམ་དྲན་དགོ
+Description-el.UTF-8: Όνομα Ομάδας Εργασίας/Τομέα:
+ Παρακαλώ προσδιορίστε το όνομα της ομάδας εργασίας (workgroup) στην οποία θέλετε να εμφανίζει αυτός ο εξυπηρετητής ότι ανήκει όταν ερωτάται από τους πελάτες. Σημειώστε ότι αυτή η παράμετρος ελέγχει επίσης το όνομα του τομέα που χρησιμοποιείται στην ρύθμιση security=domain.
+Description-eo.UTF-8: Laborgrupo/Domajnnomo:
+ Bonvolu indiki la laborgrupon, kies klientoj devas trovi la servilon. Notu, tiu parametro ankaŭ kontrolas la uzitan domajnnomon de la parametro "security=domain".
+Description-es.UTF-8: Nombre del dominio o del grupo de trabajo:
+ Indique el grupo de trabajo en el cual quiere que su servidor aparezca cuando se lo pregunten los clientes de la red. Este parámetro también controla el nombre de dominio que se usa con la configuración «security=domain».
+Description-et.UTF-8: Töögrupi/domeeni nimi:
+ Palun vali töögrupp, kuhu see server kuulub. Pane tähele, et seesama seade määrab ka domeeni, mida kasutatakse koos security=domain valikuga.
+Description-eu.UTF-8: Lan Talde/Domeinu izena?
+ Mesede ezarri zure zerbitzariari sareko bezeroek galdetzean bistaraziko duen lan taldea. Kontutan izan parametro honek security=domain ezarpeneko domeinu izena ere ezartzen duela.
+Description-fi.UTF-8: Työryhmän/Verkkoalueen nimi:
+ Anna sen verkkoalueen nimi, johon tämä palvelin ilmoittaa kuuluvansa asiakaskoneiden kysyessä. Huomaa, että tämä parametri on myös asetuksen security=domain kanssa käytettävä verkkoalueen nimi.
+Description-fr.UTF-8: Nom de domaine ou de groupe de travail :
+ Veuillez indiquer le groupe de travail où les clients doivent trouver le serveur. Il indique aussi le nom de domaine utilisé par le paramètre « security=domain » quand celui-ci est utilisé.
+Description-gl.UTF-8: Nome do grupo de traballo/dominio:
+ Indique o grupo de traballo no que quere que apareza este servidor cando lle pregunten os clientes. Teña en conta que este parámetro tamén controla o nome de dominio que se emprega coa configuración security=domain.
+Description-gu.UTF-8: વર્કગ્રુપ/ડોમેઇન નામ:
+ જ્યારે ક્લાયન્ટો દ્વારા પૂછવામાં આવે ત્યારે વપરાતું આ સર્વર માટેનું વર્કગ્રુપનું નામ મહેરબાની કરી સ્પષ્ટ કરો. ધ્યાનમાં રાખો કે આ વિકલ્પ ડોમેઇન નામને પણ નિયંત્રણ કરે છે જ્યારે સલામતી=ડોમેઇન ગોઠવણી ઉપયોગ કરવામાં આવે છે.
+Description-he.UTF-8: מהו שם קבוצת העבודה/מתחם (Workgroup/Domain)?
+ אנא ציין את שם קבוצת העבודה (Workgroup) ששרת זה יציג ללקוחות אשר יתחברו אליו. שים לב כי שם קבוצת העבודה גם קובע את שם המתחם (Domain) בעת שימוש באפשרות security=domain.
+Description-hu.UTF-8: Munkacsoport/Tartomány neve:
+ Add meg e kiszolgáló által megjelenítendő munkacsoport, mikor azt lekérdezik a kliensek. Vedd figyelembe, hogy e paraméter meghatározza a tartomány nevét is, ha engedélyezve van a security=domain beállítás.
+Description-id.UTF-8: Nama Domain/Workgrop:
+ Mohon tentukan workgroup yang Anda ingin server ini dikenali oleh klien. Ingat bahwa parameter ini juga mengendalikan nama domain yang digunakan oleh setelan security=domain.
+Description-it.UTF-8: Nome del Workgroup/Dominio:
+ Specificare in quale workgroup deve apparire il server quando verrà interrogato dai client. Notare che questo parametro controlla anche il nome del dominio quando è usato il parametro «security=domain».
+Description-ja.UTF-8: ワークグループ/ドメイン名:
+ クライアントから照会された際にこのサーバが現れることになるワークグループを指定してください。このパラメータは security=domain 設定が使われたときのドメイン名も制御することに注意してください。
+Description-ka.UTF-8: სამუშაო ჯგუფის/დომენის სახელი:
+ მიუთითეთ სამუშაო ჯგუფი (workgroup), რომელსაც სერვერმა თავი უნდა მიაკუთვნოს კლიენტების მიერ მოთხოვნის გამოგზავნისას. გაითვალისწინეთ, რომ ეს პარამეტრი ასევე აკონტროლებს security=domain პარამეტრზე გამოყენებულ დომენის სახელს.
+Description-km.UTF-8: ឈ្មោះ​ក្រុមការងារ/ដែន ៖
+ សូម​បញ្ជាក់​ក្រុម​ការងារ​ដែល​អ្នក​ចង់​ឲ្យ​ម៉ាស៊ីន​បម្រើ​នេះ​បង្ហាញ​នៅ​ពេល​ដែល​បាន​សួរ ដោយ​ម៉ាស៊ីន​ភ្ញៀវ ។ ចំណាំ​ថា ប៉ារ៉ាម៉ែត្រ​នេះ​ក៏​ត្រួត​ពិនិត្យ​ឈ្មោះ​ដែន ដែល​បាន​ប្រើ​ដោយ​សុវត្ថិភាព=ការ​កំណត់​ដែន ។
+Description-ko.UTF-8: 작업그룹/도메인 이름:
+ 클라이언트에서 질의가 들어올 때 이 서버가 소속된 작업그룹을 지정해주십시오. 참고로 security=domain 방식의 설정을 사용할 경우 사용하는 도메인 이름도 이 매개변수를 통해 설정합니다.
+Description-lt.UTF-8: Grupė (workgroup) / domeno vardas:
+ Nurodykite grupę (workgroup), kuriai priklauso šis Samba serveris. Jei nurodyta „security=domain“, šis parametras nurodo domeno vardą.
+Description-ml.UTF-8: വര്‍ക്ക്ഗ്രൂപ്പ്/ഡൊമൈന്‍ നാമം:
+ ദയവായി ക്ലയന്റുകള്‍ അന്വേഷിക്കുമ്പോള്‍ ഈ സേവകന്‍ ഉള്‍‌പ്പെടുന്നു എന്ന് തോന്നേണ്ട വര്‍ക്ക്ഗ്രൂപ്പ് നല്കുക. ഈ പരാമീറ്റര്‍ security=domain എന്ന സജ്ജീകരണത്തിലുപയോഗിക്കുന്ന ഡൊമൈന്‍ നാമത്തേയും നിയന്ത്രിക്കുന്നു എന്നോര്‍ക്കുക.
+Description-mr.UTF-8: कार्यगट/प्रक्षेत्राचे नाव:
+ ग्राहकांनी पृच्छा केल्यावर हा परिसेवक कोणत्या कार्यगटात दिसायला हवा याचा नेमका उल्लेख करा. लक्षात ठेवा की हेच चलितमूल्य सुरक्षा-प्रक्षेत्र निर्धारण बरोबर वापरले असता प्रक्षेत्रनामही नियंत्रित करते.
+Description-nb.UTF-8: Arbeidsgruppe/domenenavn:
+ Oppgi hvilken arbeidsgruppe denne tjeneren skal vise når klienter spør den. Merk at denne parameteren også styrer domenenavnet som brukes med innstillingen security=domain.
+Description-ne.UTF-8: कार्य समूह/डोमेन नाम:
+ कृपया ग्राहकले प्रश्न गर्दा यो सर्भर भित्र देखाउन चाहेका कार्य समूह निर्दिष्ट गर्नुहोस् । याद गर्नुहोस् यो परामितिले पनि सुरक्षा=डोमेन सेटिङमा प्रयोग गरिएका डोमेन नाम नियन्त्रण गर्छ ।
+Description-nl.UTF-8: Werkgroep/Domeinnaam:
+ Van welke werkgroep moet deze server deel lijken uit te maken, wanneer clients hierom vragen? Merk op dat deze parameter ook de domeinnaam bepaald die wordt gebruikt voor de security=domain instelling.
+Description-nn.UTF-8: Arbeidsgruppe/Domenenamn:
+ Oppgje den arbeidsgruppa (workgroup) som du vil at denne tenaren skal vere i når han blir spurd av klientar. Merk at denne parameteren også kontrollerer domenenamnet som er brukt med instillinga security=domain.
+Description-no.UTF-8: Arbeidsgruppe/domenenavn:
+ Oppgi hvilken arbeidsgruppe denne tjeneren skal vise når klienter spør den. Merk at denne parameteren også styrer domenenavnet som brukes med innstillingen security=domain.
+Description-pl.UTF-8: Nazwa Grupy Roboczej/Domeny:
+ Określ grupę roboczą którą ten serwer powinien się podawać, gdy będzie o to odpytywany przez klientów. Uwaga, ten parametr dotyczy również nazwy domeny używanej w ustawieniu security=domain.
+Description-pt.UTF-8: Nome do Grupo de trabalho/Domínio:
+ Por favor especifique o grupo de trabalho em que quer que este servidor apareça quando questionado pelos clientes. Note que este parâmetro também controla o nome de Domínio utilizado com a configuração security=domain.
+Description-pt_BR.UTF-8: Nome de Domínio/Grupo de Trabalho :
+ Por favor, especifique o grupo de trabalho no qual quer que este servidor pareça estar quando questionado por clientes. Note que este parâmetro também controla o nome de Domínio usado com a configuração security=domain.
+Description-ro.UTF-8: Grupul de lucru/Numele de domeniu:
+ Vă rugăm să specificați grupul de lucru de care acest server va aparține când va fi chestionat de clienți. A se reține că acest parametru controlează și numele de domeniu folosit cu opțiunea security=domain.
+Description-ru.UTF-8: Рабочая группа/домен:
+ Укажите рабочую группу, к которой будет принадлежать сервер при опросе клиентами. Обратите внимание, что этот параметр также определяет имя домена, используемое вместе с параметром security=domain.
+Description-sk.UTF-8: Pracovná skupina/Názov domény:
+ Zadajte názov pracovnej skupiny, v ktorej sa má objaviť server pri prístupe klientov. Tento parameter zároveň určuje názov domény, ktorá sa používa pri nastavení security=domain.
+Description-sl.UTF-8: Ime delovne skupine/domene:
+ Prosimo, nastavite ime delovne skupine, v kateri se bo pojavil ta strežnik ko ga bodo klienti iskali. Ta parameter določa tudi ime domene, ki je uporabljeno v nastavitvah security=domain.
+Description-sq.UTF-8: Grup Pune/Emër Zone:
+ Të lutem saktëso grupin e punës ku dëshiron që ky shërbyes të shfaqet kur të pyetet nga klientë. Vër re që ky parametër kontrollon gjithashtu emrin e zonës së përdorur me rregullimet security=domain.
+Description-sv.UTF-8: Arbetsgrupp/Domännamn:
+ Ange vilken arbetsgrupp som denna server ska synas i när klienterna frågar. Notera att denna parameter även kontrollerar domännamnet som används med inställningen "security=domain".
+Description-ta.UTF-8: வேலைக்குழு/களப் பெயர்:
+ சார்ந்தோன்களால் வினவப் படும் போது இந்த சேவையகம் எந்த வேலைக் குழுவை சேர்ந்ததாக தெரிய வேண்டும் என குறிப்பிடுக. இந்த எல்லை செயல் அலகு security=domain வடிவமைப்பில் உள்ள களப் பெயரையும் கட்டுப் படுத்தும்.
+Description-th.UTF-8: เวร์กกรุ๊ป/ชื่อโดเมน:
+ กรุณาระบุเวิร์กกรุ๊ปที่คุณต้องการให้เซิร์ฟเวอร์นี้ประกาศเป็นสมาชิกเมื่อถูกถามโดยเครื่องลูก สังเกตว่า ค่านี้จะควบคุมชื่อโดเมนที่ใช้กับกรณีที่ตั้งค่า security=domain ด้วย
+Description-tl.UTF-8: Pangalan ng Workgroup/Domain:
+ Pakibigay ang workgroup ng server na ito kapag ito ay tinanong ng mga client. Ang parameter na ito ang siyang nag-co-control ng Domain name na ginagamit sa security=domain na setting.
+Description-tr.UTF-8: Çalışma Grubu/Etki Alanı İsmi:
+ Lütfen sunucunuzun istemciler tarafından sorgulandığında içerisinde gözükmesini istediğiniz Çalışma Grubu'nu belirtiniz. Aklınızda bulunsun, bu parametre ayrıca security=domain ayarı ile beraber kullanılacak Etki Alanını da kontrol eder.
+Description-vi.UTF-8: Tên nhóm làm việc/miền:
+ Hãy xác định nhóm làm việc nơi có vẻ nằm trình phục vụ này, khi ứng dụng khách yêu cầu. Ghi chú rằng tham số này cũng điều khiển tên miền được dùng với thiết lập « security=domain » (bảo mật=miền).
+Description-wo.UTF-8: Grup bu liggéey/Turu domen:
+ Joxeel grup bu liggéey binga bëgg serwóor bii di mel ne ci bokk buko ay kiliyaŋ di laaj. Nga bayyi xel ne parameetar bii mooy konturle yitam turu domen biñuy jëfandikoo ci komfiguraasioŋ bu security=domain.
+Description-zh_CN.UTF-8: 工作组/域名：
+ 请指定本服务器在收到客户端查询时将要显示的工作组。请注意，此参数同样也控制了 security=demain 设置所用的域名。
+Description-zh_TW.UTF-8: 群組/網域：
+ 請指定本伺服器在收到客戶端查詢時將要顯示的群組。請注意，此參數同樣也控制了 security=demain 設置所用的網域名。
+
+Template: samba-common/encrypt_passwords
+Type: boolean
+Default: true
+Description: Use password encryption?
+ All recent Windows clients communicate with SMB servers using encrypted
+ passwords. If you want to use clear text passwords you will need to change
+ a parameter in your Windows registry. 
+ .
+ Enabling this option is highly recommended. If you do, make sure you
+ have a valid /etc/samba/smbpasswd file and that you set passwords in
+ there for each user using the smbpasswd command.
+Description-ar.UTF-8: تشفير كلمة المرور ؟
+ زبائن Windows الجديدة كلّها تتصل مع خُدّام SMB مستعملة كلمات مرور مشفرة. إذا أردت استعمال كلمات مرور واضخة عليك بتغيير إعداد في قاعدة تسجيلات Windows.
+ .
+ يستحسن تمكين هذا الخيار. إذا فعلت ذلك، تأكد من وجود ملف /etc/samba/smbpasswd صالح و من وضعك كلمة مرور لكل مستخدم باستعمال اﻷمر smbpasswd.
+Description-bg.UTF-8: Шифриране на паролите?
+ Всички съвременни версии на Windows използват шифрирани пароли за връзка със SMB-сървъри. Използването на пароли без шифриране е възможно само след промени в регистъра.
+ .
+ Използването на шифрирани пароли е силно препоръчително.
+Description-bs.UTF-8: Koristiti enkripciju šifre?
+ Svi noviji Windows klijenti komuniciraju sa SMB serverima koristeći enkriptovane šifre. Ako želite koristiti šifre u vidu čistog teksta, trebate promijeniti parametar u vašem Windows registriju.
+ .
+ Uključivanje ove opcije je veoma preporučeno. Ako to uradite, pobrinite se da imate ispravnu /etc/samba/smbpasswd datoteku i da u njoj postavite šifre za svakog korisnika koristeći smbpasswd naredbu.
+Description-ca.UTF-8: Voleu utilitzar el xifrat de contrasenyes?
+ Tots els clients de Windows recents es comuniquen amb els servidors de Samba utilitzant contrasenyes xifrades. Si voleu utilitzar contrasenyes amb text pla, haureu de modificar el vostre registre de Windows.
+ .
+ És recomanable habilitar aquesta opció. Si ho feu, assegureu-vos de tenir un fitxer /etc/samba/smbpasswd vàlid i que hi especifiqueu la contrasenya de cada usuari utilitzant l'ordre smbpasswd.
+Description-cs.UTF-8: Použít šifrování hesel?
+ Všichni současní windowsoví klienti používají pro komunikaci se SMB servery šifrovaná hesla. Pokud chcete použít hesla nešifrovaná, musíte změnit jeden parametr v registrech systému Windows.
+ .
+ Povolení této volby je silně doporučeno. Dáte-li na naši radu, měli byste se ujistit, že máte platný soubor /etc/samba/smbpasswd a že v něm nastavíte hesla všech uživatelů příkazem smbpasswd.
+Description-da.UTF-8: Kryptér adgangskoder?
+ Alle nyere Windows-klienter kommunikerer med SMB-servere ved hjælp af krypterede adgangskoder. Hvis du vil bruge adgangkoder i klar tekst, er du nødt til at ændre en indstilling i Windows's registreringsdatabase.
+ .
+ Det anbefales at du vælger denne indstilling. Hvis du gør, så sørg for at du har en gyldig /etc/samba/smbpasswd-fil og at du her angiver adgangskoder for hver bruger med kommandoen smbpasswd.
+Description-de.UTF-8: Verschlüsselte Passwörter verwenden?
+ Alle aktuellen Windows-Clients kommunizieren mit SMB-Servern mittels verschlüsselter Passwörter. Wenn Sie Passwörter im Klartext verwenden möchten, müssen Sie einen Parameter in der Windows Registry ändern. 
+ .
+ Es wird dringendst empfohlen, diese Option zu aktivieren. Stellen Sie in dem Fall sicher, dass Sie eine gültige /etc/samba/smbpasswd-Datei haben und dort mittels dem smbpasswd-Befehl Passwörter für alle Benutzer setzen.
+Description-dz.UTF-8: ཆོག་ཡིག་གསང་བཟོ་ལགལེན་འཐབ་ནི་ཨིན་ན?
+ ཝིན་ཌཱསི་ཞབས་ཏོག་སྤྱོད་མི་མང་ཤོས་ཅིག་གིས་ གསང་བཟོས་ཆོག་ཡིག་ལག་ལེན་གྱི་ཐོག་ལས་ ཨེསི་ཨེམ་བི་སར་བརསི་དང་གཅིག་ཁར་བརྒྱུད་འབྲེལ་འཐབ་ཨིན། ཁྱོད་ཀྱིས་ ཚིག་ཡིག་ཆོག་ཡིག་གསལ་ཏོག་ཏོ་ཅིག་ལག་ལེན་འཐབ་དགོ་མནོ་བ་ཅིན་ ཁྱོད་རའི་ཝིན་ཌཱསི་ཐོ་བཀོད་ནང་ལུ་ཚད་བཟུང་ཅིག་བསྒྱུར་བཅོས་འབད་དགོ
+ .
+ གདམ་ཁ་ལྕོགས་ཅན་བཟོ་མི་འདི་གིས་ གནམ་མེད་ས་མེད་འོས་སྦྱོར་འབད་ནི་ཨིན། དེ་འབད་ནི་ཨིན་པ་ཅིན་ ཁྱོད་ལུ་ནུས་ལྡན་གྱི་/etc/samba/smbpasswd ཡིག་སྣོད་ཅིག་དགོཔ་དང་ འ་ནི་འདི་ཁྱོད་ཀྱིས་ smbpasswd བརྡ་བཀོད་ལག་ལེན་གྱི་ཐོག་ལས་ ལག་ལེན་པ་རེ་བཞིན་གྱི་དོན་ལས་ དེ་ནང་ལུ་ཆོག་ཡིག་གཞི་སྒྲིག་འབད།
+Description-el.UTF-8: Να χρησιμοποιηθεί κρυπτογράφηση των κωδικών πρόσβασης;
+ Όλες οι πρόσφατες εκδόσεις των πελατών Windows επικοινωνούν με τους εξυπηρετητές SMB χρησιμοποιώντας κρυπτογραφημένους κωδικούς πρόσβασης. Αν θέλετε να χρησιμοποιήσετε μη κρυπτογραφημένους κωδικούς θα πρέπει να αλλάξετε μια παράμετρο στο registry των Windows.
+ .
+ Η ενεργοποίηση αυτής της επιλογής συνιστάται έντονα. Αν την κάνετε, βεβαιωθείτε ότι έχετε ένα έγκυρο αρχείο /etc/samba/smbpasswd και ότι ορίζετε κωδικούς πρόσβασης σ' αυτό για κάθε χρήστη που χρησιμοποιεί την εντολή smbpasswd.
+Description-eo.UTF-8: Uzu pasvortan ĉifradon?
+ Ĉiuj novaj 'Windows'-klientoj komunikas per 'SMB'-serviloj uzantaj ĉifritajn pasvortojn. Se vi volas uzi malĉifrajn pasvortojn vi bezonos ŝanĝi agordon en via 'Windows'-rikordkampo.
+ .
+ Ege rekomendita tiu eblo estas. Se vi elektas ĝin, kontrolu ĉu vi havas validan '/etc/samba/smbpasswd'-dosieron, en kiu vi enmetis pasvortojn por ĉiu uzanto kiu uzas la 'smbpasswd'-ordonon.
+Description-es.UTF-8: ¿Utilizar contraseñas cifradas?
+ Todos los clientes Windows actuales se comunican con los servidores SMB utilizando contraseñas cifradas. Si quiere usar contraseñas en claro, tendrá que cambiar un parámetro en el registro de sus sistemas Windows.
+ .
+ Es muy recomendable habilitar esta opción. Compruebe que tiene un fichero /etc/samba/smbpasswd válido y que configura las contraseñas para cada usuario con el programa smbpasswd si elige hacerlo.
+Description-et.UTF-8: Kasutada paroolide krüpteerimist?
+ Kõik hiljutised Windows kliendid suhtlevad SMB serveritega kasutades krüpteeritud paroole. Kui soovid kasutada avatud paroole, pead Windows registris muutma üht seadet.
+ .
+ Selle seade valimine on ülimalt soovitatav. Kui ta valid, palun veendu et sul oleks sobiv /etc/samba/smbpasswd fail ning sea igale seal olevale kasutajale smbpasswd käsu abil parool.
+Description-eu.UTF-8: Zifraturiko pasahitzak erabili?
+ Windows bezero berrienek SMB zerbitzariekiko harremanak zifraturiko pasahitzak erabiliaz egiten dituzte. Testu laueko pasahitzak erabili nahi izan ezkero parametro bat aldatu behar duzu Windows erregistroan.
+ .
+ Aukera hau erabiltzea oso gomendagarri da. Erabiltzea hautatu ezkero ziurtatu baliozko /etc/samba/smbpasswd fitxategi bat duzula eta pasahitzak smbpasswd programaren bidez ezarri dituzula.
+Description-fi.UTF-8: Salataanko salasanat?
+ Kaikki viime aikoina julkistetut Windows-asiakkaat salaavat salasanat liikennöitäessä SMB-palvelimien kanssa. Jos halutaan käyttää selväkielisiä salasanoja, on Windows registryssä olevaa parametria muutettava.
+ .
+ Tämän valitsimen pitämistä päällä suositellaan suuresti. Jos se on päällä, on varmistuttava tiedoston /etc/samba/smbpasswd kelvollisuudesta ja että siellä on jokaiselle käyttäjälle tehty salasana komennolla smbpasswd.
+Description-fr.UTF-8: Voulez-vous chiffrer les mots de passe ?
+ Tous les clients Windows récents communiquent avec les serveurs SMB en utilisant des mots de passe chiffrés. Si vous voulez utiliser des mots de passe sans chiffrement, vous devez modifier un paramètre dans le registre de Windows.
+ .
+ Il est recommandé d'utiliser des mots de passe chiffrés. Si vous le faites, n'oubliez pas de créer un fichier /etc/samba/smbpasswd et d'y établir les mots de passe de tous les utilisateurs, à l'aide de la commande « smbpasswd ».
+Description-gl.UTF-8: ¿Empregar cifrado de contrasinais?
+ Todos os clientes Windows recentes comunícanse cos servidores SMB empregando contrasinais cifrados. Se quere empregar contrasinais de texto claro ha ter que cambiar un parámetro no rexistro de Windows.
+ .
+ Recoméndase activar esta opción. Se o fai, asegúrese de ter un ficheiro /etc/samba/smbpasswd válido e de establecer nel os contrasinais de cada usuario coa orde smbpasswd.
+Description-gu.UTF-8: પાસવર્ડ એન્ક્રિપ્શન વાપરશો?
+ હાલનાં બધા વિન્ડોઝ ક્લાયન્ટો SMB સર્વરો  સાથે એન્ક્રિપ્ટેડ પાસવર્ડોનો ઉપયોગ કરીને સંદેશા વ્યવહાર કરે છે. જો તમે સાદો લખાણ પાસવર્ડ વાપરવા માંગતા હોવ તો તમારે, વિન્ડોઝ રજીસ્ટ્રીમાં વિકલ્પ બદલવો પડશે.
+ .
+ આ વિકલ્પ સક્રિય કરવાનું ખૂબ જ સલાહભર્યું છે. જો તમે કરશો તો, તમે ધ્યાનમાં રાખશો કે તમારી પાસે યોગ્ય /etc/samba/smbpasswd ફાઇલ હોય અને દરેક વપરાશકર્તા માટે તમે smbpasswd ઉપયોગ કરીને પાસવર્ડ ગોઠવેલો છે.
+Description-he.UTF-8: האם להשתמש בסיסמאות מוצפנות?
+ כל הלקוחות החדשים מסוג-Windows מתקשרים עם שרתי SMB בעזרת סיסמאות מוצפנות. אם תרצה להשתמש בסיסמאות שאינן מוצפנות, יהיה עליך לבצע שינויים ב-Registry של לקוח ה-Windows.
+ .
+ הפעלת אופציה זו מומלצת מאוד. במידה ותופעל, וודא כי קיים הקובץ /etc/samba/smbpasswd, וכי הוא תקין. בנוסף, יש לדאוג שהקובץ יכיל סיסמה בעבור כל משתמש בעזרת שימוש בפקודה smbpasswd.
+Description-hu.UTF-8: Használsz kódolt jelszavakat?
+ Az újabb Windows kliensek kódolt jelszavakkal kommunikálnak az SMB kiszolgálókkal. Ha sima szöveges jelszavakat kívánsz alkalmazni, meg kell változtatni egy beállítást a kliensek regisztrációjában.
+ .
+ E lehetőség bekapcsolása erősen ajánlott. Ha ezt teszed, győződj meg róla hogy érvényes /etc/samba/smbpasswd fájllal rendelkezel és hogy beállítottad a jelszavakat minden felhasználóhoz a smbpasswd paranccsal.
+Description-id.UTF-8: Gunakan enkripsi sandi?
+ Semua klien Windows terbaru berkomunikasi dengan server SMB menggunakan sandi terenkripsi. Jika Anda ingin menggunakan sandi teks, Anda harus mengubah parameter tersebut dalam register Windows.
+ .
+ Mengaktifkan pilihan ini sangat dianjurkan. Jika demikian, pastikan Anda memiliki berkas /etc/samba/smbpasswd tempat Anda menyimpan semua sandi pengguna menggunakan perintah smbpasswd.
+Description-it.UTF-8: Usare password cifrate?
+ Tutti i client Windows recenti comunicano con i server SMB usando password cifrate. Per usare password in chiaro è necessario cambiare un parametro nel registro di Windows.
+ .
+ Si raccomanda d'accettare, in questo caso assicurarsi che il file /etc/samba/smbpasswd sia valido e che le password di tutti gli utenti siano state inserite con il comando smbpasswd.
+Description-ja.UTF-8: パスワードの暗号化を使いますか?
+ ほとんどの Windows クライアントは暗号化されたパスワードを使って SMB サーバとやり取りします。クリアテキストパスワードを使いたい場合は、あなたの Windows のレジストリにあるパラメータを変更する必要があります。
+ .
+ ここで「はい」と答えることを強くお勧めします。この場合、有効な /etc/samba/smbpasswd ファイルがあることを確認し、各ユーザのパスワードは smbpasswd コマンドを使って設定してください。
+Description-ka.UTF-8: გსურთ პაროლის დაშიფვრის გმაოყენება?
+ Windows-ის ყველა ახალი კლიენტი SMB სერვერთან კავშირს შიფრირებული პაროლით ამყარებს. თუ გსურთ დაუშიფრავი პაროლის გამოყენება, მოგიწევთ შეცვალოთ პარამეტრი Windows-ის რეგისტრში.
+ .
+ ამ პარამეტრის გააქტიურება რეკომენდირებულია. თუ ამას გააკეთებთ, დარწმუნდით, რომ გაგაჩნიათ გამართული /etc/samba/smbpasswd ფაილი და რომ იქ ყოველ მომხმარებელზე პაროლი გქონდეთ დაყენებული smbpasswd ბრძანებით.
+Description-km.UTF-8: ប្រើ​ការ​អ៊ិនគ្រីប​ពាក្យ​សម្ងាត់ ?
+ គ្រប់​ម៉ាស៊ីន​ភ្ញៀវ​ដែល​ប្រើ​វីនដូ​ថ្មីៗ​ទាំង​អស់​ទាក់ទង​ជា​មួយ​ម៉ាស៊ីន​បម្រើ SMB ដោយ​ប្រើ​ពាក្យសម្ងាត់​ដែល​បាន​អ៊ិនគ្រីប ។ ប្រសិន​បើ​អ្នក​ចង់​ជម្រះ​ពាក្យសម្ងាត់​អត្ថបទ អ្នក​នឹង​ត្រូវតែ​ផ្លាស់ប្ដូរ​ប៉ារ៉ាម៉ែត្រ​នៅ​ក្នុង បញ្ជី​ឈ្មោះ​របស់​វីនដូ ។
+ .
+ បាន​ផ្ដល់​អនុសាសន៍​យ៉ាង​ខ្លាំង​ឲ្យ​អនុញ្ញាត​ជម្រើស​នេះ ។ ប្រសិន​បើ​អ្នក​ធ្វើ​ដូច្នេះ សូម​ប្រាកដ​ថា អ្នក​មាន​ឯកសារ /etc/samba/smbpasswd ត្រឹមត្រូវ ហើយ​អ្នក​បាន​កំណត់​ពាក្យ​សម្ងាត់​ ដូច្នេះ​សម្រាប់​អ្នក​ប្រើ​ម្នាក់ៗ អាច​ប្រើ​ពាក្យ​បញ្ជា smbpasswd ។
+Description-ko.UTF-8: 비밀번호 암호화 기능을 사용할까요?
+ 최신 윈도우 클라이언트들은 모두 암호화된 비밀번호를 통해 SMB 서버와 통신합니다. 암호화 안 된 클리어텍스트 비밀번호를 사용하려면 윈도우 레지스트리에 있는 매개변수를 변경하셔야 합니다.
+ .
+ 이 기능을 활성화할 것을 강력히 권장합니다. 활성화할 경우, /etc/samba/smbpasswd 파일이 제대로이고 smbpasswd 명령을 사용하여 각 사용자들의 비밀번호를 전부 담고 있는지 확인하십시오.
+Description-lt.UTF-8: Naudoti slaptažodžių šifravimą?
+ Visos nesenos Windows sistemos bendraudamos su SMB serveriu naudoja šifruotus slaptažodžius. Jei norite naudoti nešifruotus slaptažodžius, reikia pakeisti reikšmę Windows registre.
+ .
+ Labai rekomenduojama pasirinkti šią galimybę. Jei pasirinksite šifruotus slaptažodžius, įsitikinkite, kad turite taisyklingą /etc/samba/smbpasswd rinkmeną ir kad ten nurodyti visų naudotojų, naudojančių smbpasswd, slaptažodžiai.
+Description-ml.UTF-8: അടയാളവാക്ക് എന്‍ക്രിപ്ഷന്‍ ഉപയോഗിക്കണോ?
+ എല്ലാ പുതിയ വിന്‍ഡോസ് ക്ലയന്റുകളും SMB സേവകരുമായി ആശയവിന്മയം നടത്തുന്നത് എന്‍ക്രിപ്റ്റ് ചെയ്ത അടയാള വാക്കുകളുപയോഗിച്ചാണ്. നിങ്ങള്‍ ക്ലിയര്‍ ടെക്സ്റ്റ് അടയാള വാക്കുകളുപയോഗിക്കാനാഗ്രഹിക്കുന്നെങ്കില്‍ നിങ്ങള്‍ക്ക് നിങ്ങളുടെ വിന്‍ഡോസ് രജിസ്ട്രിയിലെ ഒരു പരാമീറ്റര്‍ മാറ്റേണ്ടി വരും.
+ .
+ ഈ തിരഞ്ഞെടുക്കാവുന്ന വില ഇനേബിള്‍ ചെയ്യുന്നതിന് വളരെയധികം ശുപാര്‍ശ ചെയ്തിരിക്കുന്നു. നിങ്ങള്‍ അങ്ങനെ ചെയ്യുകയാണെങ്കില്‍ നിങ്ങള്‍ക്ക് ഒരു യോഗ്യമായ /etc/samba/smbpasswd ഫയലുണ്ടെന്നും  smbpasswd എന്ന ആജ്ഞ ഉപയോഗിച്ച് ഓരോ ഉപയോക്താക്കള്‍ക്കും അവിടെ അടയാള വാക്ക് സെറ്റ് ചെയ്തു എന്ന് ഉറപ്പാക്കുകയും ചെയ്യുക.
+Description-mr.UTF-8: कूटलिखित परवलीचा शब्द वापरावा का?
+ विंडोजचे सर्व ग्राहक कूटलिखित परवलीचे शब्द वापरुन एसएमबी परिसेवकांशी संवाद साधतात. तुम्हाला स्पष्ट परवलीचे शब्द वापरायचे असतील तर तुम्हाला तुमच्या विंडोजमधील नोंदीमध्ये एखादे चलितमूल्य बदलावे लागेल.
+ .
+ हाच पर्याय कार्यान्वित करण्याची शिफारस केली जात आहे. तुम्ही तसे केल्यास,तुमच्याजवळ वैध अशी (/etc/samba/smbpasswd)ईटीसी/सांबा/एसएमबी पासवर्ड संचिका आहे, तसेच ,एसएमबी पासवर्ड आज्ञावली वापरुन, प्रत्येक उपयोजकासाठी परवलीचे शब्द निर्धारित केल्याची खात्री करा.
+Description-nb.UTF-8: Bruke passord-kryptering?
+ Alle nyere Windows-klienter bruker krypterte passord når de kommuniserer med SMB-tjenere. Hvis du vil bruke passord i klartekst må du endre en parameter i Windows registry på klientene.
+ .
+ Det anbefales sterkt å bruke krypterte passord. Gjør du det, så se etter at du har en gyldig fil i /etc/samba/smbpasswd og at du lagrer passord der for hver bruker med kommandoen smbpasswd.
+Description-ne.UTF-8: पासवर्ड गुप्तिकरण प्रयोग गर्नुहुन्छ ?
+ हालका सबै सञ्झ्याल ग्राहक समक्रमित पासवर्ड प्रयोग गरेर SMB सर्भरसँग सञ्चार गर्छन् । यदि तपाईँ खाली पाठ पासवर्ड प्रयोग गर्न चाहनुहुन्छ भने तपाईँको सञ्झ्याल दर्ताको परामिति परिवर्तन गर्नु आवश्यक हुन्छ ।
+ .
+ यो विकल्प सक्षम पार्ने उत्कृष्ट स्वीकार गरिएको छ । यदि तपाईँ गर्नुहुन्छ भने, तपाईँ सँग /etc/samba/smbpasswd फाइल र त्यहाँ प्रत्येक प्रयोगकर्ताका लागि सेट गरिएका पासवर्ड smbpasswd आदेश प्रयोग गरेर वैद्य भएको निश्चिन्त हुनुहोस् ।
+Description-nl.UTF-8: Wachtwoordversleuteling gebruiken?
+ Alle recente windows-clients maken gebruik van versleutelde wachtwoorden bij de communicatie met SMB-servers. Als u 'onversleutelde tekst'-wachtwoorden wilt gebruiken dient u een parameter te veranderen in het Windows register.
+ .
+ Het activeren van deze optie is ten sterkste aangeraden. Indien u hiervoor kiest dient u er wel voor te zorgen dat u een geldig '/etc/samba/smbpasswd'- bestand heeft en dat u de wachtwoorden daar voor elke gebruiker met behulp van het commando 'smbpasswd' instelt.
+Description-nn.UTF-8: Bruke krypterte passord?
+ Alle nyare Windows-klientar kommuniserer med SMB-tenarar ved hjelp av krypterte passord. Viss du vil bruke klartekstpassord, må du endre ein parameter i Windows-registeret.
+ .
+ Det er sterkt tilrådd at du slår på dette valet. Viss du gjer det, må du sjå etter at du har ei gyldig /etc/samba/smbpasswd-fil, og du set inn passord der for kvar brukar ved hjelp av kommandoen «smbpasswd».
+Description-no.UTF-8: Bruke passord-kryptering?
+ Alle nyere Windows-klienter bruker krypterte passord når de kommuniserer med SMB-tjenere. Hvis du vil bruke passord i klartekst må du endre en parameter i Windows registry på klientene.
+ .
+ Det anbefales sterkt å bruke krypterte passord. Gjør du det, så se etter at du har en gyldig fil i /etc/samba/smbpasswd og at du lagrer passord der for hver bruker med kommandoen smbpasswd.
+Description-pl.UTF-8: Czy używać szyfrowania haseł?
+ Wszystkie współczesne Windowsowe klienty komunikują się z serwerami SMB używając zaszyfrowanych haseł. Jeżeli chcesz używać haseł w postaci otwartego tekstu, konieczna będzie zmiana odpowiedniego parametru w rejestrze Windows.
+ .
+ Zaznaczenie tej opcji jest wysoce zalecane. Jeśli to zrobisz, upewnij się, że masz poprawny plik /etc/samba/smbpasswd i że ustawisz w nim hasła dla każdego użytkownika korzystającego z polecenia smbpasswd.
+Description-pt.UTF-8: Utilizar encriptação de passwords?
+ Todos os clientes Windows recentes comunicam com servidores SMB utilizando passwords encriptadas. Se deseja utilizar passwords de texto puro você vai ter de alterar um parâmetro no registo do seu Windows.
+ .
+ É altamente recomendado que escolha esta opção. Se o fizer, assegure-se que tem um ficheiro /etc/samba/smbpasswd válido e que define as passwords para cada utilizador utilizando o comando smbpasswd.
+Description-pt_BR.UTF-8: Usar senhas criptografadas ?
+ Todos os clientes Windows atuais comunicam-se com servidores SMB usando senhas encriptadas. Caso você queira usar senhas em texto puro você precisará modificar um parâmetro no registro de seu Windows.
+ .
+ Habilitar esta opção é altamente recomendado. Caso você o faça, certifique-se de possuir um arquivo /etc/samba/smbpasswd e que você tenha senhas definidas no mesmo para cada usuário usando o comando smbpasswd.
+Description-ro.UTF-8: Se folosesc parole criptate? 
+ Cei mai recenți clienți Windows comunică cu serverele SMB folosind parole criptate. Dacă doriți să folosiți parole necriptate, va trebui să schimbați un parametru în registrul de configurare Windows.
+ .
+ Activarea acestei opțiuni este recomandată în mod deosebit. Dacă o activați, asigurați-vă că fișierul /etc/samba/smbpasswd este valid și că aveți configurată o parolă pentru fiecare utilizator (folosind comanda smbpasswd).
+Description-ru.UTF-8: Использовать шифрование паролей?
+ Все последние Windows-клиенты связываются с серверами SMB с использованием шифрованных паролей. Если нужно использовать нешифрованные пароли, тогда надо будет изменить параметр в реестре Windows.
+ .
+ Крайне рекомендуется включить этот параметр. В этом случае нужно убедиться в правильности файла /etc/samba/smbpasswd и в том, что для всех пользователей в нём установлены пароли с помощью команды smbpasswd.
+Description-sk.UTF-8: Použiť šifrovanie hesiel?
+ Všetky súčasné Windows počítače používajú na komunikáciu so SMB servermi šifrované heslá. Ak chcete použiť nešifrované heslá, musíte zmeniť parameter v registroch systému Windows.
+ .
+ Povolenie tejto voľby sa veľmi odporúča. V tom prípade sa uistite, že máte platný súbor /etc/samba/smbpasswd a že v ňom nastavíte heslá všetkým používateľom príkazom smbpasswd.
+Description-sl.UTF-8: Uporaba šifriranja gesel?
+ Vsi novejši Windows odjemalci komunicirajo s SMB strežniki z uporabo šifriranih gesel. Če želite uporabiti nešifrirana gesla boste morali spremeniti ustrezen parameter v Windows registru.
+ .
+ Močno priporočamo vklop te možnosti. Če jo boste vključili, preverite da imate veljavno datoteko /etc/samba/smbpasswd in da ste tam nastavili gesla za vsakega uporabnika s pomočjo ukaza smbpasswd.
+Description-sq.UTF-8: Të përdor kriptim fjalëkalimi?
+ Të tërë klientët e fundit Windows komunikojnë me shërbyes SMB duke përdorur fjalëkalime të kriptuar. Nëse dëshiron të përdorësh fjalëkalime të qarta tekstualë do të duhet të ndryshosh një parametër në regjistrin tënd Windows.
+ .
+ Aktivizimi i kësaj mundësie këshillohet fuqimisht. Nëse e bën, sigurohu që ke një skedar të vlefshëm /etc/samba/smbpasswd dhe që i cakton fjalëkalimet atje për secilin përdorues duke përdorur komandën smbpasswd.
+Description-sv.UTF-8: Använd lösenordskryptering?
+ De flesta Windows-klienter av senare versioner kommunicerar med krypterade lösenord mot SMB-servrar. Om du vill använda lösenord i klartext behöver du ändra en parameter i ditt Windows-register.
+ .
+ Det rekommenderas varmt att du aktiverar detta alternativ. Om du gör det, kontrollera att du har en giltig /etc/samba/smbpasswd och att du har ställt in lösenorden där för varje användare med kommandot smbpasswd.
+Description-ta.UTF-8: கடவுச் சொல் குறியீட்டாக்கத்தை பயன்படுத்தவா?
+ அனைத்து விண்டோஸ் சார்ந்தோன்களும் SMB சேவையகங்களுடன் குறியீட்டாக்கிய கடவுச் சொற்களை பயன் படுத்தி தொடர்பு கொள்கின்றன. நீங்கள் தெளிவான உரை கடவுச் சொல்லை பயன் படுத்த விரும்பினால் விண்டோஸ் பதிவகத்தில் மாற்றங்கள் செய்ய வேண்டும்.
+ .
+ இந்த தேர்வை செயல் படுத்த பலமாகப் பரிந்துரைக்கப் படுகிறது. அப்படிச் செய்தால் செல்லுபடியாகும் /etc/samba/smbpasswd கோப்பு உங்களிடம் இருப்பதையும் நீங்கள் ஒவ்வொரு பயனருக்கும் smbpasswd கட்டளை மூலம் தனித்தனி கடவுச் சொல் அமைப்பதையும் உறுதி செய்து கொள்ளவும்.
+Description-th.UTF-8: ใช้การเข้ารหัสลับกับรหัสผ่านหรือไม่?
+ เครื่องลูกข่ายวินโดวส์รุ่นใหม่ๆ ทั้งหมด จะติดต่อกับเซิร์ฟเวอร์ SMB โดยใช้รหัสผ่านที่เข้ารหัสลับ ถ้าคุณต้องการจะใช้รหัสผ่านแบบข้อความธรรมดา คุณจะต้องเปลี่ยนค่าค่าหนึ่งในเรจิสตรีของวินโดวส์
+ .
+ ขอแนะนำอย่างยิ่งให้เปิดใช้ตัวเลือกนี้ และถ้าคุณเปิดใช้ กรุณาตรวจสอบให้แน่ใจว่าคุณมีแฟ้ม /etc/samba/smbpasswd ที่ใช้การได้ และคุณได้ตั้งรหัสผ่านในนั้นสำหรับผู้ใช้แต่ละคน โดยใช้คำสั่ง smbpasswd
+Description-tl.UTF-8: Gumamit ng encryption sa kontrasenyas?
+ Lahat ng mga bagong mga Windows client ay nakikipag-usap sa mga SMB server na naka-encrypt ang mga kontrasenyas. Kung nais niyong gumamit ng "clear text" na kontrasenyas, kailangan ninyong baguhin ang isang parameter sa inyong Windows registry.
+ .
+ Ang pag-enable ng opsiyon na ito ay rekomendado. Kung gawin niyo ito, tiyakin na ang inyong talaksang /etc/samba/smbpasswd ay valid at may nakatakda kayong kontrasenyas para sa bawat gumagamit na ginamitan ng smbpasswd na utos.
+Description-tr.UTF-8: Parola şifrelenmesi kullanılsın mı?
+ Yeni Windows istemcileri SBM sunucularıyla şifrelenmiş parolalar kullanarak iletişim kurarlar. Eğer düz metin parolaları kullanmak istiyorsanız Windows registry içinde bir parametreyi değiştirmelisiniz.
+ .
+ Bu işlemi yapmanız şiddetle önerilir. Eğer yapacaksanız, geçerli bir /etc/samba/smbpasswd dosyanız olduğundan emin olun ve smbpasswd komutunu kullanarak bütün kullanıcılar için parola belirleyin.
+Description-vi.UTF-8: Sử dụng khả năng mật mã hoá mật khẩu không?
+ Mọi ứng dụng khách Windows gần đây liên lạc với trình phục vụ SMB bằng mật khẩu đã mật mã. Nếu bạn có muốn sử dụng mật khẩu « chữ rõ » (chữ thô, không có mật mã), bạn sẽ cần phải thay đổi một tham số trong sổ đăng ký (registry) Windows của mình.
+ .
+ Rất khuyên bạn bật tùy chọn này. Nếu có, hãy chắc là bạn có tập tin </etc/samba/smbpasswd> hợp lệ và bạn cũng đặt mật khẩu trong nó cho mỗi người dùng bằng lênh « smbpasswd ».
+Description-wo.UTF-8: Ndax ñu kiripte baatujall yi?
+ Mbooleem kiliyaŋ yu Windows yu yees yi buñuy jokkoo ak SMB dañuy jëfandikoo baatijall yuñu kiripte. Boo bëggée jëfandikoo baatijall yu tekst yu leer, kon dangay wara soppi ab parameetar ci register bu Windows.
+ .
+ Ñoongi deŋkaane bubaax nga tann lii. Boo ko defee, na nga wóorlu ne amnga ab fiise /etc/samba/smbpasswd bu baax, ta nga def foofa baatujall bu jëfandikukat yéppu. Dangay jëfandikoo komaand bu smbpasswd.
+Description-zh_CN.UTF-8: 使用口令加密吗？
+ 较新的 Windows 客户端都使用加密的口令与 SMB 服务器通讯。如果您想使用明文密码，您将需要修改您的 Windows 注册表中的一个参数。
+ .
+ 强烈推荐开启此选项。如果选中，请确保您拥有一个有效的 /etc/samba/smbpasswd 文件，并且此文件包含用 smbpasswd 命令为每个用户设定的密码。
+Description-zh_TW.UTF-8: 使用密碼加密嗎？
+ 較新的 Windows 客戶端都使用加密的密碼與 SMB 服務器通訊。如果您想使用明文密碼，您將需要修改您的 Windows 登錄表中的一個參數。
+ .
+ 強烈推薦開啟此選項。如果選取，請確保您擁有一個有效的 /etc/samba/smbpasswd 檔案，並且此檔案包含用 smbpasswd 命令為每個用戶設定的密碼。
+

@@ -1,0 +1,8 @@
+/etc/mysql/debian-start
+/etc/logrotate.d/mysql-server
+/etc/logcheck/ignore.d.paranoid/mysql-server-5_0
+/etc/logcheck/ignore.d.workstation/mysql-server-5_0
+/etc/logcheck/ignore.d.server/mysql-server-5_0
+/etc/init.d/mysql-ndb-mgm
+/etc/init.d/mysql
+/etc/init.d/mysql-ndb

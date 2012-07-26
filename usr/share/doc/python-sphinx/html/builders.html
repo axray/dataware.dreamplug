@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Available builders &mdash; Sphinx v0.4.2 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+          URL_ROOT:    '',
+          VERSION:     '0.4.2',
+          COLLAPSE_MODINDEX: false,
+          FILE_SUFFIX: ''
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/interface.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within Sphinx v0.4.2 documentation"
+          href="_static/opensearch.xml"/>
+    <link rel="contents" title="Global table of contents" href="contents.html" />
+    <link rel="index" title="Global index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="Sphinx v0.4.2 documentation" href="index.html" />
+    <link rel="next" title="The build configuration file" href="config.html" />
+    <link rel="prev" title="Miscellaneous markup" href="markup/misc.html" />
+  </head>
+  <body>
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<img src="_static/sphinx.png" alt="Sphinx logo" />
+</div>
+
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="config.html" title="The build configuration file"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="markup/misc.html" title="Miscellaneous markup"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Sphinx home </a> |&nbsp;</li>
+        <li><a href="contents.html">Documentation </a> &raquo;</li>
+
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3>Table Of Contents</h3>
+            <ul>
+<li><a class="reference external" href="">Available builders</a><ul>
+<li><a class="reference external" href="#pickle-builder-details">Pickle builder details</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="markup/misc.html" title="previous chapter">Miscellaneous markup</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="config.html" title="next chapter">The build configuration file</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/builders.txt">Show Source</a></li>
+            </ul>
+            <h3>Quick search</h3>
+            <form class="search" action="search.html" method="get">
+              <input type="text" name="q" size="18" /> <input type="submit" value="Go" />
+              <input type="hidden" name="check_keywords" value="yes" />
+              <input type="hidden" name="area" value="default" />
+            </form>
+        </div>
+      </div>
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  
+  <div class="section" id="module-sphinx.builder">
+<span id="builders"></span><h1 id="module-sphinx.builder"><span id="builders"></span>Available builders<a class="headerlink" href="#module-sphinx.builder" title="Permalink to this headline">¶</a></h1>
+<p>These are the built-in Sphinx builders.  More builders can be added by
+<a class="reference external" href="extensions.html#extensions"><em>extensions</em></a>.</p>
+<p>The builder&#8217;s &#8220;name&#8221; must be given to the <strong>-b</strong> command-line option of
+<strong>sphinx-build</strong> to select a builder.</p>
+<dl class="class">
+<dt id="sphinx.builder.StandaloneHTMLBuilder">
+<!--[sphinx.builder.StandaloneHTMLBuilder]-->class <tt class="descclassname">sphinx.builder.</tt><tt class="descname">StandaloneHTMLBuilder</tt><a class="headerlink" href="#sphinx.builder.StandaloneHTMLBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is the standard HTML builder.  Its output is a directory with HTML
+files, complete with style sheets and optionally the reST sources.  There are
+quite a few configuration values that customize the output of this builder,
+see the chapter <a class="reference external" href="config.html#html-options"><em>Options for HTML output</em></a> for details.</p>
+<p>Its name is <tt class="docutils literal"><span class="pre">html</span></tt>.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="sphinx.builder.HTMLHelpBuilder">
+<!--[sphinx.builder.HTMLHelpBuilder]-->class <tt class="descclassname">sphinx.builder.</tt><tt class="descname">HTMLHelpBuilder</tt><a class="headerlink" href="#sphinx.builder.HTMLHelpBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>This builder produces the same output as the standalone HTML builder, but
+also generates HTML Help support files that allow the Microsoft HTML Help
+Workshop to compile them into a CHM file.</p>
+<p>Its name is <tt class="docutils literal"><span class="pre">htmlhelp</span></tt>.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="sphinx.builder.PickleHTMLBuilder">
+<!--[sphinx.builder.PickleHTMLBuilder]-->class <tt class="descclassname">sphinx.builder.</tt><tt class="descname">PickleHTMLBuilder</tt><a class="headerlink" href="#sphinx.builder.PickleHTMLBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>This builder produces a directory with pickle files containing mostly HTML
+fragments and TOC information, for use of a web application (or custom
+postprocessing tool) that doesn&#8217;t use the standard HTML templates.  It also
+is the format used by the Sphinx Web application.</p>
+<p>See <a class="reference internal" href="#pickle-details"><em>Pickle builder details</em></a> for details about the output format.</p>
+<p>Its name is <tt class="docutils literal"><span class="pre">pickle</span></tt>.  (The old name <tt class="docutils literal"><span class="pre">web</span></tt> still works as well.)</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="sphinx.builder.LaTeXBuilder">
+<!--[sphinx.builder.LaTeXBuilder]-->class <tt class="descclassname">sphinx.builder.</tt><tt class="descname">LaTeXBuilder</tt><a class="headerlink" href="#sphinx.builder.LaTeXBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>This builder produces a bunch of LaTeX files in the output directory.  You
+have to specify which documents are to be included in which LaTeX files via
+the <a class="reference external" href="config.html#confval-latex_documents"><tt class="xref docutils literal"><span class="pre">latex_documents</span></tt></a> configuration value.  There are a few
+configuration values that customize the output of this builder, see the
+chapter <a class="reference external" href="config.html#latex-options"><em>Options for LaTeX output</em></a> for details.</p>
+<p>Its name is <tt class="docutils literal"><span class="pre">latex</span></tt>.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="sphinx.builder.TextBuilder">
+<!--[sphinx.builder.TextBuilder]-->class <tt class="descclassname">sphinx.builder.</tt><tt class="descname">TextBuilder</tt><a class="headerlink" href="#sphinx.builder.TextBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>This builder produces a text file for each reST file &#8211; this is almost the
+same as the reST source, but with much of the markup stripped for better
+readability.</p>
+<p>Its name is <tt class="docutils literal"><span class="pre">text</span></tt>.</p>
+<p>
+<span class="versionmodified">New in version 0.4.</span></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="sphinx.builder.ChangesBuilder">
+<!--[sphinx.builder.ChangesBuilder]-->class <tt class="descclassname">sphinx.builder.</tt><tt class="descname">ChangesBuilder</tt><a class="headerlink" href="#sphinx.builder.ChangesBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>This builder produces an HTML overview of all <a class="reference external" href="markup/para.html#dir-versionadded"><tt class="xref docutils literal"><span class="pre">versionadded</span></tt></a>,
+<a class="reference external" href="markup/para.html#dir-versionchanged"><tt class="xref docutils literal"><span class="pre">versionchanged</span></tt></a> and <tt class="xref docutils literal"><span class="pre">deprecated</span></tt> directives for the current
+<a class="reference external" href="config.html#confval-version"><tt class="xref docutils literal"><span class="pre">version</span></tt></a>.  This is useful to generate a ChangeLog file, for
+example.</p>
+<p>Its name is <tt class="docutils literal"><span class="pre">changes</span></tt>.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="sphinx.builder.CheckExternalLinksBuilder">
+<!--[sphinx.builder.CheckExternalLinksBuilder]-->class <tt class="descclassname">sphinx.builder.</tt><tt class="descname">CheckExternalLinksBuilder</tt><a class="headerlink" href="#sphinx.builder.CheckExternalLinksBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>This builder scans all documents for external links, tries to open them with
+<tt class="xref docutils literal"><span class="pre">urllib2</span></tt>, and writes an overview which ones are broken and redirected
+to standard output and to <tt class="docutils literal"><span class="pre">output.txt</span></tt> in the output directory.</p>
+<p>Its name is <tt class="docutils literal"><span class="pre">linkcheck</span></tt>.</p>
+</dd></dl>
+
+<p>Built-in Sphinx extensions that offer more builders are:</p>
+<ul class="simple">
+<li><a title="Test snippets in the documentation." class="reference external" href="ext/doctest.html"><tt class="xref docutils literal"><span class="pre">doctest</span></tt></a></li>
+<li><a title="Check Python modules and C API for coverage in the documentation." class="reference external" href="ext/coverage.html"><tt class="xref docutils literal"><span class="pre">coverage</span></tt></a></li>
+</ul>
+<div class="section" id="pickle-builder-details">
+<span id="pickle-details"></span><h2 id="pickle-builder-details"><span id="pickle-details"></span>Pickle builder details<a class="headerlink" href="#pickle-builder-details" title="Permalink to this headline">¶</a></h2>
+<p>The builder outputs one pickle file per source file, and a few special files.
+It also copies the reST source files in the directory <tt class="docutils literal"><span class="pre">_sources</span></tt> under the
+output directory.</p>
+<p>The files per source file have the extensions <tt class="docutils literal"><span class="pre">.fpickle</span></tt>, and are arranged in
+directories just as the source files are.  They unpickle to a dictionary with
+these keys:</p>
+<dl class="docutils">
+<dt><tt class="docutils literal"><span class="pre">body</span></tt></dt>
+<dd>The HTML &#8220;body&#8221; (that is, the HTML rendering of the source file), as rendered
+by the HTML translator.</dd>
+<dt><tt class="docutils literal"><span class="pre">title</span></tt></dt>
+<dd>The title of the document, as HTML (may contain markup).</dd>
+<dt><tt class="docutils literal"><span class="pre">toc</span></tt></dt>
+<dd>The table of contents for the file, rendered as an HTML <tt class="docutils literal"><span class="pre">&lt;ul&gt;</span></tt>.</dd>
+<dt><tt class="docutils literal"><span class="pre">display_toc</span></tt></dt>
+<dd>A boolean that is <tt class="xref docutils literal"><span class="pre">True</span></tt> if the <tt class="docutils literal"><span class="pre">toc</span></tt> contains more than one entry.</dd>
+<dt><tt class="docutils literal"><span class="pre">current_page_name</span></tt></dt>
+<dd>The document name of the current file.</dd>
+<dt><tt class="docutils literal"><span class="pre">parents</span></tt>, <tt class="docutils literal"><span class="pre">prev</span></tt> and <tt class="docutils literal"><span class="pre">next</span></tt></dt>
+<dd>Information about related chapters in the TOC tree.  Each relation is a
+dictionary with the keys <tt class="docutils literal"><span class="pre">link</span></tt> (HREF for the relation) and <tt class="docutils literal"><span class="pre">title</span></tt>
+(title of the related document, as HTML).  <tt class="docutils literal"><span class="pre">parents</span></tt> is a list of
+relations, while <tt class="docutils literal"><span class="pre">prev</span></tt> and <tt class="docutils literal"><span class="pre">next</span></tt> are a single relation.</dd>
+<dt><tt class="docutils literal"><span class="pre">sourcename</span></tt></dt>
+<dd>The name of the source file under <tt class="docutils literal"><span class="pre">_sources</span></tt>.</dd>
+</dl>
+<p>The special files are located in the root output directory.  They are:</p>
+<dl class="docutils">
+<dt><tt class="docutils literal"><span class="pre">environment.pickle</span></tt></dt>
+<dd>The build environment.  (XXX add important environment properties)</dd>
+<dt><tt class="docutils literal"><span class="pre">globalcontext.pickle</span></tt></dt>
+<dd><p class="first">A pickled dict with these keys:</p>
+<dl class="last docutils">
+<dt><tt class="docutils literal"><span class="pre">project</span></tt>, <tt class="docutils literal"><span class="pre">copyright</span></tt>, <tt class="docutils literal"><span class="pre">release</span></tt>, <tt class="docutils literal"><span class="pre">version</span></tt></dt>
+<dd>The same values as given in the configuration file.</dd>
+<dt><tt class="docutils literal"><span class="pre">style</span></tt>, <tt class="docutils literal"><span class="pre">use_modindex</span></tt></dt>
+<dd><a class="reference external" href="config.html#confval-html_style"><tt class="xref docutils literal"><span class="pre">html_style</span></tt></a> and <a class="reference external" href="config.html#confval-html_use_modindex"><tt class="xref docutils literal"><span class="pre">html_use_modindex</span></tt></a>, respectively.</dd>
+<dt><tt class="docutils literal"><span class="pre">last_updated</span></tt></dt>
+<dd>Date of last build.</dd>
+<dt><tt class="docutils literal"><span class="pre">builder</span></tt></dt>
+<dd>Name of the used builder, in the case of pickles this is always
+<tt class="docutils literal"><span class="pre">'pickle'</span></tt>.</dd>
+<dt><tt class="docutils literal"><span class="pre">titles</span></tt></dt>
+<dd>A dictionary of all documents&#8217; titles, as HTML strings.</dd>
+</dl>
+</dd>
+<dt><tt class="docutils literal"><span class="pre">searchindex.pickle</span></tt></dt>
+<dd><p class="first">An index that can be used for searching the documentation.  It is a pickled
+list with these entries:</p>
+<ul class="last simple">
+<li>A list of indexed docnames.</li>
+<li>A list of document titles, as HTML strings, in the same order as the first
+list.</li>
+<li>A dict mapping word roots (processed by an English-language stemmer) to a
+list of integers, which are indices into the first list.</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="config.html" title="The build configuration file"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="markup/misc.html" title="Miscellaneous markup"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Sphinx home </a> |&nbsp;</li>
+        <li><a href="contents.html">Documentation </a> &raquo;</li>
+
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2008, Georg Brandl.
+      Last updated on Jul 31, 2008.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

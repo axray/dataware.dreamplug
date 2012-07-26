@@ -1,0 +1,12 @@
+debian-backports-keyring (2009.02.20) lenny-backports; urgency=low
+
+  *  Uploaded for lenny-bpo
+
+ -- Alexander Wirt <formorer@debian.org>  Fri, 20 Feb 2009 23:01:55 +0100
+
+debian-backports-keyring (2007.06.10) etch-backports; urgency=low
+
+  * Initial release
+
+ -- Alexander Wirt <formorer@debian.org>  Sun, 10 Jun 2007 09:52:22 +0200
+

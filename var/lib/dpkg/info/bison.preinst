@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# On error, bomb out
+set -e
+
+# clean error from previous package.
+rm -f /usr/share/man/man1/bison.1
+
+dpkg --assert-working-epoch 2>&- || {
+    echo -e "\nYou must upgrade dpkg before installing this package.\n"
+    false
+}
+
+

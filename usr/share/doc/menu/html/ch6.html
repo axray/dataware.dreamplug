@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>Debian Menu System - How a user can override the menus</title>
+
+</head>
+
+<body>
+
+<p><a name="ch6"></a></p>
+<hr>
+
+<p>
+[ <a href="ch5.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ <a href="ch1.html">1</a> ]
+[ <a href="ch2.html">2</a> ]
+[ <a href="ch3.html">3</a> ]
+[ <a href="ch4.html">4</a> ]
+[ <a href="ch5.html">5</a> ]
+[ 6 ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch7.html">next</a> ]
+</p>
+
+<hr>
+
+<h1>
+Debian Menu System
+<br>Chapter 6 - How a user can override the menus
+</h1>
+
+<hr>
+
+<hr>
+
+<h2><a name="s6.1"></a>6.1 Configuring the menus</h2>
+
+<p>
+Users can specify their own menu entries in the <code>~/.menu</code> directory.
+The files can have an arbitrary file name as long as the new syntax for the
+menu entries is used.  They should start with either
+</p>
+
+<pre>
+       ?package(installed-package):
+</pre>
+
+<p>
+or
+</p>
+
+<pre>
+       ?package(local.mystuff):
+</pre>
+
+<p>
+if it's something that isn't ``debian-officially'' installed.  (Any ``package''
+that starts with ``<samp>local.</samp>'' is considered installed.)
+</p>
+
+<p>
+If users want to have their own menu methods, they should create a
+<code>~/.menu-methods</code> directory and put all their menu methods in it.
+(If <code>~/.menu-methods</code> exists, <code>/etc/menu-methods</code> will
+not be searched when a user runs <code>update-menus</code>).
+</p>
+
+<p>
+A system administrator should place system-wide menu entries in
+<code>/etc/menu</code> (not in <code>/usr/share/menu/package</code>, since
+these files will probably be overwritten by a package upgrade).
+</p>
+
+<hr>
+
+<h2><a name="s6.2"></a>6.2 Specifying that a menu entry should not be displayed</h2>
+
+<p>
+If a user wants to remove the entries of <samp>package</samp> from the system
+menu then this will do the trick:
+</p>
+
+<pre>
+       echo -n  &gt; ~/.menu/package
+</pre>
+
+<p>
+The zero-size file will tell <code>update-menus</code> that the corresponding
+package should not have any menu entries listed.  A system administrator can
+remove menu entries system-wide with
+</p>
+
+<pre>
+       echo -n  &gt; /etc/menu/package
+</pre>
+
+<hr>
+
+<h2><a name="s6.3"></a>6.3 Including other files</h2>
+
+<p>
+<var>Historical comment by Joost:</var>
+</p>
+
+<p>
+<var>More out of curiosity than anything else, I recently read the KDE mailing
+list.  In it I saw some discussion about how good the Debian menu system is
+(whow, thanks, guys!), but one person found a missing feature: s/he said you
+couldn't include other files in the user menu files.  Well, actually, it was
+already possible, but not very well documented.</var>
+</p>
+
+<p>
+To include the contents of the file <code>/usr/share/menu/somefile</code>, add
+this to your menu file:
+</p>
+
+<pre>
+     !include /usr/share/menu/somefile
+</pre>
+
+<p>
+Apart from that, it is of course possible to make the menu entry file
+executable (<samp>chmod a+x ~/.menu/package</samp>), and do something like
+</p>
+
+<pre>
+     #!/bin/sh
+     cat  /usr/share/menu/somefile
+     sed -e  &quot;/unwanted_entry/s/?package(/?package(notinstalled./&quot; \
+          /usr/share/menu/someotherfile
+</pre>
+
+<p>
+to get the same effect, with the added flexibility of being able to filter out
+unwanted lines.
+</p>
+
+<hr>
+
+<p>
+[ <a href="ch5.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ <a href="ch1.html">1</a> ]
+[ <a href="ch2.html">2</a> ]
+[ <a href="ch3.html">3</a> ]
+[ <a href="ch4.html">4</a> ]
+[ <a href="ch5.html">5</a> ]
+[ 6 ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch7.html">next</a> ]
+</p>
+
+<hr>
+
+<p>
+Debian Menu System
+</p>
+
+<address>
+version 1.4, 12 May 2008<br>
+<br>
+Joost Witteveen <code><a href="mailto:joostje@debian.org">joostje@debian.org</a></code><br>
+Joey Hess <code><a href="mailto:joeyh@debian.org">joeyh@debian.org</a></code><br>
+Christian Schwarz <code><a href="mailto:schwarz@debian.org">schwarz@debian.org</a></code><br>
+Bill Allombert <code><a href="mailto:ballombe@debian.org">ballombe@debian.org</a></code><br>
+<br>
+</address>
+<hr>
+
+</body>
+
+</html>
+

@@ -1,0 +1,51 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_pycentral
+if which pycentral >/dev/null 2>&1 && pycentral --help 2>/dev/null | grep -q '^ *version'; then
+	pycentral pkgprepare python-twisted-mail <<PYEOF
+[python-package]
+format = 1
+python-version = all
+[pycentral]
+version = 0.6.7
+[files]
+/usr/share/pyshared/twisted=d
+/usr/share/pyshared/twisted/plugins=d
+/usr/share/pyshared/twisted/plugins/twisted_mail.py=f
+/usr/share/pyshared/twisted/mail=d
+/usr/share/pyshared/twisted/mail/test=d
+/usr/share/pyshared/twisted/mail/test/pop3testserver.py=f
+/usr/share/pyshared/twisted/mail/test/test_bounce.py=f
+/usr/share/pyshared/twisted/mail/test/test_options.py=f
+/usr/share/pyshared/twisted/mail/test/__init__.py=f
+/usr/share/pyshared/twisted/mail/test/test_pop3client.py=f
+/usr/share/pyshared/twisted/mail/test/test_pop3.py=f
+/usr/share/pyshared/twisted/mail/test/test_mail.py=f
+/usr/share/pyshared/twisted/mail/test/test_smtp.py=f
+/usr/share/pyshared/twisted/mail/test/test_imap.py=f
+/usr/share/pyshared/twisted/mail/test/rfc822.message=f
+/usr/share/pyshared/twisted/mail/scripts=d
+/usr/share/pyshared/twisted/mail/scripts/__init__.py=f
+/usr/share/pyshared/twisted/mail/scripts/mailmail.py=f
+/usr/share/pyshared/twisted/mail/alias.py=f
+/usr/share/pyshared/twisted/mail/__init__.py=f
+/usr/share/pyshared/twisted/mail/bounce.py=f
+/usr/share/pyshared/twisted/mail/pb.py=f
+/usr/share/pyshared/twisted/mail/imap4.py=f
+/usr/share/pyshared/twisted/mail/relaymanager.py=f
+/usr/share/pyshared/twisted/mail/maildir.py=f
+/usr/share/pyshared/twisted/mail/relay.py=f
+/usr/share/pyshared/twisted/mail/pop3.py=f
+/usr/share/pyshared/twisted/mail/pop3client.py=f
+/usr/share/pyshared/twisted/mail/protocols.py=f
+/usr/share/pyshared/twisted/mail/mail.py=f
+/usr/share/pyshared/twisted/mail/smtp.py=f
+/usr/share/pyshared/twisted/mail/tap.py=f
+/usr/share/pyshared/twisted/mail/_version.py=f
+/usr/share/pyshared/Twisted_Mail-8.1.0.egg-info=f
+PYEOF
+else
+	mkdir -p /var/lib/pycentral
+	echo python-twisted-mail >> /var/lib/pycentral/delayed-pkgs
+fi
+# End automatically added section

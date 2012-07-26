@@ -1,0 +1,7 @@
+[python-package]
+format = 1
+python-version = all
+[pycentral]
+version = 0.6.7
+[files]
+/usr/share/pyshared/Twisted-8.1.0.egg-info=f

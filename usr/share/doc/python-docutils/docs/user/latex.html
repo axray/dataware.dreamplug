@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.5: http://docutils.sourceforge.net/" />
+<title>Generating LaTeX with Docutils</title>
+<meta name="author" content="Engelbert Gruber" />
+<meta name="date" content="2008-06-23" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="../../docutils/writers/html4css1/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="generating-latex-with-docutils">
+<h1 class="title">Generating LaTeX with Docutils</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>Engelbert Gruber</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:grubert&#64;users.sourceforge.net">grubert&#64;users.sourceforge.net</a></td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>5575</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2008-06-23</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#introduction" id="id1">Introduction</a></li>
+<li><a class="reference internal" href="#options" id="id2">Options</a><ul>
+<li><a class="reference internal" href="#pdf-generation" id="id3">PDF generation</a></li>
+<li><a class="reference internal" href="#font-selection" id="id4">Font selection</a></li>
+<li><a class="reference internal" href="#hyphenation" id="id5">Hyphenation</a></li>
+<li><a class="reference internal" href="#unicode" id="id6">Unicode</a></li>
+<li><a class="reference internal" href="#table-of-figures" id="id7">Table of figures</a></li>
+<li><a class="reference internal" href="#section-numbering" id="id8">Section numbering</a></li>
+<li><a class="reference internal" href="#number-pages-by-chapter" id="id9">Number pages by chapter</a></li>
+<li><a class="reference internal" href="#images" id="id10">Images</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#commands-directly-to-latex" id="id11">Commands directly to LaTeX</a><ul>
+<li><a class="reference internal" href="#custom-title-page" id="id12">Custom title page</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#problems" id="id13">Problems</a><ul>
+<li><a class="reference internal" href="#lists" id="id14">Lists</a></li>
+<li><a class="reference internal" href="#footnotes-and-citations" id="id15">footnotes and citations</a></li>
+<li><a class="reference internal" href="#tables" id="id16">Tables</a><ul>
+<li><a class="reference internal" href="#notes" id="id17">Notes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#miscellaneous" id="id18">Miscellaneous</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="introduction">
+<h1><a class="toc-backref" href="#id1">Introduction</a></h1>
+<p>Producing LaTeX code from reST input can be done in at least two ways:</p>
+<ol class="loweralpha">
+<li><p class="first">Transform the internal markup into corresponding LaTeX markup.
+For example, a section title would be written with the LaTeX section
+command: <tt class="docutils literal"><span class="pre">\section{this</span> <span class="pre">section</span> <span class="pre">title}</span></tt>.</p>
+<p>This can be constrained by the LaTeX document class
+and may require hacking around bugs/features in LaTeX,
+but it produces a readable LaTeX file.</p>
+<p>If you prefer this approach, try <tt class="docutils literal"><span class="pre">rst2latex</span></tt>.</p>
+</li>
+<li><p class="first">Use LaTeX as a typesetting system to produce the desired document structure
+without bothering with the usual LaTeX idioms for representing
+document structure information.</p>
+<p>This is not constrained by a particular LaTeX document class
+and therefore requires hacking around bugs/features in LaTeX.
+But it produces a hard to read LaTeX file.</p>
+<p><tt class="docutils literal"><span class="pre">rst2newlatex</span></tt> adds a lot of LaTeX macros and uses LaTeX as a typesetter
+without caring about producing readable LaTeX files.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="options">
+<h1><a class="toc-backref" href="#id2">Options</a></h1>
+<p>Configuration can be done in two ways:</p>
+<ol class="arabic simple">
+<li>Options to the docutils tool: e.g. language selection.</li>
+<li>Options to LaTeX via a stylesheet file.</li>
+</ol>
+<p>The generated LaTeX documents should be kept processable by a standard
+LaTeX installation (if such a thing exists), therefore the document
+contains default settings. To allow <em>overwriting defaults</em> the stylesheet
+is included at last.</p>
+<p>Run <tt class="docutils literal"><span class="pre">rst2latex.py</span> <span class="pre">--help</span></tt> to see the command-line options, or have look in
+config documentation.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="29%" />
+<col width="71%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Configuration Issue</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>papersize</td>
+<td><p class="first">Default: a4paper. Paper geometry can be changed
+using <tt class="docutils literal"><span class="pre">\geometry{xxx}</span></tt> entries.</p>
+<p>Some possibilities:</p>
+<ul class="simple">
+<li>a4paper, b3paper, letterpaper, executivepaper,
+legalpaper</li>
+<li>landscape, portrait, twoside.</li>
+</ul>
+<p>and a ton of other option setting margins.</p>
+<p>An example:</p>
+<pre class="last literal-block">
+\geometry{a5paper,landscape}
+</pre>
+</td>
+</tr>
+<tr><td>paragraph indent</td>
+<td><p class="first">The default LaTeX behavior in most document classes
+is the following: indent the first line in
+a paragraph unless it is the first line of
+a chapter, section, subsection, or
+subsubsection.</p>
+<p>This is configurable.  For example, you could
+use the following lines to set paragraph
+indentation to zero but add a vertical space
+between paragraphs.:</p>
+<pre class="last literal-block">
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+</pre>
+</td>
+</tr>
+<tr><td>admonitionwidth</td>
+<td><p class="first">The width for admonitions.
+Default: 0.9*textwidth, this can be changed
+e.g.:</p>
+<pre class="last literal-block">
+\setlength{\admonitionwidth}{0.7\textwidth}
+</pre>
+</td>
+</tr>
+<tr><td>docinfowidth</td>
+<td><p class="first">The width for the docinfo table.
+Default: 0.9*textwidth, changed to e.g.:</p>
+<pre class="last literal-block">
+\setlength{\docinfowidth}{0.7\textwidth}
+</pre>
+</td>
+</tr>
+<tr><td>rubric style</td>
+<td><p class="first">The header contains the definition of a new
+LaTeX command rubric. Inserting:</p>
+<pre class="literal-block">
+\renewcommand{\rubric}[1]{\subsection*{
+  ~\hfill {\color{red} #1} \hfill ~}}
+</pre>
+<p>sets rubric to subsection style in red.</p>
+<p class="last">Default: subsection style italic.</p>
+</td>
+</tr>
+<tr><td>line spacing</td>
+<td><p class="first">Is done with package <em>setspace</em>, which gives
+singlespace, onehalfspace and doublespace
+commands. To get documentwide double spacing,
+add this to your stylesheet</p>
+<pre class="literal-block">
+\usepackage{setspace}
+\doublespacing
+</pre>
+<p>Another way</p>
+<pre class="literal-block">
+\linespread{1.55}
+</pre>
+<p>And yet another, add <tt class="docutils literal"><span class="pre">doublesp</span></tt> to the
+documentoptions and e.g.</p>
+<pre class="literal-block">
+\setstretch{1.7}
+</pre>
+<p class="last">for bigger linespacing.</p>
+</td>
+</tr>
+<tr><td>use verbatim when</td>
+<td>When possibile, use verbatim for literal-blocks.</td>
+</tr>
+<tr><td>possible</td>
+<td><p class="first">Compatibility alias for &quot;--literal-env=verbatim&quot;.</p>
+<p>A literal-block element, when processed by a
+docutils-writer might have it's origin in a
+markup with &quot;::&quot; syntax or a
+&quot;.. parsed-literal::&quot; directive.</p>
+<p class="last">A LaTeX verbatim environment is only useable if
+there are no elements contained in the
+literal-block.</p>
+</td>
+</tr>
+<tr><td>font selection</td>
+<td>see below</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="pdf-generation">
+<h2><a class="toc-backref" href="#id3">PDF generation</a></h2>
+<p>LaTeX offers three ways</p>
+<dl class="docutils">
+<dt>pdflatex :</dt>
+<dd>Generates a PDF document directly from the LaTeX file. As always one
+might need to call it twice (thrice) to get internal references correct.</dd>
+<dt>latex dvipdfm :</dt>
+<dd>Use <tt class="docutils literal"><span class="pre">latex</span></tt> to generate a dvi file and <tt class="docutils literal"><span class="pre">dvipdfm</span></tt> to produce a pdf file.
+If you will take this approach, specify <tt class="docutils literal"><span class="pre">documentoptions=dvipdfm</span></tt>.</dd>
+<dt>latex dvips ps2pdf :</dt>
+<dd>Produce a dvi file with <tt class="docutils literal"><span class="pre">latex</span></tt>, postscript with <tt class="docutils literal"><span class="pre">dvips</span></tt> and pdf with
+<tt class="docutils literal"><span class="pre">ps2pdf</span></tt>.</dd>
+</dl>
+<p>see next section for font selection.</p>
+</div>
+<div class="section" id="font-selection">
+<h2><a class="toc-backref" href="#id4">Font selection</a></h2>
+<p>When generating pdf-files from LaTeX, use the pdflatex command, the files
+are a lot smaller if postscript fonts are used. This <em>was</em> fixed by putting
+<tt class="docutils literal"><span class="pre">\usepackage{times}</span></tt> into the stylesheet.</p>
+<p>It is said that the typewriter font in computer modern font, the default
+LaTeX font package, is too heavy compared to the others. There is a package
+or some commands too fix this, which i currently cannot find.</p>
+<p>Some people diagnose a similar unbalance for the postscript fonts, the
+package to fix this is <tt class="docutils literal"><span class="pre">\usepackage{pslatex}</span></tt>.
+pslatex in contrast to the standard LaTeX fonts has a bold typewriter font.</p>
+<p>As <tt class="docutils literal"><span class="pre">times</span></tt> does not use the appropriate mathematical fonts and <tt class="docutils literal"><span class="pre">pslatex</span></tt>
+does not work with T1 encodings one should use:</p>
+<pre class="literal-block">
+\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+</pre>
+<p><em>font encoding</em> can be selected with option &quot;font-encoding&quot;. Default
+uses package &quot;ae&quot; for old style font encoding use &quot;OT1&quot;.</p>
+</div>
+<div class="section" id="hyphenation">
+<h2><a class="toc-backref" href="#id5">Hyphenation</a></h2>
+<p>The amount of hyphenation is influenced by <tt class="docutils literal"><span class="pre">\hyphenpenalty</span></tt>, setting it to
+10000 almost prevents hyphenation. As this produces lines with more spcea
+between words one should increase LaTeX's <tt class="docutils literal"><span class="pre">\tolerance</span></tt> for this.</p>
+<p>E.g. try</p>
+<pre class="literal-block">
+\hyphenpenalty=5000
+\tolerance=1000
+</pre>
+</div>
+<div class="section" id="unicode">
+<h2><a class="toc-backref" href="#id6">Unicode</a></h2>
+<p>The generated LaTeX documents are in the input encoding per default.</p>
+<ul>
+<li><p class="first">If the source document is in utf-8 encoding (or
+<tt class="docutils literal"><span class="pre">--output-encoding=utf-8</span></tt> is set), LaTeX needs unicode support
+(the <tt class="docutils literal"><span class="pre">ucs</span></tt> package). If this is not available, specify
+a different output-encoding, e.g. <tt class="docutils literal"><span class="pre">latin1</span></tt>.</p>
+</li>
+<li><p class="first">If LaTeX issues a Warning about unloaded/known characters adding</p>
+<pre class="literal-block">
+\PreloadUnicodePage{n}
+</pre>
+<p>where <em>n</em> is the unicode pagenumber, might help.</p>
+</li>
+<li><p class="first">Unicode box drawing characters</p>
+<ul>
+<li><p class="first">generate LaTeX code with <tt class="docutils literal"><span class="pre">--output-encoding=utf-8:strict</span></tt>.</p>
+</li>
+<li><p class="first">In the latex file, edit the preamble to load &quot;ucs&quot; with &quot;postscript&quot;
+option and also load the pstricks package:</p>
+<pre class="literal-block">
+  \usepackage{shortvrb}
+- \usepackage{ucs}
++ \usepackage[postscript]{ucs}
++ \usepackage{pstricks}
+  \usepackage[utf8x]{inputenc}
+</pre>
+</li>
+<li><p class="first">Convert to PDF with <tt class="docutils literal"><span class="pre">latex</span></tt>, <tt class="docutils literal"><span class="pre">dvips</span></tt>, and <tt class="docutils literal"><span class="pre">ps2pdf</span></tt>.</p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="table-of-figures">
+<h2><a class="toc-backref" href="#id7">Table of figures</a></h2>
+<p>A table of figures can be generated by a command directly to LaTeX:</p>
+<pre class="literal-block">
+.. raw:: latex
+
+   \listoffigures
+</pre>
+<p>LaTeX also has a command <tt class="docutils literal"><span class="pre">\listoftables</span></tt>.</p>
+</div>
+<div class="section" id="section-numbering">
+<h2><a class="toc-backref" href="#id8">Section numbering</a></h2>
+<p>The options <tt class="docutils literal"><span class="pre">--section-numbering</span></tt> and <tt class="docutils literal"><span class="pre">--use-latex-toc</span></tt>, both
+influence section numbering.</p>
+<ul>
+<li><p class="first">If <tt class="docutils literal"><span class="pre">--use-latex-toc</span></tt> is specified the latex-writer generates
+LaTeX output, so that LaTeX generates a table of contents and
+generates section numbers. Usually one does not want to have
+section numbers generated by docutils in this case, therefore
+<tt class="docutils literal"><span class="pre">--no-section-numbering</span></tt> should be specified.</p>
+<p>The advantage is that LaTeX does put page numbers into the
+table of contents, but the section depth is limited by the
+used LaTeX-documentclass, usually to three levels.</p>
+</li>
+<li><p class="first">If section numbering and LaTeX table of contents is used LaTeX and
+docutils will number sections. To switch off displaying of LaTeX's
+numbers one has to add following lines to the stylesheet</p>
+<pre class="literal-block">
+% no section number display
+\makeatletter
+\def\&#64;seccntformat#1{}
+\makeatother
+% no numbers in toc
+\renewcommand{\numberline}[1]{}
+</pre>
+<p>This enables to have the same section numbers as in other docutils-
+writers and page numbers in the table of contents.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="number-pages-by-chapter">
+<h2><a class="toc-backref" href="#id9">Number pages by chapter</a></h2>
+<p>This can be accomplished with</p>
+<pre class="literal-block">
+\usepackage{chappg}
+</pre>
+<p>From the documentation</p>
+<blockquote>
+Basic operation of the package is to redefine <tt class="docutils literal"><span class="pre">\thepage</span></tt> to be
+<tt class="docutils literal"><span class="pre">\thechapter-\arabic{page}</span></tt>, and to cause the page number to be reset
+(to 1) at the start of each chapter.  So the pages of chapter 3 will
+be numbered 3-1, 3-2, ..., and the pages of appendix B will be
+numbered B-1, B-2, ...</blockquote>
+<p>See documentation for details and other possibilities.</p>
+</div>
+<div class="section" id="images">
+<h2><a class="toc-backref" href="#id10">Images</a></h2>
+<p>Images are included in LaTeX by the graphicx package. The supported
+image formats depend on the used driver (dvi, dvips, pdftex, ...).</p>
+<p>If pdf-image inclusion in pdf files fails, specify
+<tt class="docutils literal"><span class="pre">--graphicx-option=pdftex</span></tt> or <tt class="docutils literal"><span class="pre">--graphicx-option=auto</span></tt>.</p>
+<p>Wrapping text around images requires the wrapfig package.</p>
+</div>
+</div>
+<div class="section" id="commands-directly-to-latex">
+<h1><a class="toc-backref" href="#id11">Commands directly to LaTeX</a></h1>
+<p>By means of the reST-raw directive one can give commands directly to
+LaTeX, e.g. forcing a page break:</p>
+<pre class="literal-block">
+.. raw:: latex
+
+   \newpage
+</pre>
+<p>Or setting formulas in LaTeX:</p>
+<pre class="literal-block">
+.. raw:: latex
+
+   $$x^3 + 3x^2a + 3xa^2 + a^3,$$
+</pre>
+<p>Or making a colorbox: If someone wants to get a red background for a textblock,
+she/he can put definecolor{bg}{rgb}{.9,0,0} into style.tex and in
+reStructuredText do something like this:</p>
+<pre class="literal-block">
+|begincolorbox|
+Nobody expects the spanish inquisition.
+|endcolorbox|
+
+.. |begincolorbox| raw:: latex
+
+   \\begin{center}
+   \\colorbox{bg}{
+   \\parbox{0.985\\linewidth}{
+
+.. |endcolorbox| raw:: latex
+
+   }}
+   \\end{center}
+</pre>
+<div class="section" id="custom-title-page">
+<h2><a class="toc-backref" href="#id12">Custom title page</a></h2>
+<p>Currently maketitle only shows the title and subtitle, date and author are shown
+in the docinfo table.</p>
+<p>To change the titlepage layout, e.g. see fancyhdr, one must redefine the
+maketitle command in the stylesheet:</p>
+<pre class="literal-block">
+\renewcommand{\maketitle}{
+  \begin{titlepage}
+    \begin{center}
+    \textsf{TITLE \&#64;title} \\
+    Date: \today
+    \end{center}
+  \end{titlepage}
+}
+</pre>
+<p><tt class="docutils literal"><span class="pre">\&#64;title</span></tt> contains the title.</p>
+</div>
+</div>
+<div class="section" id="problems">
+<h1><a class="toc-backref" href="#id13">Problems</a></h1>
+<p>Open to be fixed or open to discussion.</p>
+<div class="section" id="lists">
+<h2><a class="toc-backref" href="#id14">Lists</a></h2>
+<p>Definitions in definition lists start on the same line as the term. Putting
+<tt class="docutils literal"><span class="pre">\leavevmode</span></tt> after the term results in a new newline if the definition
+starts with a item list or similar.</p>
+</div>
+<div class="section" id="footnotes-and-citations">
+<h2><a class="toc-backref" href="#id15">footnotes and citations</a></h2>
+<p>Initially both were implemented using figures, because hyperlinking back
+and forth seemed to be impossible. Later images were put into figures.</p>
+<p>This results in footnotes images and figures possibly being mixed at page
+foot.</p>
+<ul class="simple">
+<li>Use LaTeX footnotes and citations for printing or more complex layout.</li>
+<li>Footnotes and citations done with figures might excell in hyperlink
+support.</li>
+</ul>
+<p>If <tt class="docutils literal"><span class="pre">use-latex-citations</span></tt> is used a bibliography is inserted right at
+the end of the document. <em>This should be customizable</em>.</p>
+</div>
+<div class="section" id="tables">
+<h2><a class="toc-backref" href="#id16">Tables</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Tablewidth:</th><td class="field-body"><p class="first">reST-documents line length is assumed to be 80 characters. The
+tablewidth is set relative to this value. If someone produces
+documents with line length of 132 this will fail.</p>
+<p class="last">Table width is tried to fit in page even if it is wider than
+the assumed linewidth, still assumed linewidth is a hook.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p class="first">In tools.txt the option tables right column, there should be some more spacing
+between the description and the next paragraph &quot;Default:&quot;.</p>
+<p>Paragraph separation in tables is hairy.
+see <a class="reference external" href="http://www.tex.ac.uk/cgi-bin/texfaq2html?label=struttab">http://www.tex.ac.uk/cgi-bin/texfaq2html?label=struttab</a></p>
+<ul class="simple">
+<li>The strut solution did not work.</li>
+<li>setting extrarowheight added ad top of row not between paragraphs in
+a cell. ALTHOUGH i set it to 2pt because, text is too close to the topline.</li>
+<li>baselineskip/stretch does not help.</li>
+</ul>
+</li>
+<li><p class="first">Should there be two hlines after table head and on table end ?</p>
+</li>
+<li><p class="first">Table: multicol cells are always {l}.</p>
+</li>
+<li><p class="first">The contents of a rowspan cell do not influence table height.
+(Maybe if we put a tabular inside ?)</p>
+</li>
+<li><p class="first">Table heads and footer for longtable (firstpage lastpage ..).</p>
+</li>
+<li><p class="first">Table cells with multirow and multicolumn</p>
+</li>
+<li><p class="first">literal-blocks in table cells:</p>
+<ul class="simple">
+<li>If verbatim or flushleft is used one gets vertical space above and below.</li>
+<li>This is bad for the topmost paragraph in a cell, therefore the writer
+uses raggedright.</li>
+<li>Ragged right fails on followup paragraphs as the vertical space would be
+missing.</li>
+</ul>
+</li>
+<li><p class="first">Use tabularx column type <tt class="docutils literal"><span class="pre">X</span></tt> and let latex decide width.</p>
+</li>
+<li><p class="first">csv-tables do not have a colwidth.</p>
+</li>
+</ul>
+<div class="section" id="notes">
+<h3><a class="toc-backref" href="#id17">Notes</a></h3>
+<ul>
+<li><p class="first">table-style booktabs: booktabs.sty 1.00 does not work with longtable.</p>
+</li>
+<li><p class="first">If default table-style is not booktabs, but the document contains a table
+with class booktabs, one has to add the latex package booktabs. That means
+put the line</p>
+<pre class="literal-block">
+\usepackage{booktabs}
+</pre>
+<p>into your latex-style.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="miscellaneous">
+<h2><a class="toc-backref" href="#id18">Miscellaneous</a></h2>
+<ul>
+<li><p class="first">Selection of LaTeX fontsize configurable.</p>
+</li>
+<li><p class="first">Assumed reST linelength for table width setting configurable.</p>
+</li>
+<li><p class="first">literal-block indentation configurable.</p>
+</li>
+<li><p class="first">recognize LaTeX and replace by <tt class="docutils literal"><span class="pre">\LaTeX</span></tt>.</p>
+</li>
+<li><p class="first">Support embed-stylesheet.</p>
+</li>
+<li><p class="first">Sidebar handling.</p>
+</li>
+<li><p class="first">Pdfbookmark level 4 (and greater) does not work (might be settable but OTOH).</p>
+</li>
+<li><p class="first">center subsection{Abstract} gives a LaTeX error here.
+<tt class="docutils literal"><span class="pre">!</span> <span class="pre">LaTeX</span> <span class="pre">Error:</span> <span class="pre">Something's</span> <span class="pre">wrong--perhaps</span> <span class="pre">a</span> <span class="pre">missing</span> <span class="pre">\item.</span></tt>
+Committed a HACK: centering by hfill.</p>
+</li>
+<li><p class="first">Document errors are also too silent.</p>
+</li>
+<li><p class="first">Use optionlist for docinfo, the table does only work for single page.</p>
+</li>
+<li><p class="first">Consider peter funk's hooks for TeXpert:</p>
+<ul class="simple">
+<li>Define his own document preamble (including the choice to
+choose his own documentclass.  That would make the <tt class="docutils literal"><span class="pre">--documentclass</span></tt>
+option superfluous).  I suggest to call this option <tt class="docutils literal"><span class="pre">--preamble</span></tt></li>
+<li>Use two additional hooks to put additional stuff just behind the
+<tt class="docutils literal"><span class="pre">\begin{document}</span></tt> and just before the <tt class="docutils literal"><span class="pre">\end{document}</span></tt> macros.
+Typical uses would be <tt class="docutils literal"><span class="pre">\tableofcontents</span></tt>, <tt class="docutils literal"><span class="pre">\listoffigures</span></tt> and
+<tt class="docutils literal"><span class="pre">\appendix</span></tt>, <tt class="docutils literal"><span class="pre">\makeindex</span></tt>, <tt class="docutils literal"><span class="pre">\makeglossary</span></tt> and some such
+for larger documents.</li>
+</ul>
+</li>
+<li><p class="first">The indentional problematic error in docs/user/rst/demo.txt is not
+referring anywhere.</p>
+</li>
+<li><p class="first">Footnotes are not all on the same page (as in
+docs/user/rst/demo.txt) and do not link back and forth.</p>
+</li>
+<li><p class="first">No link to system errors.</p>
+</li>
+<li><p class="first">Hyperlinks are not hyphenated; this leads to bad spacing. See
+docs/user/rst/demo.txt 2.14 directives.</p>
+</li>
+<li><p class="first">Meta keywords into PDF ?</p>
+</li>
+<li><p class="first">Pagestyle headings does not work, when sections are starred.</p>
+</li>
+<li><p class="first">For additional docinfo items: the field_body is inserted as text, i.e. no
+markup is done.</p>
+</li>
+<li><p class="first">Multiple author entries in docinfo (same thing as in html).</p>
+</li>
+<li><p class="first">keep literal-blocks together on a page, avoid pagebreaks.</p>
+<p>failed experiments up to now: samepage, minipage, pagebreak 1 to 4 before
+the block.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="latex.txt">View document source</a>.
+Generated on: 2009-12-29 18:29 UTC.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>

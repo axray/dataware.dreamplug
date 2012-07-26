@@ -1,0 +1,5 @@
+/etc/init.d/hal
+/etc/hal/fdi/policy/preferences.fdi
+/etc/default/hal
+/etc/udev/rules.d/90-hal.rules
+/etc/dbus-1/system.d/hal.conf

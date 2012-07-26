@@ -1,0 +1,41 @@
+Package: flowplayer
+Version: 3.1.2-1.1
+Architecture: all
+Maintainer: Jitesh Shah <jiteshs@marvell.com>
+Installed-Size: 4912
+Depends: lighttpd
+Filename: binary//flowplayer_3.1.2-1.1_all.deb
+Size: 4293126
+MD5sum: e74dbdcacaeb33b8a29f5f52640641c1
+Section: unknown
+Priority: optional
+Homepage: http://flowplayer.org
+Description: Javascripts for streaming-in video (flash video only)
+
+Package: plogger
+Version: 3.2-1
+Architecture: all
+Maintainer: Jitesh Shah <jiteshs@marvell.com>
+Installed-Size: 1796
+Depends: lighttpd, php5-cgi, mysql-client, php5-mysql, php5-gd
+Filename: binary//plogger_3.2-1_all.deb
+Size: 362724
+MD5sum: 696854dc20712546c62ff76e501aa3fa
+Section: unknown
+Priority: optional
+Description: Web Album
+
+Package: sheevaplug-wifi-demo
+Version: 1.0-1.3
+Architecture: all
+Maintainer: Kedar Sovani <kedars@marvell.com>
+Installed-Size: 2916
+Depends: ifplugd
+Filename: binary//sheevaplug-wifi-demo_1.0-1.3_all.deb
+Size: 2222096
+MD5sum: cdf2bd2a5b099666f09460b0445f3d6e
+Section: unknown
+Priority: optional
+Homepage: http://openplug.org
+Description: Files for demo of Sheevaplug wifi
+

@@ -1,0 +1,34 @@
+[2012/07/26 11:50:32,  3] smbd/negprot.c:reply_nt1(392)
+  using SPNEGO
+[2012/07/26 11:50:32,  3] smbd/negprot.c:reply_negprot(673)
+  Selected protocol NT LM 0.12
+[2012/07/26 11:50:32,  3] smbd/process.c:process_smb(1570)
+  Transaction 1 of length 190 (0 toread)
+[2012/07/26 11:50:32,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 3364) conn 0x0
+[2012/07/26 11:50:32,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:50:32,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc801
+[2012/07/26 11:50:32,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/26 11:50:32,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[Mac OS X 10.7] NativeLanMan=[SMBFS 1.7.0] PrimaryDomain=[]
+[2012/07/26 11:50:32,  3] smbd/sesssetup.c:reply_spnego_negotiate(800)
+  reply_spnego_negotiate: Got secblob of size 40
+[2012/07/26 11:50:32,  3] libsmb/ntlmssp.c:debug_ntlmssp_flags(62)
+  Got NTLMSSP neg_flags=0x02000a05
+[2012/07/26 11:50:32,  3] smbd/process.c:process_smb(1570)
+  Transaction 2 of length 196 (0 toread)
+[2012/07/26 11:50:32,  3] smbd/process.c:switch_message(1374)
+  switch message SMBsesssetupX (pid 3364) conn 0x0
+[2012/07/26 11:50:32,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:50:32,  3] smbd/sesssetup.c:reply_sesssetup_and_X(1409)
+  wct=12 flg2=0xc801
+[2012/07/26 11:50:32,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1173)
+  Doing spnego session setup
+[2012/07/26 11:50:32,  3] smbd/sesssetup.c:reply_sesssetup_and_X_spnego(1208)
+  NativeOS=[Mac OS X 10.7] NativeLanMan=[SMBFS 1.7.0] PrimaryDomain=[]
+[2012/07/26 11:50:32,  3] libsmb/ntlmssp.c:ntlmssp_server_auth(745)
+  Got user=[] domain=[] workstation=[] len1=1 len2=0

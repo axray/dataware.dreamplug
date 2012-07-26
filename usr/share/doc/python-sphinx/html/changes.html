@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Changes in Sphinx &mdash; Sphinx v0.4.2 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+          URL_ROOT:    '',
+          VERSION:     '0.4.2',
+          COLLAPSE_MODINDEX: false,
+          FILE_SUFFIX: ''
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/interface.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within Sphinx v0.4.2 documentation"
+          href="_static/opensearch.xml"/>
+    <link rel="contents" title="Global table of contents" href="contents.html" />
+    <link rel="index" title="Global index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="Sphinx v0.4.2 documentation" href="index.html" />
+    <link rel="next" title="Projects using Sphinx" href="examples.html" />
+    <link rel="prev" title="Glossary" href="glossary.html" />
+  </head>
+  <body>
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<img src="_static/sphinx.png" alt="Sphinx logo" />
+</div>
+
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Projects using Sphinx"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="glossary.html" title="Glossary"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Sphinx home </a> |&nbsp;</li>
+        <li><a href="contents.html">Documentation </a> &raquo;</li>
+
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3>Table Of Contents</h3>
+            <ul>
+<li><a class="reference external" href="">Changes in Sphinx</a><ul>
+<li><a class="reference external" href="#release-0-4-2-jul-29-2008">Release 0.4.2 (Jul 29, 2008)</a></li>
+<li><a class="reference external" href="#release-0-4-1-jul-5-2008">Release 0.4.1 (Jul 5, 2008)</a></li>
+<li><a class="reference external" href="#release-0-4-jun-23-2008">Release 0.4 (Jun 23, 2008)</a></li>
+<li><a class="reference external" href="#release-0-3-may-6-2008">Release 0.3 (May 6, 2008)</a></li>
+<li><a class="reference external" href="#release-0-2-apr-27-2008">Release 0.2 (Apr 27, 2008)</a></li>
+<li><a class="reference external" href="#release-0-1-61950-mar-26-2008">Release 0.1.61950 (Mar 26, 2008)</a></li>
+<li><a class="reference external" href="#release-0-1-61945-mar-26-2008">Release 0.1.61945 (Mar 26, 2008)</a></li>
+<li><a class="reference external" href="#release-0-1-61843-mar-24-2008">Release 0.1.61843 (Mar 24, 2008)</a></li>
+<li><a class="reference external" href="#release-0-1-61798-mar-23-2008">Release 0.1.61798 (Mar 23, 2008)</a></li>
+<li><a class="reference external" href="#release-0-1-61611-mar-21-2008">Release 0.1.61611 (Mar 21, 2008)</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="glossary.html" title="previous chapter">Glossary</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="examples.html" title="next chapter">Projects using Sphinx</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/changes.txt">Show Source</a></li>
+            </ul>
+            <h3>Quick search</h3>
+            <form class="search" action="search.html" method="get">
+              <input type="text" name="q" size="18" /> <input type="submit" value="Go" />
+              <input type="hidden" name="check_keywords" value="yes" />
+              <input type="hidden" name="area" value="default" />
+            </form>
+        </div>
+      </div>
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  
+  <div class="section" id="changes-in-sphinx">
+<span id="changes"></span><h1 id="changes-in-sphinx"><span id="changes"></span>Changes in Sphinx<a class="headerlink" href="#changes-in-sphinx" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="release-0-4-2-jul-29-2008">
+<h2 id="release-0-4-2-jul-29-2008">Release 0.4.2 (Jul 29, 2008)<a class="headerlink" href="#release-0-4-2-jul-29-2008" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fix rendering of the <tt class="docutils literal"><span class="pre">samp</span></tt> role in HTML.</li>
+<li>Fix a bug with LaTeX links to headings leading to a wrong page.</li>
+<li>Reread documents with globbed toctrees when source files are
+added or removed.</li>
+<li>Add a missing parameter to PickleHTMLBuilder.handle_page().</li>
+<li>Put inheritance info always on its own line.</li>
+<li>Don&#8217;t automatically enclose code with whitespace in it in quotes;
+only do this for the <tt class="docutils literal"><span class="pre">samp</span></tt> role.</li>
+<li>autodoc now emits a more precise error message when a module
+can&#8217;t be imported or an attribute can&#8217;t be found.</li>
+<li>The JavaScript search now uses the correct file name suffix when
+referring to found items.</li>
+<li>The automodule directive now accepts the <tt class="docutils literal"><span class="pre">inherited-members</span></tt>
+and <tt class="docutils literal"><span class="pre">show-inheritance</span></tt> options again.</li>
+<li>You can now rebuild the docs normally after relocating the source
+and/or doctree directory.</li>
+</ul>
+</div>
+<div class="section" id="release-0-4-1-jul-5-2008">
+<h2 id="release-0-4-1-jul-5-2008">Release 0.4.1 (Jul 5, 2008)<a class="headerlink" href="#release-0-4-1-jul-5-2008" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Added sub-/superscript node handling to TextBuilder.</li>
+<li>Label names in references are now case-insensitive, since reST
+label names are always lowercased.</li>
+<li>Fix linkcheck builder crash for malformed URLs.</li>
+<li>Add compatibility for admonitions and docutils 0.5.</li>
+<li>Remove the silly restriction on &#8220;rubric&#8221; in the LaTeX writer: you
+can now write arbitrary &#8220;rubric&#8221; directives, and only those with
+a title of &#8220;Footnotes&#8221; will be ignored.</li>
+<li>Copy the HTML logo to the output <tt class="docutils literal"><span class="pre">_static</span></tt> directory.</li>
+<li>Fix LaTeX code for modules with underscores in names and platforms.</li>
+<li>Fix a crash with nonlocal image URIs.</li>
+<li>Allow the usage of :noindex: in <tt class="docutils literal"><span class="pre">automodule</span></tt> directives, as
+documented.</li>
+<li>Fix the <tt class="docutils literal"><span class="pre">delete()</span></tt> docstring processor function in autodoc.</li>
+<li>Fix warning message for nonexisting images.</li>
+<li>Fix JavaScript search in Internet Explorer.</li>
+</ul>
+</div>
+<div class="section" id="release-0-4-jun-23-2008">
+<h2 id="release-0-4-jun-23-2008">Release 0.4 (Jun 23, 2008)<a class="headerlink" href="#release-0-4-jun-23-2008" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="new-features-added">
+<h3 id="new-features-added">New features added<a class="headerlink" href="#new-features-added" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">tocdepth</span></tt> can be given as a file-wide metadata entry, and
+specifies the maximum depth of a TOC of this file.</li>
+<li>The new config value <cite>default_role</cite> can be used to select the
+default role for all documents.</li>
+<li>Sphinx now interprets field lists with fields like <tt class="docutils literal"><span class="pre">:param</span> <span class="pre">foo:</span></tt>
+in description units.</li>
+<li>The new <cite>staticmethod</cite> directive can be used to mark methods as
+static methods.</li>
+<li>HTML output:<ul>
+<li>The &#8220;previous&#8221; and &#8220;next&#8221; links have a more logical structure, so
+that by following &#8220;next&#8221; links you can traverse the entire TOC
+tree.</li>
+<li>The new event <cite>html-page-context</cite> can be used to include custom
+values into the context used when rendering an HTML template.</li>
+<li>Document metadata is now in the default template context, under
+the name <cite>metadata</cite>.</li>
+<li>The new config value <cite>html_favicon</cite> can be used to set a favicon
+for the HTML output.  Thanks to Sebastian Wiesner.</li>
+<li>The new config value <cite>html_use_index</cite> can be used to switch index
+generation in HTML documents off.</li>
+<li>The new config value <cite>html_split_index</cite> can be used to create
+separate index pages for each letter, to be used when the complete
+index is too large for one page.</li>
+<li>The new config value <cite>html_short_title</cite> can be used to set a
+shorter title for the documentation which is then used in the
+navigation bar.</li>
+<li>The new config value <cite>html_show_sphinx</cite> can be used to control
+whether a link to Sphinx is added to the HTML footer.</li>
+<li>The new config value <cite>html_file_suffix</cite> can be used to set the
+HTML file suffix to e.g. <tt class="docutils literal"><span class="pre">.xhtml</span></tt>.</li>
+<li>The directories in the <cite>html_static_path</cite> can now contain
+subdirectories.</li>
+<li>The module index now isn&#8217;t collapsed if the number of submodules
+is larger than the number of toplevel modules.</li>
+</ul>
+</li>
+<li>The image directive now supports specifying the extension as <tt class="docutils literal"><span class="pre">.*</span></tt>,
+which makes the builder select the one that matches best.  Thanks to
+Sebastian Wiesner.</li>
+<li>The new config value <cite>exclude_trees</cite> can be used to exclude whole
+subtrees from the search for source files.</li>
+<li>Defaults for configuration values can now be callables, which allows
+dynamic defaults.</li>
+<li>The new TextBuilder creates plain-text output.</li>
+<li>Python 3-style signatures, giving a return annotation via <tt class="docutils literal"><span class="pre">-&gt;</span></tt>,
+are now supported.</li>
+<li>Extensions:<ul>
+<li>The autodoc extension now offers a much more flexible way to
+manipulate docstrings before including them into the output, via
+the new <cite>autodoc-process-docstring</cite> event.</li>
+<li>The <cite>autodoc</cite> extension accepts signatures for functions, methods
+and classes now that override the signature got via introspection
+from Python code.</li>
+<li>The <cite>autodoc</cite> extension now offers a <tt class="docutils literal"><span class="pre">show-inheritance</span></tt> option
+for autoclass that inserts a list of bases after the signature.</li>
+<li>The autodoc directives now support the <tt class="docutils literal"><span class="pre">noindex</span></tt> flag option.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="bugs-fixed">
+<h3 id="bugs-fixed">Bugs fixed<a class="headerlink" href="#bugs-fixed" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Correctly report the source location for docstrings included with
+autodoc.</li>
+<li>Fix the LaTeX output of description units with multiple signatures.</li>
+<li>Handle the figure directive in LaTeX output.</li>
+<li>Handle raw admonitions in LaTeX output.</li>
+<li>Fix determination of the title in HTML help output.</li>
+<li>Handle project names containing spaces.</li>
+<li>Don&#8217;t write SSI-like comments in HTML output.</li>
+<li>Rename the &#8220;sidebar&#8221; class to &#8220;sphinxsidebar&#8221; in order to stay different
+from reST sidebars.</li>
+<li>Use a binary TOC in HTML help generation to fix issues links without
+explicit anchors.</li>
+<li>Fix behavior of references to functions/methods with an explicit title.</li>
+<li>Support citation, subscript and superscript nodes in LaTeX writer.</li>
+<li>Provide the standard &#8220;class&#8221; directive as &#8220;cssclass&#8221;; else it is
+shadowed by the Sphinx-defined directive.</li>
+<li>Fix the handling of explicit module names given to autoclass directives.
+They now show up with the correct module name in the generated docs.</li>
+<li>Enable autodoc to process Unicode docstrings.</li>
+<li>The LaTeX writer now translates line blocks with <tt class="docutils literal"><span class="pre">\raggedright</span></tt>,
+which plays nicer with tables.</li>
+<li>Fix bug with directories in the HTML builder static path.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="release-0-3-may-6-2008">
+<h2 id="release-0-3-may-6-2008">Release 0.3 (May 6, 2008)<a class="headerlink" href="#release-0-3-may-6-2008" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3 id="id1">New features added<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>The <tt class="docutils literal"><span class="pre">toctree</span></tt> directive now supports a <tt class="docutils literal"><span class="pre">glob</span></tt> option that allows
+glob-style entries in the content.</li>
+<li>If the <cite>pygments_style</cite> config value contains a dot it&#8217;s treated as the
+import path of a custom Pygments style class.</li>
+<li>A new config value, <cite>exclude_dirs</cite>, can be used to exclude whole
+directories from the search for source files.</li>
+<li>The configuration directory (containing <tt class="docutils literal"><span class="pre">conf.py</span></tt>) can now be set
+independently from the source directory.  For that, a new command-line
+option <tt class="docutils literal"><span class="pre">-c</span></tt> has been added.</li>
+<li>A new directive <tt class="docutils literal"><span class="pre">tabularcolumns</span></tt> can be used to give a tabular column
+specification for LaTeX output.  Tables now use the <tt class="docutils literal"><span class="pre">tabulary</span></tt> package.
+Literal blocks can now be placed in tables, with several caveats.</li>
+<li>A new config value, <cite>latex_use_parts</cite>, can be used to enable parts in LaTeX
+documents.</li>
+<li>Autodoc now skips inherited members for classes, unless you give the
+new <tt class="docutils literal"><span class="pre">inherited-members</span></tt> option.</li>
+<li>A new config value, <cite>autoclass_content</cite>, selects if the docstring of the
+class&#8217; <tt class="docutils literal"><span class="pre">__init__</span></tt> method is added to the directive&#8217;s body.</li>
+<li>Support for C++ class names (in the style <tt class="docutils literal"><span class="pre">Class::Function</span></tt>) in C function
+descriptions.</li>
+<li>Support for a <tt class="docutils literal"><span class="pre">toctree_only</span></tt> item in items for the <tt class="docutils literal"><span class="pre">latex_documents</span></tt>
+config value.  This only includes the documents referenced by TOC trees in the
+output, not the rest of the file containing the directive.</li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3 id="id2">Bugs fixed<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>sphinx.htmlwriter: Correctly write the TOC file for any structure of the
+master document.  Also encode non-ASCII characters as entities in TOC
+and index file.  Remove two remaining instances of hard-coded
+&#8220;documentation&#8221;.</li>
+<li>sphinx.ext.autodoc: descriptors are detected properly now.</li>
+<li>sphinx.latexwriter: implement all reST admonitions, not just <tt class="docutils literal"><span class="pre">note</span></tt>
+and <tt class="docutils literal"><span class="pre">warning</span></tt>.</li>
+<li>Lots of little fixes to the LaTeX output and style.</li>
+<li>Fix OpenSearch template and make template URL absolute.  The
+<cite>html_use_opensearch</cite> config value now must give the base URL.</li>
+<li>Some unused files are now stripped from the HTML help file build.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="release-0-2-apr-27-2008">
+<h2 id="release-0-2-apr-27-2008">Release 0.2 (Apr 27, 2008)<a class="headerlink" href="#release-0-2-apr-27-2008" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="incompatible-changes">
+<h3 id="incompatible-changes">Incompatible changes<a class="headerlink" href="#incompatible-changes" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Jinja, the template engine used for the default HTML templates, is now
+no longer shipped with Sphinx.  If it is not installed automatically for
+you (it is now listed as a dependency in <tt class="docutils literal"><span class="pre">setup.py</span></tt>), install it manually
+from PyPI.  This will also be needed if you&#8217;re using Sphinx from a SVN
+checkout; in that case please also remove the <tt class="docutils literal"><span class="pre">sphinx/jinja</span></tt> directory
+that may be left over from old revisions.</p>
+</li>
+<li><p class="first">The clumsy handling of the <tt class="docutils literal"><span class="pre">index.html</span></tt> template was removed.  The config
+value <tt class="docutils literal"><span class="pre">html_index</span></tt> is gone, and <tt class="docutils literal"><span class="pre">html_additional_pages</span></tt> should be used
+instead.  If you need it, the old <tt class="docutils literal"><span class="pre">index.html</span></tt> template is still there,
+called <tt class="docutils literal"><span class="pre">defindex.html</span></tt>, and you can port your html_index template, using
+Jinja inheritance, by changing your template:</p>
+<pre>{% extends "defindex.html" %}
+{% block tables %}
+... old html_index template content ...
+{% endblock %}</pre>
+<p>and putting <tt class="docutils literal"><span class="pre">'index':</span> <span class="pre">name</span> <span class="pre">of</span> <span class="pre">your</span> <span class="pre">template</span></tt> in <tt class="docutils literal"><span class="pre">html_additional_pages</span></tt>.</p>
+</li>
+<li><p class="first">In the layout template, redundant <tt class="docutils literal"><span class="pre">block</span></tt>s were removed; you should use
+Jinja&#8217;s standard <tt class="docutils literal"><span class="pre">{{</span> <span class="pre">super()</span> <span class="pre">}}</span></tt> mechanism instead, as explained in the
+(newly written) templating docs.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h3 id="id3">New features added<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Extension API (Application object):<ul>
+<li>Support a new method, <tt class="docutils literal"><span class="pre">add_crossref_type</span></tt>.  It works like
+<tt class="docutils literal"><span class="pre">add_description_unit</span></tt> but the directive will only create a target
+and no output.</li>
+<li>Support a new method, <tt class="docutils literal"><span class="pre">add_transform</span></tt>.  It takes a standard docutils
+<tt class="docutils literal"><span class="pre">Transform</span></tt> subclass which is then applied by Sphinx&#8217; reader on
+parsing reST document trees.</li>
+<li>Add support for other template engines than Jinja, by adding an
+abstraction called a &#8220;template bridge&#8221;.  This class handles rendering
+of templates and can be changed using the new configuration value
+&#8220;template_bridge&#8221;.</li>
+<li>The config file itself can be an extension (if it provides a <tt class="docutils literal"><span class="pre">setup()</span></tt>
+function).</li>
+</ul>
+</li>
+<li>Markup:<ul>
+<li>New directive, <tt class="docutils literal"><span class="pre">currentmodule</span></tt>.  It can be used to indicate the module
+name of the following documented things without creating index entries.</li>
+<li>Allow giving a different title to documents in the toctree.</li>
+<li>Allow giving multiple options in a <tt class="docutils literal"><span class="pre">cmdoption</span></tt> directive.</li>
+<li>Fix display of class members without explicit class name given.</li>
+</ul>
+</li>
+<li>Templates (HTML output):<ul>
+<li><tt class="docutils literal"><span class="pre">index.html</span></tt> renamed to <tt class="docutils literal"><span class="pre">defindex.html</span></tt>, see above.</li>
+<li>There&#8217;s a new config value, <tt class="docutils literal"><span class="pre">html_title</span></tt>, that controls the overall
+&#8220;title&#8221; of the set of Sphinx docs.  It is used instead everywhere instead of
+&#8220;Projectname vX.Y documentation&#8221; now.</li>
+<li>All references to &#8220;documentation&#8221; in the templates have been removed, so
+that it is now easier to use Sphinx for non-documentation documents with
+the default templates.</li>
+<li>Templates now have an XHTML doctype, to be consistent with docutils&#8217;
+HTML output.</li>
+<li>You can now create an OpenSearch description file with the
+<tt class="docutils literal"><span class="pre">html_use_opensearch</span></tt> config value.</li>
+<li>You can now quickly include a logo in the sidebar, using the <tt class="docutils literal"><span class="pre">html_logo</span></tt>
+config value.</li>
+<li>There are new blocks in the sidebar, so that you can easily insert content
+into the sidebar.</li>
+</ul>
+</li>
+<li>LaTeX output:<ul>
+<li>The <tt class="docutils literal"><span class="pre">sphinx.sty</span></tt> package was cleaned of unused stuff.</li>
+<li>You can include a logo in the title page with the <tt class="docutils literal"><span class="pre">latex_logo</span></tt> config
+value.</li>
+<li>You can define the link colors and a border and background color for
+verbatim environments.</li>
+</ul>
+</li>
+</ul>
+<p>Thanks to Jacob Kaplan-Moss, Talin, Jeroen Ruigrok van der Werven and Sebastian
+Wiesner for suggestions.</p>
+</div>
+<div class="section" id="id4">
+<h3 id="id4">Bugs fixed<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>sphinx.ext.autodoc: Don&#8217;t check <tt class="docutils literal"><span class="pre">__module__</span></tt> for explicitly given
+members.  Remove &#8220;self&#8221; in class constructor argument list.</li>
+<li>sphinx.htmlwriter: Don&#8217;t use os.path for joining image HREFs.</li>
+<li>sphinx.htmlwriter: Don&#8217;t use SmartyPants for HTML attribute values.</li>
+<li>sphinx.latexwriter: Implement option lists.  Also, some other changes
+were made to <tt class="docutils literal"><span class="pre">sphinx.sty</span></tt> in order to enhance compatibility and
+remove old unused stuff.  Thanks to Gael Varoquaux for that!</li>
+<li>sphinx.roles: Fix referencing glossary terms with explicit targets.</li>
+<li>sphinx.environment: Don&#8217;t swallow TOC entries when resolving subtrees.</li>
+<li>sphinx.quickstart: Create a sensible default latex_documents setting.</li>
+<li>sphinx.builder, sphinx.environment: Gracefully handle some user error
+cases.</li>
+<li>sphinx.util: Follow symbolic links when searching for documents.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="release-0-1-61950-mar-26-2008">
+<h2 id="release-0-1-61950-mar-26-2008">Release 0.1.61950 (Mar 26, 2008)<a class="headerlink" href="#release-0-1-61950-mar-26-2008" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>sphinx.quickstart: Fix format string for Makefile.</li>
+</ul>
+</div>
+<div class="section" id="release-0-1-61945-mar-26-2008">
+<h2 id="release-0-1-61945-mar-26-2008">Release 0.1.61945 (Mar 26, 2008)<a class="headerlink" href="#release-0-1-61945-mar-26-2008" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>sphinx.htmlwriter, sphinx.latexwriter: Support the <tt class="docutils literal"><span class="pre">..</span> <span class="pre">image::</span></tt>
+directive by copying image files to the output directory.</li>
+<li>sphinx.builder: Consistently name &#8220;special&#8221; HTML output directories
+with a leading underscore; this means <tt class="docutils literal"><span class="pre">_sources</span></tt> and <tt class="docutils literal"><span class="pre">_static</span></tt>.</li>
+<li>sphinx.environment: Take dependent files into account when collecting
+the set of outdated sources.</li>
+<li>sphinx.directives: Record files included with <tt class="docutils literal"><span class="pre">..</span> <span class="pre">literalinclude::</span></tt>
+as dependencies.</li>
+<li>sphinx.ext.autodoc: Record files from which docstrings are included
+as dependencies.</li>
+<li>sphinx.builder: Rebuild all HTML files in case of a template change.</li>
+<li>sphinx.builder: Handle unavailability of TOC relations (previous/
+next chapter) more gracefully in the HTML builder.</li>
+<li>sphinx.latexwriter: Include fncychap.sty which doesn&#8217;t seem to be
+very common in TeX distributions.  Add a <tt class="docutils literal"><span class="pre">clean</span></tt> target in the
+latex Makefile.  Really pass the correct paper and size options
+to the LaTeX document class.</li>
+<li>setup: On Python 2.4, don&#8217;t egg-depend on docutils if a docutils is
+already installed &#8211; else it will be overwritten.</li>
+</ul>
+</div>
+<div class="section" id="release-0-1-61843-mar-24-2008">
+<h2 id="release-0-1-61843-mar-24-2008">Release 0.1.61843 (Mar 24, 2008)<a class="headerlink" href="#release-0-1-61843-mar-24-2008" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>sphinx.quickstart: Really don&#8217;t create a makefile if the user
+doesn&#8217;t want one.</li>
+<li>setup: Don&#8217;t install scripts twice, via setuptools entry points
+and distutils scripts.  Only install via entry points.</li>
+<li>sphinx.builder: Don&#8217;t recognize the HTML builder&#8217;s copied source
+files (under <tt class="docutils literal"><span class="pre">_sources</span></tt>) as input files if the source suffix is
+<tt class="docutils literal"><span class="pre">.txt</span></tt>.</li>
+<li>sphinx.highlighting: Generate correct markup for LaTeX Verbatim
+environment escapes even if Pygments is not installed.</li>
+<li>sphinx.builder: The WebHTMLBuilder is now called PickleHTMLBuilder.</li>
+<li>sphinx.htmlwriter: Make parsed-literal blocks work as expected,
+not highlighting them via Pygments.</li>
+<li>sphinx.environment: Don&#8217;t error out on reading an empty source file.</li>
+</ul>
+</div>
+<div class="section" id="release-0-1-61798-mar-23-2008">
+<h2 id="release-0-1-61798-mar-23-2008">Release 0.1.61798 (Mar 23, 2008)<a class="headerlink" href="#release-0-1-61798-mar-23-2008" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>sphinx: Work with docutils SVN snapshots as well as 0.4.</li>
+<li>sphinx.ext.doctest: Make the group in which doctest blocks are
+placed selectable, and default to <tt class="docutils literal"><span class="pre">'default'</span></tt>.</li>
+<li>sphinx.ext.doctest: Replace <tt class="docutils literal"><span class="pre">&lt;BLANKLINE&gt;</span></tt> in doctest blocks by
+real blank lines for presentation output, and remove doctest
+options given inline.</li>
+<li>sphinx.environment: Move doctest_blocks out of block_quotes to
+support indented doctest blocks.</li>
+<li>sphinx.ext.autodoc: Render <tt class="docutils literal"><span class="pre">..</span> <span class="pre">automodule::</span></tt> docstrings in a
+section node, so that module docstrings can contain proper
+sectioning.</li>
+<li>sphinx.ext.autodoc: Use the module&#8217;s encoding for decoding
+docstrings, rather than requiring ASCII.</li>
+</ul>
+</div>
+<div class="section" id="release-0-1-61611-mar-21-2008">
+<h2 id="release-0-1-61611-mar-21-2008">Release 0.1.61611 (Mar 21, 2008)<a class="headerlink" href="#release-0-1-61611-mar-21-2008" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>First public release.</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Projects using Sphinx"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="glossary.html" title="Glossary"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Sphinx home </a> |&nbsp;</li>
+        <li><a href="contents.html">Documentation </a> &raquo;</li>
+
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2008, Georg Brandl.
+      Last updated on Jul 31, 2008.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+TYPE=VIEW
+query=select `prefstore`.`tblTermAppearances`.`user_id` AS `user_id`,min(`prefstore`.`tblTermAppearances`.`last_seen`) AS `min_last_seen`,max(`prefstore`.`tblTermAppearances`.`last_seen`) AS `max_last_seen`,max(`prefstore`.`tblTermAppearances`.`total_appearances`) AS `max_apperances`,min(`prefstore`.`tblTermAppearances`.`total_appearances`) AS `min_apperances`,max(`prefstore`.`tblTermAppearances`.`doc_appearances`) AS `max_documents`,min(`prefstore`.`tblTermAppearances`.`doc_appearances`) AS `min_documents`,count(`prefstore`.`tblTermAppearances`.`term`) AS `unique_terms`,sum(`prefstore`.`tblTermAppearances`.`total_appearances`) AS `total_term_appearances`,sum(`prefstore`.`tblTermAppearances`.`doc_appearances`) AS `total_documents` from `prefstore`.`tblTermAppearances` group by `prefstore`.`tblTermAppearances`.`user_id`
+md5=9e8b9e01c0592305a56d36c00c81dedd
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+revision=1
+timestamp=2012-07-24 12:37:45
+create-version=1
+source=SELECT\n              user_id,\n              MIN( last_seen ) min_last_seen,\n              MAX( last_seen ) max_last_seen,\n              MAX( total_appearances ) max_apperances,\n              MIN( total_appearances ) min_apperances,\n              MAX( doc_appearances ) max_documents,\n              MIN( doc_appearances ) min_documents,\n              COUNT( term ) unique_terms,\n              SUM( total_appearances ) total_term_appearances,\n              SUM( doc_appearances ) total_documents              \n            FROM prefstore.tblTermAppearances\n            GROUP BY user_id

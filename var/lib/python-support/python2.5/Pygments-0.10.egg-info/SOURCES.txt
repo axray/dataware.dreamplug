@@ -1,0 +1,1 @@
+/usr/share/python-support/python-pygments/Pygments-0.10.egg-info/SOURCES.txt

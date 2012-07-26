@@ -1,0 +1,15 @@
+This package was debianized by Yasuhiro Take <take@debian.org> on
+Sat, 28 Apr 2001 05:41:38 +0900.
+
+Debian Specific Package.
+
+Upstream Author: Yasuhiro Take <take@debian.org>
+
+Copyright © 2001 Yasuhiro Take <take@debian.org>
+
+All of the contents included in this package is free software. You can
+freely use, copy, modify and redistribute under the terms of the GNU General
+Public License, Version 2.
+
+Debian systems have a copy of the GNU GPL v2 at:
+        /usr/share/common-licenses/GPL-2

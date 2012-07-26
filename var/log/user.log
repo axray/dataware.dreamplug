@@ -1,0 +1,82 @@
+Jan  1 01:50:27 sheevaplug-debian usbmount[2851]: executing command: mount -text3 -osync,noexec,nodev,noatime /dev/sdc2 /media/usb2
+Jan  1 01:50:27 sheevaplug-debian usbmount[2851]: executing command: run-parts /etc/usbmount/mount.d
+Jan  1 01:50:32 sheevaplug-debian usbmount[2852]: executing command: mount -tvfat -osync,noexec,nodev,noatime /dev/sdc1 /media/usb3
+Jan  1 01:50:32 sheevaplug-debian usbmount[2852]: executing command: run-parts /etc/usbmount/mount.d
+Jan  1 01:58:11 sheevaplug-debian shutdown[2948]: shutting down for system halt
+Jan  1 00:12:01 sheevaplug-debian shutdown[2792]: shutting down for system halt
+Jan  1 00:32:16 sheevaplug-debian shutdown[2773]: shutting down for system halt
+Jan  2 07:54:11 sheevaplug-debian shutdown[2797]: shutting down for system reboot
+Jan  2 07:57:26 sheevaplug-debian shutdown[2709]: shutting down for system reboot
+Jan  2 08:05:08 sheevaplug-debian shutdown[2799]: shutting down for system reboot
+Jan  2 08:13:06 sheevaplug-debian shutdown[2541]: shutting down for system halt
+Jul 13 12:38:31 sheevaplug-debian shutdown[2681]: shutting down for system halt
+Jul 13 12:43:42 sheevaplug-debian shutdown[2554]: shutting down for system halt
+Jul 13 13:04:11 sheevaplug-debian shutdown[3754]: shutting down for system halt
+Jul 13 14:29:49 sheevaplug-debian shutdown[12718]: shutting down for system halt
+Jul 16 10:57:28 sheevaplug-debian shutdown[2578]: shutting down for system reboot
+Jul 16 11:10:18 sheevaplug-debian shutdown[2841]: shutting down for system halt
+Jul 16 15:11:37 sheevaplug-debian shutdown[2816]: shutting down for system reboot
+Jul 17 11:46:07 sheevaplug-debian usbmount[2879]: executing command: mount -text3 -osync,noexec,nodev,noatime /dev/sda2 /media/usb0
+Jul 17 11:46:07 sheevaplug-debian usbmount[2879]: executing command: run-parts /etc/usbmount/mount.d
+Jul 17 11:46:13 sheevaplug-debian usbmount[2880]: executing command: mount -tvfat -osync,noexec,nodev,noatime /dev/sda1 /media/usb1
+Jul 17 11:46:13 sheevaplug-debian usbmount[2880]: executing command: run-parts /etc/usbmount/mount.d
+Jul 17 12:11:26 sheevaplug-debian usbmount[3552]: executing command: mount -text3 -osync,noexec,nodev,noatime /dev/sda2 /media/usb0
+Jul 17 12:11:26 sheevaplug-debian usbmount[3552]: executing command: run-parts /etc/usbmount/mount.d
+Jul 17 12:27:22 sheevaplug-debian shutdown[5177]: shutting down for system reboot
+Jul 20 11:42:38 sheevaplug-debian shutdown[2751]: shutting down for system reboot
+Jul 20 11:46:26 sheevaplug-debian shutdown[2961]: shutting down for system reboot
+Jul 20 12:40:48 sheevaplug-debian nox: 00007|nox:ERR Application 'hwdbcontroller' description not found.
+Jul 20 12:55:54 sheevaplug-debian shutdown[3483]: shutting down for system halt
+Jul 20 13:05:47 sheevaplug-debian nox: 00006|nox:ERR Application 'hwdbcontroller' description not found.
+Jul 20 13:06:50 sheevaplug-debian nox: 00006|nox:ERR Application 'hwdbcontroller' description not found.
+Jul 20 13:08:31 sheevaplug-debian nox: 00006|nox:ERR Application 'hwdbcontroller' description not found.
+Jul 20 13:10:20 sheevaplug-debian nox: 00006|nox:ERR Application 'hwdbcontroller' description not found.
+Jul 20 13:11:30 sheevaplug-debian nox: 00005|nox:ERR Application 'hwdb' description not found.
+Jul 20 13:11:39 sheevaplug-debian nox: 00005|nox:ERR Application 'hwdbcontroller' description not found.
+Jul 20 13:11:44 sheevaplug-debian nox: 00005|nox:ERR Application 'hwdbcontroller' description not found.
+Jul 20 13:12:47 sheevaplug-debian nox: 00005|nox:ERR Application 'hwdbmytest' description not found.
+Jul 20 13:12:54 sheevaplug-debian nox: 00005|nox:ERR Application 'mytest' description not found.
+Jul 20 13:13:02 sheevaplug-debian nox: 00005|nox:ERR Application 'hwdb' description not found.
+Jul 20 13:13:19 sheevaplug-debian nox: 00005|nox:ERR Application 'hwd' description not found.
+Jul 20 13:13:25 sheevaplug-debian nox: 00006|nox:ERR Application 'hwdbcontroller' description not found.
+Jul 20 19:00:20 sheevaplug-debian shutdown[30121]: shutting down for system halt
+Jul 23 11:11:27 sheevaplug-debian nox: 00038|hwdb_control:ERR hwdb error: rpc_connect failed at localhost:00987
+Jul 23 11:15:44 sheevaplug-debian nox: 00038|monitorswitch:ERR Failed to get mac address
+Jul 23 11:39:31 sheevaplug-debian nox: 00061|monitorswitch:ERR Insert failed.
+Jul 23 11:39:45 sheevaplug-debian nox: 00077|monitorswitch:ERR Insert failed.
+Jul 23 11:39:59 sheevaplug-debian nox: 00120|monitorswitch:ERR Insert failed.
+Jul 23 11:39:59 sheevaplug-debian nox: 00127|monitorswitch:ERR Insert failed.
+Jul 23 11:39:59 sheevaplug-debian nox: 00134|monitorswitch:ERR Insert failed.
+Jul 23 11:40:11 sheevaplug-debian nox: 00173|monitorswitch:ERR Insert failed.
+Jul 23 11:40:11 sheevaplug-debian nox: 00180|monitorswitch:ERR Insert failed.
+Jul 23 11:40:11 sheevaplug-debian nox: 00184|monitorswitch:ERR Insert failed.
+Jul 23 11:40:11 sheevaplug-debian nox: 00195|monitorswitch:ERR Insert failed.
+Jul 23 11:40:11 sheevaplug-debian nox: 00202|monitorswitch:ERR Insert failed.
+Jul 23 11:40:11 sheevaplug-debian nox: 00207|monitorswitch:ERR Insert failed.
+Jul 23 11:40:11 sheevaplug-debian nox: 00213|monitorswitch:ERR Insert failed.
+Jul 23 11:40:11 sheevaplug-debian nox: 00246|monitorswitch:ERR Insert failed.
+Jul 23 11:40:11 sheevaplug-debian nox: 00250|monitorswitch:ERR Insert failed.
+Jul 23 11:40:12 sheevaplug-debian nox: 00261|monitorswitch:ERR Insert failed.
+Jul 23 11:40:13 sheevaplug-debian nox: 00267|monitorswitch:ERR Insert failed.
+Jul 23 11:40:13 sheevaplug-debian nox: 00271|monitorswitch:ERR Insert failed.
+Jul 23 11:40:13 sheevaplug-debian nox: 00275|monitorswitch:ERR Insert failed.
+Jul 23 11:40:13 sheevaplug-debian nox: 00282|monitorswitch:ERR Insert failed.
+Jul 23 11:40:16 sheevaplug-debian nox: 00302|monitorswitch:ERR Insert failed.
+Jul 23 11:40:16 sheevaplug-debian nox: 00309|monitorswitch:ERR Insert failed.
+Jul 23 11:40:16 sheevaplug-debian nox: 00313|monitorswitch:ERR Insert failed.
+Jul 23 11:40:16 sheevaplug-debian nox: 00317|monitorswitch:ERR Insert failed.
+Jul 23 11:40:16 sheevaplug-debian nox: 00322|monitorswitch:ERR Insert failed.
+Jul 23 11:40:16 sheevaplug-debian nox: 00327|monitorswitch:ERR Insert failed.
+Jul 23 11:40:23 sheevaplug-debian nox: 00435|monitorswitch:ERR Insert failed.
+Jul 23 11:40:30 sheevaplug-debian nox: 00469|monitorswitch:ERR Insert failed.
+Jul 23 11:40:34 sheevaplug-debian nox: 00476|monitorswitch:ERR Insert failed.
+Jul 23 11:40:47 sheevaplug-debian shutdown[3152]: shutting down for system halt
+Jul 23 12:10:39 sheevaplug-debian shutdown[3050]: shutting down for system reboot
+Jul 23 12:22:12 sheevaplug-debian shutdown[3067]: shutting down for system halt
+Jul 23 12:45:45 sheevaplug-debian shutdown[2748]: shutting down for system halt
+Jul 24 11:05:19 sheevaplug-debian shutdown[2840]: shutting down for system halt
+Jul 24 12:37:57 sheevaplug-debian shutdown[15636]: shutting down for system halt
+Jul 26 11:50:54 sheevaplug-debian nox: 00072|openflow:WARN stream: connection closed by peer
+Jul 26 11:50:54 sheevaplug-debian nox: 00073|nox:WARN stream: connection closed by peer
+Jul 26 11:53:09 sheevaplug-debian nox: 00046|nox:ERR bind: Address already in use
+Jul 26 11:57:50 sheevaplug-debian shutdown[3474]: shutting down for system halt

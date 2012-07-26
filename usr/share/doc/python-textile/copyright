@@ -1,0 +1,15 @@
+This package was debianized by Ricardo Javier Cardenes Medina <rcardenes@debian.org> on
+Mon, 20 Dec 2004 17:10:29 +0000.
+
+It was downloaded from http://dealmeida.net
+
+Upstream Author: Roberto A. F. De Almeida <roberto@dealmeida.net>
+
+Copyright:
+
+ Copyright (c) 2004, Roberto A. F. De Almeida, http://dealmeida.net/
+ Copyright (c) 2003, Mark Pilgrim, http://diveintomark.org/
+ All rights reserved.
+
+ PyTextile is under a BSD license. Under Debian systems, you can find
+ the text of the BSD license under /usr/share/common-licenses/BSD

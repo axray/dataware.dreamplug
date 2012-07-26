@@ -1,0 +1,1030 @@
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-21-3596556427-1365610831-1707129996-501]
+[2012/07/24 10:33:12,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-22-2-65534]
+[2012/07/24 10:33:12,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-2]
+[2012/07/24 10:33:12,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-32-546]
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 10:33:12,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 10:33:12,  3] printing/printing.c:start_background_queue(1397)
+  start_background_queue: Starting background LPQ thread
+[2012/07/24 10:33:12,  2] lib/util_sock.c:open_socket_in(1336)
+  bind failed on port 445 socket_addr = 0.0.0.0.
+  Error = Address already in use
+[2012/07/24 10:33:12,  2] lib/util_sock.c:open_socket_in(1336)
+  bind failed on port 139 socket_addr = 0.0.0.0.
+  Error = Address already in use
+[2012/07/24 10:33:12,  2] smbd/server.c:open_sockets_smbd(581)
+  waiting for a connection
+[2012/07/24 11:05:23,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:05:23,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/24 11:05:23,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)
+[2012/07/24 11:05:23,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:05:23,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/24 11:05:23,  3] smbd/connection.c:yield_connection(42)
+  deleting connection record returned NT_STATUS_NOT_FOUND
+[2012/07/24 11:05:23,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)
+[2012/07/24 11:15:01,  3] param/loadparm.c:lp_load_ex(8783)
+  lp_load_ex: refreshing parameters
+Initialising global parameters
+[2012/07/24 11:15:01,  3] param/params.c:pm_process(569)
+  params.c:pm_process() - Processing configuration file "/etc/samba/smb.conf"
+[2012/07/24 11:15:01,  3] param/loadparm.c:do_section(7446)
+  Processing section "[global]"
+[2012/07/24 11:15:01,  2] param/loadparm.c:do_section(7463)
+  Processing section "[plug-storage]"
+[2012/07/24 11:15:01,  3] param/loadparm.c:lp_add_ipc(5934)
+  adding IPC service
+[2012/07/24 11:15:01,  3] smbd/server.c:main(1260)
+  loaded services
+[2012/07/24 11:15:01,  3] smbd/server.c:main(1275)
+  Becoming a daemon.
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 2
+[2012/07/24 11:15:02,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 2
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 3
+[2012/07/24 11:15:02,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 2
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 3
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 2
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:02,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:02,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-21-3596556427-1365610831-1707129996-1000]
+[2012/07/24 11:15:02,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-2]
+[2012/07/24 11:15:02,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-11]
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/24 11:15:02,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-21-3596556427-1365610831-1707129996-501]
+[2012/07/24 11:15:03,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-22-2-65534]
+[2012/07/24 11:15:03,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-2]
+[2012/07/24 11:15:03,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-32-546]
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/24 11:15:03,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 11:15:03,  3] printing/printing.c:start_background_queue(1397)
+  start_background_queue: Starting background LPQ thread
+[2012/07/24 11:15:03,  2] lib/util_sock.c:open_socket_in(1336)
+  bind failed on port 445 socket_addr = 0.0.0.0.
+  Error = Address already in use
+[2012/07/24 11:15:03,  2] lib/util_sock.c:open_socket_in(1336)
+  bind failed on port 139 socket_addr = 0.0.0.0.
+  Error = Address already in use
+[2012/07/24 11:15:03,  2] smbd/server.c:open_sockets_smbd(581)
+  waiting for a connection
+[2012/07/24 11:21:29,  3] smbd/process.c:check_reload(1906)
+  Printcap cache time expired.
+[2012/07/24 11:36:27,  3] smbd/process.c:check_reload(1906)
+  Printcap cache time expired.
+[2012/07/24 11:51:29,  3] smbd/process.c:check_reload(1906)
+  Printcap cache time expired.
+[2012/07/24 12:06:27,  3] smbd/process.c:check_reload(1906)
+  Printcap cache time expired.
+[2012/07/24 12:20:58,  3] smbd/process.c:check_reload(1906)
+  Printcap cache time expired.
+[2012/07/24 12:33:28,  3] smbd/process.c:check_reload(1906)
+  Printcap cache time expired.
+[2012/07/24 12:38:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 12:38:03,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/24 12:38:03,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)
+[2012/07/24 12:38:03,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/24 12:38:03,  3] smbd/connection.c:yield_connection(31)
+  Yielding connection to 
+[2012/07/24 12:38:03,  3] smbd/connection.c:yield_connection(42)
+  deleting connection record returned NT_STATUS_NOT_FOUND
+[2012/07/24 12:38:03,  3] smbd/server.c:exit_server_common(949)
+  Server exit (normal exit)
+[2012/07/26 11:16:19,  3] param/loadparm.c:lp_load_ex(8783)
+  lp_load_ex: refreshing parameters
+Initialising global parameters
+[2012/07/26 11:16:19,  3] param/params.c:pm_process(569)
+  params.c:pm_process() - Processing configuration file "/etc/samba/smb.conf"
+[2012/07/26 11:16:19,  3] param/loadparm.c:do_section(7446)
+  Processing section "[global]"
+[2012/07/26 11:16:19,  2] param/loadparm.c:do_section(7463)
+  Processing section "[plug-storage]"
+[2012/07/26 11:16:19,  3] param/loadparm.c:lp_add_ipc(5934)
+  adding IPC service
+[2012/07/26 11:16:19,  3] smbd/server.c:main(1260)
+  loaded services
+[2012/07/26 11:16:19,  3] smbd/server.c:main(1275)
+  Becoming a daemon.
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 2
+[2012/07/26 11:16:19,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 2
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 3
+[2012/07/26 11:16:19,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 2
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 3
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 2
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:push_sec_ctx(224)
+  push_sec_ctx(0, 0) : sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/uid.c:push_conn_ctx(357)
+  push_conn_ctx(0) : conn_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:set_sec_ctx(324)
+  setting sec ctx (0, 0) - sec_ctx_stack_ndx = 1
+[2012/07/26 11:16:19,  3] smbd/sec_ctx.c:pop_sec_ctx(432)
+  pop_sec_ctx (0, 0) - sec_ctx_stack_ndx = 0
+[2012/07/26 11:16:19,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-21-3596556427-1365610831-1707129996-1000]
+[2012/07/26 11:16:19,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-2]
+[2012/07/26 11:16:19,  3] lib/privileges.c:get_privileges(63)
+  get_privileges: No privileges assigned to SID [S-1-5-11]
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0
+  se_access_check: also S-1-5-2
+  se_access_check: also S-1-5-11
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(249)
+[2012/07/26 11:16:19,  3] lib/util_seaccess.c:se_access_check(252)
+  se_access_check: user sid is S-1-5-21-3596556427-1365610831-1707129996-1000
+  se_access_check: also S-1-5-32-544
+  se_access_check: also S-1-1-0

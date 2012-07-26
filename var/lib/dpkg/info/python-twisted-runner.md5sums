@@ -1,0 +1,15 @@
+ccfb75baec1048a912968a284950731b  usr/share/pyshared/twisted/runner/procmon.py
+af1dc8d5b8e5279259321388ec24203b  usr/share/pyshared/twisted/runner/_version.py
+4535bb5c6066f81408e9077e0f53506f  usr/share/pyshared/twisted/runner/portmap.c
+17830fc1c588c5a349335a9268df73ad  usr/share/pyshared/twisted/runner/__init__.py
+1443cfe949eeb0c3f157af17400bcb1e  usr/share/pyshared/twisted/runner/inetd.py
+b8e346e0cb0c2baa1374d8d23b2e8bc7  usr/share/pyshared/twisted/runner/inetdtap.py
+1cbebe087eed5d42bbed353e6e3aa9de  usr/share/pyshared/twisted/runner/procutils.py
+65ccf543f6e5cde7746aa34b18ec5185  usr/share/pyshared/twisted/runner/inetdconf.py
+a3868df44a155646d8013a70bde484f3  usr/share/pyshared/Twisted_Runner-8.0.0.egg-info
+103a71c92d6503b8fd6b53ec0fc5b4dd  usr/share/doc/python-twisted-runner/changelog.gz
+434c8910979172bb02d74a1c0a8244ed  usr/share/doc/python-twisted-runner/copyright
+9a712e19229e72c84f91f9846ccefae5  usr/share/doc/python-twisted-runner/changelog.Debian.gz
+872d8d3f6aaacb1c3924180e5ea0aff9  usr/share/pyshared-data/python-twisted-runner
+713a3d4071a2a8311a136f7f49830918  usr/lib/python2.4/site-packages/twisted/runner/portmap.so
+cfbe6f89a66e63d2a185836c002f4cf0  usr/lib/python2.5/site-packages/twisted/runner/portmap.so

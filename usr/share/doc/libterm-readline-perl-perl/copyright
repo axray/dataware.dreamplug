@@ -1,0 +1,19 @@
+This package was debianized by Joerg Jaspert (JJ) <joerg@goliathbbs.dnsalias.net> on
+Son, 07 Apr 2002 01:30:00 +0200.
+
+The previous maintainers for this Package are:
+Darren Stalder <torin@daft.com>
+Ben Gertzfield <che@debian.org>.
+
+It was downloaded from: http://www.ilyaz.org/software/perl/modules
+
+Upstream Author: Ilya Zakharevich <cpan@ilyaz.org>
+
+
+Copyright (c) 1995 Ilya Zakharevich. All rights reserved.
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+On Debian systems, the Artistic License is available in
+the file /usr/share/common-licenses/Artistic. The GNU General Public
+License is available in the file /usr/share/common-licenses/GPL.

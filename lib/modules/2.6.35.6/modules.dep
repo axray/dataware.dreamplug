@@ -1,0 +1,570 @@
+/lib/modules/2.6.35.6/kernel/fs/reiserfs/reiserfs.ko:
+/lib/modules/2.6.35.6/kernel/fs/isofs/isofs.ko:
+/lib/modules/2.6.35.6/kernel/fs/hfsplus/hfsplus.ko:
+/lib/modules/2.6.35.6/kernel/fs/hfs/hfs.ko:
+/lib/modules/2.6.35.6/kernel/fs/exportfs/exportfs.ko:
+/lib/modules/2.6.35.6/kernel/fs/nfsd/nfsd.ko: /lib/modules/2.6.35.6/kernel/fs/exportfs/exportfs.ko
+/lib/modules/2.6.35.6/kernel/fs/cifs/cifs.ko:
+/lib/modules/2.6.35.6/kernel/fs/ntfs/ntfs.ko:
+/lib/modules/2.6.35.6/kernel/fs/autofs/autofs.ko:
+/lib/modules/2.6.35.6/kernel/fs/autofs4/autofs4.ko:
+/lib/modules/2.6.35.6/kernel/fs/fuse/fuse.ko:
+/lib/modules/2.6.35.6/kernel/fs/udf/udf.ko: /lib/modules/2.6.35.6/kernel/lib/crc-itu-t.ko
+/lib/modules/2.6.35.6/kernel/fs/xfs/xfs.ko: /lib/modules/2.6.35.6/kernel/fs/exportfs/exportfs.ko
+/lib/modules/2.6.35.6/kernel/fs/btrfs/btrfs.ko:
+/lib/modules/2.6.35.6/kernel/crypto/seqiv.ko:
+/lib/modules/2.6.35.6/kernel/crypto/hmac.ko:
+/lib/modules/2.6.35.6/kernel/crypto/vmac.ko:
+/lib/modules/2.6.35.6/kernel/crypto/xcbc.ko:
+/lib/modules/2.6.35.6/kernel/crypto/crypto_null.ko:
+/lib/modules/2.6.35.6/kernel/crypto/md4.ko:
+/lib/modules/2.6.35.6/kernel/crypto/rmd128.ko:
+/lib/modules/2.6.35.6/kernel/crypto/rmd160.ko:
+/lib/modules/2.6.35.6/kernel/crypto/rmd256.ko:
+/lib/modules/2.6.35.6/kernel/crypto/rmd320.ko:
+/lib/modules/2.6.35.6/kernel/crypto/sha1_generic.ko:
+/lib/modules/2.6.35.6/kernel/crypto/sha256_generic.ko:
+/lib/modules/2.6.35.6/kernel/crypto/sha512_generic.ko:
+/lib/modules/2.6.35.6/kernel/crypto/wp512.ko:
+/lib/modules/2.6.35.6/kernel/crypto/tgr192.ko:
+/lib/modules/2.6.35.6/kernel/crypto/gf128mul.ko:
+/lib/modules/2.6.35.6/kernel/crypto/pcbc.ko:
+/lib/modules/2.6.35.6/kernel/crypto/cts.ko:
+/lib/modules/2.6.35.6/kernel/crypto/lrw.ko: /lib/modules/2.6.35.6/kernel/crypto/gf128mul.ko
+/lib/modules/2.6.35.6/kernel/crypto/xts.ko: /lib/modules/2.6.35.6/kernel/crypto/gf128mul.ko
+/lib/modules/2.6.35.6/kernel/crypto/ctr.ko:
+/lib/modules/2.6.35.6/kernel/crypto/gcm.ko:
+/lib/modules/2.6.35.6/kernel/crypto/ccm.ko:
+/lib/modules/2.6.35.6/kernel/crypto/cryptd.ko:
+/lib/modules/2.6.35.6/kernel/crypto/fcrypt.ko:
+/lib/modules/2.6.35.6/kernel/crypto/blowfish.ko:
+/lib/modules/2.6.35.6/kernel/crypto/twofish.ko: /lib/modules/2.6.35.6/kernel/crypto/twofish_common.ko
+/lib/modules/2.6.35.6/kernel/crypto/twofish_common.ko:
+/lib/modules/2.6.35.6/kernel/crypto/serpent.ko:
+/lib/modules/2.6.35.6/kernel/crypto/camellia.ko:
+/lib/modules/2.6.35.6/kernel/crypto/cast5.ko:
+/lib/modules/2.6.35.6/kernel/crypto/cast6.ko:
+/lib/modules/2.6.35.6/kernel/crypto/tea.ko:
+/lib/modules/2.6.35.6/kernel/crypto/khazad.ko:
+/lib/modules/2.6.35.6/kernel/crypto/anubis.ko:
+/lib/modules/2.6.35.6/kernel/crypto/seed.ko:
+/lib/modules/2.6.35.6/kernel/crypto/salsa20_generic.ko:
+/lib/modules/2.6.35.6/kernel/crypto/zlib.ko:
+/lib/modules/2.6.35.6/kernel/crypto/michael_mic.ko:
+/lib/modules/2.6.35.6/kernel/crypto/authenc.ko:
+/lib/modules/2.6.35.6/kernel/crypto/ansi_cprng.ko:
+/lib/modules/2.6.35.6/kernel/crypto/tcrypt.ko:
+/lib/modules/2.6.35.6/kernel/crypto/ghash-generic.ko: /lib/modules/2.6.35.6/kernel/crypto/gf128mul.ko
+/lib/modules/2.6.35.6/kernel/crypto/xor.ko:
+/lib/modules/2.6.35.6/kernel/crypto/async_tx/async_tx.ko:
+/lib/modules/2.6.35.6/kernel/crypto/async_tx/async_memcpy.ko: /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_tx.ko
+/lib/modules/2.6.35.6/kernel/crypto/async_tx/async_xor.ko: /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_tx.ko /lib/modules/2.6.35.6/kernel/crypto/xor.ko
+/lib/modules/2.6.35.6/kernel/crypto/async_tx/async_pq.ko: /lib/modules/2.6.35.6/kernel/drivers/md/raid6_pq.ko /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_xor.ko /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_tx.ko /lib/modules/2.6.35.6/kernel/crypto/xor.ko
+/lib/modules/2.6.35.6/kernel/crypto/async_tx/async_raid6_recov.ko: /lib/modules/2.6.35.6/kernel/drivers/md/raid6_pq.ko /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_tx.ko
+/lib/modules/2.6.35.6/kernel/drivers/video/console/fbcon.ko: /lib/modules/2.6.35.6/kernel/drivers/video/console/font.ko /lib/modules/2.6.35.6/kernel/drivers/video/console/bitblit.ko /lib/modules/2.6.35.6/kernel/drivers/video/console/softcursor.ko /lib/modules/2.6.35.6/kernel/drivers/video/fb.ko
+/lib/modules/2.6.35.6/kernel/drivers/video/console/bitblit.ko: /lib/modules/2.6.35.6/kernel/drivers/video/console/softcursor.ko /lib/modules/2.6.35.6/kernel/drivers/video/fb.ko
+/lib/modules/2.6.35.6/kernel/drivers/video/console/font.ko:
+/lib/modules/2.6.35.6/kernel/drivers/video/console/softcursor.ko: /lib/modules/2.6.35.6/kernel/drivers/video/fb.ko
+/lib/modules/2.6.35.6/kernel/drivers/video/fb.ko:
+/lib/modules/2.6.35.6/kernel/drivers/misc/eeprom/eeprom_93cx6.ko:
+/lib/modules/2.6.35.6/kernel/drivers/scsi/sr_mod.ko: /lib/modules/2.6.35.6/kernel/drivers/cdrom/cdrom.ko
+/lib/modules/2.6.35.6/kernel/drivers/scsi/scsi_wait_scan.ko:
+/lib/modules/2.6.35.6/kernel/drivers/ata/sata_mv.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/wireless/rtl818x/rtl8187.ko: /lib/modules/2.6.35.6/kernel/drivers/misc/eeprom/eeprom_93cx6.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/wireless/rndis_wlan.ko: /lib/modules/2.6.35.6/kernel/drivers/net/usb/rndis_host.ko /lib/modules/2.6.35.6/kernel/drivers/net/usb/cdc_ether.ko /lib/modules/2.6.35.6/kernel/drivers/net/usb/usbnet.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/wireless/libertas/libertas.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/wireless/libertas/libertas_sdio.ko: /lib/modules/2.6.35.6/kernel/drivers/net/wireless/libertas/libertas.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/wireless/libertas_uap/uap8xxx.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2x00usb.ko: /lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2800lib.ko: /lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2x00usb.ko /lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2800usb.ko: /lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2800lib.ko /lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2x00usb.ko /lib/modules/2.6.35.6/kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/ppp_generic.ko: /lib/modules/2.6.35.6/kernel/drivers/net/slhc.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/ppp_async.ko: /lib/modules/2.6.35.6/kernel/drivers/net/ppp_generic.ko /lib/modules/2.6.35.6/kernel/drivers/net/slhc.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/ppp_synctty.ko: /lib/modules/2.6.35.6/kernel/drivers/net/ppp_generic.ko /lib/modules/2.6.35.6/kernel/drivers/net/slhc.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/ppp_deflate.ko: /lib/modules/2.6.35.6/kernel/drivers/net/ppp_generic.ko /lib/modules/2.6.35.6/kernel/drivers/net/slhc.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/bsd_comp.ko: /lib/modules/2.6.35.6/kernel/drivers/net/ppp_generic.ko /lib/modules/2.6.35.6/kernel/drivers/net/slhc.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/ppp_mppe.ko: /lib/modules/2.6.35.6/kernel/drivers/net/ppp_generic.ko /lib/modules/2.6.35.6/kernel/drivers/net/slhc.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/pppox.ko: /lib/modules/2.6.35.6/kernel/drivers/net/ppp_generic.ko /lib/modules/2.6.35.6/kernel/drivers/net/slhc.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/pppoe.ko: /lib/modules/2.6.35.6/kernel/drivers/net/pppox.ko /lib/modules/2.6.35.6/kernel/drivers/net/ppp_generic.ko /lib/modules/2.6.35.6/kernel/drivers/net/slhc.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/slhc.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/tun.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/catc.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/kaweth.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/pegasus.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/rtl8150.ko:
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/asix.ko: /lib/modules/2.6.35.6/kernel/drivers/net/usb/usbnet.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/cdc_ether.ko: /lib/modules/2.6.35.6/kernel/drivers/net/usb/usbnet.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/dm9601.ko: /lib/modules/2.6.35.6/kernel/drivers/net/usb/usbnet.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/net1080.ko: /lib/modules/2.6.35.6/kernel/drivers/net/usb/usbnet.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/rndis_host.ko: /lib/modules/2.6.35.6/kernel/drivers/net/usb/cdc_ether.ko /lib/modules/2.6.35.6/kernel/drivers/net/usb/usbnet.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/cdc_subset.ko: /lib/modules/2.6.35.6/kernel/drivers/net/usb/usbnet.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/zaurus.ko: /lib/modules/2.6.35.6/kernel/drivers/net/usb/cdc_ether.ko /lib/modules/2.6.35.6/kernel/drivers/net/usb/usbnet.ko
+/lib/modules/2.6.35.6/kernel/drivers/net/usb/usbnet.ko:
+/lib/modules/2.6.35.6/kernel/drivers/cdrom/cdrom.ko:
+/lib/modules/2.6.35.6/kernel/drivers/usb/misc/emi26.ko:
+/lib/modules/2.6.35.6/kernel/drivers/usb/misc/emi62.ko:
+/lib/modules/2.6.35.6/kernel/drivers/usb/misc/sisusbvga/sisusbvga.ko: /lib/modules/2.6.35.6/kernel/drivers/video/console/font.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/class/cdc-acm.ko:
+/lib/modules/2.6.35.6/kernel/drivers/usb/class/usblp.ko:
+/lib/modules/2.6.35.6/kernel/drivers/usb/class/cdc-wdm.ko:
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko:
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/aircable.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/ark3116.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/belkin_sa.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/ch341.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/cp210x.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/cyberjack.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/cypress_m8.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/usb_debug.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/digi_acceleport.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/io_edgeport.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/io_ti.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/empeg.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/ftdi_sio.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/funsoft.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/garmin_gps.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/hp4x.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/ipaq.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/ipw.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/ir-usb.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/iuu_phoenix.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/keyspan.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/keyspan_pda.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/kl5kusb105.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/kobil_sct.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/mct_u232.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/mos7720.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/mos7840.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/moto_modem.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/navman.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/omninet.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/opticon.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/option.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usb_wwan.ko /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/oti6858.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/pl2303.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/qcserial.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usb_wwan.ko /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/safe_serial.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/siemens_mpi.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/sierra.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/spcp8x5.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/symbolserial.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/usb_wwan.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/ti_usb_3410_5052.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/visor.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/usb/serial/whiteheat.ko: /lib/modules/2.6.35.6/kernel/drivers/usb/serial/usbserial.ko
+/lib/modules/2.6.35.6/kernel/drivers/i2c/algos/i2c-algo-bit.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tuner-xc2028.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tuner-simple.ko: /lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tuner-types.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tuner-types.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/mt20xx.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tda8290.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tea5767.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tea5761.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tda9887.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tda827x.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/tda18271.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/xc5000.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/mt2060.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/mt2266.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/qt1010.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/mt2131.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/mxl5005s.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/mxl5007t.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/mc44s803.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/common/tuners/max2165.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-adstech-dvb-t-pci.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-apac-viewcomp.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-asus-pc39.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-ati-tv-wonder-hd-600.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-avermedia-a16d.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-avermedia.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-avermedia-cardbus.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-avermedia-dvbt.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-avermedia-m135a.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-avermedia-m733a-rm-k6.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-avertv-303.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-behold.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-behold-columbus.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-budget-ci-old.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-cinergy-1400.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-cinergy.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-dm1105-nec.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-dntv-live-dvb-t.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-dntv-live-dvbt-pro.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-empty.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-em-terratec.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-encore-enltv2.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-encore-enltv.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-encore-enltv-fm53.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-evga-indtube.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-eztv.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-flydvb.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-flyvideo.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-fusionhdtv-mce.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-gadmei-rm008z.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-genius-tvgo-a11mce.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-gotview7135.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-hauppauge-new.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-imon-mce.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-imon-pad.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-iodata-bctv7e.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-kaiomy.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-kworld-315u.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-kworld-plus-tv-analog.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-manli.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-msi-tvanywhere.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-msi-tvanywhere-plus.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-nebula.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-nec-terratec-cinergy-xs.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-norwood.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-npgtech.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-pctv-sedna.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-pinnacle-color.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-pinnacle-grey.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-pinnacle-pctv-hd.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-pixelview.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-pixelview-mk12.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-pixelview-new.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-powercolor-real-angel.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-proteus-2309.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-purpletv.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-pv951.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-rc5-hauppauge-new.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-rc5-tv.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-real-audio-220-32-keys.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-tbs-nec.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-terratec-cinergy-xs.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-tevii-nec.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-tt-1500.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-videomate-s350.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-videomate-tv-pvr.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-winfast.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/keymaps/rc-winfast-usbii-deluxe.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-common.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-nec-decoder.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-rc5-decoder.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-rc6-decoder.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-jvc-decoder.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-sony-decoder.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-int-device.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/video/tuner.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/saa7115.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/saa717x.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/saa7127.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/tvp5150.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/msp3400.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/cs53l32a.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/m52790.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/wm8775.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/wm8739.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/vp27smpx.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/cx25840/cx25840.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/upd64031a.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/upd64083.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/tveeprom.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/video/mt9v011.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/em28xx/em28xx.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-vmalloc.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-core.ko /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/tveeprom.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/em28xx/em28xx-alsa.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/em28xx/em28xx.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-vmalloc.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-core.ko /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/tveeprom.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-pcm.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-timer.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-page-alloc.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/em28xx/em28xx-dvb.ko: /lib/modules/2.6.35.6/kernel/drivers/media/dvb/dvb-core/dvb-core.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/em28xx/em28xx.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-vmalloc.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-core.ko /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/tveeprom.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/pvrusb2/pvrusb2.ko: /lib/modules/2.6.35.6/kernel/drivers/media/dvb/dvb-core/dvb-core.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/cx2341x.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/tveeprom.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-core.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-vmalloc.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-dvb.ko: /lib/modules/2.6.35.6/kernel/drivers/media/dvb/dvb-core/dvb-core.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videobuf-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/cx2341x.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_conex.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_etoms.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_finepix.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_jeilinj.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_mars.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_mr97310a.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_ov519.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_ov534.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_pac207.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_pac7302.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_pac7311.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_sn9c20x.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_sonixb.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_sonixj.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_spca500.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_spca501.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_spca505.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_spca506.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_spca508.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_spca561.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_sq905.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_sq905c.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_sunplus.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_stk014.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_stv0680.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_t613.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_tv8532.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_vc032x.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_zc3xx.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/m5602/gspca_m5602.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/stv06xx/gspca_stv06xx.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gl860/gspca_gl860.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/gspca/gspca_main.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/usbvideo/usbvideo.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/usbvideo/ibmcam.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/usbvideo/usbvideo.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/usbvideo/ultracam.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/usbvideo/usbvideo.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/ivtv/ivtv.ko: /lib/modules/2.6.35.6/kernel/drivers/i2c/algos/i2c-algo-bit.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/cx2341x.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l2-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/tveeprom.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/uvc/uvcvideo.ko: /lib/modules/2.6.35.6/kernel/drivers/media/video/videodev.ko /lib/modules/2.6.35.6/kernel/drivers/media/video/v4l1-compat.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/video/ir-kbd-i2c.ko: /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-common.ko /lib/modules/2.6.35.6/kernel/drivers/media/IR/ir-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/dvb/dvb-core/dvb-core.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/dvb/frontends/zl10353.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/dvb/frontends/tda10023.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/dvb/frontends/lgdt330x.ko: /lib/modules/2.6.35.6/kernel/drivers/media/dvb/dvb-core/dvb-core.ko
+/lib/modules/2.6.35.6/kernel/drivers/media/dvb/frontends/s5h1409.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/dvb/frontends/tda10048.ko:
+/lib/modules/2.6.35.6/kernel/drivers/media/dvb/frontends/s5h1411.ko:
+/lib/modules/2.6.35.6/kernel/drivers/watchdog/orion_wdt.ko:
+/lib/modules/2.6.35.6/kernel/drivers/watchdog/softdog.ko:
+/lib/modules/2.6.35.6/kernel/drivers/md/linear.ko: /lib/modules/2.6.35.6/kernel/drivers/md/md-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/raid0.ko: /lib/modules/2.6.35.6/kernel/drivers/md/md-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/raid1.ko: /lib/modules/2.6.35.6/kernel/drivers/md/md-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/raid10.ko: /lib/modules/2.6.35.6/kernel/drivers/md/md-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/raid6_pq.ko:
+/lib/modules/2.6.35.6/kernel/drivers/md/raid456.ko: /lib/modules/2.6.35.6/kernel/drivers/md/md-mod.ko /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_pq.ko /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_xor.ko /lib/modules/2.6.35.6/kernel/crypto/xor.ko /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_memcpy.ko /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_raid6_recov.ko /lib/modules/2.6.35.6/kernel/drivers/md/raid6_pq.ko /lib/modules/2.6.35.6/kernel/crypto/async_tx/async_tx.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/md-mod.ko:
+/lib/modules/2.6.35.6/kernel/drivers/md/dm-mod.ko:
+/lib/modules/2.6.35.6/kernel/drivers/md/dm-crypt.ko: /lib/modules/2.6.35.6/kernel/drivers/md/dm-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/dm-multipath.ko: /lib/modules/2.6.35.6/kernel/drivers/md/dm-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/dm-round-robin.ko: /lib/modules/2.6.35.6/kernel/drivers/md/dm-multipath.ko /lib/modules/2.6.35.6/kernel/drivers/md/dm-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/dm-snapshot.ko: /lib/modules/2.6.35.6/kernel/drivers/md/dm-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/dm-mirror.ko: /lib/modules/2.6.35.6/kernel/drivers/md/dm-region-hash.ko /lib/modules/2.6.35.6/kernel/drivers/md/dm-log.ko /lib/modules/2.6.35.6/kernel/drivers/md/dm-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/dm-log.ko: /lib/modules/2.6.35.6/kernel/drivers/md/dm-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/dm-region-hash.ko: /lib/modules/2.6.35.6/kernel/drivers/md/dm-log.ko /lib/modules/2.6.35.6/kernel/drivers/md/dm-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/md/dm-zero.ko: /lib/modules/2.6.35.6/kernel/drivers/md/dm-mod.ko
+/lib/modules/2.6.35.6/kernel/drivers/leds/ledtrig-gpio.ko:
+/lib/modules/2.6.35.6/kernel/drivers/crypto/mv_cesa.ko:
+/lib/modules/2.6.35.6/kernel/drivers/hid/hid-wacom.ko:
+/lib/modules/2.6.35.6/kernel/drivers/block/aoe/aoe.ko:
+/lib/modules/2.6.35.6/kernel/drivers/bluetooth/hci_vhci.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/drivers/bluetooth/bcm203x.ko:
+/lib/modules/2.6.35.6/kernel/drivers/bluetooth/bpa10x.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/drivers/bluetooth/bfusb.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/drivers/bluetooth/btusb.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/drivers/bluetooth/btsdio.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/drivers/bluetooth/btmrvl.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/drivers/bluetooth/btmrvl_sdio.ko: /lib/modules/2.6.35.6/kernel/drivers/bluetooth/btmrvl.ko /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/sound/soundcore.ko:
+/lib/modules/2.6.35.6/kernel/sound/core/snd.ko: /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/core/snd-hwdep.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/core/snd-timer.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/core/snd-hrtimer.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd-timer.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/core/snd-pcm.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd-timer.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-page-alloc.ko
+/lib/modules/2.6.35.6/kernel/sound/core/snd-page-alloc.ko:
+/lib/modules/2.6.35.6/kernel/sound/core/snd-rawmidi.ko: /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-device.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd-timer.ko /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-device.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-device.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-midi.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd-rawmidi.ko /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-midi-event.ko /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-timer.ko /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-device.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-midi-event.ko: /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-timer.ko /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-device.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/usb/snd-usb-audio.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd-pcm.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-timer.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-page-alloc.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-hwdep.ko /lib/modules/2.6.35.6/kernel/sound/usb/snd-usbmidi-lib.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-rawmidi.ko /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-device.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/usb/snd-usbmidi-lib.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd-rawmidi.ko /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-device.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko
+/lib/modules/2.6.35.6/kernel/sound/usb/caiaq/snd-usb-caiaq.ko: /lib/modules/2.6.35.6/kernel/sound/core/snd-rawmidi.ko /lib/modules/2.6.35.6/kernel/sound/core/seq/snd-seq-device.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-pcm.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-timer.ko /lib/modules/2.6.35.6/kernel/sound/core/snd.ko /lib/modules/2.6.35.6/kernel/sound/soundcore.ko /lib/modules/2.6.35.6/kernel/sound/core/snd-page-alloc.ko
+/lib/modules/2.6.35.6/kernel/net/core/pktgen.ko:
+/lib/modules/2.6.35.6/kernel/net/802/p8022.ko: /lib/modules/2.6.35.6/kernel/net/llc/llc.ko
+/lib/modules/2.6.35.6/kernel/net/802/psnap.ko: /lib/modules/2.6.35.6/kernel/net/llc/llc.ko
+/lib/modules/2.6.35.6/kernel/net/802/stp.ko: /lib/modules/2.6.35.6/kernel/net/llc/llc.ko
+/lib/modules/2.6.35.6/kernel/net/sched/sch_cbq.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_htb.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_hfsc.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_red.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_gred.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_dsmark.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_sfq.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_tbf.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_teql.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_prio.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_multiq.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_netem.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/sch_drr.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/cls_u32.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/cls_route.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/cls_fw.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/cls_rsvp.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/cls_tcindex.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/cls_rsvp6.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/cls_basic.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/cls_flow.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/em_cmp.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/em_nbyte.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/em_u32.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/em_meta.ko:
+/lib/modules/2.6.35.6/kernel/net/sched/em_text.ko:
+/lib/modules/2.6.35.6/kernel/net/netfilter/nfnetlink.ko:
+/lib/modules/2.6.35.6/kernel/net/netfilter/nfnetlink_log.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nfnetlink.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko:
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_proto_dccp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_proto_gre.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_proto_sctp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_proto_udplite.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_amanda.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_ftp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_h323.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_irc.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_netbios_ns.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_pptp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_proto_gre.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_sane.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_sip.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_tftp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/nf_tproxy_core.ko:
+/lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko:
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_tcpudp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_mark.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_connmark.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_CLASSIFY.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_DSCP.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_HL.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_LED.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_NFLOG.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nfnetlink_log.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nfnetlink.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_NFQUEUE.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_NOTRACK.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_RATEEST.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_TPROXY.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_tproxy_core.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_TCPMSS.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_TCPOPTSTRIP.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_TRACE.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_cluster.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_comment.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_connbytes.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_connlimit.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_conntrack.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_dccp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_dscp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_esp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_hashlimit.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_helper.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_hl.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_iprange.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_length.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_limit.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_mac.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_multiport.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_osf.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nfnetlink.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_owner.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_pkttype.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_policy.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_quota.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_rateest.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/xt_RATEEST.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_realm.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_recent.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_sctp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_socket.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_tproxy_core.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_state.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_statistic.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_string.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_tcpmss.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_time.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/netfilter/xt_u32.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_amanda.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_amanda.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_ftp.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_ftp.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_h323.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_h323.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_irc.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_irc.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_pptp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_pptp.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_proto_gre.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_sip.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_sip.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_snmp_basic.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_tftp.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack_tftp.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_proto_dccp.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_proto_udplite.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat_proto_sctp.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ip_tables.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/iptable_filter.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ip_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/iptable_mangle.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ip_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/iptable_nat.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ip_tables.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/iptable_raw.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ip_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_addrtype.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_ah.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_ecn.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_ECN.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_LOG.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_MASQUERADE.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_NETMAP.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_REDIRECT.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_nat.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_REJECT.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/ipt_ULOG.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/arp_tables.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/arpt_mangle.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/arptable_filter.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/netfilter/arp_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/ipip.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/tunnel4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/ip_gre.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv4/ah4.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv4/esp4.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv4/ipcomp.ko: /lib/modules/2.6.35.6/kernel/net/xfrm/xfrm_ipcomp.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/xfrm4_tunnel.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/tunnel4.ko
+/lib/modules/2.6.35.6/kernel/net/ipv4/xfrm4_mode_beet.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv4/tunnel4.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv4/xfrm4_mode_transport.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv4/xfrm4_mode_tunnel.ko:
+/lib/modules/2.6.35.6/kernel/net/xfrm/xfrm_user.ko:
+/lib/modules/2.6.35.6/kernel/net/xfrm/xfrm_ipcomp.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6table_filter.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6table_mangle.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6table_raw.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/nf_conntrack_ipv6.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/nf_conntrack.ko /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6t_ah.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6t_eui64.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6t_frag.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6t_ipv6header.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6t_mh.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6t_hbh.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6t_rt.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6t_LOG.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6_tables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/netfilter/ip6t_REJECT.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv6/ah6.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/esp6.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/ipcomp6.ko: /lib/modules/2.6.35.6/kernel/net/xfrm/xfrm_ipcomp.ko /lib/modules/2.6.35.6/kernel/net/ipv6/xfrm6_tunnel.ko /lib/modules/2.6.35.6/kernel/net/ipv6/tunnel6.ko /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/xfrm6_tunnel.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/tunnel6.ko /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/tunnel6.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/xfrm6_mode_transport.ko:
+/lib/modules/2.6.35.6/kernel/net/ipv6/xfrm6_mode_tunnel.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/xfrm6_mode_beet.ko: /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/ipv6/sit.ko: /lib/modules/2.6.35.6/kernel/net/ipv4/tunnel4.ko /lib/modules/2.6.35.6/kernel/net/ipv6/ipv6.ko
+/lib/modules/2.6.35.6/kernel/net/8021q/8021q.ko:
+/lib/modules/2.6.35.6/kernel/net/llc/llc.ko:
+/lib/modules/2.6.35.6/kernel/net/key/af_key.ko:
+/lib/modules/2.6.35.6/kernel/net/bridge/bridge.ko: /lib/modules/2.6.35.6/kernel/net/802/stp.ko /lib/modules/2.6.35.6/kernel/net/llc/llc.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebtables.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebtable_broute.ko: /lib/modules/2.6.35.6/kernel/net/bridge/bridge.ko /lib/modules/2.6.35.6/kernel/net/802/stp.ko /lib/modules/2.6.35.6/kernel/net/llc/llc.ko /lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebtables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebtable_filter.ko: /lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebtables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebtable_nat.ko: /lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebtables.ko /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_802_3.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_among.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_arp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_ip.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_ip6.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_limit.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_mark_m.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_pkttype.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_stp.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_vlan.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_arpreply.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_mark.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_dnat.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_redirect.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_snat.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_log.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_ulog.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/bridge/netfilter/ebt_nflog.ko: /lib/modules/2.6.35.6/kernel/net/netfilter/x_tables.ko
+/lib/modules/2.6.35.6/kernel/net/appletalk/appletalk.ko: /lib/modules/2.6.35.6/kernel/net/802/psnap.ko /lib/modules/2.6.35.6/kernel/net/llc/llc.ko
+/lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko:
+/lib/modules/2.6.35.6/kernel/net/bluetooth/l2cap.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/net/bluetooth/sco.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/net/bluetooth/rfcomm/rfcomm.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/l2cap.ko /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/net/bluetooth/bnep/bnep.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/l2cap.ko /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/net/bluetooth/hidp/hidp.ko: /lib/modules/2.6.35.6/kernel/net/bluetooth/l2cap.ko /lib/modules/2.6.35.6/kernel/net/bluetooth/bluetooth.ko
+/lib/modules/2.6.35.6/kernel/lib/crc-itu-t.ko:
+/lib/modules/2.6.35.6/kernel/lib/ts_kmp.ko:
+/lib/modules/2.6.35.6/kernel/lib/ts_bm.ko:
+/lib/modules/2.6.35.6/kernel/lib/ts_fsm.ko:

@@ -1,0 +1,15 @@
+C++ interface
+-------------
+
+Since version 2.1.1-8 of the package, the C++ interface header is
+included. Please note that this interface is not supported by upstream
+(don't send them bugreports). 
+
+MPFR Documentation
+------------------
+
+The documentation of MPFR is licensed under the GFDL which is
+considered non-free by the debian project, and has been removed from
+this package.
+
+ -- Laurent Fousse <laurent@komite.net>, Thu, 29 Sep 2005 17:24:40 +0200

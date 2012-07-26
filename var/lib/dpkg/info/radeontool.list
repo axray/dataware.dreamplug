@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/radeontool
+/usr/share/doc/radeontool/changelog.Debian.gz
+/usr/share/doc/radeontool/README.Debian
+/usr/share/doc/radeontool/changelog.gz
+/usr/share/doc/radeontool/lightwatch.pl
+/usr/share/doc/radeontool/copyright
+/usr/share/man
+/usr/share/man/man7
+/usr/share/man/man7/radeontool.7.gz
+/usr/sbin
+/usr/sbin/radeontool

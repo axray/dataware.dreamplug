@@ -1,0 +1,26 @@
+In progress:
+
+* store .so link in the db.
+* reduce wasted/duplicated text stored within the databases.
+  10-20% database size reduction so far.
+* pipeline library:
+  - make COMMAND_FUNCTION child reentrant, so it doesn't have to be a
+    subprocess; will save lots of forks of zlib children in mandb
+
+In need of attention:
+
+* clear up the use of troff and/or groff
+* complete configuration file redesign to allow better dynamic determination 
+  of programs/paths/extensions etc.
+* look at work done by Andries.
+* multiple debug levels?
+
+Case-insensitive lookup transition:
+
+* Solaris layout is broken.
+* Need to make sure pointers trigger an exact-case lookup [done for whatis].
+
+Apparently db3's compatibility API is, er, less than compatible.
+(Specifically, it isn't possible to write correct error-handling code that
+works in the compatibility API, nor that works in both db2 and db3.) I
+suppose I have to write a db_newbdb.c now.

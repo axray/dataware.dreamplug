@@ -1,0 +1,11 @@
+6556e7483c6114b962112338ac280721  sbin/dhclient-script
+ae4c97d3adf9d1d40f0104829a886b9b  sbin/dhclient3
+b4be8195bee83d5a70528c154fe65636  usr/share/man/man5/dhclient.conf.5.gz
+f6dfde1a77fbd44df6d39e18abd4ea67  usr/share/man/man5/dhclient.leases.5.gz
+82358e6091de54f8544a4a812c956a8c  usr/share/man/man8/dhclient3.8.gz
+c15224e6e7ac796d14ab942d519cd457  usr/share/man/man8/dhclient-script.8.gz
+88e8a07c1777312bc4c3ba3288c81777  usr/share/doc/dhcp3-client/changelog.Debian.gz
+1d31badf7b6130987b9cbf529ab421fc  usr/share/doc/dhcp3-client/NEWS.Debian.gz
+fd1cb0f6dba9bf9562bdb09ceafbe5bc  usr/share/doc/dhcp3-client/README.Debian
+6fa20b8ad86e433a76968e90d6809a51  usr/share/doc/dhcp3-client/copyright
+a7a5a92c48b8240777cb9794dbed7c76  usr/share/lintian/overrides/dhcp3-client

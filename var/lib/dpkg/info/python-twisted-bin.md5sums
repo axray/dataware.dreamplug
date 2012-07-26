@@ -1,0 +1,8 @@
+8fe2121cf7e326fb7010ad5b55a16fdf  usr/lib/python2.4/site-packages/twisted/test/raiser.so
+24aed9bf61aadae01060f3c7fef38f2d  usr/lib/python2.4/site-packages/twisted/protocols/_c_urlarg.so
+81fed8111f4340c9eec89274f956c997  usr/lib/python2.4/site-packages/twisted/python/_epoll.so
+01c031a40d227051c29e7475901a8258  usr/lib/python2.5/site-packages/twisted/test/raiser.so
+5e1b735ac32e53dab54d767e20063142  usr/lib/python2.5/site-packages/twisted/protocols/_c_urlarg.so
+1a979800215080b6c94186e1a04a626c  usr/lib/python2.5/site-packages/twisted/python/_epoll.so
+ddb6d6e81cad8774d25d3f4929ae9aba  usr/share/doc/python-twisted-bin/copyright
+06e63a1ae712b3e349469be0bdba8fc2  usr/share/doc/python-twisted-bin/changelog.Debian.gz

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/perl5/auto/Digest/SHA1/SHA1.bs
+a56f6d0c21710acbd86e22427d07dbc0  usr/lib/perl5/auto/Digest/SHA1/SHA1.so
+32a8ec30a22bb41f3a31980d90af71c1  usr/lib/perl5/Digest/SHA1.pm
+f7f1172c5e0663e5cdcb11845c85e1fb  usr/share/man/man3/Digest::SHA1.3pm.gz
+6369eebecfbb1ae692361ff333e577f8  usr/share/doc/libdigest-sha1-perl/copyright
+532b7c559b4ab61c7187bef0188b9ae6  usr/share/doc/libdigest-sha1-perl/changelog.gz
+2880954e370b62221b4546e663c39417  usr/share/doc/libdigest-sha1-perl/README
+9df96f9f04c0e69e3c2fda72f7132e31  usr/share/doc/libdigest-sha1-perl/changelog.Debian.gz

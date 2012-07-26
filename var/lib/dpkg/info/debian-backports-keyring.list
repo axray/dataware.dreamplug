@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/keyrings
+/usr/share/keyrings/debian-backports-keyring.gpg
+/usr/share/keyrings/debian-backports-removed-keys.gpg
+/usr/share/doc
+/usr/share/doc/debian-backports-keyring
+/usr/share/doc/debian-backports-keyring/changelog
+/usr/share/doc/debian-backports-keyring/copyright

@@ -1,0 +1,3 @@
+exim4-base: possible-debconf-note-abuse config:24 exim4-base/drec
+exim4-base: description-contains-homepage
+exim4-base: file-in-unusual-dir var/spool/exim4/gnutls-params

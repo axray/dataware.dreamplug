@@ -1,0 +1,6 @@
+/etc
+/etc/php5
+/etc/php5/conf.d
+/etc/php5/conf.d/mysql.ini
+/etc/php5/conf.d/mysqli.ini
+/etc/php5/conf.d/pdo_mysql.ini

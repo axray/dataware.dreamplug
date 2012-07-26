@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<title>Debian Menu System - What packages with applications should do</title>
+
+</head>
+
+<body>
+
+<p><a name="ch4"></a></p>
+<hr>
+
+<p>
+[ <a href="ch3.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ <a href="ch1.html">1</a> ]
+[ <a href="ch2.html">2</a> ]
+[ <a href="ch3.html">3</a> ]
+[ 4 ]
+[ <a href="ch5.html">5</a> ]
+[ <a href="ch6.html">6</a> ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch5.html">next</a> ]
+</p>
+
+<hr>
+
+<h1>
+Debian Menu System
+<br>Chapter 4 - What packages with applications should do
+</h1>
+
+<hr>
+
+<h2><a name="s4.1"></a>4.1 Providing a menu file</h2>
+
+<p>
+A package should provide a menu file
+<code>/usr/share/menu/&lt;package-name&gt;</code> that contains information
+about each program it likes to make available in the menus.
+</p>
+
+<hr>
+
+<h2><a name="s4.2"></a>4.2 Adding a hook for dpkg in your packages</h2>
+
+<p>
+You should add a line like this to your <samp>postinst</samp> script
+</p>
+
+<pre>
+      if test -x /usr/bin/update-menus; then update-menus; fi
+</pre>
+
+<p>
+and the <code>postrm</code> script should get the line
+</p>
+
+<pre>
+      if test -x /usr/bin/update-menus; then update-menus; fi
+</pre>
+
+<p>
+(that is, the same line in postinst and in postrm).
+</p>
+
+<hr>
+
+<p>
+[ <a href="ch3.html">previous</a> ]
+[ <a href="index.html#contents">Contents</a> ]
+[ <a href="ch1.html">1</a> ]
+[ <a href="ch2.html">2</a> ]
+[ <a href="ch3.html">3</a> ]
+[ 4 ]
+[ <a href="ch5.html">5</a> ]
+[ <a href="ch6.html">6</a> ]
+[ <a href="ch7.html">7</a> ]
+[ <a href="ch8.html">8</a> ]
+[ <a href="ch5.html">next</a> ]
+</p>
+
+<hr>
+
+<p>
+Debian Menu System
+</p>
+
+<address>
+version 1.4, 12 May 2008<br>
+<br>
+Joost Witteveen <code><a href="mailto:joostje@debian.org">joostje@debian.org</a></code><br>
+Joey Hess <code><a href="mailto:joeyh@debian.org">joeyh@debian.org</a></code><br>
+Christian Schwarz <code><a href="mailto:schwarz@debian.org">schwarz@debian.org</a></code><br>
+Bill Allombert <code><a href="mailto:ballombe@debian.org">ballombe@debian.org</a></code><br>
+<br>
+</address>
+<hr>
+
+</body>
+
+</html>
+

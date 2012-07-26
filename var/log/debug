@@ -1,0 +1,738 @@
+Jan  1 00:00:57 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  1 00:00:57 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c052f690, node_mem_map c05de000
+Jan  1 00:00:57 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  1 00:00:57 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  1 00:00:57 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  1 00:00:57 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 00:00:57 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 00:00:57 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  1 00:00:57 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  1 00:00:57 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  1 00:00:57 sheevaplug-debian kernel: Gating clock of unused units
+Jan  1 00:00:57 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  1 00:00:57 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  1 00:00:57 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  1 00:00:57 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 2426
+Jan  1 00:00:57 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 2425
+Jan  1 00:00:57 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 2424
+Jan  1 00:00:57 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 119
+Jan  1 00:00:57 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 118
+Jan  1 01:27:56 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  1 01:27:56 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c052f690, node_mem_map c05de000
+Jan  1 01:27:56 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  1 01:27:56 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  1 01:27:56 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  1 01:27:56 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 01:27:56 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 01:27:56 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  1 01:27:56 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  1 01:27:56 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  1 01:27:56 sheevaplug-debian kernel: Gating clock of unused units
+Jan  1 01:27:56 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  1 01:27:56 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  1 01:27:56 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  1 01:27:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 2426
+Jan  1 01:27:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 2425
+Jan  1 01:27:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 2424
+Jan  1 01:27:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 119
+Jan  1 01:27:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 118
+Jan  1 01:28:18 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jan  1 01:28:53 sheevaplug-debian kernel: uap_func_shutdown:Hardware is not ready!
+Jan  1 00:00:55 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  1 00:00:55 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jan  1 00:00:55 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  1 00:00:55 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  1 00:00:55 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  1 00:00:55 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 00:00:55 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 00:00:55 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  1 00:00:55 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  1 00:00:55 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  1 00:00:55 sheevaplug-debian kernel: Gating clock of unused units
+Jan  1 00:00:55 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  1 00:00:55 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  1 00:00:55 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: 0 processes alive and '/usr/bin/mysqladmin --defaults-file=/etc/mysql/debian.cnf ping' resulted in
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: #007/usr/bin/mysqladmin: connect to server at 'localhost' failed
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: 
+Jan  1 00:01:28 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jan  1 00:01:49 sheevaplug-debian kernel: uap_func_shutdown:Hardware is not ready!
+Jan  1 01:36:39 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  1 01:36:39 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jan  1 01:36:39 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  1 01:36:39 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  1 01:36:39 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  1 01:36:39 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 01:36:39 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 01:36:39 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  1 01:36:39 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  1 01:36:39 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  1 01:36:39 sheevaplug-debian kernel: Gating clock of unused units
+Jan  1 01:36:39 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  1 01:36:39 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  1 01:36:39 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  1 01:36:56 sheevaplug-debian /etc/init.d/mysql[2163]: 0 processes alive and '/usr/bin/mysqladmin --defaults-file=/etc/mysql/debian.cnf ping' resulted in
+Jan  1 01:36:56 sheevaplug-debian /etc/init.d/mysql[2163]: #007/usr/bin/mysqladmin: connect to server at 'localhost' failed
+Jan  1 01:36:56 sheevaplug-debian /etc/init.d/mysql[2163]: error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Jan  1 01:36:56 sheevaplug-debian /etc/init.d/mysql[2163]: Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+Jan  1 01:36:56 sheevaplug-debian /etc/init.d/mysql[2163]: 
+Jan  1 01:37:11 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jan  1 01:37:19 sheevaplug-debian kernel: uap_func_shutdown:Hardware is not ready!
+Jan  1 01:42:37 sheevaplug-debian kernel: wlan0: no IPv6 routers present
+Jan  1 01:50:26 sheevaplug-debian kernel: sd 2:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jan  1 00:00:55 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  1 00:00:55 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jan  1 00:00:55 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  1 00:00:55 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  1 00:00:55 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  1 00:00:55 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 00:00:55 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 00:00:55 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  1 00:00:55 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  1 00:00:55 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  1 00:00:55 sheevaplug-debian kernel: Gating clock of unused units
+Jan  1 00:00:55 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  1 00:00:55 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  1 00:00:55 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: 0 processes alive and '/usr/bin/mysqladmin --defaults-file=/etc/mysql/debian.cnf ping' resulted in
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: #007/usr/bin/mysqladmin: connect to server at 'localhost' failed
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2167]: 
+Jan  1 00:01:28 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jan  1 00:02:44 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jan  1 00:05:28 sheevaplug-debian kernel: uap_func_shutdown:Hardware is not ready!
+Jan  1 00:10:58 sheevaplug-debian kernel: wlan0: no IPv6 routers present
+Jan  1 00:00:55 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  1 00:00:55 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jan  1 00:00:55 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  1 00:00:55 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  1 00:00:55 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  1 00:00:55 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 00:00:55 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  1 00:00:55 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  1 00:00:55 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  1 00:00:55 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  1 00:00:55 sheevaplug-debian kernel: Gating clock of unused units
+Jan  1 00:00:55 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  1 00:00:55 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  1 00:00:55 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2168]: 0 processes alive and '/usr/bin/mysqladmin --defaults-file=/etc/mysql/debian.cnf ping' resulted in
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2168]: #007/usr/bin/mysqladmin: connect to server at 'localhost' failed
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2168]: error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2168]: Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+Jan  1 00:01:12 sheevaplug-debian /etc/init.d/mysql[2168]: 
+Jan  1 00:01:27 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jan  1 00:03:12 sheevaplug-debian kernel: uap_func_shutdown:Hardware is not ready!
+Jan  2 07:47:56 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  2 07:47:56 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jan  2 07:47:56 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  2 07:47:56 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  2 07:47:56 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  2 07:47:56 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  2 07:47:56 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  2 07:47:56 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  2 07:47:56 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  2 07:47:56 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  2 07:47:56 sheevaplug-debian kernel: Gating clock of unused units
+Jan  2 07:47:56 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  2 07:47:56 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  2 07:47:56 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  2 07:48:13 sheevaplug-debian /etc/init.d/mysql[2234]: 0 processes alive and '/usr/bin/mysqladmin --defaults-file=/etc/mysql/debian.cnf ping' resulted in
+Jan  2 07:48:13 sheevaplug-debian /etc/init.d/mysql[2234]: #007/usr/bin/mysqladmin: connect to server at 'localhost' failed
+Jan  2 07:48:13 sheevaplug-debian /etc/init.d/mysql[2234]: error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Jan  2 07:48:13 sheevaplug-debian /etc/init.d/mysql[2234]: Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+Jan  2 07:48:13 sheevaplug-debian /etc/init.d/mysql[2234]: 
+Jan  2 07:48:40 sheevaplug-debian kernel: uap_func_shutdown:Hardware is not ready!
+Jan  2 07:56:12 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  2 07:56:12 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jan  2 07:56:12 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  2 07:56:12 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  2 07:56:12 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  2 07:56:12 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  2 07:56:12 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  2 07:56:12 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  2 07:56:12 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  2 07:56:12 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  2 07:56:12 sheevaplug-debian kernel: Gating clock of unused units
+Jan  2 07:56:12 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  2 07:56:12 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  2 07:56:12 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  2 07:56:28 sheevaplug-debian /etc/init.d/mysql[2210]: 0 processes alive and '/usr/bin/mysqladmin --defaults-file=/etc/mysql/debian.cnf ping' resulted in
+Jan  2 07:56:28 sheevaplug-debian /etc/init.d/mysql[2210]: #007/usr/bin/mysqladmin: connect to server at 'localhost' failed
+Jan  2 07:56:28 sheevaplug-debian /etc/init.d/mysql[2210]: error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Jan  2 07:56:28 sheevaplug-debian /etc/init.d/mysql[2210]: Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+Jan  2 07:56:28 sheevaplug-debian /etc/init.d/mysql[2210]: 
+Jan  2 07:59:27 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  2 07:59:27 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jan  2 07:59:27 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  2 07:59:27 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  2 07:59:27 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  2 07:59:27 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  2 07:59:27 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  2 07:59:27 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  2 07:59:27 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  2 07:59:27 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  2 07:59:27 sheevaplug-debian kernel: Gating clock of unused units
+Jan  2 07:59:27 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  2 07:59:27 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  2 07:59:27 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  2 07:59:44 sheevaplug-debian /etc/init.d/mysql[2224]: 0 processes alive and '/usr/bin/mysqladmin --defaults-file=/etc/mysql/debian.cnf ping' resulted in
+Jan  2 07:59:44 sheevaplug-debian /etc/init.d/mysql[2224]: #007/usr/bin/mysqladmin: connect to server at 'localhost' failed
+Jan  2 07:59:44 sheevaplug-debian /etc/init.d/mysql[2224]: error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Jan  2 07:59:44 sheevaplug-debian /etc/init.d/mysql[2224]: Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+Jan  2 07:59:44 sheevaplug-debian /etc/init.d/mysql[2224]: 
+Jan  2 08:07:02 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jan  2 08:07:02 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jan  2 08:07:02 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jan  2 08:07:02 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jan  2 08:07:02 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jan  2 08:07:02 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  2 08:07:02 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jan  2 08:07:02 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jan  2 08:07:02 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jan  2 08:07:02 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  2 08:07:02 sheevaplug-debian kernel: Gating clock of unused units
+Jan  2 08:07:02 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jan  2 08:07:02 sheevaplug-debian kernel: after: 0x00cf41d9
+Jan  2 08:07:02 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jan  2 08:07:33 sheevaplug-debian kernel: uap_func_shutdown:Hardware is not ready!
+Jan  2 08:08:34 sheevaplug-debian kernel: wlan0: no IPv6 routers present
+Jul 13 12:08:50 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 13 12:08:50 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jul 13 12:08:50 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 13 12:08:50 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 13 12:08:50 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 13 12:08:50 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 12:08:50 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 12:08:50 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 13 12:08:50 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 13 12:08:50 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 13 12:08:50 sheevaplug-debian kernel: Gating clock of unused units
+Jul 13 12:08:50 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 13 12:08:50 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 13 12:08:50 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 13 12:08:50 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 13 12:41:36 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 13 12:41:36 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jul 13 12:41:36 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 13 12:41:36 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 13 12:41:36 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 13 12:41:36 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 12:41:36 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 12:41:36 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 13 12:41:36 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 13 12:41:36 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 13 12:41:36 sheevaplug-debian kernel: Gating clock of unused units
+Jul 13 12:41:36 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 13 12:41:36 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 13 12:41:36 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 13 12:41:36 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 13 12:41:50 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 13 12:53:13 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 13 12:53:13 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jul 13 12:53:13 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 13 12:53:13 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 13 12:53:13 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 13 12:53:13 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 12:53:13 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 12:53:13 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 13 12:53:13 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 13 12:53:13 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 13 12:53:13 sheevaplug-debian kernel: Gating clock of unused units
+Jul 13 12:53:13 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 13 12:53:13 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 13 12:53:13 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 13 12:53:13 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 13 12:53:28 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 13 13:07:20 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 13 13:07:20 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jul 13 13:07:20 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 13 13:07:20 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 13 13:07:20 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 13 13:07:20 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 13:07:20 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 13:07:20 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 13 13:07:20 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 13 13:07:20 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 13 13:07:20 sheevaplug-debian kernel: Gating clock of unused units
+Jul 13 13:07:20 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 13 13:07:20 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 13 13:07:20 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 13 13:07:20 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 13 14:33:32 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 13 14:33:32 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jul 13 14:33:32 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 13 14:33:32 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 13 14:33:32 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 13 14:33:32 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 14:33:32 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 13 14:33:32 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 13 14:33:32 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 13 14:33:32 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 13 14:33:32 sheevaplug-debian kernel: Gating clock of unused units
+Jul 13 14:33:32 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 13 14:33:32 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 13 14:33:32 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 13 14:33:32 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 13 14:35:37 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 13 14:36:48 sheevaplug-debian kernel: pan0: no IPv6 routers present
+Jul 13 14:37:16 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 16 10:54:30 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 16 10:54:30 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c0557688, node_mem_map c0606000
+Jul 16 10:54:30 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 16 10:54:30 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 16 10:54:30 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 16 10:54:30 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 16 10:54:30 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 16 10:54:30 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 16 10:54:30 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 16 10:54:30 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 16 10:54:30 sheevaplug-debian kernel: Gating clock of unused units
+Jul 16 10:54:30 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 16 10:54:30 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 16 10:54:30 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 16 10:54:30 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 16 10:54:30 sheevaplug-debian kernel: ext3_orphan_cleanup: truncating inode 198619 to 0 bytes
+Jul 16 11:00:20 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 16 11:00:20 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 16 11:00:20 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 16 11:00:20 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 16 11:00:20 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 16 11:00:20 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 16 11:00:20 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 16 11:00:20 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 16 11:00:20 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 16 11:00:20 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 16 11:00:20 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 16 11:00:20 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 16 11:00:20 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 16 11:00:20 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 16 11:00:20 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 16 11:00:20 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 16 11:00:20 sheevaplug-debian kernel: Gating clock of unused units
+Jul 16 11:00:20 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 16 11:00:20 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 16 11:00:20 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 16 11:00:20 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 16 11:00:20 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 16 13:39:49 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 16 13:39:49 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 16 13:39:49 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 16 13:39:49 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 16 13:39:49 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 16 13:39:49 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 16 13:39:49 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 16 13:39:49 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 16 13:39:49 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 16 13:39:49 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 16 13:39:49 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 16 13:39:49 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 16 13:39:49 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 16 13:39:49 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 16 13:39:49 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 16 13:39:49 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 16 13:39:49 sheevaplug-debian kernel: Gating clock of unused units
+Jul 16 13:39:49 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 16 13:39:49 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 16 13:39:49 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 16 13:39:49 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 16 13:39:49 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 16 13:40:06 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 16 14:38:45 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jul 17 11:40:07 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 17 11:40:07 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 17 11:40:07 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 17 11:40:07 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 17 11:40:07 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 17 11:40:07 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 17 11:40:07 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 17 11:40:07 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 17 11:40:07 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 17 11:40:07 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 17 11:40:07 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 17 11:40:07 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 17 11:40:07 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 17 11:40:07 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 17 11:40:07 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 17 11:40:07 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 17 11:40:07 sheevaplug-debian kernel: Gating clock of unused units
+Jul 17 11:40:07 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 17 11:40:07 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 17 11:40:07 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 17 11:40:07 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 17 11:40:07 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 17 11:40:24 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 17 12:07:24 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jul 18 12:49:12 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 18 12:49:12 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 18 12:49:12 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 18 12:49:12 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 18 12:49:12 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 18 12:49:12 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 18 12:49:12 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 18 12:49:12 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 18 12:49:12 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 18 12:49:12 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 18 12:49:12 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 18 12:49:12 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 18 12:49:12 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 18 12:49:12 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 18 12:49:12 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 18 12:49:12 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 18 12:49:12 sheevaplug-debian kernel: Gating clock of unused units
+Jul 18 12:49:12 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 18 12:49:12 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 18 12:49:12 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 18 12:49:12 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 18 12:49:12 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 18 12:49:29 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 20 11:06:56 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 20 11:06:56 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 20 11:06:56 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 20 11:06:56 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 20 11:06:56 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 20 11:06:56 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 20 11:06:56 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 20 11:06:56 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 11:06:56 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 11:06:56 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 20 11:06:56 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 20 11:06:56 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 20 11:06:56 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 20 11:06:56 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 20 11:06:56 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 20 11:06:56 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 20 11:06:56 sheevaplug-debian kernel: Gating clock of unused units
+Jul 20 11:06:56 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 20 11:06:56 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 20 11:06:56 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 20 11:06:56 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 20 11:06:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 188637
+Jul 20 11:06:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 135854
+Jul 20 11:06:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 135851
+Jul 20 11:06:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 135877
+Jul 20 11:06:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 135862
+Jul 20 11:06:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 135836
+Jul 20 11:06:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 135860
+Jul 20 11:06:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 135871
+Jul 20 11:06:56 sheevaplug-debian kernel: ext3_orphan_cleanup: deleting unreferenced inode 173679
+Jul 20 11:06:56 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 20 11:07:13 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 20 11:36:14 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 20 11:36:14 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 20 11:36:14 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 20 11:36:14 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 20 11:36:14 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 20 11:36:14 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 20 11:36:14 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 20 11:36:14 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 11:36:14 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 11:36:14 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 20 11:36:14 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 20 11:36:14 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 20 11:36:14 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 20 11:36:14 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 20 11:36:14 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 20 11:36:14 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 20 11:36:14 sheevaplug-debian kernel: Gating clock of unused units
+Jul 20 11:36:14 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 20 11:36:14 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 20 11:36:14 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 20 11:36:14 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 20 11:36:14 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 20 11:36:31 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 20 11:40:33 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jul 20 11:44:37 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 20 11:44:37 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 20 11:44:37 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 20 11:44:37 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 20 11:44:37 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 20 11:44:37 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 20 11:44:37 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 20 11:44:37 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 11:44:37 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 11:44:37 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 20 11:44:37 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 20 11:44:37 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 20 11:44:37 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 20 11:44:37 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 20 11:44:37 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 20 11:44:37 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 20 11:44:37 sheevaplug-debian kernel: Gating clock of unused units
+Jul 20 11:44:37 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 20 11:44:37 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 20 11:44:37 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 20 11:44:37 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 20 11:44:37 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 20 11:44:54 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 20 11:44:58 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jul 20 11:59:45 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 20 11:59:45 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 20 11:59:45 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 20 11:59:45 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 20 11:59:45 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 20 11:59:45 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 20 11:59:45 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 20 11:59:45 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 11:59:45 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 11:59:45 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 20 11:59:45 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 20 11:59:45 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 20 11:59:45 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 20 11:59:45 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 20 11:59:45 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 20 11:59:45 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 20 11:59:45 sheevaplug-debian kernel: Gating clock of unused units
+Jul 20 11:59:45 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 20 11:59:45 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 20 11:59:45 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 20 11:59:45 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 20 11:59:45 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 20 12:00:02 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 20 12:03:22 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jul 20 13:05:36 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 20 13:05:36 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 20 13:05:36 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 20 13:05:36 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 20 13:05:36 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 20 13:05:36 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 20 13:05:36 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 20 13:05:36 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 13:05:36 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 20 13:05:36 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 20 13:05:36 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 20 13:05:36 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 20 13:05:36 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 20 13:05:36 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 20 13:05:36 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 20 13:05:36 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 20 13:05:36 sheevaplug-debian kernel: Gating clock of unused units
+Jul 20 13:05:36 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 20 13:05:36 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 20 13:05:36 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 20 13:05:36 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 20 13:05:36 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 20 13:05:53 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 20 13:05:57 sheevaplug-debian kernel: br0: no IPv6 routers present
+Jul 23 10:55:07 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 23 10:55:07 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 23 10:55:07 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 23 10:55:07 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 23 10:55:07 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 23 10:55:07 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 23 10:55:07 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 23 10:55:07 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 10:55:07 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 10:55:07 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 23 10:55:07 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 23 10:55:07 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 23 10:55:07 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 23 10:55:07 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 23 10:55:07 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 23 10:55:07 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 23 10:55:07 sheevaplug-debian kernel: Gating clock of unused units
+Jul 23 10:55:07 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 23 10:55:07 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 23 10:55:07 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 23 10:55:07 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 23 10:55:07 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 23 10:55:23 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 23 10:55:27 sheevaplug-debian kernel: br0: no IPv6 routers present
+Jul 23 11:02:14 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jul 23 11:09:39 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 23 11:09:39 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 23 11:09:39 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 23 11:09:39 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 23 11:09:39 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 23 11:09:39 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 23 11:09:39 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 23 11:09:39 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 11:09:39 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 11:09:39 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 23 11:09:39 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 23 11:09:39 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 23 11:09:39 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 23 11:09:39 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 23 11:09:39 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 23 11:09:39 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 23 11:09:39 sheevaplug-debian kernel: Gating clock of unused units
+Jul 23 11:09:39 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 23 11:09:39 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 23 11:09:39 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 23 11:09:39 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 23 11:09:39 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 23 11:09:55 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 23 11:10:00 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jul 23 11:16:53 sheevaplug-debian kernel: br0: no IPv6 routers present
+Jul 23 11:36:56 sheevaplug-debian kernel: br0: no IPv6 routers present
+Jul 23 12:01:22 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 23 12:01:22 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 23 12:01:22 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 23 12:01:22 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 23 12:01:22 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 23 12:01:22 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 23 12:01:22 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 23 12:01:22 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 12:01:22 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 12:01:22 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 23 12:01:22 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 23 12:01:22 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 23 12:01:22 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 23 12:01:22 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 23 12:01:22 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 23 12:01:22 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 23 12:01:22 sheevaplug-debian kernel: Gating clock of unused units
+Jul 23 12:01:22 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 23 12:01:22 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 23 12:01:22 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 23 12:01:22 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 23 12:01:22 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 23 12:01:39 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 23 12:08:14 sheevaplug-debian kernel: br0: no IPv6 routers present
+Jul 23 12:12:37 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 23 12:12:37 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 23 12:12:37 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 23 12:12:37 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 23 12:12:37 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 23 12:12:37 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 23 12:12:37 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 23 12:12:37 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 12:12:37 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 12:12:37 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 23 12:12:37 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 23 12:12:38 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 23 12:12:38 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 23 12:12:38 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 23 12:12:38 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 23 12:12:38 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 23 12:12:38 sheevaplug-debian kernel: Gating clock of unused units
+Jul 23 12:12:38 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 23 12:12:38 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 23 12:12:38 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 23 12:12:38 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 23 12:12:38 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 23 12:12:53 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 23 12:14:17 sheevaplug-debian kernel: br0: no IPv6 routers present
+Jul 23 12:14:37 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jul 23 12:44:04 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 23 12:44:04 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 23 12:44:04 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 23 12:44:04 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 23 12:44:04 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 23 12:44:04 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 23 12:44:04 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 23 12:44:04 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 12:44:04 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 12:44:04 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 23 12:44:04 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 23 12:44:04 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 23 12:44:04 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 23 12:44:04 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 23 12:44:04 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 23 12:44:04 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 23 12:44:04 sheevaplug-debian kernel: Gating clock of unused units
+Jul 23 12:44:04 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 23 12:44:04 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 23 12:44:04 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 23 12:44:04 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 23 12:44:04 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 23 12:44:20 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 23 12:49:10 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 23 12:49:10 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 23 12:49:10 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 23 12:49:10 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 23 12:49:10 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 23 12:49:10 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 23 12:49:10 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 23 12:49:10 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 12:49:10 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 23 12:49:10 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 23 12:49:10 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 23 12:49:10 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 23 12:49:10 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 23 12:49:10 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 23 12:49:10 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 23 12:49:10 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 23 12:49:10 sheevaplug-debian kernel: Gating clock of unused units
+Jul 23 12:49:10 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 23 12:49:10 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 23 12:49:10 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 23 12:49:10 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 23 12:49:10 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 23 12:49:26 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 23 13:02:30 sheevaplug-debian kernel: uap0: no IPv6 routers present
+Jul 23 13:03:11 sheevaplug-debian kernel: br0: no IPv6 routers present
+Jul 24 10:33:07 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 24 10:33:07 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 24 10:33:07 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 24 10:33:07 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 24 10:33:07 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 24 10:33:07 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 24 10:33:07 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 24 10:33:07 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 24 10:33:07 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 24 10:33:07 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 24 10:33:07 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 24 10:33:07 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 24 10:33:07 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 24 10:33:07 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 24 10:33:07 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 24 10:33:07 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 24 10:33:07 sheevaplug-debian kernel: Gating clock of unused units
+Jul 24 10:33:07 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 24 10:33:07 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 24 10:33:07 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 24 10:33:07 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 24 10:33:07 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 24 11:03:33 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 24 11:03:58 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 24 11:14:57 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 24 11:14:57 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 24 11:14:57 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 24 11:14:57 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 24 11:14:57 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 24 11:14:57 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 24 11:14:57 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 24 11:14:57 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 24 11:14:57 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 24 11:14:57 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 24 11:14:57 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 24 11:14:57 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 24 11:14:57 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 24 11:14:57 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 24 11:14:57 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 24 11:14:57 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 24 11:14:57 sheevaplug-debian kernel: Gating clock of unused units
+Jul 24 11:14:57 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 24 11:14:57 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 24 11:14:57 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 24 11:14:57 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 24 11:14:57 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 24 11:15:14 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 26 11:16:11 sheevaplug-debian kernel: On node 0 totalpages: 131072
+Jul 26 11:16:11 sheevaplug-debian kernel: free_area_init_node: node 0, pgdat c05e5694, node_mem_map c06b2000
+Jul 26 11:16:11 sheevaplug-debian kernel:  Normal zone: 1024 pages used for memmap
+Jul 26 11:16:11 sheevaplug-debian kernel:  Normal zone: 0 pages reserved
+Jul 26 11:16:11 sheevaplug-debian kernel:  Normal zone: 130048 pages, LIFO batch:31
+Jul 26 11:16:11 sheevaplug-debian kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jul 26 11:16:11 sheevaplug-debian kernel: pcpu-alloc: [0] 0 
+Jul 26 11:16:11 sheevaplug-debian kernel: initial MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 26 11:16:11 sheevaplug-debian kernel:  final MPP regs: 01112222 11113311 33331111 33333333 00003333 00000222 00000000
+Jul 26 11:16:11 sheevaplug-debian kernel: libata version 3.00 loaded.
+Jul 26 11:16:11 sheevaplug-debian kernel: PCI: CLS 0 bytes, default 32
+Jul 26 11:16:11 sheevaplug-debian kernel: Registered led device: guruplug:red:health
+Jul 26 11:16:11 sheevaplug-debian kernel: Registered led device: guruplug:green:health
+Jul 26 11:16:11 sheevaplug-debian kernel: Registered led device: guruplug:red:wmode
+Jul 26 11:16:11 sheevaplug-debian kernel: Registered led device: guruplug:green:wmode
+Jul 26 11:16:11 sheevaplug-debian kernel: lib80211_crypt: registered algorithm 'NULL'
+Jul 26 11:16:11 sheevaplug-debian kernel: Gating clock of unused units
+Jul 26 11:16:11 sheevaplug-debian kernel: before: 0x00dfc3fd
+Jul 26 11:16:11 sheevaplug-debian kernel: after: 0x00cf41d9
+Jul 26 11:16:11 sheevaplug-debian kernel: sd 0:0:0:0: [sda] Mode Sense: 0b 00 00 08
+Jul 26 11:16:11 sheevaplug-debian kernel: sd 1:0:0:0: [sdc] Mode Sense: 03 00 00 00
+Jul 26 11:16:11 sheevaplug-debian kernel: sata_mv sata_mv.0: version 1.28
+Jul 26 11:16:30 sheevaplug-debian kernel: eth0: no IPv6 routers present
+Jul 26 11:40:51 sheevaplug-debian kernel: br0: no IPv6 routers present

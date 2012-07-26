@@ -1,0 +1,6 @@
+deb http://archive.debian.org/debian/ lenny main contrib non-free
+deb http://archive.debian.org/debian stable main contrib non-free
+deb http://archive.debian.org/debian-security lenny/updates main contrib non-free
+deb http://www.backports.org/debian lenny-backports main contrib non-free
+deb http://10.82.108.51/kedars/sheevaplug_wifi/builds/packages/ binary/
+

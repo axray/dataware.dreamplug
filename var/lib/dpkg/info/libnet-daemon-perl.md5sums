@@ -1,0 +1,11 @@
+401c341ca015074bbf955235433a7c9c  usr/share/perl5/Net/Daemon/Test.pm
+56b56747b15ccef42d04cb36c29b4c2d  usr/share/perl5/Net/Daemon/Log.pm
+7e7edb9bfbfab18f73b676ce4c3c78af  usr/share/perl5/Net/Daemon.pm
+9127e94c903bf751ce0cbd8706ca94a5  usr/share/man/man3/Net::Daemon::Log.3pm.gz
+da18af3797b17a97f3f28ef6184e82d5  usr/share/man/man3/Net::Daemon.3pm.gz
+e7f643e1f9be5ffec01a265331cb8789  usr/share/man/man3/Net::Daemon::Test.3pm.gz
+0fd14f66352d74c38e70fc565833c343  usr/share/doc/libnet-daemon-perl/changelog.gz
+0ec240bad69016ed78e92921719dc599  usr/share/doc/libnet-daemon-perl/README.gz
+b9bc35a11642a99437191b46073c13b4  usr/share/doc/libnet-daemon-perl/MANIFEST
+2073a8b245a4d15942eedc774e77d493  usr/share/doc/libnet-daemon-perl/copyright
+2ff2f9821bfc94d5fdb34fb3c9d393cc  usr/share/doc/libnet-daemon-perl/changelog.Debian.gz

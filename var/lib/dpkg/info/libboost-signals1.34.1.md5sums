@@ -1,0 +1,6 @@
+bafd4a9a04f064777f1b3ed4e996db5d  usr/share/doc/libboost-signals1.34.1/README.Debian.gz
+f8ac4027d3b0da8c923e1f82f979f465  usr/share/doc/libboost-signals1.34.1/changelog.Debian.gz
+fb03d3dac625d0395569ea36b478959f  usr/share/doc/libboost-signals1.34.1/copyright
+ec96bd5e4d89680fe46d99e848c33d1c  usr/share/lintian/overrides/libboost-signals1.34.1
+a4b194df04eae00f8f4b578bedf3fa74  usr/lib/libboost_signals-gcc42-1_34_1.so.1.34.1
+c6a5ec8fd3be1b4e9ce76beb5e0ff9d8  usr/lib/libboost_signals-gcc42-mt-1_34_1.so.1.34.1

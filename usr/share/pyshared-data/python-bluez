@@ -1,0 +1,18 @@
+[python-package]
+format = 1
+python-version = 2.4, 2.5
+[pycentral]
+version = 0.6.7
+[files]
+/usr/share/pyshared/PyBluez-0.15.egg-info=f
+/usr/share/pyshared/bluetooth=d
+/usr/share/pyshared/bluetooth/osx.py=f
+/usr/share/pyshared/bluetooth/__init__.py=f
+/usr/share/pyshared/bluetooth/widcomm.py=f
+/usr/share/pyshared/bluetooth/msbt.py=f
+/usr/share/pyshared/bluetooth/btcommon.py=f
+/usr/share/pyshared/bluetooth/bluez.py=f
+/usr/lib/python2.5/site-packages/bluetooth=d
+/usr/lib/python2.5/site-packages/bluetooth/_bluetooth.so=f
+/usr/lib/python2.4/site-packages/bluetooth=d
+/usr/lib/python2.4/site-packages/bluetooth/_bluetooth.so=f

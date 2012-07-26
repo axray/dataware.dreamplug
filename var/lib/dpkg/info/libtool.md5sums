@@ -1,0 +1,17 @@
+4eedf3dd0c9520221aee1465768f7b0e  usr/bin/libtoolize
+36d86bb22bcad7aa798a3881ecc5843d  usr/bin/libtool
+572769987f79f5c238f0dee50cc66bec  usr/share/man/man1/libtoolize.1.gz
+9976db3c456522303d6a54d91a3999ec  usr/share/man/man1/libtool.1.gz
+1160c954e788075c2c7c4d8c31b14a09  usr/share/aclocal/libtool.m4
+1b7953879911407105c8a2cbddc9a8d1  usr/share/libtool/ltmain.sh
+f03fbe2baec227438f1427c5b69d39b4  usr/share/doc/libtool/TODO.gz
+b6616b7dc6d67ac98b041d549f117ccd  usr/share/doc/libtool/AUTHORS
+ce0455f9dc623b2028da935bdc7a7df2  usr/share/doc/libtool/THANKS.gz
+380b987685120ac4cb64756938db463c  usr/share/doc/libtool/NEWS.gz
+62b154d0d46b790cb3ef3d35e487087e  usr/share/doc/libtool/changelog.Debian.gz
+a196fe27e84864ecea54357de2d5cea7  usr/share/doc/libtool/changelog.gz
+7c079af710a4692474585cba84d37625  usr/share/doc/libtool/README
+67aee12914fc0be3a36df079bca70b54  usr/share/doc/libtool/ChangeLog.1.gz
+4f7e48d67487b9b6a5b0cc1e74e2f681  usr/share/doc/libtool/ChangeLog.0.gz
+609391be7a11cf79c10b61b6dc85af13  usr/share/doc/libtool/README.Debian
+0811815b33a288d5a81aeddf531db01f  usr/share/doc/libtool/copyright
